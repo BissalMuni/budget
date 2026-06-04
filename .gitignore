@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.pyc
+
+# Node / Next
+web/node_modules/
+web/.next/
+web/out/
+
+# 대용량 원본/중간 산출물 (parsed JSON만 버전관리)
+data/*/*/*/source.pdf
+data/*/*/*/volumes/
+data/*/*/*/markdown/*_images/

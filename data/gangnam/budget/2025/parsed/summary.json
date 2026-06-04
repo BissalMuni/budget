@@ -1,0 +1,6583 @@
+{
+ "accounts": {
+  "title": "회계별 예산규모",
+  "subtables": [
+   {
+    "scope": "전체",
+    "rows": [
+     {
+      "code": null,
+      "name": "총 계",
+      "amount": 1373683690,
+      "share": 100.0,
+      "prev_amount": 1289357702,
+      "prev_share": 100.0,
+      "diff": 84325988,
+      "growth": 6.54
+     },
+     {
+      "code": null,
+      "name": "일반회계",
+      "amount": 1328077880,
+      "share": 96.68,
+      "prev_amount": 1237699310,
+      "prev_share": 95.99,
+      "diff": 90378570,
+      "growth": 7.3
+     },
+     {
+      "code": null,
+      "name": "특별회계",
+      "amount": 45605810,
+      "share": 3.32,
+      "prev_amount": 51658392,
+      "prev_share": 4.01,
+      "diff": -6052582,
+      "growth": -11.72
+     },
+     {
+      "code": null,
+      "name": "기타특별회계",
+      "amount": 45605810,
+      "share": 3.32,
+      "prev_amount": 51658392,
+      "prev_share": 4.01,
+      "diff": -6052582,
+      "growth": -11.72
+     },
+     {
+      "code": null,
+      "name": "주차장특별회계",
+      "amount": 43645558,
+      "share": 3.18,
+      "prev_amount": 48350826,
+      "prev_share": 3.75,
+      "diff": -4705268,
+      "growth": -9.73
+     },
+     {
+      "code": null,
+      "name": "의료급여기금특별회계",
+      "amount": 941220,
+      "share": 0.07,
+      "prev_amount": 830000,
+      "prev_share": 0.06,
+      "diff": 111220,
+      "growth": 13.4
+     },
+     {
+      "code": null,
+      "name": "건축안전특별회계",
+      "amount": 996232,
+      "share": 0.07,
+      "prev_amount": 2477566,
+      "prev_share": 0.19,
+      "diff": -1481334,
+      "growth": -59.79
+     },
+     {
+      "code": null,
+      "name": "발전소주변지역지원사업특 별회계",
+      "amount": 22800,
+      "share": 0.0,
+      "prev_amount": 0,
+      "prev_share": 0.0,
+      "diff": 22800,
+      "growth": null
+     }
+    ]
+   }
+  ]
+ },
+ "revenue_summary": {
+  "title": "세 입 총 괄 표",
+  "subtables": [
+   {
+    "scope": "전체",
+    "rows": [
+     {
+      "code": null,
+      "name": "총 계",
+      "amount": 1373683690,
+      "share": 100.0,
+      "prev_amount": 1289357702,
+      "prev_share": 100.0,
+      "diff": 84325988,
+      "growth": 6.54
+     },
+     {
+      "code": "100",
+      "name": "지방세수입",
+      "amount": 571085521,
+      "share": 41.57,
+      "prev_amount": 537475414,
+      "prev_share": 41.69,
+      "diff": 33610107,
+      "growth": 6.25
+     },
+     {
+      "code": "110",
+      "name": "지방세",
+      "amount": 571085521,
+      "share": 41.57,
+      "prev_amount": 537475414,
+      "prev_share": 41.69,
+      "diff": 33610107,
+      "growth": 6.25
+     },
+     {
+      "code": "111",
+      "name": "보통세",
+      "amount": 566634056,
+      "share": 41.25,
+      "prev_amount": 532675414,
+      "prev_share": 41.31,
+      "diff": 33958642,
+      "growth": 6.38
+     },
+     {
+      "code": "113",
+      "name": "지난연도 수입",
+      "amount": 4451465,
+      "share": 0.32,
+      "prev_amount": 4800000,
+      "prev_share": 0.37,
+      "diff": -348535,
+      "growth": -7.26
+     },
+     {
+      "code": "200",
+      "name": "세외수입",
+      "amount": 192956895,
+      "share": 14.05,
+      "prev_amount": 192528018,
+      "prev_share": 14.93,
+      "diff": 428877,
+      "growth": 0.22
+     },
+     {
+      "code": "210",
+      "name": "경상적세외수입",
+      "amount": 162774156,
+      "share": 11.85,
+      "prev_amount": 160267572,
+      "prev_share": 12.43,
+      "diff": 2506584,
+      "growth": 1.56
+     },
+     {
+      "code": "211",
+      "name": "재산임대수입",
+      "amount": 439577,
+      "share": 0.03,
+      "prev_amount": 4763025,
+      "prev_share": 0.37,
+      "diff": -4323448,
+      "growth": -90.77
+     },
+     {
+      "code": "212",
+      "name": "사용료수입",
+      "amount": 49787020,
+      "share": 3.62,
+      "prev_amount": 45646206,
+      "prev_share": 3.54,
+      "diff": 4140814,
+      "growth": 9.07
+     },
+     {
+      "code": "213",
+      "name": "수수료수입",
+      "amount": 27188358,
+      "share": 1.98,
+      "prev_amount": 27490443,
+      "prev_share": 2.13,
+      "diff": -302085,
+      "growth": -1.1
+     },
+     {
+      "code": "214",
+      "name": "사업수입",
+      "amount": 366746,
+      "share": 0.03,
+      "prev_amount": 359035,
+      "prev_share": 0.03,
+      "diff": 7711,
+      "growth": 2.15
+     },
+     {
+      "code": "215",
+      "name": "징수교부금수입",
+      "amount": 80083536,
+      "share": 5.83,
+      "prev_amount": 75809698,
+      "prev_share": 5.88,
+      "diff": 4273838,
+      "growth": 5.64
+     },
+     {
+      "code": "216",
+      "name": "이자수입",
+      "amount": 4908919,
+      "share": 0.36,
+      "prev_amount": 6199165,
+      "prev_share": 0.48,
+      "diff": -1290246,
+      "growth": -20.81
+     },
+     {
+      "code": "220",
+      "name": "임시적세외수입",
+      "amount": 4834160,
+      "share": 0.35,
+      "prev_amount": 4695670,
+      "prev_share": 0.36,
+      "diff": 138490,
+      "growth": 2.95
+     },
+     {
+      "code": "221",
+      "name": "재산매각수입",
+      "amount": 32000,
+      "share": 0.0,
+      "prev_amount": 32000,
+      "prev_share": 0.0,
+      "diff": 0,
+      "growth": 0.0
+     },
+     {
+      "code": "224",
+      "name": "기타수입",
+      "amount": 4802160,
+      "share": 0.35,
+      "prev_amount": 4663670,
+      "prev_share": 0.36,
+      "diff": 138490,
+      "growth": 2.97
+     },
+     {
+      "code": "230",
+      "name": "지방행정제재ㆍ부과금",
+      "amount": 16541556,
+      "share": 1.2,
+      "prev_amount": 18960611,
+      "prev_share": 1.47,
+      "diff": -2419055,
+      "growth": -12.76
+     },
+     {
+      "code": "231",
+      "name": "과징금",
+      "amount": 314085,
+      "share": 0.02,
+      "prev_amount": 325339,
+      "prev_share": 0.03,
+      "diff": -11254,
+      "growth": -3.46
+     },
+     {
+      "code": "232",
+      "name": "이행강제금",
+      "amount": 2664544,
+      "share": 0.19,
+      "prev_amount": 4323572,
+      "prev_share": 0.34,
+      "diff": -1659028,
+      "growth": -38.37
+     },
+     {
+      "code": "233",
+      "name": "변상금",
+      "amount": 131450,
+      "share": 0.01,
+      "prev_amount": 80796,
+      "prev_share": 0.01,
+      "diff": 50654,
+      "growth": 62.69
+     },
+     {
+      "code": "234",
+      "name": "과태료",
+      "amount": 12037841,
+      "share": 0.88,
+      "prev_amount": 12854084,
+      "prev_share": 1.0,
+      "diff": -816243,
+      "growth": -6.35
+     },
+     {
+      "code": "235",
+      "name": "환수금",
+      "amount": 24000,
+      "share": 0.0,
+      "prev_amount": 15000,
+      "prev_share": 0.0,
+      "diff": 9000,
+      "growth": 60.0
+     },
+     {
+      "code": "236",
+      "name": "부담금",
+      "amount": 1319636,
+      "share": 0.1,
+      "prev_amount": 1294820,
+      "prev_share": 0.1,
+      "diff": 24816,
+      "growth": 1.92
+     },
+     {
+      "code": "237",
+      "name": "범칙금",
+      "amount": 50000,
+      "share": 0.0,
+      "prev_amount": 67000,
+      "prev_share": 0.01,
+      "diff": -17000,
+      "growth": -25.37
+     },
+     {
+      "code": "240",
+      "name": "지난연도 수입",
+      "amount": 8807023,
+      "share": 0.64,
+      "prev_amount": 8604165,
+      "prev_share": 0.67,
+      "diff": 202858,
+      "growth": 2.36
+     },
+     {
+      "code": "241",
+      "name": "지난연도 수입",
+      "amount": 8807023,
+      "share": 0.64,
+      "prev_amount": 8604165,
+      "prev_share": 0.67,
+      "diff": 202858,
+      "growth": 2.36
+     },
+     {
+      "code": "300",
+      "name": "지방교부세 등",
+      "amount": 19880115,
+      "share": 1.45,
+      "prev_amount": 19075089,
+      "prev_share": 1.48,
+      "diff": 805026,
+      "growth": 4.22
+     },
+     {
+      "code": "310",
+      "name": "지방교부세",
+      "amount": 19880115,
+      "share": 1.45,
+      "prev_amount": 19075089,
+      "prev_share": 1.48,
+      "diff": 805026,
+      "growth": 4.22
+     },
+     {
+      "code": "311",
+      "name": "지방교부세",
+      "amount": 19880115,
+      "share": 1.45,
+      "prev_amount": 19075089,
+      "prev_share": 1.48,
+      "diff": 805026,
+      "growth": 4.22
+     },
+     {
+      "code": "400",
+      "name": "조정교부금등",
+      "amount": 4413188,
+      "share": 0.32,
+      "prev_amount": 4381852,
+      "prev_share": 0.34,
+      "diff": 31336,
+      "growth": 0.72
+     },
+     {
+      "code": "410",
+      "name": "자치구조정교부금등",
+      "amount": 4413188,
+      "share": 0.32,
+      "prev_amount": 4381852,
+      "prev_share": 0.34,
+      "diff": 31336,
+      "growth": 0.72
+     },
+     {
+      "code": "411",
+      "name": "자치구조정교부금등",
+      "amount": 4413188,
+      "share": 0.32,
+      "prev_amount": 4381852,
+      "prev_share": 0.34,
+      "diff": 31336,
+      "growth": 0.72
+     },
+     {
+      "code": "500",
+      "name": "보조금",
+      "amount": 425737722,
+      "share": 30.99,
+      "prev_amount": 406583974,
+      "prev_share": 31.53,
+      "diff": 19153748,
+      "growth": 4.71
+     },
+     {
+      "code": "510",
+      "name": "국고보조금등",
+      "amount": 243525451,
+      "share": 17.73,
+      "prev_amount": 228567191,
+      "prev_share": 17.73,
+      "diff": 14958260,
+      "growth": 6.54
+     },
+     {
+      "code": "511",
+      "name": "국고보조금등",
+      "amount": 243525451,
+      "share": 17.73,
+      "prev_amount": 228567191,
+      "prev_share": 17.73,
+      "diff": 14958260,
+      "growth": 6.54
+     },
+     {
+      "code": "520",
+      "name": "시ㆍ도비보조금등",
+      "amount": 182212271,
+      "share": 13.26,
+      "prev_amount": 178016783,
+      "prev_share": 13.81,
+      "diff": 4195488,
+      "growth": 2.36
+     },
+     {
+      "code": "521",
+      "name": "시ㆍ도비보조금등",
+      "amount": 182212271,
+      "share": 13.26,
+      "prev_amount": 178016783,
+      "prev_share": 13.81,
+      "diff": 4195488,
+      "growth": 2.36
+     },
+     {
+      "code": "700",
+      "name": "보전수입등및내부거래",
+      "amount": 159610249,
+      "share": 11.62,
+      "prev_amount": 129313355,
+      "prev_share": 10.03,
+      "diff": 30296894,
+      "growth": 23.43
+     },
+     {
+      "code": "710",
+      "name": "보전수입등",
+      "amount": 119915316,
+      "share": 8.73,
+      "prev_amount": 126980881,
+      "prev_share": 9.85,
+      "diff": -7065565,
+      "growth": -5.56
+     },
+     {
+      "code": "711",
+      "name": "잉여금",
+      "amount": 119915316,
+      "share": 8.73,
+      "prev_amount": 126980881,
+      "prev_share": 9.85,
+      "diff": -7065565,
+      "growth": -5.56
+     },
+     {
+      "code": "720",
+      "name": "내부거래",
+      "amount": 39694933,
+      "share": 2.89,
+      "prev_amount": 2332474,
+      "prev_share": 0.18,
+      "diff": 37362459,
+      "growth": 1601.84
+     },
+     {
+      "code": "722",
+      "name": "예탁금및예수금",
+      "amount": 39694933,
+      "share": 2.89,
+      "prev_amount": 2332474,
+      "prev_share": 0.18,
+      "diff": 37362459,
+      "growth": 1601.84
+     }
+    ]
+   },
+   {
+    "scope": "일반회계",
+    "rows": [
+     {
+      "code": null,
+      "name": "총 계",
+      "amount": 1328077880,
+      "share": 100.0,
+      "prev_amount": 1237699310,
+      "prev_share": 100.0,
+      "diff": 90378570,
+      "growth": 7.3
+     },
+     {
+      "code": "100",
+      "name": "지방세수입",
+      "amount": 571085521,
+      "share": 43.0,
+      "prev_amount": 537475414,
+      "prev_share": 43.43,
+      "diff": 33610107,
+      "growth": 6.25
+     },
+     {
+      "code": "110",
+      "name": "지방세",
+      "amount": 571085521,
+      "share": 43.0,
+      "prev_amount": 537475414,
+      "prev_share": 43.43,
+      "diff": 33610107,
+      "growth": 6.25
+     },
+     {
+      "code": "111",
+      "name": "보통세",
+      "amount": 566634056,
+      "share": 42.67,
+      "prev_amount": 532675414,
+      "prev_share": 43.04,
+      "diff": 33958642,
+      "growth": 6.38
+     },
+     {
+      "code": "113",
+      "name": "지난연도 수입",
+      "amount": 4451465,
+      "share": 0.34,
+      "prev_amount": 4800000,
+      "prev_share": 0.39,
+      "diff": -348535,
+      "growth": -7.26
+     },
+     {
+      "code": "200",
+      "name": "세외수입",
+      "amount": 156726651,
+      "share": 11.8,
+      "prev_amount": 156601153,
+      "prev_share": 12.65,
+      "diff": 125498,
+      "growth": 0.08
+     },
+     {
+      "code": "210",
+      "name": "경상적세외수입",
+      "amount": 137923259,
+      "share": 10.39,
+      "prev_amount": 136976498,
+      "prev_share": 11.07,
+      "diff": 946761,
+      "growth": 0.69
+     },
+     {
+      "code": "211",
+      "name": "재산임대수입",
+      "amount": 439577,
+      "share": 0.03,
+      "prev_amount": 4763025,
+      "prev_share": 0.38,
+      "diff": -4323448,
+      "growth": -90.77
+     },
+     {
+      "code": "212",
+      "name": "사용료수입",
+      "amount": 25228528,
+      "share": 1.9,
+      "prev_amount": 22596626,
+      "prev_share": 1.83,
+      "diff": 2631902,
+      "growth": 11.65
+     },
+     {
+      "code": "213",
+      "name": "수수료수입",
+      "amount": 27188358,
+      "share": 2.05,
+      "prev_amount": 27490443,
+      "prev_share": 2.22,
+      "diff": -302085,
+      "growth": -1.1
+     },
+     {
+      "code": "214",
+      "name": "사업수입",
+      "amount": 366746,
+      "share": 0.03,
+      "prev_amount": 359035,
+      "prev_share": 0.03,
+      "diff": 7711,
+      "growth": 2.15
+     },
+     {
+      "code": "215",
+      "name": "징수교부금수입",
+      "amount": 80083536,
+      "share": 6.03,
+      "prev_amount": 75809698,
+      "prev_share": 6.13,
+      "diff": 4273838,
+      "growth": 5.64
+     },
+     {
+      "code": "216",
+      "name": "이자수입",
+      "amount": 4616514,
+      "share": 0.35,
+      "prev_amount": 5957671,
+      "prev_share": 0.48,
+      "diff": -1341157,
+      "growth": -22.51
+     },
+     {
+      "code": "220",
+      "name": "임시적세외수입",
+      "amount": 4834160,
+      "share": 0.36,
+      "prev_amount": 4695670,
+      "prev_share": 0.38,
+      "diff": 138490,
+      "growth": 2.95
+     },
+     {
+      "code": "221",
+      "name": "재산매각수입",
+      "amount": 32000,
+      "share": 0.0,
+      "prev_amount": 32000,
+      "prev_share": 0.0,
+      "diff": 0,
+      "growth": 0.0
+     },
+     {
+      "code": "224",
+      "name": "기타수입",
+      "amount": 4802160,
+      "share": 0.36,
+      "prev_amount": 4663670,
+      "prev_share": 0.38,
+      "diff": 138490,
+      "growth": 2.97
+     },
+     {
+      "code": "230",
+      "name": "지방행정제재ㆍ부과금",
+      "amount": 8174779,
+      "share": 0.62,
+      "prev_amount": 9768820,
+      "prev_share": 0.79,
+      "diff": -1594041,
+      "growth": -16.32
+     },
+     {
+      "code": "231",
+      "name": "과징금",
+      "amount": 314085,
+      "share": 0.02,
+      "prev_amount": 325339,
+      "prev_share": 0.03,
+      "diff": -11254,
+      "growth": -3.46
+     },
+     {
+      "code": "232",
+      "name": "이행강제금",
+      "amount": 1714337,
+      "share": 0.13,
+      "prev_amount": 3489781,
+      "prev_share": 0.28,
+      "diff": -1775444,
+      "growth": -50.88
+     },
+     {
+      "code": "233",
+      "name": "변상금",
+      "amount": 131450,
+      "share": 0.01,
+      "prev_amount": 80796,
+      "prev_share": 0.01,
+      "diff": 50654,
+      "growth": 62.69
+     },
+     {
+      "code": "234",
+      "name": "과태료",
+      "amount": 4621271,
+      "share": 0.35,
+      "prev_amount": 4496084,
+      "prev_share": 0.36,
+      "diff": 125187,
+      "growth": 2.78
+     },
+     {
+      "code": "235",
+      "name": "환수금",
+      "amount": 24000,
+      "share": 0.0,
+      "prev_amount": 15000,
+      "prev_share": 0.0,
+      "diff": 9000,
+      "growth": 60.0
+     },
+     {
+      "code": "236",
+      "name": "부담금",
+      "amount": 1319636,
+      "share": 0.1,
+      "prev_amount": 1294820,
+      "prev_share": 0.1,
+      "diff": 24816,
+      "growth": 1.92
+     },
+     {
+      "code": "237",
+      "name": "범칙금",
+      "amount": 50000,
+      "share": 0.0,
+      "prev_amount": 67000,
+      "prev_share": 0.01,
+      "diff": -17000,
+      "growth": -25.37
+     },
+     {
+      "code": "240",
+      "name": "지난연도 수입",
+      "amount": 5794453,
+      "share": 0.44,
+      "prev_amount": 5160165,
+      "prev_share": 0.42,
+      "diff": 634288,
+      "growth": 12.29
+     },
+     {
+      "code": "241",
+      "name": "지난연도 수입",
+      "amount": 5794453,
+      "share": 0.44,
+      "prev_amount": 5160165,
+      "prev_share": 0.42,
+      "diff": 634288,
+      "growth": 12.29
+     },
+     {
+      "code": "300",
+      "name": "지방교부세 등",
+      "amount": 19880115,
+      "share": 1.5,
+      "prev_amount": 19075089,
+      "prev_share": 1.54,
+      "diff": 805026,
+      "growth": 4.22
+     },
+     {
+      "code": "310",
+      "name": "지방교부세",
+      "amount": 19880115,
+      "share": 1.5,
+      "prev_amount": 19075089,
+      "prev_share": 1.54,
+      "diff": 805026,
+      "growth": 4.22
+     },
+     {
+      "code": "311",
+      "name": "지방교부세",
+      "amount": 19880115,
+      "share": 1.5,
+      "prev_amount": 19075089,
+      "prev_share": 1.54,
+      "diff": 805026,
+      "growth": 4.22
+     },
+     {
+      "code": "400",
+      "name": "조정교부금등",
+      "amount": 4413188,
+      "share": 0.33,
+      "prev_amount": 4381852,
+      "prev_share": 0.35,
+      "diff": 31336,
+      "growth": 0.72
+     },
+     {
+      "code": "410",
+      "name": "자치구조정교부금등",
+      "amount": 4413188,
+      "share": 0.33,
+      "prev_amount": 4381852,
+      "prev_share": 0.35,
+      "diff": 31336,
+      "growth": 0.72
+     },
+     {
+      "code": "411",
+      "name": "자치구조정교부금등",
+      "amount": 4413188,
+      "share": 0.33,
+      "prev_amount": 4381852,
+      "prev_share": 0.35,
+      "diff": 31336,
+      "growth": 0.72
+     },
+     {
+      "code": "500",
+      "name": "보조금",
+      "amount": 424773702,
+      "share": 31.98,
+      "prev_amount": 405753974,
+      "prev_share": 32.78,
+      "diff": 19019728,
+      "growth": 4.69
+     },
+     {
+      "code": "510",
+      "name": "국고보조금등",
+      "amount": 243032041,
+      "share": 18.3,
+      "prev_amount": 228152191,
+      "prev_share": 18.43,
+      "diff": 14879850,
+      "growth": 6.52
+     },
+     {
+      "code": "511",
+      "name": "국고보조금등",
+      "amount": 243032041,
+      "share": 18.3,
+      "prev_amount": 228152191,
+      "prev_share": 18.43,
+      "diff": 14879850,
+      "growth": 6.52
+     },
+     {
+      "code": "520",
+      "name": "시ㆍ도비보조금등",
+      "amount": 181741661,
+      "share": 13.68,
+      "prev_amount": 177601783,
+      "prev_share": 14.35,
+      "diff": 4139878,
+      "growth": 2.33
+     },
+     {
+      "code": "521",
+      "name": "시ㆍ도비보조금등",
+      "amount": 181741661,
+      "share": 13.68,
+      "prev_amount": 177601783,
+      "prev_share": 14.35,
+      "diff": 4139878,
+      "growth": 2.33
+     },
+     {
+      "code": "700",
+      "name": "보전수입등및내부거래",
+      "amount": 151198703,
+      "share": 11.38,
+      "prev_amount": 114411828,
+      "prev_share": 9.24,
+      "diff": 36786875,
+      "growth": 32.15
+     },
+     {
+      "code": "710",
+      "name": "보전수입등",
+      "amount": 118415316,
+      "share": 8.92,
+      "prev_amount": 114411828,
+      "prev_share": 9.24,
+      "diff": 4003488,
+      "growth": 3.5
+     },
+     {
+      "code": "711",
+      "name": "잉여금",
+      "amount": 118415316,
+      "share": 8.92,
+      "prev_amount": 114411828,
+      "prev_share": 9.24,
+      "diff": 4003488,
+      "growth": 3.5
+     },
+     {
+      "code": "720",
+      "name": "내부거래",
+      "amount": 32783387,
+      "share": 2.47,
+      "prev_amount": 0,
+      "prev_share": 0.0,
+      "diff": 32783387,
+      "growth": null
+     },
+     {
+      "code": "722",
+      "name": "예탁금및예수금",
+      "amount": 32783387,
+      "share": 2.47,
+      "prev_amount": 0,
+      "prev_share": 0.0,
+      "diff": 32783387,
+      "growth": null
+     }
+    ]
+   },
+   {
+    "scope": "특별회계",
+    "rows": [
+     {
+      "code": null,
+      "name": "총 계",
+      "amount": 45605810,
+      "share": 100.0,
+      "prev_amount": 51658392,
+      "prev_share": 100.0,
+      "diff": -6052582,
+      "growth": -11.72
+     },
+     {
+      "code": "200",
+      "name": "세외수입",
+      "amount": 36230244,
+      "share": 79.44,
+      "prev_amount": 35926865,
+      "prev_share": 69.55,
+      "diff": 303379,
+      "growth": 0.84
+     },
+     {
+      "code": "210",
+      "name": "경상적세외수입",
+      "amount": 24850897,
+      "share": 54.49,
+      "prev_amount": 23291074,
+      "prev_share": 45.09,
+      "diff": 1559823,
+      "growth": 6.7
+     },
+     {
+      "code": "212",
+      "name": "사용료수입",
+      "amount": 24558492,
+      "share": 53.85,
+      "prev_amount": 23049580,
+      "prev_share": 44.62,
+      "diff": 1508912,
+      "growth": 6.55
+     },
+     {
+      "code": "216",
+      "name": "이자수입",
+      "amount": 292405,
+      "share": 0.64,
+      "prev_amount": 241494,
+      "prev_share": 0.47,
+      "diff": 50911,
+      "growth": 21.08
+     },
+     {
+      "code": "230",
+      "name": "지방행정제재ㆍ부과금",
+      "amount": 8366777,
+      "share": 18.35,
+      "prev_amount": 9191791,
+      "prev_share": 17.79,
+      "diff": -825014,
+      "growth": -8.98
+     },
+     {
+      "code": "232",
+      "name": "이행강제금",
+      "amount": 950207,
+      "share": 2.08,
+      "prev_amount": 833791,
+      "prev_share": 1.61,
+      "diff": 116416,
+      "growth": 13.96
+     },
+     {
+      "code": "234",
+      "name": "과태료",
+      "amount": 7416570,
+      "share": 16.26,
+      "prev_amount": 8358000,
+      "prev_share": 16.18,
+      "diff": -941430,
+      "growth": -11.26
+     },
+     {
+      "code": "240",
+      "name": "지난연도 수입",
+      "amount": 3012570,
+      "share": 6.61,
+      "prev_amount": 3444000,
+      "prev_share": 6.67,
+      "diff": -431430,
+      "growth": -12.53
+     },
+     {
+      "code": "241",
+      "name": "지난연도 수입",
+      "amount": 3012570,
+      "share": 6.61,
+      "prev_amount": 3444000,
+      "prev_share": 6.67,
+      "diff": -431430,
+      "growth": -12.53
+     },
+     {
+      "code": "500",
+      "name": "보조금",
+      "amount": 964020,
+      "share": 2.11,
+      "prev_amount": 830000,
+      "prev_share": 1.61,
+      "diff": 134020,
+      "growth": 16.15
+     },
+     {
+      "code": "510",
+      "name": "국고보조금등",
+      "amount": 493410,
+      "share": 1.08,
+      "prev_amount": 415000,
+      "prev_share": 0.8,
+      "diff": 78410,
+      "growth": 18.89
+     },
+     {
+      "code": "511",
+      "name": "국고보조금등",
+      "amount": 493410,
+      "share": 1.08,
+      "prev_amount": 415000,
+      "prev_share": 0.8,
+      "diff": 78410,
+      "growth": 18.89
+     },
+     {
+      "code": "520",
+      "name": "시ㆍ도비보조금등",
+      "amount": 470610,
+      "share": 1.03,
+      "prev_amount": 415000,
+      "prev_share": 0.8,
+      "diff": 55610,
+      "growth": 13.4
+     },
+     {
+      "code": "521",
+      "name": "시ㆍ도비보조금등",
+      "amount": 470610,
+      "share": 1.03,
+      "prev_amount": 415000,
+      "prev_share": 0.8,
+      "diff": 55610,
+      "growth": 13.4
+     },
+     {
+      "code": "700",
+      "name": "보전수입등및내부거래",
+      "amount": 8411546,
+      "share": 18.44,
+      "prev_amount": 14901527,
+      "prev_share": 28.85,
+      "diff": -6489981,
+      "growth": -43.55
+     },
+     {
+      "code": "710",
+      "name": "보전수입등",
+      "amount": 1500000,
+      "share": 3.29,
+      "prev_amount": 12569053,
+      "prev_share": 24.33,
+      "diff": -11069053,
+      "growth": -88.07
+     },
+     {
+      "code": "711",
+      "name": "잉여금",
+      "amount": 1500000,
+      "share": 3.29,
+      "prev_amount": 12569053,
+      "prev_share": 24.33,
+      "diff": -11069053,
+      "growth": -88.07
+     },
+     {
+      "code": "720",
+      "name": "내부거래",
+      "amount": 6911546,
+      "share": 15.15,
+      "prev_amount": 2332474,
+      "prev_share": 4.52,
+      "diff": 4579072,
+      "growth": 196.32
+     },
+     {
+      "code": "722",
+      "name": "예탁금및예수금",
+      "amount": 6911546,
+      "share": 15.15,
+      "prev_amount": 2332474,
+      "prev_share": 4.52,
+      "diff": 4579072,
+      "growth": 196.32
+     }
+    ]
+   }
+  ]
+ },
+ "exp_by_function": {
+  "title": "세출총괄표(기능별)",
+  "subtables": [
+   {
+    "scope": "전체",
+    "rows": [
+     {
+      "code": null,
+      "name": "총 계",
+      "amount": 1373683690,
+      "share": 100.0,
+      "prev_amount": 1289357702,
+      "prev_share": 100.0,
+      "diff": 84325988,
+      "growth": 6.54
+     },
+     {
+      "code": "010",
+      "name": "일반공공행정",
+      "amount": 125138086,
+      "share": 9.11,
+      "prev_amount": 119315835,
+      "prev_share": 9.25,
+      "diff": 5822251,
+      "growth": 4.88
+     },
+     {
+      "code": "011",
+      "name": "입법및선거관리",
+      "amount": 3895050,
+      "share": 0.28,
+      "prev_amount": 3635935,
+      "prev_share": 0.28,
+      "diff": 259115,
+      "growth": 7.13
+     },
+     {
+      "code": "013",
+      "name": "지방행정ㆍ재정지원",
+      "amount": 3791132,
+      "share": 0.28,
+      "prev_amount": 11168400,
+      "prev_share": 0.87,
+      "diff": -7377268,
+      "growth": -66.05
+     },
+     {
+      "code": "016",
+      "name": "일반행정",
+      "amount": 117451904,
+      "share": 8.55,
+      "prev_amount": 104481500,
+      "prev_share": 8.1,
+      "diff": 12970404,
+      "growth": 12.41
+     },
+     {
+      "code": "020",
+      "name": "공공질서및안전",
+      "amount": 16101955,
+      "share": 1.17,
+      "prev_amount": 16227363,
+      "prev_share": 1.26,
+      "diff": -125408,
+      "growth": -0.77
+     },
+     {
+      "code": "025",
+      "name": "재난방재ㆍ민방위",
+      "amount": 16101955,
+      "share": 1.17,
+      "prev_amount": 16227363,
+      "prev_share": 1.26,
+      "diff": -125408,
+      "growth": -0.77
+     },
+     {
+      "code": "050",
+      "name": "교육",
+      "amount": 49768916,
+      "share": 3.62,
+      "prev_amount": 47628612,
+      "prev_share": 3.69,
+      "diff": 2140304,
+      "growth": 4.49
+     },
+     {
+      "code": "051",
+      "name": "유아및초중등교육",
+      "amount": 42457808,
+      "share": 3.09,
+      "prev_amount": 41758441,
+      "prev_share": 3.24,
+      "diff": 699367,
+      "growth": 1.67
+     },
+     {
+      "code": "053",
+      "name": "평생ㆍ직업교육",
+      "amount": 7311108,
+      "share": 0.53,
+      "prev_amount": 5870171,
+      "prev_share": 0.46,
+      "diff": 1440937,
+      "growth": 24.55
+     },
+     {
+      "code": "060",
+      "name": "문화및관광",
+      "amount": 68580995,
+      "share": 4.99,
+      "prev_amount": 49130448,
+      "prev_share": 3.81,
+      "diff": 19450547,
+      "growth": 39.59
+     },
+     {
+      "code": "061",
+      "name": "문화예술",
+      "amount": 42657529,
+      "share": 3.11,
+      "prev_amount": 24293605,
+      "prev_share": 1.88,
+      "diff": 18363924,
+      "growth": 75.59
+     },
+     {
+      "code": "062",
+      "name": "관광",
+      "amount": 6319537,
+      "share": 0.46,
+      "prev_amount": 6338467,
+      "prev_share": 0.49,
+      "diff": -18930,
+      "growth": -0.3
+     },
+     {
+      "code": "063",
+      "name": "체육",
+      "amount": 19162010,
+      "share": 1.39,
+      "prev_amount": 18229652,
+      "prev_share": 1.41,
+      "diff": 932358,
+      "growth": 5.11
+     },
+     {
+      "code": "064",
+      "name": "문화재",
+      "amount": 441919,
+      "share": 0.03,
+      "prev_amount": 268724,
+      "prev_share": 0.02,
+      "diff": 173195,
+      "growth": 64.45
+     },
+     {
+      "code": "070",
+      "name": "환경",
+      "amount": 114776270,
+      "share": 8.36,
+      "prev_amount": 105512641,
+      "prev_share": 8.18,
+      "diff": 9263629,
+      "growth": 8.78
+     },
+     {
+      "code": "071",
+      "name": "상하수도ㆍ수질",
+      "amount": 3300830,
+      "share": 0.24,
+      "prev_amount": 3275885,
+      "prev_share": 0.25,
+      "diff": 24945,
+      "growth": 0.76
+     },
+     {
+      "code": "072",
+      "name": "폐기물",
+      "amount": 108911706,
+      "share": 7.93,
+      "prev_amount": 100465875,
+      "prev_share": 7.79,
+      "diff": 8445831,
+      "growth": 8.41
+     },
+     {
+      "code": "073",
+      "name": "대기",
+      "amount": 2075185,
+      "share": 0.15,
+      "prev_amount": 1166974,
+      "prev_share": 0.09,
+      "diff": 908211,
+      "growth": 77.83
+     },
+     {
+      "code": "076",
+      "name": "환경보호일반",
+      "amount": 488549,
+      "share": 0.04,
+      "prev_amount": 603907,
+      "prev_share": 0.05,
+      "diff": -115358,
+      "growth": -19.1
+     },
+     {
+      "code": "080",
+      "name": "사회복지",
+      "amount": 576308783,
+      "share": 41.95,
+      "prev_amount": 546964283,
+      "prev_share": 42.42,
+      "diff": 29344500,
+      "growth": 5.36
+     },
+     {
+      "code": "081",
+      "name": "기초생활보장",
+      "amount": 108576652,
+      "share": 7.9,
+      "prev_amount": 101138987,
+      "prev_share": 7.84,
+      "diff": 7437665,
+      "growth": 7.35
+     },
+     {
+      "code": "082",
+      "name": "취약계층지원",
+      "amount": 85130766,
+      "share": 6.2,
+      "prev_amount": 76079412,
+      "prev_share": 5.9,
+      "diff": 9051354,
+      "growth": 11.9
+     },
+     {
+      "code": "086",
+      "name": "노동",
+      "amount": 8518515,
+      "share": 0.62,
+      "prev_amount": 8699608,
+      "prev_share": 0.67,
+      "diff": -181093,
+      "growth": -2.08
+     },
+     {
+      "code": "089",
+      "name": "사회복지일반",
+      "amount": 24444858,
+      "share": 1.78,
+      "prev_amount": 23618952,
+      "prev_share": 1.83,
+      "diff": 825906,
+      "growth": 3.5
+     },
+     {
+      "code": "08A",
+      "name": "보육",
+      "amount": 188819200,
+      "share": 13.75,
+      "prev_amount": 187251087,
+      "prev_share": 14.52,
+      "diff": 1568113,
+      "growth": 0.84
+     },
+     {
+      "code": "08B",
+      "name": "가족·여성",
+      "amount": 2989837,
+      "share": 0.22,
+      "prev_amount": 2503025,
+      "prev_share": 0.19,
+      "diff": 486812,
+      "growth": 19.45
+     },
+     {
+      "code": "08C",
+      "name": "노인",
+      "amount": 147223419,
+      "share": 10.72,
+      "prev_amount": 137589797,
+      "prev_share": 10.67,
+      "diff": 9633622,
+      "growth": 7.0
+     },
+     {
+      "code": "08D",
+      "name": "청소년",
+      "amount": 10605536,
+      "share": 0.77,
+      "prev_amount": 10083415,
+      "prev_share": 0.78,
+      "diff": 522121,
+      "growth": 5.18
+     },
+     {
+      "code": "090",
+      "name": "보건",
+      "amount": 42983154,
+      "share": 3.13,
+      "prev_amount": 31516311,
+      "prev_share": 2.44,
+      "diff": 11466843,
+      "growth": 36.38
+     },
+     {
+      "code": "091",
+      "name": "보건의료",
+      "amount": 41989872,
+      "share": 3.06,
+      "prev_amount": 30738347,
+      "prev_share": 2.38,
+      "diff": 11251525,
+      "growth": 36.6
+     },
+     {
+      "code": "110",
+      "name": "산업ㆍ중소기업및에너지",
+      "amount": 10467439,
+      "share": 0.76,
+      "prev_amount": 12531451,
+      "prev_share": 0.97,
+      "diff": -2064012,
+      "growth": -16.47
+     },
+     {
+      "code": "111",
+      "name": "산업금융지원",
+      "amount": 2602568,
+      "share": 0.19,
+      "prev_amount": 2261982,
+      "prev_share": 0.18,
+      "diff": 340586,
+      "growth": 15.06
+     },
+     {
+      "code": "112",
+      "name": "산업기술지원",
+      "amount": 77071,
+      "share": 0.01,
+      "prev_amount": 72855,
+      "prev_share": 0.01,
+      "diff": 4216,
+      "growth": 5.79
+     },
+     {
+      "code": "114",
+      "name": "산업진흥ㆍ고도화",
+      "amount": 7744530,
+      "share": 0.56,
+      "prev_amount": 10176614,
+      "prev_share": 0.79,
+      "diff": -2432084,
+      "growth": -23.9
+     },
+     {
+      "code": "115",
+      "name": "에너지및자원개발",
+      "amount": 43270,
+      "share": 0.0,
+      "prev_amount": 20000,
+      "prev_share": 0.0,
+      "diff": 23270,
+      "growth": 116.35
+     },
+     {
+      "code": "120",
+      "name": "교통및물류",
+      "amount": 81238511,
+      "share": 5.91,
+      "prev_amount": 80831694,
+      "prev_share": 6.27,
+      "diff": 406817,
+      "growth": 0.5
+     },
+     {
+      "code": "121",
+      "name": "도로",
+      "amount": 31809933,
+      "share": 2.32,
+      "prev_amount": 28946431,
+      "prev_share": 2.25,
+      "diff": 2863502,
+      "growth": 9.89
+     },
+     {
+      "code": "126",
+      "name": "대중교통ㆍ물류등기타",
+      "amount": 49428578,
+      "share": 3.6,
+      "prev_amount": 51885263,
+      "prev_share": 4.02,
+      "diff": -2456685,
+      "growth": -4.73
+     },
+     {
+      "code": "140",
+      "name": "국토및지역개발",
+      "amount": 67425673,
+      "share": 4.91,
+      "prev_amount": 72372532,
+      "prev_share": 5.61,
+      "diff": -4946859,
+      "growth": -6.84
+     },
+     {
+      "code": "141",
+      "name": "수자원",
+      "amount": 26596911,
+      "share": 1.94,
+      "prev_amount": 26411965,
+      "prev_share": 2.05,
+      "diff": 184946,
+      "growth": 0.7
+     },
+     {
+      "code": "142",
+      "name": "지역및도시",
+      "amount": 40828762,
+      "share": 2.97,
+      "prev_amount": 45960567,
+      "prev_share": 3.56,
+      "diff": -5131805,
+      "growth": -11.17
+     },
+     {
+      "code": "160",
+      "name": "예비비",
+      "amount": 10936719,
+      "share": 0.8,
+      "prev_amount": 7000000,
+      "prev_share": 0.54,
+      "diff": 3936719,
+      "growth": 56.24
+     },
+     {
+      "code": "161",
+      "name": "예비비",
+      "amount": 10936719,
+      "share": 0.8,
+      "prev_amount": 7000000,
+      "prev_share": 0.54,
+      "diff": 3936719,
+      "growth": 56.24
+     },
+     {
+      "code": "900",
+      "name": "기타",
+      "amount": 208452709,
+      "share": 15.17,
+      "prev_amount": 199062524,
+      "prev_share": 15.44,
+      "diff": 9390185,
+      "growth": 4.72
+     },
+     {
+      "code": "901",
+      "name": "기타",
+      "amount": 208452709,
+      "share": 15.17,
+      "prev_amount": 199062524,
+      "prev_share": 15.44,
+      "diff": 9390185,
+      "growth": 4.72
+     }
+    ]
+   },
+   {
+    "scope": "일반회계",
+    "rows": [
+     {
+      "code": null,
+      "name": "총 계",
+      "amount": 1328077880,
+      "share": 100.0,
+      "prev_amount": 1237699310,
+      "prev_share": 100.0,
+      "diff": 90378570,
+      "growth": 7.3
+     },
+     {
+      "code": "010",
+      "name": "일반공공행정",
+      "amount": 125138086,
+      "share": 9.42,
+      "prev_amount": 119315835,
+      "prev_share": 9.64,
+      "diff": 5822251,
+      "growth": 4.88
+     },
+     {
+      "code": "011",
+      "name": "입법및선거관리",
+      "amount": 3895050,
+      "share": 0.29,
+      "prev_amount": 3635935,
+      "prev_share": 0.29,
+      "diff": 259115,
+      "growth": 7.13
+     },
+     {
+      "code": "013",
+      "name": "지방행정ㆍ재정지원",
+      "amount": 3791132,
+      "share": 0.29,
+      "prev_amount": 11168400,
+      "prev_share": 0.9,
+      "diff": -7377268,
+      "growth": -66.05
+     },
+     {
+      "code": "016",
+      "name": "일반행정",
+      "amount": 117451904,
+      "share": 8.84,
+      "prev_amount": 104481500,
+      "prev_share": 8.44,
+      "diff": 12970404,
+      "growth": 12.41
+     },
+     {
+      "code": "020",
+      "name": "공공질서및안전",
+      "amount": 16101955,
+      "share": 1.21,
+      "prev_amount": 16227363,
+      "prev_share": 1.31,
+      "diff": -125408,
+      "growth": -0.77
+     },
+     {
+      "code": "025",
+      "name": "재난방재ㆍ민방위",
+      "amount": 16101955,
+      "share": 1.21,
+      "prev_amount": 16227363,
+      "prev_share": 1.31,
+      "diff": -125408,
+      "growth": -0.77
+     },
+     {
+      "code": "050",
+      "name": "교육",
+      "amount": 49768916,
+      "share": 3.75,
+      "prev_amount": 47628612,
+      "prev_share": 3.85,
+      "diff": 2140304,
+      "growth": 4.49
+     },
+     {
+      "code": "051",
+      "name": "유아및초중등교육",
+      "amount": 42457808,
+      "share": 3.2,
+      "prev_amount": 41758441,
+      "prev_share": 3.37,
+      "diff": 699367,
+      "growth": 1.67
+     },
+     {
+      "code": "053",
+      "name": "평생ㆍ직업교육",
+      "amount": 7311108,
+      "share": 0.55,
+      "prev_amount": 5870171,
+      "prev_share": 0.47,
+      "diff": 1440937,
+      "growth": 24.55
+     },
+     {
+      "code": "060",
+      "name": "문화및관광",
+      "amount": 68580995,
+      "share": 5.16,
+      "prev_amount": 49130448,
+      "prev_share": 3.97,
+      "diff": 19450547,
+      "growth": 39.59
+     },
+     {
+      "code": "061",
+      "name": "문화예술",
+      "amount": 42657529,
+      "share": 3.21,
+      "prev_amount": 24293605,
+      "prev_share": 1.96,
+      "diff": 18363924,
+      "growth": 75.59
+     },
+     {
+      "code": "062",
+      "name": "관광",
+      "amount": 6319537,
+      "share": 0.48,
+      "prev_amount": 6338467,
+      "prev_share": 0.51,
+      "diff": -18930,
+      "growth": -0.3
+     },
+     {
+      "code": "063",
+      "name": "체육",
+      "amount": 19162010,
+      "share": 1.44,
+      "prev_amount": 18229652,
+      "prev_share": 1.47,
+      "diff": 932358,
+      "growth": 5.11
+     },
+     {
+      "code": "064",
+      "name": "문화재",
+      "amount": 441919,
+      "share": 0.03,
+      "prev_amount": 268724,
+      "prev_share": 0.02,
+      "diff": 173195,
+      "growth": 64.45
+     },
+     {
+      "code": "070",
+      "name": "환경",
+      "amount": 114776270,
+      "share": 8.64,
+      "prev_amount": 105512641,
+      "prev_share": 8.52,
+      "diff": 9263629,
+      "growth": 8.78
+     },
+     {
+      "code": "071",
+      "name": "상하수도ㆍ수질",
+      "amount": 3300830,
+      "share": 0.25,
+      "prev_amount": 3275885,
+      "prev_share": 0.26,
+      "diff": 24945,
+      "growth": 0.76
+     },
+     {
+      "code": "072",
+      "name": "폐기물",
+      "amount": 108911706,
+      "share": 8.2,
+      "prev_amount": 100465875,
+      "prev_share": 8.12,
+      "diff": 8445831,
+      "growth": 8.41
+     },
+     {
+      "code": "073",
+      "name": "대기",
+      "amount": 2075185,
+      "share": 0.16,
+      "prev_amount": 1166974,
+      "prev_share": 0.09,
+      "diff": 908211,
+      "growth": 77.83
+     },
+     {
+      "code": "076",
+      "name": "환경보호일반",
+      "amount": 488549,
+      "share": 0.04,
+      "prev_amount": 603907,
+      "prev_share": 0.05,
+      "diff": -115358,
+      "growth": -19.1
+     },
+     {
+      "code": "080",
+      "name": "사회복지",
+      "amount": 575367563,
+      "share": 43.32,
+      "prev_amount": 546134283,
+      "prev_share": 44.12,
+      "diff": 29233280,
+      "growth": 5.35
+     },
+     {
+      "code": "081",
+      "name": "기초생활보장",
+      "amount": 107635432,
+      "share": 8.1,
+      "prev_amount": 100308987,
+      "prev_share": 8.1,
+      "diff": 7326445,
+      "growth": 7.3
+     },
+     {
+      "code": "082",
+      "name": "취약계층지원",
+      "amount": 85130766,
+      "share": 6.41,
+      "prev_amount": 76079412,
+      "prev_share": 6.15,
+      "diff": 9051354,
+      "growth": 11.9
+     },
+     {
+      "code": "086",
+      "name": "노동",
+      "amount": 8518515,
+      "share": 0.64,
+      "prev_amount": 8699608,
+      "prev_share": 0.7,
+      "diff": -181093,
+      "growth": -2.08
+     },
+     {
+      "code": "089",
+      "name": "사회복지일반",
+      "amount": 24444858,
+      "share": 1.84,
+      "prev_amount": 23618952,
+      "prev_share": 1.91,
+      "diff": 825906,
+      "growth": 3.5
+     },
+     {
+      "code": "08A",
+      "name": "보육",
+      "amount": 188819200,
+      "share": 14.22,
+      "prev_amount": 187251087,
+      "prev_share": 15.13,
+      "diff": 1568113,
+      "growth": 0.84
+     },
+     {
+      "code": "08B",
+      "name": "가족·여성",
+      "amount": 2989837,
+      "share": 0.23,
+      "prev_amount": 2503025,
+      "prev_share": 0.2,
+      "diff": 486812,
+      "growth": 19.45
+     },
+     {
+      "code": "08C",
+      "name": "노인",
+      "amount": 147223419,
+      "share": 11.09,
+      "prev_amount": 137589797,
+      "prev_share": 11.12,
+      "diff": 9633622,
+      "growth": 7.0
+     },
+     {
+      "code": "08D",
+      "name": "청소년",
+      "amount": 10605536,
+      "share": 0.8,
+      "prev_amount": 10083415,
+      "prev_share": 0.81,
+      "diff": 522121,
+      "growth": 5.18
+     },
+     {
+      "code": "090",
+      "name": "보건",
+      "amount": 42983154,
+      "share": 3.24,
+      "prev_amount": 31516311,
+      "prev_share": 2.55,
+      "diff": 11466843,
+      "growth": 36.38
+     },
+     {
+      "code": "091",
+      "name": "보건의료",
+      "amount": 41989872,
+      "share": 3.16,
+      "prev_amount": 30738347,
+      "prev_share": 2.48,
+      "diff": 11251525,
+      "growth": 36.6
+     },
+     {
+      "code": "110",
+      "name": "산업ㆍ중소기업및에너지",
+      "amount": 10444639,
+      "share": 0.79,
+      "prev_amount": 12531451,
+      "prev_share": 1.01,
+      "diff": -2086812,
+      "growth": -16.65
+     },
+     {
+      "code": "111",
+      "name": "산업금융지원",
+      "amount": 2602568,
+      "share": 0.2,
+      "prev_amount": 2261982,
+      "prev_share": 0.18,
+      "diff": 340586,
+      "growth": 15.06
+     },
+     {
+      "code": "112",
+      "name": "산업기술지원",
+      "amount": 77071,
+      "share": 0.01,
+      "prev_amount": 72855,
+      "prev_share": 0.01,
+      "diff": 4216,
+      "growth": 5.79
+     },
+     {
+      "code": "114",
+      "name": "산업진흥ㆍ고도화",
+      "amount": 7744530,
+      "share": 0.58,
+      "prev_amount": 10176614,
+      "prev_share": 0.82,
+      "diff": -2432084,
+      "growth": -23.9
+     },
+     {
+      "code": "115",
+      "name": "에너지및자원개발",
+      "amount": 20470,
+      "share": 0.0,
+      "prev_amount": 20000,
+      "prev_share": 0.0,
+      "diff": 470,
+      "growth": 2.35
+     },
+     {
+      "code": "120",
+      "name": "교통및물류",
+      "amount": 41924450,
+      "share": 3.16,
+      "prev_amount": 36600591,
+      "prev_share": 2.96,
+      "diff": 5323859,
+      "growth": 14.55
+     },
+     {
+      "code": "121",
+      "name": "도로",
+      "amount": 31809933,
+      "share": 2.4,
+      "prev_amount": 28946431,
+      "prev_share": 2.34,
+      "diff": 2863502,
+      "growth": 9.89
+     },
+     {
+      "code": "126",
+      "name": "대중교통ㆍ물류등기타",
+      "amount": 10114517,
+      "share": 0.76,
+      "prev_amount": 7654160,
+      "prev_share": 0.62,
+      "diff": 2460357,
+      "growth": 32.14
+     },
+     {
+      "code": "140",
+      "name": "국토및지역개발",
+      "amount": 66670830,
+      "share": 5.02,
+      "prev_amount": 70127050,
+      "prev_share": 5.67,
+      "diff": -3456220,
+      "growth": -4.93
+     },
+     {
+      "code": "141",
+      "name": "수자원",
+      "amount": 26596911,
+      "share": 2.0,
+      "prev_amount": 26411965,
+      "prev_share": 2.13,
+      "diff": 184946,
+      "growth": 0.7
+     },
+     {
+      "code": "142",
+      "name": "지역및도시",
+      "amount": 40073919,
+      "share": 3.02,
+      "prev_amount": 43715085,
+      "prev_share": 3.53,
+      "diff": -3641166,
+      "growth": -8.33
+     },
+     {
+      "code": "160",
+      "name": "예비비",
+      "amount": 10936719,
+      "share": 0.82,
+      "prev_amount": 7000000,
+      "prev_share": 0.57,
+      "diff": 3936719,
+      "growth": 56.24
+     },
+     {
+      "code": "161",
+      "name": "예비비",
+      "amount": 10936719,
+      "share": 0.82,
+      "prev_amount": 7000000,
+      "prev_share": 0.57,
+      "diff": 3936719,
+      "growth": 56.24
+     },
+     {
+      "code": "900",
+      "name": "기타",
+      "amount": 203879823,
+      "share": 15.35,
+      "prev_amount": 194710717,
+      "prev_share": 15.73,
+      "diff": 9169106,
+      "growth": 4.71
+     },
+     {
+      "code": "901",
+      "name": "기타",
+      "amount": 203879823,
+      "share": 15.35,
+      "prev_amount": 194710717,
+      "prev_share": 15.73,
+      "diff": 9169106,
+      "growth": 4.71
+     }
+    ]
+   },
+   {
+    "scope": "특별회계",
+    "rows": [
+     {
+      "code": null,
+      "name": "총 계",
+      "amount": 45605810,
+      "share": 100.0,
+      "prev_amount": 51658392,
+      "prev_share": 100.0,
+      "diff": -6052582,
+      "growth": -11.72
+     },
+     {
+      "code": "080",
+      "name": "사회복지",
+      "amount": 941220,
+      "share": 2.06,
+      "prev_amount": 830000,
+      "prev_share": 1.61,
+      "diff": 111220,
+      "growth": 13.4
+     },
+     {
+      "code": "081",
+      "name": "기초생활보장",
+      "amount": 941220,
+      "share": 2.06,
+      "prev_amount": 830000,
+      "prev_share": 1.61,
+      "diff": 111220,
+      "growth": 13.4
+     },
+     {
+      "code": "110",
+      "name": "산업ㆍ중소기업및에너지",
+      "amount": 22800,
+      "share": 0.05,
+      "prev_amount": 0,
+      "prev_share": 0.0,
+      "diff": 22800,
+      "growth": null
+     },
+     {
+      "code": "115",
+      "name": "에너지및자원개발",
+      "amount": 22800,
+      "share": 0.05,
+      "prev_amount": 0,
+      "prev_share": 0.0,
+      "diff": 22800,
+      "growth": null
+     },
+     {
+      "code": "120",
+      "name": "교통및물류",
+      "amount": 39314061,
+      "share": 86.2,
+      "prev_amount": 44231103,
+      "prev_share": 85.62,
+      "diff": -4917042,
+      "growth": -11.12
+     },
+     {
+      "code": "126",
+      "name": "대중교통ㆍ물류등기타",
+      "amount": 39314061,
+      "share": 86.2,
+      "prev_amount": 44231103,
+      "prev_share": 85.62,
+      "diff": -4917042,
+      "growth": -11.12
+     },
+     {
+      "code": "140",
+      "name": "국토및지역개발",
+      "amount": 754843,
+      "share": 1.66,
+      "prev_amount": 2245482,
+      "prev_share": 4.35,
+      "diff": -1490639,
+      "growth": -66.38
+     },
+     {
+      "code": "142",
+      "name": "지역및도시",
+      "amount": 754843,
+      "share": 1.66,
+      "prev_amount": 2245482,
+      "prev_share": 4.35,
+      "diff": -1490639,
+      "growth": -66.38
+     },
+     {
+      "code": "900",
+      "name": "기타",
+      "amount": 4572886,
+      "share": 10.03,
+      "prev_amount": 4351807,
+      "prev_share": 8.42,
+      "diff": 221079,
+      "growth": 5.08
+     },
+     {
+      "code": "901",
+      "name": "기타",
+      "amount": 4572886,
+      "share": 10.03,
+      "prev_amount": 4351807,
+      "prev_share": 8.42,
+      "diff": 221079,
+      "growth": 5.08
+     }
+    ]
+   }
+  ]
+ },
+ "exp_by_org": {
+  "title": "세출총괄표(조직별)",
+  "subtables": [
+   {
+    "scope": "전체",
+    "rows": [
+     {
+      "code": null,
+      "name": "총 계",
+      "amount": 1373683690,
+      "share": 100.0,
+      "prev_amount": 1289357702,
+      "prev_share": 100.0,
+      "diff": 84325988,
+      "growth": 6.54
+     },
+     {
+      "code": null,
+      "name": "정책홍보실",
+      "amount": 3666944,
+      "share": 0.27,
+      "prev_amount": 3214640,
+      "prev_share": 0.25,
+      "diff": 452304,
+      "growth": 14.07
+     },
+     {
+      "code": null,
+      "name": "정책홍보실",
+      "amount": 3666944,
+      "share": 0.27,
+      "prev_amount": 3214640,
+      "prev_share": 0.25,
+      "diff": 452304,
+      "growth": 14.07
+     },
+     {
+      "code": null,
+      "name": "감사담당관",
+      "amount": 323388,
+      "share": 0.02,
+      "prev_amount": 322874,
+      "prev_share": 0.03,
+      "diff": 514,
+      "growth": 0.16
+     },
+     {
+      "code": null,
+      "name": "감사담당관",
+      "amount": 323388,
+      "share": 0.02,
+      "prev_amount": 322874,
+      "prev_share": 0.03,
+      "diff": 514,
+      "growth": 0.16
+     },
+     {
+      "code": null,
+      "name": "중대재해예방실",
+      "amount": 226635,
+      "share": 0.02,
+      "prev_amount": 193787,
+      "prev_share": 0.02,
+      "diff": 32848,
+      "growth": 16.95
+     },
+     {
+      "code": null,
+      "name": "중대재해예방실",
+      "amount": 226635,
+      "share": 0.02,
+      "prev_amount": 193787,
+      "prev_share": 0.02,
+      "diff": 32848,
+      "growth": 16.95
+     },
+     {
+      "code": null,
+      "name": "행정국",
+      "amount": 290302132,
+      "share": 21.13,
+      "prev_amount": 286204182,
+      "prev_share": 22.2,
+      "diff": 4097950,
+      "growth": 1.43
+     },
+     {
+      "code": null,
+      "name": "총무과",
+      "amount": 188873461,
+      "share": 13.75,
+      "prev_amount": 177958106,
+      "prev_share": 13.8,
+      "diff": 10915355,
+      "growth": 6.13
+     },
+     {
+      "code": null,
+      "name": "주민자치과",
+      "amount": 48310597,
+      "share": 3.52,
+      "prev_amount": 50113446,
+      "prev_share": 3.89,
+      "diff": -1802849,
+      "growth": -3.6
+     },
+     {
+      "code": null,
+      "name": "교육지원과",
+      "amount": 49890893,
+      "share": 3.63,
+      "prev_amount": 47749863,
+      "prev_share": 3.7,
+      "diff": 2141030,
+      "growth": 4.48
+     },
+     {
+      "code": null,
+      "name": "재무과",
+      "amount": 1313362,
+      "share": 0.1,
+      "prev_amount": 8408917,
+      "prev_share": 0.65,
+      "diff": -7095555,
+      "growth": -84.38
+     },
+     {
+      "code": null,
+      "name": "민원여권과",
+      "amount": 1913819,
+      "share": 0.14,
+      "prev_amount": 1973850,
+      "prev_share": 0.15,
+      "diff": -60031,
+      "growth": -3.04
+     },
+     {
+      "code": null,
+      "name": "기획경제국",
+      "amount": 42039643,
+      "share": 3.06,
+      "prev_amount": 38253886,
+      "prev_share": 2.97,
+      "diff": 3785757,
+      "growth": 9.9
+     },
+     {
+      "code": null,
+      "name": "기획예산과",
+      "amount": 18469925,
+      "share": 1.34,
+      "prev_amount": 14066464,
+      "prev_share": 1.09,
+      "diff": 4403461,
+      "growth": 31.3
+     },
+     {
+      "code": null,
+      "name": "지역경제과",
+      "amount": 8692721,
+      "share": 0.63,
+      "prev_amount": 9009680,
+      "prev_share": 0.7,
+      "diff": -316959,
+      "growth": -3.52
+     },
+     {
+      "code": null,
+      "name": "일자리정책과",
+      "amount": 12017346,
+      "share": 0.87,
+      "prev_amount": 12080763,
+      "prev_share": 0.94,
+      "diff": -63417,
+      "growth": -0.52
+     },
+     {
+      "code": null,
+      "name": "세무관리과",
+      "amount": 1023222,
+      "share": 0.07,
+      "prev_amount": 1192286,
+      "prev_share": 0.09,
+      "diff": -169064,
+      "growth": -14.18
+     },
+     {
+      "code": null,
+      "name": "재산세과",
+      "amount": 1231112,
+      "share": 0.09,
+      "prev_amount": 1277550,
+      "prev_share": 0.1,
+      "diff": -46438,
+      "growth": -3.63
+     },
+     {
+      "code": null,
+      "name": "지방소득세과",
+      "amount": 605317,
+      "share": 0.04,
+      "prev_amount": 627143,
+      "prev_share": 0.05,
+      "diff": -21826,
+      "growth": -3.48
+     },
+     {
+      "code": null,
+      "name": "복지생활국",
+      "amount": 682543556,
+      "share": 49.69,
+      "prev_amount": 644462555,
+      "prev_share": 49.98,
+      "diff": 38081001,
+      "growth": 5.91
+     },
+     {
+      "code": null,
+      "name": "복지정책과",
+      "amount": 23917015,
+      "share": 1.74,
+      "prev_amount": 22998085,
+      "prev_share": 1.78,
+      "diff": 918930,
+      "growth": 4.0
+     },
+     {
+      "code": null,
+      "name": "사회보장과",
+      "amount": 109006291,
+      "share": 7.94,
+      "prev_amount": 101565387,
+      "prev_share": 7.88,
+      "diff": 7440904,
+      "growth": 7.33
+     },
+     {
+      "code": null,
+      "name": "어르신복지과",
+      "amount": 147346329,
+      "share": 10.73,
+      "prev_amount": 137718218,
+      "prev_share": 10.68,
+      "diff": 9628111,
+      "growth": 6.99
+     },
+     {
+      "code": null,
+      "name": "장애인복지과",
+      "amount": 85231652,
+      "share": 6.2,
+      "prev_amount": 76177658,
+      "prev_share": 5.91,
+      "diff": 9053994,
+      "growth": 11.89
+     },
+     {
+      "code": null,
+      "name": "보육지원과",
+      "amount": 189034448,
+      "share": 13.76,
+      "prev_amount": 187449188,
+      "prev_share": 14.54,
+      "diff": 1585260,
+      "growth": 0.85
+     },
+     {
+      "code": null,
+      "name": "가족정책과",
+      "amount": 13838621,
+      "share": 1.01,
+      "prev_amount": 12915273,
+      "prev_share": 1.0,
+      "diff": 923348,
+      "growth": 7.15
+     },
+     {
+      "code": null,
+      "name": "자원순환과",
+      "amount": 114169200,
+      "share": 8.31,
+      "prev_amount": 105638746,
+      "prev_share": 8.19,
+      "diff": 8530454,
+      "growth": 8.08
+     },
+     {
+      "code": null,
+      "name": "미래문화국",
+      "amount": 79635545,
+      "share": 5.8,
+      "prev_amount": 60239274,
+      "prev_share": 4.67,
+      "diff": 19396271,
+      "growth": 32.2
+     },
+     {
+      "code": null,
+      "name": "디지털도시과",
+      "amount": 4372908,
+      "share": 0.32,
+      "prev_amount": 4282202,
+      "prev_share": 0.33,
+      "diff": 90706,
+      "growth": 2.12
+     },
+     {
+      "code": null,
+      "name": "스마트정보과",
+      "amount": 6369978,
+      "share": 0.46,
+      "prev_amount": 6528460,
+      "prev_share": 0.51,
+      "diff": -158482,
+      "growth": -2.43
+     },
+     {
+      "code": null,
+      "name": "문화도시과",
+      "amount": 43197144,
+      "share": 3.14,
+      "prev_amount": 24663933,
+      "prev_share": 1.91,
+      "diff": 18533211,
+      "growth": 75.14
+     },
+     {
+      "code": null,
+      "name": "생활체육과",
+      "amount": 19258680,
+      "share": 1.4,
+      "prev_amount": 18306514,
+      "prev_share": 1.42,
+      "diff": 952166,
+      "growth": 5.2
+     },
+     {
+      "code": null,
+      "name": "관광진흥과",
+      "amount": 6436835,
+      "share": 0.47,
+      "prev_amount": 6458165,
+      "prev_share": 0.5,
+      "diff": -21330,
+      "growth": -0.33
+     },
+     {
+      "code": null,
+      "name": "도시환경국",
+      "amount": 43836925,
+      "share": 3.19,
+      "prev_amount": 46414433,
+      "prev_share": 3.6,
+      "diff": -2577508,
+      "growth": -5.55
+     },
+     {
+      "code": null,
+      "name": "주택과",
+      "amount": 3271317,
+      "share": 0.24,
+      "prev_amount": 2783763,
+      "prev_share": 0.22,
+      "diff": 487554,
+      "growth": 17.51
+     },
+     {
+      "code": null,
+      "name": "재건축사업과",
+      "amount": 690930,
+      "share": 0.05,
+      "prev_amount": 797662,
+      "prev_share": 0.06,
+      "diff": -106732,
+      "growth": -13.38
+     },
+     {
+      "code": null,
+      "name": "도시계획과",
+      "amount": 1469462,
+      "share": 0.11,
+      "prev_amount": 785046,
+      "prev_share": 0.06,
+      "diff": 684416,
+      "growth": 87.18
+     },
+     {
+      "code": null,
+      "name": "건축과",
+      "amount": 2212259,
+      "share": 0.16,
+      "prev_amount": 3630930,
+      "prev_share": 0.28,
+      "diff": -1418671,
+      "growth": -39.07
+     },
+     {
+      "code": null,
+      "name": "환경과",
+      "amount": 2766381,
+      "share": 0.2,
+      "prev_amount": 1947151,
+      "prev_share": 0.15,
+      "diff": 819230,
+      "growth": 42.07
+     },
+     {
+      "code": null,
+      "name": "공원녹지과",
+      "amount": 32829278,
+      "share": 2.39,
+      "prev_amount": 35802911,
+      "prev_share": 2.78,
+      "diff": -2973633,
+      "growth": -8.31
+     },
+     {
+      "code": null,
+      "name": "부동산정보과",
+      "amount": 597298,
+      "share": 0.04,
+      "prev_amount": 666970,
+      "prev_share": 0.05,
+      "diff": -69672,
+      "growth": -10.45
+     },
+     {
+      "code": null,
+      "name": "안전교통국",
+      "amount": 128040567,
+      "share": 9.32,
+      "prev_amount": 131437888,
+      "prev_share": 10.19,
+      "diff": -3397321,
+      "growth": -2.58
+     },
+     {
+      "code": null,
+      "name": "재난안전과",
+      "amount": 19814103,
+      "share": 1.44,
+      "prev_amount": 19527118,
+      "prev_share": 1.51,
+      "diff": 286985,
+      "growth": 1.47
+     },
+     {
+      "code": null,
+      "name": "교통행정과",
+      "amount": 37027333,
+      "share": 2.7,
+      "prev_amount": 39872142,
+      "prev_share": 3.09,
+      "diff": -2844809,
+      "growth": -7.13
+     },
+     {
+      "code": null,
+      "name": "주차관리과",
+      "amount": 13016547,
+      "share": 0.95,
+      "prev_amount": 12834865,
+      "prev_share": 1.0,
+      "diff": 181682,
+      "growth": 1.42
+     },
+     {
+      "code": null,
+      "name": "자동차민원과",
+      "amount": 347094,
+      "share": 0.03,
+      "prev_amount": 339940,
+      "prev_share": 0.03,
+      "diff": 7154,
+      "growth": 2.1
+     },
+     {
+      "code": null,
+      "name": "건설관리과",
+      "amount": 1218417,
+      "share": 0.09,
+      "prev_amount": 2206154,
+      "prev_share": 0.17,
+      "diff": -987737,
+      "growth": -44.77
+     },
+     {
+      "code": null,
+      "name": "도로관리과",
+      "amount": 29447706,
+      "share": 2.14,
+      "prev_amount": 29465610,
+      "prev_share": 2.29,
+      "diff": -17904,
+      "growth": -0.06
+     },
+     {
+      "code": null,
+      "name": "치수과",
+      "amount": 27169367,
+      "share": 1.98,
+      "prev_amount": 27192059,
+      "prev_share": 2.11,
+      "diff": -22692,
+      "growth": -0.08
+     },
+     {
+      "code": null,
+      "name": "미래전략기획단",
+      "amount": 27386665,
+      "share": 1.99,
+      "prev_amount": 15445392,
+      "prev_share": 1.2,
+      "diff": 11941273,
+      "growth": 77.31
+     },
+     {
+      "code": null,
+      "name": "혁신전략과",
+      "amount": 2642686,
+      "share": 0.19,
+      "prev_amount": 5399506,
+      "prev_share": 0.42,
+      "diff": -2756820,
+      "growth": -51.06
+     },
+     {
+      "code": null,
+      "name": "공간개발과",
+      "amount": 24743979,
+      "share": 1.8,
+      "prev_amount": 10045886,
+      "prev_share": 0.78,
+      "diff": 14698093,
+      "growth": 146.31
+     },
+     {
+      "code": null,
+      "name": "보건소",
+      "amount": 66455745,
+      "share": 4.84,
+      "prev_amount": 54612984,
+      "prev_share": 4.24,
+      "diff": 11842761,
+      "growth": 21.68
+     },
+     {
+      "code": null,
+      "name": "보건행정과",
+      "amount": 25561814,
+      "share": 1.86,
+      "prev_amount": 25139093,
+      "prev_share": 1.95,
+      "diff": 422721,
+      "growth": 1.68
+     },
+     {
+      "code": null,
+      "name": "위생과",
+      "amount": 1127778,
+      "share": 0.08,
+      "prev_amount": 985852,
+      "prev_share": 0.08,
+      "diff": 141926,
+      "growth": 14.4
+     },
+     {
+      "code": null,
+      "name": "질병관리과",
+      "amount": 13392366,
+      "share": 0.97,
+      "prev_amount": 11934746,
+      "prev_share": 0.93,
+      "diff": 1457620,
+      "growth": 12.21
+     },
+     {
+      "code": null,
+      "name": "건강관리과",
+      "amount": 17529488,
+      "share": 1.28,
+      "prev_amount": 11122737,
+      "prev_share": 0.86,
+      "diff": 6406751,
+      "growth": 57.6
+     },
+     {
+      "code": null,
+      "name": "의약과",
+      "amount": 8274503,
+      "share": 0.6,
+      "prev_amount": 4962612,
+      "prev_share": 0.38,
+      "diff": 3311891,
+      "growth": 66.74
+     },
+     {
+      "code": null,
+      "name": "세곡보건지소",
+      "amount": 569796,
+      "share": 0.04,
+      "prev_amount": 467944,
+      "prev_share": 0.04,
+      "diff": 101852,
+      "growth": 21.77
+     },
+     {
+      "code": null,
+      "name": "구의회사무국",
+      "amount": 9225945,
+      "share": 0.67,
+      "prev_amount": 8555807,
+      "prev_share": 0.66,
+      "diff": 670138,
+      "growth": 7.83
+     },
+     {
+      "code": null,
+      "name": "구의회사무국",
+      "amount": 9225945,
+      "share": 0.67,
+      "prev_amount": 8555807,
+      "prev_share": 0.66,
+      "diff": 670138,
+      "growth": 7.83
+     }
+    ]
+   },
+   {
+    "scope": "일반회계",
+    "rows": [
+     {
+      "code": null,
+      "name": "총 계",
+      "amount": 1328077880,
+      "share": 100.0,
+      "prev_amount": 1237699310,
+      "prev_share": 100.0,
+      "diff": 90378570,
+      "growth": 7.3
+     },
+     {
+      "code": null,
+      "name": "정책홍보실",
+      "amount": 3666944,
+      "share": 0.28,
+      "prev_amount": 3214640,
+      "prev_share": 0.26,
+      "diff": 452304,
+      "growth": 14.07
+     },
+     {
+      "code": null,
+      "name": "정책홍보실",
+      "amount": 3666944,
+      "share": 0.28,
+      "prev_amount": 3214640,
+      "prev_share": 0.26,
+      "diff": 452304,
+      "growth": 14.07
+     },
+     {
+      "code": null,
+      "name": "감사담당관",
+      "amount": 323388,
+      "share": 0.02,
+      "prev_amount": 322874,
+      "prev_share": 0.03,
+      "diff": 514,
+      "growth": 0.16
+     },
+     {
+      "code": null,
+      "name": "감사담당관",
+      "amount": 323388,
+      "share": 0.02,
+      "prev_amount": 322874,
+      "prev_share": 0.03,
+      "diff": 514,
+      "growth": 0.16
+     },
+     {
+      "code": null,
+      "name": "중대재해예방실",
+      "amount": 226635,
+      "share": 0.02,
+      "prev_amount": 193787,
+      "prev_share": 0.02,
+      "diff": 32848,
+      "growth": 16.95
+     },
+     {
+      "code": null,
+      "name": "중대재해예방실",
+      "amount": 226635,
+      "share": 0.02,
+      "prev_amount": 193787,
+      "prev_share": 0.02,
+      "diff": 32848,
+      "growth": 16.95
+     },
+     {
+      "code": null,
+      "name": "행정국",
+      "amount": 290302132,
+      "share": 21.86,
+      "prev_amount": 286204182,
+      "prev_share": 23.12,
+      "diff": 4097950,
+      "growth": 1.43
+     },
+     {
+      "code": null,
+      "name": "총무과",
+      "amount": 188873461,
+      "share": 14.22,
+      "prev_amount": 177958106,
+      "prev_share": 14.38,
+      "diff": 10915355,
+      "growth": 6.13
+     },
+     {
+      "code": null,
+      "name": "주민자치과",
+      "amount": 48310597,
+      "share": 3.64,
+      "prev_amount": 50113446,
+      "prev_share": 4.05,
+      "diff": -1802849,
+      "growth": -3.6
+     },
+     {
+      "code": null,
+      "name": "교육지원과",
+      "amount": 49890893,
+      "share": 3.76,
+      "prev_amount": 47749863,
+      "prev_share": 3.86,
+      "diff": 2141030,
+      "growth": 4.48
+     },
+     {
+      "code": null,
+      "name": "재무과",
+      "amount": 1313362,
+      "share": 0.1,
+      "prev_amount": 8408917,
+      "prev_share": 0.68,
+      "diff": -7095555,
+      "growth": -84.38
+     },
+     {
+      "code": null,
+      "name": "민원여권과",
+      "amount": 1913819,
+      "share": 0.14,
+      "prev_amount": 1973850,
+      "prev_share": 0.16,
+      "diff": -60031,
+      "growth": -3.04
+     },
+     {
+      "code": null,
+      "name": "기획경제국",
+      "amount": 42039643,
+      "share": 3.17,
+      "prev_amount": 38253886,
+      "prev_share": 3.09,
+      "diff": 3785757,
+      "growth": 9.9
+     },
+     {
+      "code": null,
+      "name": "기획예산과",
+      "amount": 18469925,
+      "share": 1.39,
+      "prev_amount": 14066464,
+      "prev_share": 1.14,
+      "diff": 4403461,
+      "growth": 31.3
+     },
+     {
+      "code": null,
+      "name": "지역경제과",
+      "amount": 8692721,
+      "share": 0.65,
+      "prev_amount": 9009680,
+      "prev_share": 0.73,
+      "diff": -316959,
+      "growth": -3.52
+     },
+     {
+      "code": null,
+      "name": "일자리정책과",
+      "amount": 12017346,
+      "share": 0.9,
+      "prev_amount": 12080763,
+      "prev_share": 0.98,
+      "diff": -63417,
+      "growth": -0.52
+     },
+     {
+      "code": null,
+      "name": "세무관리과",
+      "amount": 1023222,
+      "share": 0.08,
+      "prev_amount": 1192286,
+      "prev_share": 0.1,
+      "diff": -169064,
+      "growth": -14.18
+     },
+     {
+      "code": null,
+      "name": "재산세과",
+      "amount": 1231112,
+      "share": 0.09,
+      "prev_amount": 1277550,
+      "prev_share": 0.1,
+      "diff": -46438,
+      "growth": -3.63
+     },
+     {
+      "code": null,
+      "name": "지방소득세과",
+      "amount": 605317,
+      "share": 0.05,
+      "prev_amount": 627143,
+      "prev_share": 0.05,
+      "diff": -21826,
+      "growth": -3.48
+     },
+     {
+      "code": null,
+      "name": "복지생활국",
+      "amount": 681602336,
+      "share": 51.32,
+      "prev_amount": 643632555,
+      "prev_share": 52.0,
+      "diff": 37969781,
+      "growth": 5.9
+     },
+     {
+      "code": null,
+      "name": "복지정책과",
+      "amount": 23917015,
+      "share": 1.8,
+      "prev_amount": 22998085,
+      "prev_share": 1.86,
+      "diff": 918930,
+      "growth": 4.0
+     },
+     {
+      "code": null,
+      "name": "사회보장과",
+      "amount": 108065071,
+      "share": 8.14,
+      "prev_amount": 100735387,
+      "prev_share": 8.14,
+      "diff": 7329684,
+      "growth": 7.28
+     },
+     {
+      "code": null,
+      "name": "어르신복지과",
+      "amount": 147346329,
+      "share": 11.09,
+      "prev_amount": 137718218,
+      "prev_share": 11.13,
+      "diff": 9628111,
+      "growth": 6.99
+     },
+     {
+      "code": null,
+      "name": "장애인복지과",
+      "amount": 85231652,
+      "share": 6.42,
+      "prev_amount": 76177658,
+      "prev_share": 6.15,
+      "diff": 9053994,
+      "growth": 11.89
+     },
+     {
+      "code": null,
+      "name": "보육지원과",
+      "amount": 189034448,
+      "share": 14.23,
+      "prev_amount": 187449188,
+      "prev_share": 15.14,
+      "diff": 1585260,
+      "growth": 0.85
+     },
+     {
+      "code": null,
+      "name": "가족정책과",
+      "amount": 13838621,
+      "share": 1.04,
+      "prev_amount": 12915273,
+      "prev_share": 1.04,
+      "diff": 923348,
+      "growth": 7.15
+     },
+     {
+      "code": null,
+      "name": "자원순환과",
+      "amount": 114169200,
+      "share": 8.6,
+      "prev_amount": 105638746,
+      "prev_share": 8.54,
+      "diff": 8530454,
+      "growth": 8.08
+     },
+     {
+      "code": null,
+      "name": "미래문화국",
+      "amount": 79635545,
+      "share": 6.0,
+      "prev_amount": 60239274,
+      "prev_share": 4.87,
+      "diff": 19396271,
+      "growth": 32.2
+     },
+     {
+      "code": null,
+      "name": "디지털도시과",
+      "amount": 4372908,
+      "share": 0.33,
+      "prev_amount": 4282202,
+      "prev_share": 0.35,
+      "diff": 90706,
+      "growth": 2.12
+     },
+     {
+      "code": null,
+      "name": "스마트정보과",
+      "amount": 6369978,
+      "share": 0.48,
+      "prev_amount": 6528460,
+      "prev_share": 0.53,
+      "diff": -158482,
+      "growth": -2.43
+     },
+     {
+      "code": null,
+      "name": "문화도시과",
+      "amount": 43197144,
+      "share": 3.25,
+      "prev_amount": 24663933,
+      "prev_share": 1.99,
+      "diff": 18533211,
+      "growth": 75.14
+     },
+     {
+      "code": null,
+      "name": "생활체육과",
+      "amount": 19258680,
+      "share": 1.45,
+      "prev_amount": 18306514,
+      "prev_share": 1.48,
+      "diff": 952166,
+      "growth": 5.2
+     },
+     {
+      "code": null,
+      "name": "관광진흥과",
+      "amount": 6436835,
+      "share": 0.48,
+      "prev_amount": 6458165,
+      "prev_share": 0.52,
+      "diff": -21330,
+      "growth": -0.33
+     },
+     {
+      "code": null,
+      "name": "도시환경국",
+      "amount": 42817893,
+      "share": 3.22,
+      "prev_amount": 43936867,
+      "prev_share": 3.55,
+      "diff": -1118974,
+      "growth": -2.55
+     },
+     {
+      "code": null,
+      "name": "주택과",
+      "amount": 3271317,
+      "share": 0.25,
+      "prev_amount": 2783763,
+      "prev_share": 0.22,
+      "diff": 487554,
+      "growth": 17.51
+     },
+     {
+      "code": null,
+      "name": "재건축사업과",
+      "amount": 690930,
+      "share": 0.05,
+      "prev_amount": 797662,
+      "prev_share": 0.06,
+      "diff": -106732,
+      "growth": -13.38
+     },
+     {
+      "code": null,
+      "name": "도시계획과",
+      "amount": 1469462,
+      "share": 0.11,
+      "prev_amount": 785046,
+      "prev_share": 0.06,
+      "diff": 684416,
+      "growth": 87.18
+     },
+     {
+      "code": null,
+      "name": "건축과",
+      "amount": 1216027,
+      "share": 0.09,
+      "prev_amount": 1153364,
+      "prev_share": 0.09,
+      "diff": 62663,
+      "growth": 5.43
+     },
+     {
+      "code": null,
+      "name": "환경과",
+      "amount": 2743581,
+      "share": 0.21,
+      "prev_amount": 1947151,
+      "prev_share": 0.16,
+      "diff": 796430,
+      "growth": 40.9
+     },
+     {
+      "code": null,
+      "name": "공원녹지과",
+      "amount": 32829278,
+      "share": 2.47,
+      "prev_amount": 35802911,
+      "prev_share": 2.89,
+      "diff": -2973633,
+      "growth": -8.31
+     },
+     {
+      "code": null,
+      "name": "부동산정보과",
+      "amount": 597298,
+      "share": 0.04,
+      "prev_amount": 666970,
+      "prev_share": 0.05,
+      "diff": -69672,
+      "growth": -10.45
+     },
+     {
+      "code": null,
+      "name": "안전교통국",
+      "amount": 84395009,
+      "share": 6.35,
+      "prev_amount": 83087062,
+      "prev_share": 6.71,
+      "diff": 1307947,
+      "growth": 1.57
+     },
+     {
+      "code": null,
+      "name": "재난안전과",
+      "amount": 16078326,
+      "share": 1.21,
+      "prev_amount": 16234321,
+      "prev_share": 1.31,
+      "diff": -155995,
+      "growth": -0.96
+     },
+     {
+      "code": null,
+      "name": "교통행정과",
+      "amount": 9942235,
+      "share": 0.75,
+      "prev_amount": 7347235,
+      "prev_share": 0.59,
+      "diff": 2595000,
+      "growth": 35.32
+     },
+     {
+      "code": null,
+      "name": "주차관리과",
+      "amount": 191864,
+      "share": 0.01,
+      "prev_amount": 301743,
+      "prev_share": 0.02,
+      "diff": -109879,
+      "growth": -36.41
+     },
+     {
+      "code": null,
+      "name": "자동차민원과",
+      "amount": 347094,
+      "share": 0.03,
+      "prev_amount": 339940,
+      "prev_share": 0.03,
+      "diff": 7154,
+      "growth": 2.1
+     },
+     {
+      "code": null,
+      "name": "건설관리과",
+      "amount": 1218417,
+      "share": 0.09,
+      "prev_amount": 2206154,
+      "prev_share": 0.18,
+      "diff": -987737,
+      "growth": -44.77
+     },
+     {
+      "code": null,
+      "name": "도로관리과",
+      "amount": 29447706,
+      "share": 2.22,
+      "prev_amount": 29465610,
+      "prev_share": 2.38,
+      "diff": -17904,
+      "growth": -0.06
+     },
+     {
+      "code": null,
+      "name": "치수과",
+      "amount": 27169367,
+      "share": 2.05,
+      "prev_amount": 27192059,
+      "prev_share": 2.2,
+      "diff": -22692,
+      "growth": -0.08
+     },
+     {
+      "code": null,
+      "name": "미래전략기획단",
+      "amount": 27386665,
+      "share": 2.06,
+      "prev_amount": 15445392,
+      "prev_share": 1.25,
+      "diff": 11941273,
+      "growth": 77.31
+     },
+     {
+      "code": null,
+      "name": "혁신전략과",
+      "amount": 2642686,
+      "share": 0.2,
+      "prev_amount": 5399506,
+      "prev_share": 0.44,
+      "diff": -2756820,
+      "growth": -51.06
+     },
+     {
+      "code": null,
+      "name": "공간개발과",
+      "amount": 24743979,
+      "share": 1.86,
+      "prev_amount": 10045886,
+      "prev_share": 0.81,
+      "diff": 14698093,
+      "growth": 146.31
+     },
+     {
+      "code": null,
+      "name": "보건소",
+      "amount": 66455745,
+      "share": 5.0,
+      "prev_amount": 54612984,
+      "prev_share": 4.41,
+      "diff": 11842761,
+      "growth": 21.68
+     },
+     {
+      "code": null,
+      "name": "보건행정과",
+      "amount": 25561814,
+      "share": 1.92,
+      "prev_amount": 25139093,
+      "prev_share": 2.03,
+      "diff": 422721,
+      "growth": 1.68
+     },
+     {
+      "code": null,
+      "name": "위생과",
+      "amount": 1127778,
+      "share": 0.08,
+      "prev_amount": 985852,
+      "prev_share": 0.08,
+      "diff": 141926,
+      "growth": 14.4
+     },
+     {
+      "code": null,
+      "name": "질병관리과",
+      "amount": 13392366,
+      "share": 1.01,
+      "prev_amount": 11934746,
+      "prev_share": 0.96,
+      "diff": 1457620,
+      "growth": 12.21
+     },
+     {
+      "code": null,
+      "name": "건강관리과",
+      "amount": 17529488,
+      "share": 1.32,
+      "prev_amount": 11122737,
+      "prev_share": 0.9,
+      "diff": 6406751,
+      "growth": 57.6
+     },
+     {
+      "code": null,
+      "name": "의약과",
+      "amount": 8274503,
+      "share": 0.62,
+      "prev_amount": 4962612,
+      "prev_share": 0.4,
+      "diff": 3311891,
+      "growth": 66.74
+     },
+     {
+      "code": null,
+      "name": "세곡보건지소",
+      "amount": 569796,
+      "share": 0.04,
+      "prev_amount": 467944,
+      "prev_share": 0.04,
+      "diff": 101852,
+      "growth": 21.77
+     },
+     {
+      "code": null,
+      "name": "구의회사무국",
+      "amount": 9225945,
+      "share": 0.69,
+      "prev_amount": 8555807,
+      "prev_share": 0.69,
+      "diff": 670138,
+      "growth": 7.83
+     },
+     {
+      "code": null,
+      "name": "구의회사무국",
+      "amount": 9225945,
+      "share": 0.69,
+      "prev_amount": 8555807,
+      "prev_share": 0.69,
+      "diff": 670138,
+      "growth": 7.83
+     }
+    ]
+   },
+   {
+    "scope": "특별회계",
+    "rows": [
+     {
+      "code": null,
+      "name": "총 계",
+      "amount": 45605810,
+      "share": 100.0,
+      "prev_amount": 51658392,
+      "prev_share": 100.0,
+      "diff": -6052582,
+      "growth": -11.72
+     },
+     {
+      "code": null,
+      "name": "복지생활국",
+      "amount": 941220,
+      "share": 2.06,
+      "prev_amount": 830000,
+      "prev_share": 1.61,
+      "diff": 111220,
+      "growth": 13.4
+     },
+     {
+      "code": null,
+      "name": "사회보장과",
+      "amount": 941220,
+      "share": 2.06,
+      "prev_amount": 830000,
+      "prev_share": 1.61,
+      "diff": 111220,
+      "growth": 13.4
+     },
+     {
+      "code": null,
+      "name": "도시환경국",
+      "amount": 1019032,
+      "share": 2.23,
+      "prev_amount": 2477566,
+      "prev_share": 4.8,
+      "diff": -1458534,
+      "growth": -58.87
+     },
+     {
+      "code": null,
+      "name": "건축과",
+      "amount": 996232,
+      "share": 2.18,
+      "prev_amount": 2477566,
+      "prev_share": 4.8,
+      "diff": -1481334,
+      "growth": -59.79
+     },
+     {
+      "code": null,
+      "name": "환경과",
+      "amount": 22800,
+      "share": 0.05,
+      "prev_amount": 0,
+      "prev_share": 0.0,
+      "diff": 22800,
+      "growth": null
+     },
+     {
+      "code": null,
+      "name": "안전교통국",
+      "amount": 43645558,
+      "share": 95.7,
+      "prev_amount": 48350826,
+      "prev_share": 93.6,
+      "diff": -4705268,
+      "growth": -9.73
+     },
+     {
+      "code": null,
+      "name": "재난안전과",
+      "amount": 3735777,
+      "share": 8.19,
+      "prev_amount": 3292797,
+      "prev_share": 6.37,
+      "diff": 442980,
+      "growth": 13.45
+     },
+     {
+      "code": null,
+      "name": "교통행정과",
+      "amount": 27085098,
+      "share": 59.39,
+      "prev_amount": 32524907,
+      "prev_share": 62.96,
+      "diff": -5439809,
+      "growth": -16.73
+     },
+     {
+      "code": null,
+      "name": "주차관리과",
+      "amount": 12824683,
+      "share": 28.12,
+      "prev_amount": 12533122,
+      "prev_share": 24.26,
+      "diff": 291561,
+      "growth": 2.33
+     }
+    ]
+   }
+  ]
+ },
+ "exp_by_nature": {
+  "title": "세출총괄표(성질별)",
+  "subtables": [
+   {
+    "scope": "전체",
+    "rows": [
+     {
+      "code": null,
+      "name": "총 계",
+      "amount": 1373683690,
+      "share": 100.0,
+      "prev_amount": 1289357702,
+      "prev_share": 100.0,
+      "diff": 84325988,
+      "growth": 6.54
+     },
+     {
+      "code": "100",
+      "name": "인건비",
+      "amount": 174202757,
+      "share": 12.68,
+      "prev_amount": 161295444,
+      "prev_share": 12.51,
+      "diff": 12907313,
+      "growth": 8.0
+     },
+     {
+      "code": "101",
+      "name": "인건비",
+      "amount": 174202757,
+      "share": 12.68,
+      "prev_amount": 161295444,
+      "prev_share": 12.51,
+      "diff": 12907313,
+      "growth": 8.0
+     },
+     {
+      "code": "101-01",
+      "name": "보수",
+      "amount": 127566255,
+      "share": 9.29,
+      "prev_amount": 107558339,
+      "prev_share": 8.34,
+      "diff": 20007916,
+      "growth": 18.6
+     },
+     {
+      "code": "101-02",
+      "name": "기타직보수",
+      "amount": 21416039,
+      "share": 1.56,
+      "prev_amount": 30101058,
+      "prev_share": 2.33,
+      "diff": -8685019,
+      "growth": -28.85
+     },
+     {
+      "code": "101-03",
+      "name": "공무직(무기계약)근로자 보수",
+      "amount": 3506129,
+      "share": 0.26,
+      "prev_amount": 3643756,
+      "prev_share": 0.28,
+      "diff": -137627,
+      "growth": -3.78
+     },
+     {
+      "code": "101-04",
+      "name": "기간제근로자등보수",
+      "amount": 21714334,
+      "share": 1.58,
+      "prev_amount": 19992291,
+      "prev_share": 1.55,
+      "diff": 1722043,
+      "growth": 8.61
+     },
+     {
+      "code": "200",
+      "name": "물건비",
+      "amount": 120806922,
+      "share": 8.79,
+      "prev_amount": 115769507,
+      "prev_share": 8.98,
+      "diff": 5037415,
+      "growth": 4.35
+     },
+     {
+      "code": "201",
+      "name": "일반운영비",
+      "amount": 103045575,
+      "share": 7.5,
+      "prev_amount": 96635483,
+      "prev_share": 7.49,
+      "diff": 6410092,
+      "growth": 6.63
+     },
+     {
+      "code": "201-01",
+      "name": "사무관리비",
+      "amount": 60182595,
+      "share": 4.38,
+      "prev_amount": 54613879,
+      "prev_share": 4.24,
+      "diff": 5568716,
+      "growth": 10.2
+     },
+     {
+      "code": "201-02",
+      "name": "공공운영비",
+      "amount": 21985380,
+      "share": 1.6,
+      "prev_amount": 23444325,
+      "prev_share": 1.82,
+      "diff": -1458945,
+      "growth": -6.22
+     },
+     {
+      "code": "201-03",
+      "name": "행사운영비",
+      "amount": 15038155,
+      "share": 1.09,
+      "prev_amount": 12812726,
+      "prev_share": 0.99,
+      "diff": 2225429,
+      "growth": 17.37
+     },
+     {
+      "code": "201-04",
+      "name": "맞춤형복지제도시행경비",
+      "amount": 5839445,
+      "share": 0.43,
+      "prev_amount": 5764553,
+      "prev_share": 0.45,
+      "diff": 74892,
+      "growth": 1.3
+     },
+     {
+      "code": "202",
+      "name": "여비",
+      "amount": 5165354,
+      "share": 0.38,
+      "prev_amount": 5834272,
+      "prev_share": 0.45,
+      "diff": -668918,
+      "growth": -11.47
+     },
+     {
+      "code": "202-01",
+      "name": "국내여비",
+      "amount": 4066498,
+      "share": 0.3,
+      "prev_amount": 4774122,
+      "prev_share": 0.37,
+      "diff": -707624,
+      "growth": -14.82
+     },
+     {
+      "code": "202-03",
+      "name": "국외업무여비",
+      "amount": 256306,
+      "share": 0.02,
+      "prev_amount": 244520,
+      "prev_share": 0.02,
+      "diff": 11786,
+      "growth": 4.82
+     },
+     {
+      "code": "202-04",
+      "name": "국제화여비",
+      "amount": 736000,
+      "share": 0.05,
+      "prev_amount": 684000,
+      "prev_share": 0.05,
+      "diff": 52000,
+      "growth": 7.6
+     },
+     {
+      "code": "202-05",
+      "name": "공무원 교육여비",
+      "amount": 106550,
+      "share": 0.01,
+      "prev_amount": 131630,
+      "prev_share": 0.01,
+      "diff": -25080,
+      "growth": -19.05
+     },
+     {
+      "code": "203",
+      "name": "업무추진비",
+      "amount": 2119384,
+      "share": 0.15,
+      "prev_amount": 2017199,
+      "prev_share": 0.16,
+      "diff": 102185,
+      "growth": 5.07
+     },
+     {
+      "code": "203-01",
+      "name": "기관운영업무추진비",
+      "amount": 351000,
+      "share": 0.03,
+      "prev_amount": 351000,
+      "prev_share": 0.03,
+      "diff": 0,
+      "growth": 0.0
+     },
+     {
+      "code": "203-02",
+      "name": "정원가산업무추진비",
+      "amount": 77810,
+      "share": 0.01,
+      "prev_amount": 79730,
+      "prev_share": 0.01,
+      "diff": -1920,
+      "growth": -2.41
+     },
+     {
+      "code": "203-03",
+      "name": "시책추진업무추진비",
+      "amount": 1343054,
+      "share": 0.1,
+      "prev_amount": 1234749,
+      "prev_share": 0.1,
+      "diff": 108305,
+      "growth": 8.77
+     },
+     {
+      "code": "203-04",
+      "name": "부서운영업무추진비",
+      "amount": 347520,
+      "share": 0.03,
+      "prev_amount": 351720,
+      "prev_share": 0.03,
+      "diff": -4200,
+      "growth": -1.19
+     },
+     {
+      "code": "204",
+      "name": "직무수행경비",
+      "amount": 1549095,
+      "share": 0.11,
+      "prev_amount": 1470945,
+      "prev_share": 0.11,
+      "diff": 78150,
+      "growth": 5.31
+     },
+     {
+      "code": "204-01",
+      "name": "직책급업무수행경비",
+      "amount": 165300,
+      "share": 0.01,
+      "prev_amount": 183300,
+      "prev_share": 0.01,
+      "diff": -18000,
+      "growth": -9.82
+     },
+     {
+      "code": "204-02",
+      "name": "특정업무경비",
+      "amount": 1383795,
+      "share": 0.1,
+      "prev_amount": 1287645,
+      "prev_share": 0.1,
+      "diff": 96150,
+      "growth": 7.47
+     },
+     {
+      "code": "205",
+      "name": "의회비",
+      "amount": 2063371,
+      "share": 0.15,
+      "prev_amount": 1929768,
+      "prev_share": 0.15,
+      "diff": 133603,
+      "growth": 6.92
+     },
+     {
+      "code": "205-01",
+      "name": "의정활동비",
+      "amount": 414000,
+      "share": 0.03,
+      "prev_amount": 303600,
+      "prev_share": 0.02,
+      "diff": 110400,
+      "growth": 36.36
+     },
+     {
+      "code": "205-02",
+      "name": "월정수당",
+      "amount": 956081,
+      "share": 0.07,
+      "prev_amount": 944686,
+      "prev_share": 0.07,
+      "diff": 11395,
+      "growth": 1.21
+     },
+     {
+      "code": "205-03",
+      "name": "의원국내여비",
+      "amount": 13800,
+      "share": 0.0,
+      "prev_amount": 13800,
+      "prev_share": 0.0,
+      "diff": 0,
+      "growth": 0.0
+     },
+     {
+      "code": "205-04",
+      "name": "의원국외여비",
+      "amount": 143550,
+      "share": 0.01,
+      "prev_amount": 143550,
+      "prev_share": 0.01,
+      "diff": 0,
+      "growth": 0.0
+     },
+     {
+      "code": "205-05",
+      "name": "의정운영공통경비",
+      "amount": 139217,
+      "share": 0.01,
+      "prev_amount": 137710,
+      "prev_share": 0.01,
+      "diff": 1507,
+      "growth": 1.09
+     },
+     {
+      "code": "205-06",
+      "name": "의회운영업무추진비",
+      "amount": 164960,
+      "share": 0.01,
+      "prev_amount": 155360,
+      "prev_share": 0.01,
+      "diff": 9600,
+      "growth": 6.18
+     },
+     {
+      "code": "205-07",
+      "name": "의원역량개발비(공공위 탁,자체교육)",
+      "amount": 39900,
+      "share": 0.0,
+      "prev_amount": 39900,
+      "prev_share": 0.0,
+      "diff": 0,
+      "growth": 0.0
+     },
+     {
+      "code": "205-08",
+      "name": "의원역량개발비(민간위 탁)",
+      "amount": 8050,
+      "share": 0.0,
+      "prev_amount": 8050,
+      "prev_share": 0.0,
+      "diff": 0,
+      "growth": 0.0
+     },
+     {
+      "code": "205-09",
+      "name": "의원정책개발비",
+      "amount": 115000,
+      "share": 0.01,
+      "prev_amount": 115000,
+      "prev_share": 0.01,
+      "diff": 0,
+      "growth": 0.0
+     },
+     {
+      "code": "205-10",
+      "name": "의장협의체부담금",
+      "amount": 10000,
+      "share": 0.0,
+      "prev_amount": 10000,
+      "prev_share": 0.0,
+      "diff": 0,
+      "growth": 0.0
+     },
+     {
+      "code": "205-11",
+      "name": "의원국민연금부담금",
+      "amount": 20577,
+      "share": 0.0,
+      "prev_amount": 20332,
+      "prev_share": 0.0,
+      "diff": 245,
+      "growth": 1.2
+     },
+     {
+      "code": "205-12",
+      "name": "의원국민건강부담금",
+      "amount": 38236,
+      "share": 0.0,
+      "prev_amount": 37780,
+      "prev_share": 0.0,
+      "diff": 456,
+      "growth": 1.21
+     },
+     {
+      "code": "206",
+      "name": "재료비",
+      "amount": 4376428,
+      "share": 0.32,
+      "prev_amount": 4227779,
+      "prev_share": 0.33,
+      "diff": 148649,
+      "growth": 3.52
+     },
+     {
+      "code": "206-01",
+      "name": "재료비",
+      "amount": 4376428,
+      "share": 0.32,
+      "prev_amount": 4227779,
+      "prev_share": 0.33,
+      "diff": 148649,
+      "growth": 3.52
+     },
+     {
+      "code": "207",
+      "name": "연구개발비",
+      "amount": 2487715,
+      "share": 0.18,
+      "prev_amount": 3654061,
+      "prev_share": 0.28,
+      "diff": -1166346,
+      "growth": -31.92
+     },
+     {
+      "code": "207-01",
+      "name": "연구용역비",
+      "amount": 1498755,
+      "share": 0.11,
+      "prev_amount": 2356036,
+      "prev_share": 0.18,
+      "diff": -857281,
+      "growth": -36.39
+     },
+     {
+      "code": "207-02",
+      "name": "전산개발비",
+      "amount": 988960,
+      "share": 0.07,
+      "prev_amount": 1298025,
+      "prev_share": 0.1,
+      "diff": -309065,
+      "growth": -23.81
+     },
+     {
+      "code": "300",
+      "name": "경상이전",
+      "amount": 900135385,
+      "share": 65.53,
+      "prev_amount": 851666102,
+      "prev_share": 66.05,
+      "diff": 48469283,
+      "growth": 5.69
+     },
+     {
+      "code": "301",
+      "name": "일반보전금",
+      "amount": 306055408,
+      "share": 22.28,
+      "prev_amount": 292861303,
+      "prev_share": 22.71,
+      "diff": 13194105,
+      "growth": 4.51
+     },
+     {
+      "code": "301-01",
+      "name": "사회보장적수혜금(국고 보조재원)",
+      "amount": 275014976,
+      "share": 20.02,
+      "prev_amount": 265850325,
+      "prev_share": 20.62,
+      "diff": 9164651,
+      "growth": 3.45
+     },
+     {
+      "code": "301-02",
+      "name": "사회보장적수혜금(취약 계층, 지방재원)",
+      "amount": 17821753,
+      "share": 1.3,
+      "prev_amount": 13680858,
+      "prev_share": 1.06,
+      "diff": 4140895,
+      "growth": 30.27
+     },
+     {
+      "code": "301-03",
+      "name": "사회보장적수혜금(지방 재원)",
+      "amount": 7500,
+      "share": 0.0,
+      "prev_amount": 0,
+      "prev_share": 0.0,
+      "diff": 7500,
+      "growth": null
+     },
+     {
+      "code": "301-04",
+      "name": "장학금및학자금",
+      "amount": 236000,
+      "share": 0.02,
+      "prev_amount": 256000,
+      "prev_share": 0.02,
+      "diff": -20000,
+      "growth": -7.81
+     },
+     {
+      "code": "301-05",
+      "name": "의용소방대지원경비",
+      "amount": 7500,
+      "share": 0.0,
+      "prev_amount": 25180,
+      "prev_share": 0.0,
+      "diff": -17680,
+      "growth": -70.21
+     },
+     {
+      "code": "301-06",
+      "name": "자율방범대실비지원",
+      "amount": 380600,
+      "share": 0.03,
+      "prev_amount": 355674,
+      "prev_share": 0.03,
+      "diff": 24926,
+      "growth": 7.01
+     },
+     {
+      "code": "301-07",
+      "name": "통장ㆍ이장ㆍ반장활동보 상금",
+      "amount": 5040600,
+      "share": 0.37,
+      "prev_amount": 5104280,
+      "prev_share": 0.4,
+      "diff": -63680,
+      "growth": -1.25
+     },
+     {
+      "code": "301-09",
+      "name": "외빈초청여비",
+      "amount": 17250,
+      "share": 0.0,
+      "prev_amount": 17250,
+      "prev_share": 0.0,
+      "diff": 0,
+      "growth": 0.0
+     },
+     {
+      "code": "301-10",
+      "name": "사회복무요원보상금",
+      "amount": 2121120,
+      "share": 0.15,
+      "prev_amount": 2264184,
+      "prev_share": 0.18,
+      "diff": -143064,
+      "growth": -6.32
+     },
+     {
+      "code": "301-11",
+      "name": "행사실비지원금",
+      "amount": 1049976,
+      "share": 0.08,
+      "prev_amount": 1201156,
+      "prev_share": 0.09,
+      "diff": -151180,
+      "growth": -12.59
+     },
+     {
+      "code": "301-12",
+      "name": "예술단원ㆍ운동부등보상 금",
+      "amount": 515934,
+      "share": 0.04,
+      "prev_amount": 521818,
+      "prev_share": 0.04,
+      "diff": -5884,
+      "growth": -1.13
+     },
+     {
+      "code": "301-14",
+      "name": "기타보상금",
+      "amount": 3842199,
+      "share": 0.28,
+      "prev_amount": 3584578,
+      "prev_share": 0.28,
+      "diff": 257621,
+      "growth": 7.19
+     },
+     {
+      "code": "302",
+      "name": "이주및재해보상금",
+      "amount": 18674,
+      "share": 0.0,
+      "prev_amount": 18688,
+      "prev_share": 0.0,
+      "diff": -14,
+      "growth": -0.07
+     },
+     {
+      "code": "302-02",
+      "name": "민간인재해및복구활동보 상금",
+      "amount": 18674,
+      "share": 0.0,
+      "prev_amount": 18688,
+      "prev_share": 0.0,
+      "diff": -14,
+      "growth": -0.07
+     },
+     {
+      "code": "303",
+      "name": "포상금",
+      "amount": 2829724,
+      "share": 0.21,
+      "prev_amount": 2694130,
+      "prev_share": 0.21,
+      "diff": 135594,
+      "growth": 5.03
+     },
+     {
+      "code": "303-01",
+      "name": "포상금",
+      "amount": 2829724,
+      "share": 0.21,
+      "prev_amount": 2694130,
+      "prev_share": 0.21,
+      "diff": 135594,
+      "growth": 5.03
+     },
+     {
+      "code": "304",
+      "name": "연금부담금등",
+      "amount": 39026253,
+      "share": 2.84,
+      "prev_amount": 40474994,
+      "prev_share": 3.14,
+      "diff": -1448741,
+      "growth": -3.58
+     },
+     {
+      "code": "304-01",
+      "name": "연금부담금",
+      "amount": 32390644,
+      "share": 2.36,
+      "prev_amount": 33531938,
+      "prev_share": 2.6,
+      "diff": -1141294,
+      "growth": -3.4
+     },
+     {
+      "code": "305",
+      "name": "배상금등",
+      "amount": 218957,
+      "share": 0.02,
+      "prev_amount": 218957,
+      "prev_share": 0.02,
+      "diff": 0,
+      "growth": 0.0
+     },
+     {
+      "code": "305-01",
+      "name": "배상금등",
+      "amount": 218957,
+      "share": 0.02,
+      "prev_amount": 218957,
+      "prev_share": 0.02,
+      "diff": 0,
+      "growth": 0.0
+     },
+     {
+      "code": "306",
+      "name": "출연금",
+      "amount": 8358769,
+      "share": 0.61,
+      "prev_amount": 8054731,
+      "prev_share": 0.62,
+      "diff": 304038,
+      "growth": 3.77
+     },
+     {
+      "code": "306-01",
+      "name": "출연금",
+      "amount": 8358769,
+      "share": 0.61,
+      "prev_amount": 8054731,
+      "prev_share": 0.62,
+      "diff": 304038,
+      "growth": 3.77
+     },
+     {
+      "code": "307",
+      "name": "민간이전",
+      "amount": 419564466,
+      "share": 30.54,
+      "prev_amount": 387076250,
+      "prev_share": 30.02,
+      "diff": 32488216,
+      "growth": 8.39
+     },
+     {
+      "code": "307-01",
+      "name": "의료 및 회복비",
+      "amount": 20761293,
+      "share": 1.51,
+      "prev_amount": 15578112,
+      "prev_share": 1.21,
+      "diff": 5183181,
+      "growth": 33.27
+     },
+     {
+      "code": "308",
+      "name": "자치단체등이전",
+      "amount": 118980449,
+      "share": 8.66,
+      "prev_amount": 115543626,
+      "prev_share": 8.96,
+      "diff": 3436823,
+      "growth": 2.97
+     },
+     {
+      "code": "304-02",
+      "name": "국민건강보험금",
+      "amount": 5809622,
+      "share": 0.42,
+      "prev_amount": 6246518,
+      "prev_share": 0.48,
+      "diff": -436896,
+      "growth": -6.99
+     },
+     {
+      "code": "304-03",
+      "name": "의원상해부담금",
+      "amount": 54000,
+      "share": 0.0,
+      "prev_amount": 39600,
+      "prev_share": 0.0,
+      "diff": 14400,
+      "growth": 36.36
+     },
+     {
+      "code": "304-04",
+      "name": "공무직(무기계약)근로자 보험료부담금 등",
+      "amount": 771987,
+      "share": 0.06,
+      "prev_amount": 656938,
+      "prev_share": 0.05,
+      "diff": 115049,
+      "growth": 17.51
+     },
+     {
+      "code": "307-02",
+      "name": "민간경상사업보조",
+      "amount": 10903056,
+      "share": 0.79,
+      "prev_amount": 10814780,
+      "prev_share": 0.84,
+      "diff": 88276,
+      "growth": 0.82
+     },
+     {
+      "code": "307-03",
+      "name": "민간단체법정운영비보조",
+      "amount": 2108223,
+      "share": 0.15,
+      "prev_amount": 1972432,
+      "prev_share": 0.15,
+      "diff": 135791,
+      "growth": 6.88
+     },
+     {
+      "code": "307-04",
+      "name": "민간행사사업보조",
+      "amount": 2422385,
+      "share": 0.18,
+      "prev_amount": 1985693,
+      "prev_share": 0.15,
+      "diff": 436692,
+      "growth": 21.99
+     },
+     {
+      "code": "307-05",
+      "name": "민간위탁금",
+      "amount": 187216352,
+      "share": 13.63,
+      "prev_amount": 173175153,
+      "prev_share": 13.43,
+      "diff": 14041199,
+      "growth": 8.11
+     },
+     {
+      "code": "307-06",
+      "name": "보험금",
+      "amount": 742340,
+      "share": 0.05,
+      "prev_amount": 700167,
+      "prev_share": 0.05,
+      "diff": 42173,
+      "growth": 6.02
+     },
+     {
+      "code": "307-07",
+      "name": "연금지급금",
+      "amount": 349479,
+      "share": 0.03,
+      "prev_amount": 342810,
+      "prev_share": 0.03,
+      "diff": 6669,
+      "growth": 1.95
+     },
+     {
+      "code": "307-09",
+      "name": "운수업계보조금",
+      "amount": 287714,
+      "share": 0.02,
+      "prev_amount": 214633,
+      "prev_share": 0.02,
+      "diff": 73081,
+      "growth": 34.05
+     },
+     {
+      "code": "307-10",
+      "name": "사회복지시설법정운영비 보조",
+      "amount": 79711534,
+      "share": 5.8,
+      "prev_amount": 88685093,
+      "prev_share": 6.88,
+      "diff": -8973559,
+      "growth": -10.12
+     },
+     {
+      "code": "307-11",
+      "name": "사회복지사업보조",
+      "amount": 115059280,
+      "share": 8.38,
+      "prev_amount": 93604987,
+      "prev_share": 7.26,
+      "diff": 21454293,
+      "growth": 22.92
+     },
+     {
+      "code": "307-12",
+      "name": "민간인위탁교육비",
+      "amount": 2810,
+      "share": 0.0,
+      "prev_amount": 2390,
+      "prev_share": 0.0,
+      "diff": 420,
+      "growth": 17.57
+     },
+     {
+      "code": "308-07",
+      "name": "자치단체간부담금",
+      "amount": 30072316,
+      "share": 2.19,
+      "prev_amount": 31817586,
+      "prev_share": 2.47,
+      "diff": -1745270,
+      "growth": -5.49
+     },
+     {
+      "code": "308-08",
+      "name": "교육기관에대한보조",
+      "amount": 33591569,
+      "share": 2.45,
+      "prev_amount": 31582622,
+      "prev_share": 2.45,
+      "diff": 2008947,
+      "growth": 6.36
+     },
+     {
+      "code": "308-10",
+      "name": "시·군·구 교육비특별 회계 법정전출금",
+      "amount": 330231,
+      "share": 0.02,
+      "prev_amount": 330231,
+      "prev_share": 0.03,
+      "diff": 0,
+      "growth": 0.0
+     },
+     {
+      "code": "308-12",
+      "name": "예비군육성지원경상보조",
+      "amount": 287520,
+      "share": 0.02,
+      "prev_amount": 264970,
+      "prev_share": 0.02,
+      "diff": 22550,
+      "growth": 8.51
+     },
+     {
+      "code": "308-13",
+      "name": "공기관등에대한경상적위 탁사업비",
+      "amount": 52604191,
+      "share": 3.83,
+      "prev_amount": 49943036,
+      "prev_share": 3.87,
+      "diff": 2661155,
+      "growth": 5.33
+     },
+     {
+      "code": "308-14",
+      "name": "기타부담금",
+      "amount": 2094622,
+      "share": 0.15,
+      "prev_amount": 1605181,
+      "prev_share": 0.12,
+      "diff": 489441,
+      "growth": 30.49
+     },
+     {
+      "code": "309",
+      "name": "전출금",
+      "amount": 5082685,
+      "share": 0.37,
+      "prev_amount": 4719523,
+      "prev_share": 0.37,
+      "diff": 363162,
+      "growth": 7.69
+     },
+     {
+      "code": "309-01",
+      "name": "공사ㆍ공단경상전출금",
+      "amount": 5081185,
+      "share": 0.37,
+      "prev_amount": 4718023,
+      "prev_share": 0.37,
+      "diff": 363162,
+      "growth": 7.7
+     },
+     {
+      "code": "309-02",
+      "name": "공무원연금관리공단경상 전출금",
+      "amount": 1500,
+      "share": 0.0,
+      "prev_amount": 1500,
+      "prev_share": 0.0,
+      "diff": 0,
+      "growth": 0.0
+     },
+     {
+      "code": "400",
+      "name": "자본지출",
+      "amount": 153599584,
+      "share": 11.18,
+      "prev_amount": 137147906,
+      "prev_share": 10.64,
+      "diff": 16451678,
+      "growth": 12.0
+     },
+     {
+      "code": "401",
+      "name": "시설비및부대비",
+      "amount": 131930445,
+      "share": 9.6,
+      "prev_amount": 118776184,
+      "prev_share": 9.21,
+      "diff": 13154261,
+      "growth": 11.07
+     },
+     {
+      "code": "401-01",
+      "name": "시설비",
+      "amount": 127752783,
+      "share": 9.3,
+      "prev_amount": 116357626,
+      "prev_share": 9.02,
+      "diff": 11395157,
+      "growth": 9.79
+     },
+     {
+      "code": "401-02",
+      "name": "감리비",
+      "amount": 3900040,
+      "share": 0.28,
+      "prev_amount": 2301008,
+      "prev_share": 0.18,
+      "diff": 1599032,
+      "growth": 69.49
+     },
+     {
+      "code": "401-03",
+      "name": "시설부대비",
+      "amount": 277622,
+      "share": 0.02,
+      "prev_amount": 117550,
+      "prev_share": 0.01,
+      "diff": 160072,
+      "growth": 136.17
+     },
+     {
+      "code": "402",
+      "name": "민간자본이전",
+      "amount": 7524012,
+      "share": 0.55,
+      "prev_amount": 4403995,
+      "prev_share": 0.34,
+      "diff": 3120017,
+      "growth": 70.85
+     },
+     {
+      "code": "402-01",
+      "name": "민간자본사업보조(자체 재원)",
+      "amount": 3359625,
+      "share": 0.24,
+      "prev_amount": 439303,
+      "prev_share": 0.03,
+      "diff": 2920322,
+      "growth": 664.76
+     },
+     {
+      "code": "402-02",
+      "name": "민간자본사업보조(이전 재원)",
+      "amount": 52206,
+      "share": 0.0,
+      "prev_amount": 68800,
+      "prev_share": 0.01,
+      "diff": -16594,
+      "growth": -24.12
+     },
+     {
+      "code": "402-03",
+      "name": "민간위탁사업비",
+      "amount": 4112181,
+      "share": 0.3,
+      "prev_amount": 3895892,
+      "prev_share": 0.3,
+      "diff": 216289,
+      "growth": 5.55
+     },
+     {
+      "code": "403",
+      "name": "자치단체등자본이전",
+      "amount": 3656124,
+      "share": 0.27,
+      "prev_amount": 2436888,
+      "prev_share": 0.19,
+      "diff": 1219236,
+      "growth": 50.03
+     },
+     {
+      "code": "403-02",
+      "name": "공기관등에대한자본적위 탁사업비",
+      "amount": 3533974,
+      "share": 0.26,
+      "prev_amount": 2351858,
+      "prev_share": 0.18,
+      "diff": 1182116,
+      "growth": 50.26
+     },
+     {
+      "code": "403-03",
+      "name": "예비군육성지원자본보조",
+      "amount": 122150,
+      "share": 0.01,
+      "prev_amount": 85030,
+      "prev_share": 0.01,
+      "diff": 37120,
+      "growth": 43.66
+     },
+     {
+      "code": "404",
+      "name": "공사공단자본전출금",
+      "amount": 68900,
+      "share": 0.01,
+      "prev_amount": 133900,
+      "prev_share": 0.01,
+      "diff": -65000,
+      "growth": -48.54
+     },
+     {
+      "code": "404-01",
+      "name": "공사ㆍ공단자본전출금",
+      "amount": 68900,
+      "share": 0.01,
+      "prev_amount": 133900,
+      "prev_share": 0.01,
+      "diff": -65000,
+      "growth": -48.54
+     },
+     {
+      "code": "405",
+      "name": "자산취득비",
+      "amount": 8482203,
+      "share": 0.62,
+      "prev_amount": 8534839,
+      "prev_share": 0.66,
+      "diff": -52636,
+      "growth": -0.62
+     },
+     {
+      "code": "405-01",
+      "name": "자산및물품취득비",
+      "amount": 7830443,
+      "share": 0.57,
+      "prev_amount": 7799559,
+      "prev_share": 0.6,
+      "diff": 30884,
+      "growth": 0.4
+     },
+     {
+      "code": "405-02",
+      "name": "도서구입비",
+      "amount": 651760,
+      "share": 0.05,
+      "prev_amount": 735280,
+      "prev_share": 0.06,
+      "diff": -83520,
+      "growth": -11.36
+     },
+     {
+      "code": "406",
+      "name": "기타자본이전",
+      "amount": 1937900,
+      "share": 0.14,
+      "prev_amount": 2862100,
+      "prev_share": 0.22,
+      "diff": -924200,
+      "growth": -32.29
+     },
+     {
+      "code": "406-01",
+      "name": "기타자본이전",
+      "amount": 1937900,
+      "share": 0.14,
+      "prev_amount": 2862100,
+      "prev_share": 0.22,
+      "diff": -924200,
+      "growth": -32.29
+     },
+     {
+      "code": "700",
+      "name": "내부거래",
+      "amount": 12550000,
+      "share": 0.91,
+      "prev_amount": 16023943,
+      "prev_share": 1.24,
+      "diff": -3473943,
+      "growth": -21.68
+     },
+     {
+      "code": "702",
+      "name": "기금전출금",
+      "amount": 12550000,
+      "share": 0.91,
+      "prev_amount": 10554890,
+      "prev_share": 0.82,
+      "diff": 1995110,
+      "growth": 18.9
+     },
+     {
+      "code": "702-01",
+      "name": "기금전출금",
+      "amount": 12550000,
+      "share": 0.91,
+      "prev_amount": 10554890,
+      "prev_share": 0.82,
+      "diff": 1995110,
+      "growth": 18.9
+     },
+     {
+      "code": "800",
+      "name": "예비비및기타",
+      "amount": 12389042,
+      "share": 0.9,
+      "prev_amount": 7454800,
+      "prev_share": 0.58,
+      "diff": 4934242,
+      "growth": 66.19
+     },
+     {
+      "code": "801",
+      "name": "예비비",
+      "amount": 12378242,
+      "share": 0.9,
+      "prev_amount": 7444000,
+      "prev_share": 0.58,
+      "diff": 4934242,
+      "growth": 66.28
+     },
+     {
+      "code": "801-01",
+      "name": "일반예비비",
+      "amount": 7314404,
+      "share": 0.53,
+      "prev_amount": 7444000,
+      "prev_share": 0.58,
+      "diff": -129596,
+      "growth": -1.74
+     },
+     {
+      "code": "801-03",
+      "name": "내부유보금",
+      "amount": 5063838,
+      "share": 0.37,
+      "prev_amount": 0,
+      "prev_share": 0.0,
+      "diff": 5063838,
+      "growth": null
+     },
+     {
+      "code": "802",
+      "name": "반환금기타",
+      "amount": 10800,
+      "share": 0.0,
+      "prev_amount": 10800,
+      "prev_share": 0.0,
+      "diff": 0,
+      "growth": 0.0
+     }
+    ]
+   },
+   {
+    "scope": "일반회계",
+    "rows": [
+     {
+      "code": null,
+      "name": "총 계",
+      "amount": 1328077880,
+      "share": 100.0,
+      "prev_amount": 1237699310,
+      "prev_share": 100.0,
+      "diff": 90378570,
+      "growth": 7.3
+     },
+     {
+      "code": "100",
+      "name": "인건비",
+      "amount": 170070605,
+      "share": 12.81,
+      "prev_amount": 157398649,
+      "prev_share": 12.72,
+      "diff": 12671956,
+      "growth": 8.05
+     },
+     {
+      "code": "101",
+      "name": "인건비",
+      "amount": 170070605,
+      "share": 12.81,
+      "prev_amount": 157398649,
+      "prev_share": 12.72,
+      "diff": 12671956,
+      "growth": 8.05
+     },
+     {
+      "code": "101-01",
+      "name": "보수",
+      "amount": 126591702,
+      "share": 9.53,
+      "prev_amount": 106609588,
+      "prev_share": 8.61,
+      "diff": 19982114,
+      "growth": 18.74
+     },
+     {
+      "code": "101-02",
+      "name": "기타직보수",
+      "amount": 18338021,
+      "share": 1.38,
+      "prev_amount": 27153014,
+      "prev_share": 2.19,
+      "diff": -8814993,
+      "growth": -32.46
+     },
+     {
+      "code": "101-03",
+      "name": "공무직(무기계약)근로자",
+      "amount": 3506129,
+      "share": 0.26,
+      "prev_amount": 3643756,
+      "prev_share": 0.29,
+      "diff": -137627,
+      "growth": -3.78
+     },
+     {
+      "code": "101-04",
+      "name": "기간제근로자등보수",
+      "amount": 21634753,
+      "share": 1.63,
+      "prev_amount": 19992291,
+      "prev_share": 1.62,
+      "diff": 1642462,
+      "growth": 8.22
+     },
+     {
+      "code": "200",
+      "name": "물건비",
+      "amount": 116718583,
+      "share": 8.79,
+      "prev_amount": 112171871,
+      "prev_share": 9.06,
+      "diff": 4546712,
+      "growth": 4.05
+     },
+     {
+      "code": "201",
+      "name": "일반운영비",
+      "amount": 99605395,
+      "share": 7.5,
+      "prev_amount": 93594873,
+      "prev_share": 7.56,
+      "diff": 6010522,
+      "growth": 6.42
+     },
+     {
+      "code": "201-01",
+      "name": "사무관리비",
+      "amount": 57946095,
+      "share": 4.36,
+      "prev_amount": 52687558,
+      "prev_share": 4.26,
+      "diff": 5258537,
+      "growth": 9.98
+     },
+     {
+      "code": "201-02",
+      "name": "공공운영비",
+      "amount": 20786676,
+      "share": 1.57,
+      "prev_amount": 22334988,
+      "prev_share": 1.8,
+      "diff": -1548312,
+      "growth": -6.93
+     },
+     {
+      "code": "201-03",
+      "name": "행사운영비",
+      "amount": 15035279,
+      "share": 1.13,
+      "prev_amount": 12809874,
+      "prev_share": 1.03,
+      "diff": 2225405,
+      "growth": 17.37
+     },
+     {
+      "code": "201-04",
+      "name": "맞춤형복지제도시행경비",
+      "amount": 5837345,
+      "share": 0.44,
+      "prev_amount": 5762453,
+      "prev_share": 0.47,
+      "diff": 74892,
+      "growth": 1.3
+     },
+     {
+      "code": "202",
+      "name": "여비",
+      "amount": 4865834,
+      "share": 0.37,
+      "prev_amount": 5541952,
+      "prev_share": 0.45,
+      "diff": -676118,
+      "growth": -12.2
+     },
+     {
+      "code": "202-01",
+      "name": "국내여비",
+      "amount": 3766978,
+      "share": 0.28,
+      "prev_amount": 4481802,
+      "prev_share": 0.36,
+      "diff": -714824,
+      "growth": -15.95
+     },
+     {
+      "code": "202-03",
+      "name": "국외업무여비",
+      "amount": 256306,
+      "share": 0.02,
+      "prev_amount": 244520,
+      "prev_share": 0.02,
+      "diff": 11786,
+      "growth": 4.82
+     },
+     {
+      "code": "202-04",
+      "name": "국제화여비",
+      "amount": 736000,
+      "share": 0.06,
+      "prev_amount": 684000,
+      "prev_share": 0.06,
+      "diff": 52000,
+      "growth": 7.6
+     },
+     {
+      "code": "202-05",
+      "name": "공무원 교육여비",
+      "amount": 106550,
+      "share": 0.01,
+      "prev_amount": 131630,
+      "prev_share": 0.01,
+      "diff": -25080,
+      "growth": -19.05
+     },
+     {
+      "code": "203",
+      "name": "업무추진비",
+      "amount": 2106084,
+      "share": 0.16,
+      "prev_amount": 2003899,
+      "prev_share": 0.16,
+      "diff": 102185,
+      "growth": 5.1
+     },
+     {
+      "code": "203-01",
+      "name": "기관운영업무추진비",
+      "amount": 351000,
+      "share": 0.03,
+      "prev_amount": 351000,
+      "prev_share": 0.03,
+      "diff": 0,
+      "growth": 0.0
+     },
+     {
+      "code": "203-02",
+      "name": "정원가산업무추진비",
+      "amount": 77810,
+      "share": 0.01,
+      "prev_amount": 79730,
+      "prev_share": 0.01,
+      "diff": -1920,
+      "growth": -2.41
+     },
+     {
+      "code": "203-03",
+      "name": "시책추진업무추진비",
+      "amount": 1329754,
+      "share": 0.1,
+      "prev_amount": 1221449,
+      "prev_share": 0.1,
+      "diff": 108305,
+      "growth": 8.87
+     },
+     {
+      "code": "203-04",
+      "name": "부서운영업무추진비",
+      "amount": 347520,
+      "share": 0.03,
+      "prev_amount": 351720,
+      "prev_share": 0.03,
+      "diff": -4200,
+      "growth": -1.19
+     },
+     {
+      "code": "204",
+      "name": "직무수행경비",
+      "amount": 1497720,
+      "share": 0.11,
+      "prev_amount": 1420620,
+      "prev_share": 0.11,
+      "diff": 77100,
+      "growth": 5.43
+     },
+     {
+      "code": "204-01",
+      "name": "직책급업무수행경비",
+      "amount": 165300,
+      "share": 0.01,
+      "prev_amount": 183300,
+      "prev_share": 0.01,
+      "diff": -18000,
+      "growth": -9.82
+     },
+     {
+      "code": "204-02",
+      "name": "특정업무경비",
+      "amount": 1332420,
+      "share": 0.1,
+      "prev_amount": 1237320,
+      "prev_share": 0.1,
+      "diff": 95100,
+      "growth": 7.69
+     },
+     {
+      "code": "205",
+      "name": "의회비",
+      "amount": 2063371,
+      "share": 0.16,
+      "prev_amount": 1929768,
+      "prev_share": 0.16,
+      "diff": 133603,
+      "growth": 6.92
+     },
+     {
+      "code": "205-01",
+      "name": "의정활동비",
+      "amount": 414000,
+      "share": 0.03,
+      "prev_amount": 303600,
+      "prev_share": 0.02,
+      "diff": 110400,
+      "growth": 36.36
+     },
+     {
+      "code": "205-02",
+      "name": "월정수당",
+      "amount": 956081,
+      "share": 0.07,
+      "prev_amount": 944686,
+      "prev_share": 0.08,
+      "diff": 11395,
+      "growth": 1.21
+     },
+     {
+      "code": "205-03",
+      "name": "의원국내여비",
+      "amount": 13800,
+      "share": 0.0,
+      "prev_amount": 13800,
+      "prev_share": 0.0,
+      "diff": 0,
+      "growth": 0.0
+     },
+     {
+      "code": "205-04",
+      "name": "의원국외여비",
+      "amount": 143550,
+      "share": 0.01,
+      "prev_amount": 143550,
+      "prev_share": 0.01,
+      "diff": 0,
+      "growth": 0.0
+     },
+     {
+      "code": "205-05",
+      "name": "의정운영공통경비",
+      "amount": 139217,
+      "share": 0.01,
+      "prev_amount": 137710,
+      "prev_share": 0.01,
+      "diff": 1507,
+      "growth": 1.09
+     },
+     {
+      "code": "205-06",
+      "name": "의회운영업무추진비",
+      "amount": 164960,
+      "share": 0.01,
+      "prev_amount": 155360,
+      "prev_share": 0.01,
+      "diff": 9600,
+      "growth": 6.18
+     },
+     {
+      "code": "205-07",
+      "name": "의원역량개발비(공공위",
+      "amount": 39900,
+      "share": 0.0,
+      "prev_amount": 39900,
+      "prev_share": 0.0,
+      "diff": 0,
+      "growth": 0.0
+     },
+     {
+      "code": "205-08",
+      "name": "의원역량개발비(민간위 탁)",
+      "amount": 8050,
+      "share": 0.0,
+      "prev_amount": 8050,
+      "prev_share": 0.0,
+      "diff": 0,
+      "growth": 0.0
+     },
+     {
+      "code": "205-09",
+      "name": "의원정책개발비",
+      "amount": 115000,
+      "share": 0.01,
+      "prev_amount": 115000,
+      "prev_share": 0.01,
+      "diff": 0,
+      "growth": 0.0
+     },
+     {
+      "code": "205-10",
+      "name": "의장협의체부담금",
+      "amount": 10000,
+      "share": 0.0,
+      "prev_amount": 10000,
+      "prev_share": 0.0,
+      "diff": 0,
+      "growth": 0.0
+     },
+     {
+      "code": "205-11",
+      "name": "의원국민연금부담금",
+      "amount": 20577,
+      "share": 0.0,
+      "prev_amount": 20332,
+      "prev_share": 0.0,
+      "diff": 245,
+      "growth": 1.2
+     },
+     {
+      "code": "205-12",
+      "name": "의원국민건강부담금",
+      "amount": 38236,
+      "share": 0.0,
+      "prev_amount": 37780,
+      "prev_share": 0.0,
+      "diff": 456,
+      "growth": 1.21
+     },
+     {
+      "code": "206",
+      "name": "재료비",
+      "amount": 4376428,
+      "share": 0.33,
+      "prev_amount": 4227779,
+      "prev_share": 0.34,
+      "diff": 148649,
+      "growth": 3.52
+     },
+     {
+      "code": "206-01",
+      "name": "재료비",
+      "amount": 4376428,
+      "share": 0.33,
+      "prev_amount": 4227779,
+      "prev_share": 0.34,
+      "diff": 148649,
+      "growth": 3.52
+     },
+     {
+      "code": "207",
+      "name": "연구개발비",
+      "amount": 2203751,
+      "share": 0.17,
+      "prev_amount": 3452980,
+      "prev_share": 0.28,
+      "diff": -1249229,
+      "growth": -36.18
+     },
+     {
+      "code": "207-01",
+      "name": "연구용역비",
+      "amount": 1214791,
+      "share": 0.09,
+      "prev_amount": 2154955,
+      "prev_share": 0.17,
+      "diff": -940164,
+      "growth": -43.63
+     },
+     {
+      "code": "207-02",
+      "name": "전산개발비",
+      "amount": 988960,
+      "share": 0.07,
+      "prev_amount": 1298025,
+      "prev_share": 0.1,
+      "diff": -309065,
+      "growth": -23.81
+     },
+     {
+      "code": "300",
+      "name": "경상이전",
+      "amount": 868506568,
+      "share": 65.4,
+      "prev_amount": 817181110,
+      "prev_share": 66.02,
+      "diff": 51325458,
+      "growth": 6.28
+     },
+     {
+      "code": "301",
+      "name": "일반보전금",
+      "amount": 305630968,
+      "share": 23.01,
+      "prev_amount": 292492719,
+      "prev_share": 23.63,
+      "diff": 13138249,
+      "growth": 4.49
+     },
+     {
+      "code": "301-01",
+      "name": "사회보장적수혜금(국고 보조재원)",
+      "amount": 274974756,
+      "share": 20.7,
+      "prev_amount": 265813633,
+      "prev_share": 21.48,
+      "diff": 9161123,
+      "growth": 3.45
+     },
+     {
+      "code": "301-02",
+      "name": "사회보장적수혜금(취약 계층, 지방재원)",
+      "amount": 17821753,
+      "share": 1.34,
+      "prev_amount": 13680858,
+      "prev_share": 1.11,
+      "diff": 4140895,
+      "growth": 30.27
+     },
+     {
+      "code": "301-03",
+      "name": "사회보장적수혜금(지방 재원)",
+      "amount": 7500,
+      "share": 0.0,
+      "prev_amount": 0,
+      "prev_share": 0.0,
+      "diff": 7500,
+      "growth": null
+     },
+     {
+      "code": "301-04",
+      "name": "장학금및학자금",
+      "amount": 236000,
+      "share": 0.02,
+      "prev_amount": 256000,
+      "prev_share": 0.02,
+      "diff": -20000,
+      "growth": -7.81
+     },
+     {
+      "code": "301-05",
+      "name": "의용소방대지원경비",
+      "amount": 7500,
+      "share": 0.0,
+      "prev_amount": 25180,
+      "prev_share": 0.0,
+      "diff": -17680,
+      "growth": -70.21
+     },
+     {
+      "code": "301-06",
+      "name": "자율방범대실비지원",
+      "amount": 380600,
+      "share": 0.03,
+      "prev_amount": 355674,
+      "prev_share": 0.03,
+      "diff": 24926,
+      "growth": 7.01
+     },
+     {
+      "code": "301-07",
+      "name": "통장ㆍ이장ㆍ반장활동보",
+      "amount": 5040600,
+      "share": 0.38,
+      "prev_amount": 5104280,
+      "prev_share": 0.41,
+      "diff": -63680,
+      "growth": -1.25
+     },
+     {
+      "code": "301-09",
+      "name": "외빈초청여비",
+      "amount": 17250,
+      "share": 0.0,
+      "prev_amount": 17250,
+      "prev_share": 0.0,
+      "diff": 0,
+      "growth": 0.0
+     },
+     {
+      "code": "301-10",
+      "name": "사회복무요원보상금",
+      "amount": 2121120,
+      "share": 0.16,
+      "prev_amount": 2264184,
+      "prev_share": 0.18,
+      "diff": -143064,
+      "growth": -6.32
+     },
+     {
+      "code": "301-11",
+      "name": "행사실비지원금",
+      "amount": 897516,
+      "share": 0.07,
+      "prev_amount": 1048896,
+      "prev_share": 0.08,
+      "diff": -151380,
+      "growth": -14.43
+     },
+     {
+      "code": "301-12",
+      "name": "예술단원ㆍ운동부등보상",
+      "amount": 515934,
+      "share": 0.04,
+      "prev_amount": 521818,
+      "prev_share": 0.04,
+      "diff": -5884,
+      "growth": -1.13
+     },
+     {
+      "code": "301-14",
+      "name": "기타보상금",
+      "amount": 3610439,
+      "share": 0.27,
+      "prev_amount": 3404946,
+      "prev_share": 0.28,
+      "diff": 205493,
+      "growth": 6.04
+     },
+     {
+      "code": "302",
+      "name": "이주및재해보상금",
+      "amount": 18674,
+      "share": 0.0,
+      "prev_amount": 18688,
+      "prev_share": 0.0,
+      "diff": -14,
+      "growth": -0.07
+     },
+     {
+      "code": "302-02",
+      "name": "민간인재해및복구활동보 상금",
+      "amount": 18674,
+      "share": 0.0,
+      "prev_amount": 18688,
+      "prev_share": 0.0,
+      "diff": -14,
+      "growth": -0.07
+     },
+     {
+      "code": "303",
+      "name": "포상금",
+      "amount": 2623724,
+      "share": 0.2,
+      "prev_amount": 2518530,
+      "prev_share": 0.2,
+      "diff": 105194,
+      "growth": 4.18
+     },
+     {
+      "code": "303-01",
+      "name": "포상금",
+      "amount": 2623724,
+      "share": 0.2,
+      "prev_amount": 2518530,
+      "prev_share": 0.2,
+      "diff": 105194,
+      "growth": 4.18
+     },
+     {
+      "code": "304",
+      "name": "연금부담금등",
+      "amount": 39026253,
+      "share": 2.94,
+      "prev_amount": 40474994,
+      "prev_share": 3.27,
+      "diff": -1448741,
+      "growth": -3.58
+     },
+     {
+      "code": "304-01",
+      "name": "연금부담금",
+      "amount": 32390644,
+      "share": 2.44,
+      "prev_amount": 33531938,
+      "prev_share": 2.71,
+      "diff": -1141294,
+      "growth": -3.4
+     },
+     {
+      "code": "304-02",
+      "name": "국민건강보험금",
+      "amount": 5809622,
+      "share": 0.44,
+      "prev_amount": 6246518,
+      "prev_share": 0.5,
+      "diff": -436896,
+      "growth": -6.99
+     },
+     {
+      "code": "304-03",
+      "name": "의원상해부담금",
+      "amount": 54000,
+      "share": 0.0,
+      "prev_amount": 39600,
+      "prev_share": 0.0,
+      "diff": 14400,
+      "growth": 36.36
+     },
+     {
+      "code": "304-04",
+      "name": "공무직(무기계약)근로자 보험료부담금 등",
+      "amount": 771987,
+      "share": 0.06,
+      "prev_amount": 656938,
+      "prev_share": 0.05,
+      "diff": 115049,
+      "growth": 17.51
+     },
+     {
+      "code": "305",
+      "name": "배상금등",
+      "amount": 212957,
+      "share": 0.02,
+      "prev_amount": 212957,
+      "prev_share": 0.02,
+      "diff": 0,
+      "growth": 0.0
+     },
+     {
+      "code": "305-01",
+      "name": "배상금등",
+      "amount": 212957,
+      "share": 0.02,
+      "prev_amount": 212957,
+      "prev_share": 0.02,
+      "diff": 0,
+      "growth": 0.0
+     },
+     {
+      "code": "306",
+      "name": "출연금",
+      "amount": 8358769,
+      "share": 0.63,
+      "prev_amount": 8054731,
+      "prev_share": 0.65,
+      "diff": 304038,
+      "growth": 3.77
+     },
+     {
+      "code": "306-01",
+      "name": "출연금",
+      "amount": 8358769,
+      "share": 0.63,
+      "prev_amount": 8054731,
+      "prev_share": 0.65,
+      "diff": 304038,
+      "growth": 3.77
+     },
+     {
+      "code": "307",
+      "name": "민간이전",
+      "amount": 418065664,
+      "share": 31.48,
+      "prev_amount": 385532432,
+      "prev_share": 31.15,
+      "diff": 32533232,
+      "growth": 8.44
+     },
+     {
+      "code": "307-01",
+      "name": "의료 및 회복비",
+      "amount": 19885287,
+      "share": 1.5,
+      "prev_amount": 14809798,
+      "prev_share": 1.2,
+      "diff": 5075489,
+      "growth": 34.27
+     },
+     {
+      "code": "307-02",
+      "name": "민간경상사업보조",
+      "amount": 10903056,
+      "share": 0.82,
+      "prev_amount": 10814780,
+      "prev_share": 0.87,
+      "diff": 88276,
+      "growth": 0.82
+     },
+     {
+      "code": "307-03",
+      "name": "민간단체법정운영비보조",
+      "amount": 2108223,
+      "share": 0.16,
+      "prev_amount": 1972432,
+      "prev_share": 0.16,
+      "diff": 135791,
+      "growth": 6.88
+     },
+     {
+      "code": "307-04",
+      "name": "민간행사사업보조",
+      "amount": 2422385,
+      "share": 0.18,
+      "prev_amount": 1985693,
+      "prev_share": 0.16,
+      "diff": 436692,
+      "growth": 21.99
+     },
+     {
+      "code": "307-05",
+      "name": "민간위탁금",
+      "amount": 186598587,
+      "share": 14.05,
+      "prev_amount": 172403003,
+      "prev_share": 13.93,
+      "diff": 14195584,
+      "growth": 8.23
+     },
+     {
+      "code": "307-06",
+      "name": "보험금",
+      "amount": 742340,
+      "share": 0.06,
+      "prev_amount": 700167,
+      "prev_share": 0.06,
+      "diff": 42173,
+      "growth": 6.02
+     },
+     {
+      "code": "307-07",
+      "name": "연금지급금",
+      "amount": 344448,
+      "share": 0.03,
+      "prev_amount": 339456,
+      "prev_share": 0.03,
+      "diff": 4992,
+      "growth": 1.47
+     },
+     {
+      "code": "307-09",
+      "name": "운수업계보조금",
+      "amount": 287714,
+      "share": 0.02,
+      "prev_amount": 214633,
+      "prev_share": 0.02,
+      "diff": 73081,
+      "growth": 34.05
+     },
+     {
+      "code": "307-10",
+      "name": "사회복지시설법정운영비",
+      "amount": 79711534,
+      "share": 6.0,
+      "prev_amount": 88685093,
+      "prev_share": 7.17,
+      "diff": -8973559,
+      "growth": -10.12
+     },
+     {
+      "code": "307-11",
+      "name": "사회복지사업보조",
+      "amount": 115059280,
+      "share": 8.66,
+      "prev_amount": 93604987,
+      "prev_share": 7.56,
+      "diff": 21454293,
+      "growth": 22.92
+     },
+     {
+      "code": "307-12",
+      "name": "민간인위탁교육비",
+      "amount": 2810,
+      "share": 0.0,
+      "prev_amount": 2390,
+      "prev_share": 0.0,
+      "diff": 420,
+      "growth": 17.57
+     },
+     {
+      "code": "308",
+      "name": "자치단체등이전",
+      "amount": 89486874,
+      "share": 6.74,
+      "prev_amount": 83152636,
+      "prev_share": 6.72,
+      "diff": 6334238,
+      "growth": 7.62
+     },
+     {
+      "code": "308-07",
+      "name": "자치단체간부담금",
+      "amount": 20122316,
+      "share": 1.52,
+      "prev_amount": 19477586,
+      "prev_share": 1.57,
+      "diff": 644730,
+      "growth": 3.31
+     },
+     {
+      "code": "308-08",
+      "name": "교육기관에대한보조",
+      "amount": 33591569,
+      "share": 2.53,
+      "prev_amount": 31582622,
+      "prev_share": 2.55,
+      "diff": 2008947,
+      "growth": 6.36
+     },
+     {
+      "code": "308-10",
+      "name": "시·군·구 교육비특별",
+      "amount": 330231,
+      "share": 0.02,
+      "prev_amount": 330231,
+      "prev_share": 0.03,
+      "diff": 0,
+      "growth": 0.0
+     },
+     {
+      "code": "308-12",
+      "name": "예비군육성지원경상보조",
+      "amount": 287520,
+      "share": 0.02,
+      "prev_amount": 264970,
+      "prev_share": 0.02,
+      "diff": 22550,
+      "growth": 8.51
+     },
+     {
+      "code": "308-13",
+      "name": "공기관등에대한경상적위",
+      "amount": 33755469,
+      "share": 2.54,
+      "prev_amount": 30586899,
+      "prev_share": 2.47,
+      "diff": 3168570,
+      "growth": 10.36
+     },
+     {
+      "code": "308-14",
+      "name": "기타부담금",
+      "amount": 1399769,
+      "share": 0.11,
+      "prev_amount": 910328,
+      "prev_share": 0.07,
+      "diff": 489441,
+      "growth": 53.77
+     },
+     {
+      "code": "309",
+      "name": "전출금",
+      "amount": 5082685,
+      "share": 0.38,
+      "prev_amount": 4719523,
+      "prev_share": 0.38,
+      "diff": 363162,
+      "growth": 7.69
+     },
+     {
+      "code": "309-01",
+      "name": "공사ㆍ공단경상전출금",
+      "amount": 5081185,
+      "share": 0.38,
+      "prev_amount": 4718023,
+      "prev_share": 0.38,
+      "diff": 363162,
+      "growth": 7.7
+     },
+     {
+      "code": "309-02",
+      "name": "공무원연금관리공단경상",
+      "amount": 1500,
+      "share": 0.0,
+      "prev_amount": 1500,
+      "prev_share": 0.0,
+      "diff": 0,
+      "growth": 0.0
+     },
+     {
+      "code": "400",
+      "name": "자본지출",
+      "amount": 149284605,
+      "share": 11.24,
+      "prev_amount": 133381990,
+      "prev_share": 10.78,
+      "diff": 15902615,
+      "growth": 11.92
+     },
+     {
+      "code": "401",
+      "name": "시설비및부대비",
+      "amount": 130248975,
+      "share": 9.81,
+      "prev_amount": 116900184,
+      "prev_share": 9.44,
+      "diff": 13348791,
+      "growth": 11.42
+     },
+     {
+      "code": "401-01",
+      "name": "시설비",
+      "amount": 126071313,
+      "share": 9.49,
+      "prev_amount": 114481626,
+      "prev_share": 9.25,
+      "diff": 11589687,
+      "growth": 10.12
+     },
+     {
+      "code": "401-02",
+      "name": "감리비",
+      "amount": 3900040,
+      "share": 0.29,
+      "prev_amount": 2301008,
+      "prev_share": 0.19,
+      "diff": 1599032,
+      "growth": 69.49
+     },
+     {
+      "code": "401-03",
+      "name": "시설부대비",
+      "amount": 277622,
+      "share": 0.02,
+      "prev_amount": 117550,
+      "prev_share": 0.01,
+      "diff": 160072,
+      "growth": 136.17
+     },
+     {
+      "code": "402",
+      "name": "민간자본이전",
+      "amount": 7484012,
+      "share": 0.56,
+      "prev_amount": 4363995,
+      "prev_share": 0.35,
+      "diff": 3120017,
+      "growth": 71.49
+     },
+     {
+      "code": "402-01",
+      "name": "민간자본사업보조(자체 재원)",
+      "amount": 3319625,
+      "share": 0.25,
+      "prev_amount": 399303,
+      "prev_share": 0.03,
+      "diff": 2920322,
+      "growth": 731.35
+     },
+     {
+      "code": "402-02",
+      "name": "민간자본사업보조(이전 재원)",
+      "amount": 52206,
+      "share": 0.0,
+      "prev_amount": 68800,
+      "prev_share": 0.01,
+      "diff": -16594,
+      "growth": -24.12
+     },
+     {
+      "code": "402-03",
+      "name": "민간위탁사업비",
+      "amount": 4112181,
+      "share": 0.31,
+      "prev_amount": 3895892,
+      "prev_share": 0.31,
+      "diff": 216289,
+      "growth": 5.55
+     },
+     {
+      "code": "403",
+      "name": "자치단체등자본이전",
+      "amount": 2108615,
+      "share": 0.16,
+      "prev_amount": 1227582,
+      "prev_share": 0.1,
+      "diff": 881033,
+      "growth": 71.77
+     },
+     {
+      "code": "403-02",
+      "name": "공기관등에대한자본적위 탁사업비",
+      "amount": 1986465,
+      "share": 0.15,
+      "prev_amount": 1142552,
+      "prev_share": 0.09,
+      "diff": 843913,
+      "growth": 73.86
+     },
+     {
+      "code": "403-03",
+      "name": "예비군육성지원자본보조",
+      "amount": 122150,
+      "share": 0.01,
+      "prev_amount": 85030,
+      "prev_share": 0.01,
+      "diff": 37120,
+      "growth": 43.66
+     },
+     {
+      "code": "404",
+      "name": "공사공단자본전출금",
+      "amount": 68900,
+      "share": 0.01,
+      "prev_amount": 133900,
+      "prev_share": 0.01,
+      "diff": -65000,
+      "growth": -48.54
+     },
+     {
+      "code": "404-01",
+      "name": "공사ㆍ공단자본전출금",
+      "amount": 68900,
+      "share": 0.01,
+      "prev_amount": 133900,
+      "prev_share": 0.01,
+      "diff": -65000,
+      "growth": -48.54
+     },
+     {
+      "code": "405",
+      "name": "자산취득비",
+      "amount": 7436203,
+      "share": 0.56,
+      "prev_amount": 7894229,
+      "prev_share": 0.64,
+      "diff": -458026,
+      "growth": -5.8
+     },
+     {
+      "code": "405-01",
+      "name": "자산및물품취득비",
+      "amount": 6784443,
+      "share": 0.51,
+      "prev_amount": 7158949,
+      "prev_share": 0.58,
+      "diff": -374506,
+      "growth": -5.23
+     },
+     {
+      "code": "405-02",
+      "name": "도서구입비",
+      "amount": 651760,
+      "share": 0.05,
+      "prev_amount": 735280,
+      "prev_share": 0.06,
+      "diff": -83520,
+      "growth": -11.36
+     },
+     {
+      "code": "406",
+      "name": "기타자본이전",
+      "amount": 1937900,
+      "share": 0.15,
+      "prev_amount": 2862100,
+      "prev_share": 0.23,
+      "diff": -924200,
+      "growth": -32.29
+     },
+     {
+      "code": "406-01",
+      "name": "기타자본이전",
+      "amount": 1937900,
+      "share": 0.15,
+      "prev_amount": 2862100,
+      "prev_share": 0.23,
+      "diff": -924200,
+      "growth": -32.29
+     },
+     {
+      "code": "700",
+      "name": "내부거래",
+      "amount": 12550000,
+      "share": 0.94,
+      "prev_amount": 10554890,
+      "prev_share": 0.85,
+      "diff": 1995110,
+      "growth": 18.9
+     },
+     {
+      "code": "702",
+      "name": "기금전출금",
+      "amount": 12550000,
+      "share": 0.94,
+      "prev_amount": 10554890,
+      "prev_share": 0.85,
+      "diff": 1995110,
+      "growth": 18.9
+     },
+     {
+      "code": "702-01",
+      "name": "기금전출금",
+      "amount": 12550000,
+      "share": 0.94,
+      "prev_amount": 10554890,
+      "prev_share": 0.85,
+      "diff": 1995110,
+      "growth": 18.9
+     },
+     {
+      "code": "800",
+      "name": "예비비및기타",
+      "amount": 10947519,
+      "share": 0.82,
+      "prev_amount": 7010800,
+      "prev_share": 0.57,
+      "diff": 3936719,
+      "growth": 56.15
+     },
+     {
+      "code": "801",
+      "name": "예비비",
+      "amount": 10936719,
+      "share": 0.82,
+      "prev_amount": 7000000,
+      "prev_share": 0.57,
+      "diff": 3936719,
+      "growth": 56.24
+     },
+     {
+      "code": "801-01",
+      "name": "일반예비비",
+      "amount": 7000000,
+      "share": 0.53,
+      "prev_amount": 7000000,
+      "prev_share": 0.57,
+      "diff": 0,
+      "growth": 0.0
+     },
+     {
+      "code": "801-03",
+      "name": "내부유보금",
+      "amount": 3936719,
+      "share": 0.3,
+      "prev_amount": 0,
+      "prev_share": 0.0,
+      "diff": 3936719,
+      "growth": null
+     },
+     {
+      "code": "802",
+      "name": "반환금기타",
+      "amount": 10800,
+      "share": 0.0,
+      "prev_amount": 10800,
+      "prev_share": 0.0,
+      "diff": 0,
+      "growth": 0.0
+     }
+    ]
+   },
+   {
+    "scope": "특별회계",
+    "rows": [
+     {
+      "code": null,
+      "name": "총 계",
+      "amount": 45605810,
+      "share": 100.0,
+      "prev_amount": 51658392,
+      "prev_share": 100.0,
+      "diff": -6052582,
+      "growth": -11.72
+     },
+     {
+      "code": "100",
+      "name": "인건비",
+      "amount": 4132152,
+      "share": 9.06,
+      "prev_amount": 3896795,
+      "prev_share": 7.54,
+      "diff": 235357,
+      "growth": 6.04
+     },
+     {
+      "code": "101",
+      "name": "인건비",
+      "amount": 4132152,
+      "share": 9.06,
+      "prev_amount": 3896795,
+      "prev_share": 7.54,
+      "diff": 235357,
+      "growth": 6.04
+     },
+     {
+      "code": "101-01",
+      "name": "보수",
+      "amount": 974553,
+      "share": 2.14,
+      "prev_amount": 948751,
+      "prev_share": 1.84,
+      "diff": 25802,
+      "growth": 2.72
+     },
+     {
+      "code": "101-02",
+      "name": "기타직보수",
+      "amount": 3078018,
+      "share": 6.75,
+      "prev_amount": 2948044,
+      "prev_share": 5.71,
+      "diff": 129974,
+      "growth": 4.41
+     },
+     {
+      "code": "101-04",
+      "name": "기간제근로자등보수",
+      "amount": 79581,
+      "share": 0.17,
+      "prev_amount": 0,
+      "prev_share": 0.0,
+      "diff": 79581,
+      "growth": null
+     },
+     {
+      "code": "200",
+      "name": "물건비",
+      "amount": 4088339,
+      "share": 8.96,
+      "prev_amount": 3597636,
+      "prev_share": 6.96,
+      "diff": 490703,
+      "growth": 13.64
+     },
+     {
+      "code": "201",
+      "name": "일반운영비",
+      "amount": 3440180,
+      "share": 7.54,
+      "prev_amount": 3040610,
+      "prev_share": 5.89,
+      "diff": 399570,
+      "growth": 13.14
+     },
+     {
+      "code": "201-01",
+      "name": "사무관리비",
+      "amount": 2236500,
+      "share": 4.9,
+      "prev_amount": 1926321,
+      "prev_share": 3.73,
+      "diff": 310179,
+      "growth": 16.1
+     },
+     {
+      "code": "201-02",
+      "name": "공공운영비",
+      "amount": 1198704,
+      "share": 2.63,
+      "prev_amount": 1109337,
+      "prev_share": 2.15,
+      "diff": 89367,
+      "growth": 8.06
+     },
+     {
+      "code": "201-03",
+      "name": "행사운영비",
+      "amount": 2876,
+      "share": 0.01,
+      "prev_amount": 2852,
+      "prev_share": 0.01,
+      "diff": 24,
+      "growth": 0.84
+     },
+     {
+      "code": "201-04",
+      "name": "맞춤형복지제도시행경비",
+      "amount": 2100,
+      "share": 0.0,
+      "prev_amount": 2100,
+      "prev_share": 0.0,
+      "diff": 0,
+      "growth": 0.0
+     },
+     {
+      "code": "202",
+      "name": "여비",
+      "amount": 299520,
+      "share": 0.66,
+      "prev_amount": 292320,
+      "prev_share": 0.57,
+      "diff": 7200,
+      "growth": 2.46
+     },
+     {
+      "code": "202-01",
+      "name": "국내여비",
+      "amount": 299520,
+      "share": 0.66,
+      "prev_amount": 292320,
+      "prev_share": 0.57,
+      "diff": 7200,
+      "growth": 2.46
+     },
+     {
+      "code": "203",
+      "name": "업무추진비",
+      "amount": 13300,
+      "share": 0.03,
+      "prev_amount": 13300,
+      "prev_share": 0.03,
+      "diff": 0,
+      "growth": 0.0
+     },
+     {
+      "code": "203-03",
+      "name": "시책추진업무추진비",
+      "amount": 13300,
+      "share": 0.03,
+      "prev_amount": 13300,
+      "prev_share": 0.03,
+      "diff": 0,
+      "growth": 0.0
+     },
+     {
+      "code": "204",
+      "name": "직무수행경비",
+      "amount": 51375,
+      "share": 0.11,
+      "prev_amount": 50325,
+      "prev_share": 0.1,
+      "diff": 1050,
+      "growth": 2.09
+     },
+     {
+      "code": "204-02",
+      "name": "특정업무경비",
+      "amount": 51375,
+      "share": 0.11,
+      "prev_amount": 50325,
+      "prev_share": 0.1,
+      "diff": 1050,
+      "growth": 2.09
+     },
+     {
+      "code": "207",
+      "name": "연구개발비",
+      "amount": 283964,
+      "share": 0.62,
+      "prev_amount": 201081,
+      "prev_share": 0.39,
+      "diff": 82883,
+      "growth": 41.22
+     },
+     {
+      "code": "207-01",
+      "name": "연구용역비",
+      "amount": 283964,
+      "share": 0.62,
+      "prev_amount": 201081,
+      "prev_share": 0.39,
+      "diff": 82883,
+      "growth": 41.22
+     },
+     {
+      "code": "300",
+      "name": "경상이전",
+      "amount": 31628817,
+      "share": 69.35,
+      "prev_amount": 34484992,
+      "prev_share": 66.76,
+      "diff": -2856175,
+      "growth": -8.28
+     },
+     {
+      "code": "301",
+      "name": "일반보전금",
+      "amount": 424440,
+      "share": 0.93,
+      "prev_amount": 368584,
+      "prev_share": 0.71,
+      "diff": 55856,
+      "growth": 15.15
+     },
+     {
+      "code": "301-01",
+      "name": "사회보장적수혜금(국고 보조재원)",
+      "amount": 40220,
+      "share": 0.09,
+      "prev_amount": 36692,
+      "prev_share": 0.07,
+      "diff": 3528,
+      "growth": 9.62
+     },
+     {
+      "code": "301-11",
+      "name": "행사실비지원금",
+      "amount": 152460,
+      "share": 0.33,
+      "prev_amount": 152260,
+      "prev_share": 0.29,
+      "diff": 200,
+      "growth": 0.13
+     },
+     {
+      "code": "301-14",
+      "name": "기타보상금",
+      "amount": 231760,
+      "share": 0.51,
+      "prev_amount": 179632,
+      "prev_share": 0.35,
+      "diff": 52128,
+      "growth": 29.02
+     },
+     {
+      "code": "303",
+      "name": "포상금",
+      "amount": 206000,
+      "share": 0.45,
+      "prev_amount": 175600,
+      "prev_share": 0.34,
+      "diff": 30400,
+      "growth": 17.31
+     },
+     {
+      "code": "303-01",
+      "name": "포상금",
+      "amount": 206000,
+      "share": 0.45,
+      "prev_amount": 175600,
+      "prev_share": 0.34,
+      "diff": 30400,
+      "growth": 17.31
+     },
+     {
+      "code": "305",
+      "name": "배상금등",
+      "amount": 6000,
+      "share": 0.01,
+      "prev_amount": 6000,
+      "prev_share": 0.01,
+      "diff": 0,
+      "growth": 0.0
+     },
+     {
+      "code": "305-01",
+      "name": "배상금등",
+      "amount": 6000,
+      "share": 0.01,
+      "prev_amount": 6000,
+      "prev_share": 0.01,
+      "diff": 0,
+      "growth": 0.0
+     },
+     {
+      "code": "307",
+      "name": "민간이전",
+      "amount": 1498802,
+      "share": 3.29,
+      "prev_amount": 1543818,
+      "prev_share": 2.99,
+      "diff": -45016,
+      "growth": -2.92
+     },
+     {
+      "code": "307-01",
+      "name": "의료 및 회복비",
+      "amount": 876006,
+      "share": 1.92,
+      "prev_amount": 768314,
+      "prev_share": 1.49,
+      "diff": 107692,
+      "growth": 14.02
+     },
+     {
+      "code": "307-05",
+      "name": "민간위탁금",
+      "amount": 617765,
+      "share": 1.35,
+      "prev_amount": 772150,
+      "prev_share": 1.49,
+      "diff": -154385,
+      "growth": -19.99
+     },
+     {
+      "code": "307-07",
+      "name": "연금지급금",
+      "amount": 5031,
+      "share": 0.01,
+      "prev_amount": 3354,
+      "prev_share": 0.01,
+      "diff": 1677,
+      "growth": 50.0
+     },
+     {
+      "code": "308",
+      "name": "자치단체등이전",
+      "amount": 29493575,
+      "share": 64.67,
+      "prev_amount": 32390990,
+      "prev_share": 62.7,
+      "diff": -2897415,
+      "growth": -8.95
+     },
+     {
+      "code": "308-07",
+      "name": "자치단체간부담금",
+      "amount": 9950000,
+      "share": 21.82,
+      "prev_amount": 12340000,
+      "prev_share": 23.89,
+      "diff": -2390000,
+      "growth": -19.37
+     },
+     {
+      "code": "308-13",
+      "name": "공기관등에대한경상적위 탁사업비",
+      "amount": 18848722,
+      "share": 41.33,
+      "prev_amount": 19356137,
+      "prev_share": 37.47,
+      "diff": -507415,
+      "growth": -2.62
+     },
+     {
+      "code": "308-14",
+      "name": "기타부담금",
+      "amount": 694853,
+      "share": 1.52,
+      "prev_amount": 694853,
+      "prev_share": 1.35,
+      "diff": 0,
+      "growth": 0.0
+     },
+     {
+      "code": "400",
+      "name": "자본지출",
+      "amount": 4314979,
+      "share": 9.46,
+      "prev_amount": 3765916,
+      "prev_share": 7.29,
+      "diff": 549063,
+      "growth": 14.58
+     },
+     {
+      "code": "401",
+      "name": "시설비및부대비",
+      "amount": 1681470,
+      "share": 3.69,
+      "prev_amount": 1876000,
+      "prev_share": 3.63,
+      "diff": -194530,
+      "growth": -10.37
+     },
+     {
+      "code": "401-01",
+      "name": "시설비",
+      "amount": 1681470,
+      "share": 3.69,
+      "prev_amount": 1876000,
+      "prev_share": 3.63,
+      "diff": -194530,
+      "growth": -10.37
+     },
+     {
+      "code": "402",
+      "name": "민간자본이전",
+      "amount": 40000,
+      "share": 0.09,
+      "prev_amount": 40000,
+      "prev_share": 0.08,
+      "diff": 0,
+      "growth": 0.0
+     },
+     {
+      "code": "403",
+      "name": "자치단체등자본이전",
+      "amount": 1547509,
+      "share": 3.39,
+      "prev_amount": 1209306,
+      "prev_share": 2.34,
+      "diff": 338203,
+      "growth": 27.97
+     },
+     {
+      "code": "403-02",
+      "name": "공기관등에대한자본적위 탁사업비",
+      "amount": 1547509,
+      "share": 3.39,
+      "prev_amount": 1209306,
+      "prev_share": 2.34,
+      "diff": 338203,
+      "growth": 27.97
+     },
+     {
+      "code": "405",
+      "name": "자산취득비",
+      "amount": 1046000,
+      "share": 2.29,
+      "prev_amount": 640610,
+      "prev_share": 1.24,
+      "diff": 405390,
+      "growth": 63.28
+     },
+     {
+      "code": "405-01",
+      "name": "자산및물품취득비",
+      "amount": 1046000,
+      "share": 2.29,
+      "prev_amount": 640610,
+      "prev_share": 1.24,
+      "diff": 405390,
+      "growth": 63.28
+     },
+     {
+      "code": "800",
+      "name": "예비비및기타",
+      "amount": 1441523,
+      "share": 3.16,
+      "prev_amount": 444000,
+      "prev_share": 0.86,
+      "diff": 997523,
+      "growth": 224.67
+     },
+     {
+      "code": "801",
+      "name": "예비비",
+      "amount": 1441523,
+      "share": 3.16,
+      "prev_amount": 444000,
+      "prev_share": 0.86,
+      "diff": 997523,
+      "growth": 224.67
+     },
+     {
+      "code": "801-01",
+      "name": "일반예비비",
+      "amount": 314404,
+      "share": 0.69,
+      "prev_amount": 444000,
+      "prev_share": 0.86,
+      "diff": -129596,
+      "growth": -29.19
+     },
+     {
+      "code": "801-03",
+      "name": "내부유보금",
+      "amount": 1127119,
+      "share": 2.47,
+      "prev_amount": 0,
+      "prev_share": 0.0,
+      "diff": 1127119,
+      "growth": null
+     }
+    ]
+   }
+  ]
+ },
+ "_validation": {
+  "accounts": [],
+  "revenue_summary": [
+   {
+    "name": "전체=일반+특별",
+    "ok": true,
+    "total": 1373683690,
+    "sum": 1373683690,
+    "gap": 0
+   },
+   {
+    "name": "전체:1단계합=총계",
+    "ok": true,
+    "total": 1373683690,
+    "sum": 1373683690,
+    "gap": 0,
+    "n_top": 6
+   },
+   {
+    "name": "일반회계:1단계합=총계",
+    "ok": true,
+    "total": 1328077880,
+    "sum": 1328077880,
+    "gap": 0,
+    "n_top": 6
+   },
+   {
+    "name": "특별회계:1단계합=총계",
+    "ok": true,
+    "total": 45605810,
+    "sum": 45605810,
+    "gap": 0,
+    "n_top": 3
+   }
+  ],
+  "exp_by_function": [
+   {
+    "name": "전체=일반+특별",
+    "ok": true,
+    "total": 1373683690,
+    "sum": 1373683690,
+    "gap": 0
+   },
+   {
+    "name": "전체:1단계합=총계",
+    "ok": false,
+    "total": 1373683690,
+    "sum": 1372179210,
+    "gap": 1504480,
+    "n_top": 12
+   },
+   {
+    "name": "일반회계:1단계합=총계",
+    "ok": false,
+    "total": 1328077880,
+    "sum": 1326573400,
+    "gap": 1504480,
+    "n_top": 12
+   },
+   {
+    "name": "특별회계:1단계합=총계",
+    "ok": true,
+    "total": 45605810,
+    "sum": 45605810,
+    "gap": 0,
+    "n_top": 5
+   }
+  ],
+  "exp_by_org": [
+   {
+    "name": "전체=일반+특별",
+    "ok": true,
+    "total": 1373683690,
+    "sum": 1373683690,
+    "gap": 0
+   }
+  ],
+  "exp_by_nature": [
+   {
+    "name": "전체=일반+특별",
+    "ok": true,
+    "total": 1373683690,
+    "sum": 1373683690,
+    "gap": 0
+   },
+   {
+    "name": "전체:1단계합=총계",
+    "ok": true,
+    "total": 1373683690,
+    "sum": 1373683690,
+    "gap": 0,
+    "n_top": 6
+   },
+   {
+    "name": "일반회계:1단계합=총계",
+    "ok": true,
+    "total": 1328077880,
+    "sum": 1328077880,
+    "gap": 0,
+    "n_top": 6
+   },
+   {
+    "name": "특별회계:1단계합=총계",
+    "ok": true,
+    "total": 45605810,
+    "sum": 45605810,
+    "gap": 0,
+    "n_top": 5
+   }
+  ]
+ }
+}

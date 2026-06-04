@@ -1,0 +1,38 @@
+{
+ "district": "gangnam",
+ "name_ko": "강남구",
+ "doctype": "budget",
+ "year": "2025",
+ "title": "2025년도 강남구 예산서",
+ "source": "source.pdf",
+ "total_pages": 1258,
+ "page_offset": 8,
+ "currency_unit": "천원",
+ "volumes": {
+  "A_종합": {
+   "phys": [
+    1,
+    148
+   ],
+   "parse": true,
+   "desc": "목차+재정전망+세입·세출 예산서(총괄표)"
+  },
+  "B_세입명세서": {
+   "phys": [
+    149,
+    182
+   ],
+   "parse": true,
+   "desc": "Ⅲ 세입예산 사업명세서"
+  },
+  "C_세출명세서": {
+   "phys": [
+    183,
+    1258
+   ],
+   "parse": false,
+   "desc": "Ⅳ 세출예산 사업명세서 (현재 제외)"
+  }
+ },
+ "parsed_at": "2026-06-03 17:00"
+}
