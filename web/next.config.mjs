@@ -1,6 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // data/ 디렉터리를 repo 루트에서 읽으므로 외부 경로 접근 허용
-  outputFileTracingRoot: process.cwd() + "/..",
+  // 정적 사이트로 export (빌드타임에 repo 루트 data/를 읽어 HTML 생성)
+  output: "export",
+  trailingSlash: true,
+  images: { unoptimized: true },
 };
 export default nextConfig;
