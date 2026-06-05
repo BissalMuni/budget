@@ -12,4 +12,7 @@ html, body {
   background: var(--bg);
   color: var(--text);
   font-family: -apple-system, "Segoe UI", "Malgun Gothic", sans-serif;
+  /* 한글이 글자 단위로 세로로 쪼개지지 않게 (좁은 화면 대응) */
+  word-break: keep-all;
+  overflow-wrap: break-word;
 }
