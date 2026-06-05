@@ -84,23 +84,20 @@ export default async function Dashboard({ params }: { params: Params }) {
     .sort((a, b) => Math.abs(b.diff as number) - Math.abs(a.diff as number))
     .slice(0, 6);
 
-  // 세입총괄 상세용: 장별 전체(최대 30개) + 전체 scope 원본 행 테이블
-  const revenueByJangFull = toData(
-    revenueT,
-    "전체",
-    (c) => !!c && c.length === 3 && c.endsWith("00"),
-    30,
-  );
-  const revenueRows = (revenueT?.subtables.find((s) => s.scope === "전체")?.rows ?? []).map(
-    (r) => ({
+  // 상세(드릴다운)용: 각 표의 전체 scope 원본 행 (총계 포함, 코드 계층 그대로)
+  const mapRows = (t: SummaryTable | undefined) =>
+    (t?.subtables.find((s) => s.scope === "전체")?.rows ?? []).map((r) => ({
       code: r.code,
       name: r.name,
       amount: r.amount,
       share: r.share,
       diff: r.diff,
       growth: r.growth,
-    }),
-  );
+    }));
+  const revenueRows = mapRows(revenueT);
+  const expFunctionRows = mapRows(fn);
+  const expNatureRows = mapRows(nature);
+  const expOrgRows = mapRows(org);
 
   const val = summary._validation;
   const mismatches = Object.values(val)
@@ -128,11 +125,13 @@ export default async function Dashboard({ params }: { params: Params }) {
         mismatches,
         accSlices,
         revenueByJang,
-        revenueByJangFull,
         revenueRows,
         expByFunction,
         expByNature,
         expByOrg,
+        expFunctionRows,
+        expNatureRows,
+        expOrgRows,
         movers: movers.map((m) => ({
           code: m.code,
           name: m.name,

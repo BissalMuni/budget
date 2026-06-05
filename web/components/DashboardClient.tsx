@@ -45,14 +45,38 @@ export type DashboardData = {
   mismatches: { name: string; gap: number }[];
   accSlices: Slice[];
   revenueByJang: Datum[];
-  revenueByJangFull: Datum[];
   revenueRows: RevenueTableRow[];
   expByFunction: Datum[];
   expByNature: Datum[];
   expByOrg: Datum[];
+  expFunctionRows: RevenueTableRow[];
+  expNatureRows: RevenueTableRow[];
+  expOrgRows: RevenueTableRow[];
   movers: Mover[];
   footer: { mokCount: number; title: string; parsedAt: string | null } | null;
 };
+
+// 코드 계층 스킴: x00 = 3단계(장 X00 / 관 XY0 / 항 XYZ, 세입·성질별),
+//               x0 = 2단계(분야 XY0 / 부문 XYZ, 기능별), flat = 코드없음(조직별)
+type Scheme = "x00" | "x0" | "flat";
+
+function codeLevel(code: string | null, scheme: Scheme): number {
+  if (scheme === "flat" || !code || code.length !== 3) return 1;
+  if (scheme === "x00") {
+    if (code.endsWith("00")) return 1;
+    if (code.endsWith("0")) return 2;
+    return 3;
+  }
+  // x0
+  return code.endsWith("0") ? 1 : 2;
+}
+function parentCode(code: string | null, scheme: Scheme): string | null {
+  if (scheme === "flat" || !code || code.length !== 3) return null;
+  const lvl = codeLevel(code, scheme);
+  if (lvl === 1) return null;
+  if (scheme === "x00" && lvl === 2) return code[0] + "00";
+  return code.slice(0, 2) + "0";
+}
 
 function Kpi({ label, value }: { label: string; value: string }) {
   return (
@@ -63,23 +87,132 @@ function Kpi({ label, value }: { label: string; value: string }) {
   );
 }
 
-// 세입/세출 코드 계층: 장 X00 → 관 XY0 → 항 XYZ
-function codeLevel(code: string | null): number {
-  if (!code || code.length !== 3) return 1;
-  if (code.endsWith("00")) return 1;
-  if (code.endsWith("0")) return 2;
-  return 3;
+// 차트 카드를 "자세히" 버튼으로 감싸기
+function ChartButton({
+  label,
+  onClick,
+  children,
+}: {
+  label: string;
+  onClick: () => void;
+  children: React.ReactNode;
+}) {
+  return (
+    <button
+      type="button"
+      onClick={onClick}
+      className="group relative block w-full text-left transition hover:-translate-y-0.5"
+      aria-label={label}
+    >
+      <span className="pointer-events-none absolute right-5 top-5 z-10 rounded-full bg-blue-500/15 px-2 py-0.5 text-xs text-blue-300 opacity-80 group-hover:opacity-100">
+        자세히 →
+      </span>
+      <span className="block rounded-xl ring-1 ring-transparent group-hover:ring-blue-500/40">
+        {children}
+      </span>
+    </button>
+  );
 }
-function parentCode(code: string | null): string | null {
-  if (!code || code.length !== 3) return null;
-  const lvl = codeLevel(code);
-  if (lvl === 1) return null;
-  if (lvl === 2) return code[0] + "00";
-  return code.slice(0, 2) + "0";
+
+// 계층 펼침 표
+function HierTable({
+  rows,
+  scheme,
+  expanded,
+  toggle,
+}: {
+  rows: RevenueTableRow[];
+  scheme: Scheme;
+  expanded: Set<string>;
+  toggle: (code: string) => void;
+}) {
+  const codeSet = new Set(rows.map((r) => r.code).filter(Boolean) as string[]);
+  const childCount = new Map<string, number>();
+  for (const r of rows) {
+    const p = parentCode(r.code, scheme);
+    if (p && codeSet.has(p)) childCount.set(p, (childCount.get(p) ?? 0) + 1);
+  }
+  const isVisible = (code: string | null): boolean => {
+    let p = parentCode(code, scheme);
+    while (p) {
+      if (codeSet.has(p) && !expanded.has(p)) return false;
+      p = parentCode(p, scheme);
+    }
+    return true;
+  };
+  const shown = rows.filter((r) => isVisible(r.code));
+
+  return (
+    <div className="overflow-x-auto rounded-xl border border-[var(--line)] bg-[var(--panel)]">
+      <table className="w-full text-sm">
+        <thead>
+          <tr className="border-b border-[var(--line)] text-left text-[var(--muted)]">
+            <th className="px-4 py-3 font-medium">코드</th>
+            <th className="px-4 py-3 font-medium">과목</th>
+            <th className="px-4 py-3 text-right font-medium">예산액</th>
+            <th className="px-4 py-3 text-right font-medium">비중</th>
+            <th className="px-4 py-3 text-right font-medium">전년 대비</th>
+          </tr>
+        </thead>
+        <tbody>
+          {shown.map((r, i) => {
+            const lvl = codeLevel(r.code, scheme);
+            const kids = r.code ? childCount.get(r.code) ?? 0 : 0;
+            const open = r.code ? expanded.has(r.code) : false;
+            return (
+              <tr
+                key={`${r.code ?? "x"}-${i}`}
+                onClick={kids > 0 && r.code ? () => toggle(r.code!) : undefined}
+                className={`border-b border-[var(--line)]/40 last:border-0 hover:bg-white/[0.02] ${
+                  kids > 0 ? "cursor-pointer" : ""
+                }`}
+              >
+                <td className="px-4 py-2 text-[var(--muted)]">{r.code ?? "-"}</td>
+                <td className="px-4 py-2">
+                  <span
+                    style={{ paddingLeft: `${(lvl - 1) * 16}px` }}
+                    className="inline-flex items-center gap-1.5"
+                  >
+                    <span
+                      className={`w-3 text-xs text-[var(--muted)] ${kids > 0 ? "" : "opacity-0"}`}
+                    >
+                      {open ? "▾" : "▸"}
+                    </span>
+                    <span className={lvl === 1 ? "font-medium" : ""}>{r.name}</span>
+                    {kids > 0 && (
+                      <span className="ml-1 rounded bg-white/[0.06] px-1 text-[10px] text-[var(--muted)]">
+                        {kids}
+                      </span>
+                    )}
+                  </span>
+                </td>
+                <td className="px-4 py-2 text-right">{fmtKRW(r.amount)}</td>
+                <td className="px-4 py-2 text-right text-[var(--muted)]">
+                  {r.share != null ? `${r.share}%` : "-"}
+                </td>
+                <td className="px-4 py-2 text-right">
+                  {r.diff != null ? (
+                    <span className={r.diff >= 0 ? "text-emerald-400" : "text-red-400"}>
+                      {r.diff >= 0 ? "▲" : "▼"} {fmtKRW(Math.abs(r.diff))}
+                      {r.growth != null && (
+                        <span className="ml-1 text-[var(--muted)]">({r.growth}%)</span>
+                      )}
+                    </span>
+                  ) : (
+                    "-"
+                  )}
+                </td>
+              </tr>
+            );
+          })}
+        </tbody>
+      </table>
+    </div>
+  );
 }
 
 export default function DashboardClient({ data }: { data: DashboardData }) {
-  const [view, setView] = useState<"dashboard" | "revenue">("dashboard");
+  const [view, setView] = useState<string>("dashboard");
   const [expanded, setExpanded] = useState<Set<string>>(new Set());
   const { header, kpis, mismatches, accSlices } = data;
 
@@ -90,29 +223,56 @@ export default function DashboardClient({ data }: { data: DashboardData }) {
       else next.add(code);
       return next;
     });
+  const open = (key: string) => {
+    setExpanded(new Set());
+    setView(key);
+  };
 
-  // ─────────────────────────────────────────── 세입총괄 상세 화면
-  if (view === "revenue") {
-    const rows = data.revenueRows;
-    const totalRow = rows[0];
-    const body = rows.slice(1);
+  // 상세(드릴다운) 표 정의
+  const DETAILS: Record<
+    string,
+    { title: string; totalLabel: string; barTitle: string; rows: RevenueTableRow[]; scheme: Scheme }
+  > = {
+    revenue: {
+      title: "세입 총괄",
+      totalLabel: "세입 총계",
+      barTitle: "세입 총괄 (장별)",
+      rows: data.revenueRows,
+      scheme: "x00",
+    },
+    function: {
+      title: "세출 기능별",
+      totalLabel: "세출 총계",
+      barTitle: "세출 기능별 (분야)",
+      rows: data.expFunctionRows,
+      scheme: "x0",
+    },
+    nature: {
+      title: "세출 성질별",
+      totalLabel: "세출 총계",
+      barTitle: "세출 성질별 (편성목군)",
+      rows: data.expNatureRows,
+      scheme: "x00",
+    },
+    org: {
+      title: "세출 조직별",
+      totalLabel: "세출 총계",
+      barTitle: "세출 조직별 (상위)",
+      rows: data.expOrgRows,
+      scheme: "flat",
+    },
+  };
 
-    // 코드 계층으로 자식 수 집계 + 펼침 상태에 따라 보일 행만 필터
-    const codeSet = new Set(body.map((r) => r.code).filter(Boolean) as string[]);
-    const childCount = new Map<string, number>();
-    for (const r of body) {
-      const p = parentCode(r.code);
-      if (p && codeSet.has(p)) childCount.set(p, (childCount.get(p) ?? 0) + 1);
-    }
-    const isVisible = (code: string | null): boolean => {
-      let p = parentCode(code);
-      while (p) {
-        if (codeSet.has(p) && !expanded.has(p)) return false;
-        p = parentCode(p);
-      }
-      return true;
-    };
-    const shown = body.filter((r) => isVisible(r.code));
+  // ─────────────────────────────────────────── 상세(드릴다운) 화면
+  const detail = DETAILS[view];
+  if (detail) {
+    const totalRow = detail.rows[0];
+    const body = detail.rows.slice(1);
+    const bar: Datum[] = body
+      .filter((r) => codeLevel(r.code, detail.scheme) === 1 && r.amount != null)
+      .sort((a, b) => (b.amount ?? 0) - (a.amount ?? 0))
+      .slice(0, 30)
+      .map((r) => ({ name: r.name, value: r.amount as number, share: r.share }));
 
     return (
       <div className="space-y-6">
@@ -126,84 +286,29 @@ export default function DashboardClient({ data }: { data: DashboardData }) {
               ← 돌아오기
             </button>
             <h1 className="mt-1 text-2xl font-bold">
-              {header.nameKo} {header.year} 세입 총괄
+              {header.nameKo} {header.year} {detail.title}
             </h1>
           </div>
           {totalRow?.amount != null && (
             <span className="rounded-full bg-blue-500/15 px-3 py-1 text-xs text-blue-300">
-              세입 총계 {fmtKRW(totalRow.amount)}
+              {detail.totalLabel} {fmtKRW(totalRow.amount)}
             </span>
           )}
         </div>
 
-        {data.revenueByJangFull.length > 0 && (
+        {bar.length > 0 && (
           <BarChartCard
-            title="세입 총괄 (장별 전체)"
-            data={data.revenueByJangFull}
-            height={Math.max(320, data.revenueByJangFull.length * 28)}
+            title={`${detail.barTitle} 전체`}
+            data={bar}
+            height={Math.max(320, bar.length * 28)}
           />
         )}
 
-        <div className="overflow-x-auto rounded-xl border border-[var(--line)] bg-[var(--panel)]">
-          <table className="w-full text-sm">
-            <thead>
-              <tr className="border-b border-[var(--line)] text-left text-[var(--muted)]">
-                <th className="px-4 py-3 font-medium">코드</th>
-                <th className="px-4 py-3 font-medium">과목</th>
-                <th className="px-4 py-3 text-right font-medium">예산액</th>
-                <th className="px-4 py-3 text-right font-medium">비중</th>
-                <th className="px-4 py-3 text-right font-medium">전년 대비</th>
-              </tr>
-            </thead>
-            <tbody>
-              {shown.map((r, i) => {
-                const lvl = codeLevel(r.code);
-                const kids = r.code ? (childCount.get(r.code) ?? 0) : 0;
-                const open = r.code ? expanded.has(r.code) : false;
-                return (
-                <tr
-                  key={`${r.code ?? "x"}-${i}`}
-                  onClick={kids > 0 && r.code ? () => toggle(r.code!) : undefined}
-                  className={`border-b border-[var(--line)]/40 last:border-0 hover:bg-white/[0.02] ${
-                    kids > 0 ? "cursor-pointer" : ""
-                  }`}
-                >
-                  <td className="px-4 py-2 text-[var(--muted)]">{r.code ?? "-"}</td>
-                  <td className="px-4 py-2">
-                    <span style={{ paddingLeft: `${(lvl - 1) * 16}px` }} className="inline-flex items-center gap-1.5">
-                      <span className={`w-3 text-xs text-[var(--muted)] ${kids > 0 ? "" : "opacity-0"}`}>
-                        {open ? "▾" : "▸"}
-                      </span>
-                      <span className={lvl === 1 ? "font-medium" : ""}>{r.name}</span>
-                      {kids > 0 && (
-                        <span className="ml-1 rounded bg-white/[0.06] px-1 text-[10px] text-[var(--muted)]">
-                          {kids}
-                        </span>
-                      )}
-                    </span>
-                  </td>
-                  <td className="px-4 py-2 text-right">{fmtKRW(r.amount)}</td>
-                  <td className="px-4 py-2 text-right text-[var(--muted)]">
-                    {r.share != null ? `${r.share}%` : "-"}
-                  </td>
-                  <td className="px-4 py-2 text-right">
-                    {r.diff != null ? (
-                      <span className={r.diff >= 0 ? "text-emerald-400" : "text-red-400"}>
-                        {r.diff >= 0 ? "▲" : "▼"} {fmtKRW(Math.abs(r.diff))}
-                        {r.growth != null && (
-                          <span className="ml-1 text-[var(--muted)]">({r.growth}%)</span>
-                        )}
-                      </span>
-                    ) : (
-                      "-"
-                    )}
-                  </td>
-                </tr>
-                );
-              })}
-            </tbody>
-          </table>
-        </div>
+        <p className="text-xs text-[var(--muted)]">
+          상위 코드(장·분야)만 먼저 표시됩니다. 행을 누르면 하위 코드가 펼쳐집니다.
+        </p>
+
+        <HierTable rows={body} scheme={detail.scheme} expanded={expanded} toggle={toggle} />
 
         <button
           type="button"
@@ -270,29 +375,25 @@ export default function DashboardClient({ data }: { data: DashboardData }) {
         {accSlices.length > 0 && <PieChartCard title="회계별 예산 구성" data={accSlices} />}
 
         {data.revenueByJang.length > 0 && (
-          <button
-            type="button"
-            onClick={() => setView("revenue")}
-            className="group relative block w-full text-left transition hover:-translate-y-0.5"
-            aria-label="세입 총괄 상세 보기"
-          >
-            <span className="pointer-events-none absolute right-5 top-5 z-10 rounded-full bg-blue-500/15 px-2 py-0.5 text-xs text-blue-300 opacity-80 group-hover:opacity-100">
-              자세히 →
-            </span>
-            <span className="block rounded-xl ring-1 ring-transparent group-hover:ring-blue-500/40">
-              <BarChartCard title="세입 총괄 (장별)" data={data.revenueByJang} />
-            </span>
-          </button>
+          <ChartButton label="세입 총괄 상세 보기" onClick={() => open("revenue")}>
+            <BarChartCard title="세입 총괄 (장별)" data={data.revenueByJang} />
+          </ChartButton>
         )}
 
         {data.expByFunction.length > 0 && (
-          <BarChartCard title="세출 기능별 (분야)" data={data.expByFunction} />
+          <ChartButton label="세출 기능별 상세 보기" onClick={() => open("function")}>
+            <BarChartCard title="세출 기능별 (분야)" data={data.expByFunction} />
+          </ChartButton>
         )}
         {data.expByNature.length > 0 && (
-          <BarChartCard title="세출 성질별 (편성목군)" data={data.expByNature} />
+          <ChartButton label="세출 성질별 상세 보기" onClick={() => open("nature")}>
+            <BarChartCard title="세출 성질별 (편성목군)" data={data.expByNature} />
+          </ChartButton>
         )}
         {data.expByOrg.length > 0 && (
-          <BarChartCard title="세출 조직별 (부서·과 상위)" data={data.expByOrg} />
+          <ChartButton label="세출 조직별 상세 보기" onClick={() => open("org")}>
+            <BarChartCard title="세출 조직별 (부서·과 상위)" data={data.expByOrg} />
+          </ChartButton>
         )}
         {data.movers.length > 0 && (
           <div className="rounded-xl border border-[var(--line)] bg-[var(--panel)] p-5">
