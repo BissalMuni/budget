@@ -63,15 +63,57 @@ function Kpi({ label, value }: { label: string; value: string }) {
   );
 }
 
+// 세입/세출 코드 계층: 장 X00 → 관 XY0 → 항 XYZ
+function codeLevel(code: string | null): number {
+  if (!code || code.length !== 3) return 1;
+  if (code.endsWith("00")) return 1;
+  if (code.endsWith("0")) return 2;
+  return 3;
+}
+function parentCode(code: string | null): string | null {
+  if (!code || code.length !== 3) return null;
+  const lvl = codeLevel(code);
+  if (lvl === 1) return null;
+  if (lvl === 2) return code[0] + "00";
+  return code.slice(0, 2) + "0";
+}
+
 export default function DashboardClient({ data }: { data: DashboardData }) {
   const [view, setView] = useState<"dashboard" | "revenue">("dashboard");
+  const [expanded, setExpanded] = useState<Set<string>>(new Set());
   const { header, kpis, mismatches, accSlices } = data;
+
+  const toggle = (code: string) =>
+    setExpanded((prev) => {
+      const next = new Set(prev);
+      if (next.has(code)) next.delete(code);
+      else next.add(code);
+      return next;
+    });
 
   // ─────────────────────────────────────────── 세입총괄 상세 화면
   if (view === "revenue") {
     const rows = data.revenueRows;
     const totalRow = rows[0];
     const body = rows.slice(1);
+
+    // 코드 계층으로 자식 수 집계 + 펼침 상태에 따라 보일 행만 필터
+    const codeSet = new Set(body.map((r) => r.code).filter(Boolean) as string[]);
+    const childCount = new Map<string, number>();
+    for (const r of body) {
+      const p = parentCode(r.code);
+      if (p && codeSet.has(p)) childCount.set(p, (childCount.get(p) ?? 0) + 1);
+    }
+    const isVisible = (code: string | null): boolean => {
+      let p = parentCode(code);
+      while (p) {
+        if (codeSet.has(p) && !expanded.has(p)) return false;
+        p = parentCode(p);
+      }
+      return true;
+    };
+    const shown = body.filter((r) => isVisible(r.code));
+
     return (
       <div className="space-y-6">
         <div className="flex items-end justify-between">
@@ -114,13 +156,32 @@ export default function DashboardClient({ data }: { data: DashboardData }) {
               </tr>
             </thead>
             <tbody>
-              {body.map((r, i) => (
+              {shown.map((r, i) => {
+                const lvl = codeLevel(r.code);
+                const kids = r.code ? (childCount.get(r.code) ?? 0) : 0;
+                const open = r.code ? expanded.has(r.code) : false;
+                return (
                 <tr
                   key={`${r.code ?? "x"}-${i}`}
-                  className="border-b border-[var(--line)]/40 last:border-0 hover:bg-white/[0.02]"
+                  onClick={kids > 0 && r.code ? () => toggle(r.code!) : undefined}
+                  className={`border-b border-[var(--line)]/40 last:border-0 hover:bg-white/[0.02] ${
+                    kids > 0 ? "cursor-pointer" : ""
+                  }`}
                 >
                   <td className="px-4 py-2 text-[var(--muted)]">{r.code ?? "-"}</td>
-                  <td className="px-4 py-2">{r.name}</td>
+                  <td className="px-4 py-2">
+                    <span style={{ paddingLeft: `${(lvl - 1) * 16}px` }} className="inline-flex items-center gap-1.5">
+                      <span className={`w-3 text-xs text-[var(--muted)] ${kids > 0 ? "" : "opacity-0"}`}>
+                        {open ? "▾" : "▸"}
+                      </span>
+                      <span className={lvl === 1 ? "font-medium" : ""}>{r.name}</span>
+                      {kids > 0 && (
+                        <span className="ml-1 rounded bg-white/[0.06] px-1 text-[10px] text-[var(--muted)]">
+                          {kids}
+                        </span>
+                      )}
+                    </span>
+                  </td>
                   <td className="px-4 py-2 text-right">{fmtKRW(r.amount)}</td>
                   <td className="px-4 py-2 text-right text-[var(--muted)]">
                     {r.share != null ? `${r.share}%` : "-"}
@@ -138,7 +199,8 @@ export default function DashboardClient({ data }: { data: DashboardData }) {
                     )}
                   </td>
                 </tr>
-              ))}
+                );
+              })}
             </tbody>
           </table>
         </div>
