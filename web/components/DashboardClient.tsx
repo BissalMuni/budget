@@ -56,26 +56,92 @@ export type DashboardData = {
   footer: { mokCount: number; title: string; parsedAt: string | null } | null;
 };
 
-// 코드 계층 스킴: x00 = 3단계(장 X00 / 관 XY0 / 항 XYZ, 세입·성질별),
-//               x0 = 2단계(분야 XY0 / 부문 XYZ, 기능별), flat = 코드없음(조직별)
-type Scheme = "x00" | "x0" | "flat";
+// 분류별 코드 계층 스킴:
+//  revenue = 장 X00 → 관 XY0 → 항 XYZ
+//  function = 분야 XY0 → 부문 XYZ
+//  nature   = 편성목군 X00 → 편성목 XYZ → 통계목 XYZ-NN
+//  org      = 코드 없음 → 실·국 금액 = 소속 과 금액 합, 으로 계층 복원
+type Scheme = "revenue" | "function" | "nature" | "org";
 
-function codeLevel(code: string | null, scheme: Scheme): number {
-  if (scheme === "flat" || !code || code.length !== 3) return 1;
-  if (scheme === "x00") {
-    if (code.endsWith("00")) return 1;
-    if (code.endsWith("0")) return 2;
-    return 3;
+type Node = {
+  row: RevenueTableRow;
+  key: string;
+  level: number;
+  parentKey: string | null;
+  hasChildren: boolean;
+};
+
+function codeParent(code: string, scheme: Scheme): string | null {
+  if (scheme === "revenue") {
+    if (code.length !== 3 || code.endsWith("00")) return null;
+    if (code.endsWith("0")) return code[0] + "00";
+    return code.slice(0, 2) + "0";
   }
-  // x0
-  return code.endsWith("0") ? 1 : 2;
+  if (scheme === "function") {
+    if (code.length !== 3 || code.endsWith("0")) return null;
+    return code.slice(0, 2) + "0";
+  }
+  if (scheme === "nature") {
+    if (/^\d{3}-\d{2}$/.test(code)) return code.slice(0, 3);
+    if (code.length !== 3 || code.endsWith("00")) return null;
+    return code[0] + "00";
+  }
+  return null;
 }
-function parentCode(code: string | null, scheme: Scheme): string | null {
-  if (scheme === "flat" || !code || code.length !== 3) return null;
-  const lvl = codeLevel(code, scheme);
-  if (lvl === 1) return null;
-  if (scheme === "x00" && lvl === 2) return code[0] + "00";
-  return code.slice(0, 2) + "0";
+
+// 행 배열 → 계층 노드 배열 (표시 순서 유지)
+function buildNodes(rows: RevenueTableRow[], scheme: Scheme): Node[] {
+  if (scheme === "org") {
+    // 실·국 행 다음에 그 과들이 이어지고, 과 금액 합 = 실국 금액
+    const nodes: Node[] = [];
+    let i = 0;
+    while (i < rows.length) {
+      const parent = rows[i];
+      const pkey = `o${i}`;
+      const target = parent.amount ?? 0;
+      i++;
+      const children: { row: RevenueTableRow; idx: number }[] = [];
+      let acc = 0;
+      while (i < rows.length && acc < target) {
+        children.push({ row: rows[i], idx: i });
+        acc += rows[i].amount ?? 0;
+        i++;
+      }
+      // 단일 과가 실국과 동일(직속 담당관) → 중복이므로 펼침 없는 단일 행
+      const redundant = children.length === 1 && (children[0].row.amount ?? 0) === target;
+      if (redundant || children.length === 0) {
+        nodes.push({ row: parent, key: pkey, level: 1, parentKey: null, hasChildren: false });
+      } else {
+        nodes.push({ row: parent, key: pkey, level: 1, parentKey: null, hasChildren: true });
+        for (const c of children)
+          nodes.push({ row: c.row, key: `o${c.idx}`, level: 2, parentKey: pkey, hasChildren: false });
+      }
+    }
+    return nodes;
+  }
+
+  // 코드 기반 분류
+  const codeSet = new Set(rows.map((r) => r.code).filter(Boolean) as string[]);
+  const nodes: Node[] = rows.map((r, idx) => {
+    let parentKey = r.code ? codeParent(r.code, scheme) : null;
+    if (parentKey && !codeSet.has(parentKey)) parentKey = null; // 부모 누락 → 루트로
+    return { row: r, key: r.code ?? `_${idx}`, level: 1, parentKey, hasChildren: false };
+  });
+  const byKey = new Map(nodes.map((n) => [n.key, n]));
+  const hasKids = new Set(nodes.map((n) => n.parentKey).filter(Boolean) as string[]);
+  for (const n of nodes) {
+    let lvl = 1;
+    let p = n.parentKey;
+    const seen = new Set<string>();
+    while (p && byKey.has(p) && !seen.has(p)) {
+      seen.add(p);
+      lvl++;
+      p = byKey.get(p)!.parentKey;
+    }
+    n.level = lvl;
+    n.hasChildren = hasKids.has(n.key);
+  }
+  return nodes;
 }
 
 function Kpi({ label, value }: { label: string; value: string }) {
@@ -116,31 +182,30 @@ function ChartButton({
 
 // 계층 펼침 표
 function HierTable({
-  rows,
-  scheme,
+  nodes,
   expanded,
   toggle,
 }: {
-  rows: RevenueTableRow[];
-  scheme: Scheme;
+  nodes: Node[];
   expanded: Set<string>;
-  toggle: (code: string) => void;
+  toggle: (key: string) => void;
 }) {
-  const codeSet = new Set(rows.map((r) => r.code).filter(Boolean) as string[]);
+  const byKey = new Map(nodes.map((n) => [n.key, n]));
   const childCount = new Map<string, number>();
-  for (const r of rows) {
-    const p = parentCode(r.code, scheme);
-    if (p && codeSet.has(p)) childCount.set(p, (childCount.get(p) ?? 0) + 1);
+  for (const n of nodes) {
+    if (n.parentKey) childCount.set(n.parentKey, (childCount.get(n.parentKey) ?? 0) + 1);
   }
-  const isVisible = (code: string | null): boolean => {
-    let p = parentCode(code, scheme);
-    while (p) {
-      if (codeSet.has(p) && !expanded.has(p)) return false;
-      p = parentCode(p, scheme);
+  const isVisible = (n: Node): boolean => {
+    let p = n.parentKey;
+    const seen = new Set<string>();
+    while (p && byKey.has(p) && !seen.has(p)) {
+      seen.add(p);
+      if (!expanded.has(p)) return false;
+      p = byKey.get(p)!.parentKey;
     }
     return true;
   };
-  const shown = rows.filter((r) => isVisible(r.code));
+  const shown = nodes.filter(isVisible);
 
   return (
     <div className="overflow-x-auto rounded-xl border border-[var(--line)] bg-[var(--panel)]">
@@ -155,14 +220,15 @@ function HierTable({
           </tr>
         </thead>
         <tbody>
-          {shown.map((r, i) => {
-            const lvl = codeLevel(r.code, scheme);
-            const kids = r.code ? childCount.get(r.code) ?? 0 : 0;
-            const open = r.code ? expanded.has(r.code) : false;
+          {shown.map((n) => {
+            const r = n.row;
+            const lvl = n.level;
+            const kids = n.hasChildren ? childCount.get(n.key) ?? 0 : 0;
+            const open = expanded.has(n.key);
             return (
               <tr
-                key={`${r.code ?? "x"}-${i}`}
-                onClick={kids > 0 && r.code ? () => toggle(r.code!) : undefined}
+                key={n.key}
+                onClick={kids > 0 ? () => toggle(n.key) : undefined}
                 className={`border-b border-[var(--line)]/40 last:border-0 hover:bg-white/[0.02] ${
                   kids > 0 ? "cursor-pointer" : ""
                 }`}
@@ -238,28 +304,28 @@ export default function DashboardClient({ data }: { data: DashboardData }) {
       totalLabel: "세입 총계",
       barTitle: "세입 총괄 (장별)",
       rows: data.revenueRows,
-      scheme: "x00",
+      scheme: "revenue",
     },
     function: {
       title: "세출 기능별",
       totalLabel: "세출 총계",
       barTitle: "세출 기능별 (분야)",
       rows: data.expFunctionRows,
-      scheme: "x0",
+      scheme: "function",
     },
     nature: {
       title: "세출 성질별",
       totalLabel: "세출 총계",
       barTitle: "세출 성질별 (편성목군)",
       rows: data.expNatureRows,
-      scheme: "x00",
+      scheme: "nature",
     },
     org: {
       title: "세출 조직별",
       totalLabel: "세출 총계",
-      barTitle: "세출 조직별 (상위)",
+      barTitle: "세출 조직별 (실·국별)",
       rows: data.expOrgRows,
-      scheme: "flat",
+      scheme: "org",
     },
   };
 
@@ -268,11 +334,12 @@ export default function DashboardClient({ data }: { data: DashboardData }) {
   if (detail) {
     const totalRow = detail.rows[0];
     const body = detail.rows.slice(1);
-    const bar: Datum[] = body
-      .filter((r) => codeLevel(r.code, detail.scheme) === 1 && r.amount != null)
-      .sort((a, b) => (b.amount ?? 0) - (a.amount ?? 0))
+    const nodes = buildNodes(body, detail.scheme);
+    const bar: Datum[] = nodes
+      .filter((n) => n.level === 1 && n.row.amount != null)
+      .sort((a, b) => (b.row.amount ?? 0) - (a.row.amount ?? 0))
       .slice(0, 30)
-      .map((r) => ({ name: r.name, value: r.amount as number, share: r.share }));
+      .map((n) => ({ name: n.row.name, value: n.row.amount as number, share: n.row.share }));
 
     return (
       <div className="space-y-6">
@@ -308,7 +375,7 @@ export default function DashboardClient({ data }: { data: DashboardData }) {
           상위 코드(장·분야)만 먼저 표시됩니다. 행을 누르면 하위 코드가 펼쳐집니다.
         </p>
 
-        <HierTable rows={body} scheme={detail.scheme} expanded={expanded} toggle={toggle} />
+        <HierTable nodes={nodes} expanded={expanded} toggle={toggle} />
 
         <button
           type="button"
