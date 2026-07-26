@@ -7,19 +7,27 @@ const PALETTE = [
   "#3b82f6", "#22c55e", "#f59e0b", "#ef4444", "#a855f7", "#06b6d4",
 ];
 
-function fmt(v: number) {
-  const eok = (v * 1000) / 1e8;
-  if (Math.abs(eok) >= 10000) return `${(eok / 10000).toFixed(1)}조`;
-  return `${eok.toLocaleString("ko-KR", { maximumFractionDigits: 0 })}억`;
+function makeFmt(won: boolean) {
+  return (v: number) => {
+    const eok = won ? v / 1e8 : (v * 1000) / 1e8;
+    if (Math.abs(eok) >= 10000) return `${(eok / 10000).toFixed(1)}조`;
+    if (Math.abs(eok) < 1) return `${((eok * 1e8) / 1e4).toLocaleString("ko-KR", { maximumFractionDigits: 0 })}만`;
+    return `${eok.toLocaleString("ko-KR", { maximumFractionDigits: 0 })}억`;
+  };
 }
 
 export default function PieChartCard({
   title,
   data,
+  won = false,
+  valueLabel = "예산액",
 }: {
   title: string;
   data: Slice[];
+  won?: boolean;
+  valueLabel?: string;
 }) {
+  const fmt = makeFmt(won);
   const total = data.reduce((s, d) => s + d.value, 0);
   return (
     <div className="rounded-xl border border-[var(--line)] bg-[var(--panel)] p-5">
@@ -39,7 +47,7 @@ export default function PieChartCard({
             ))}
           </Pie>
           <Tooltip
-            formatter={(v: number) => [`${fmt(v)} (${((v / total) * 100).toFixed(1)}%)`, "예산액"]}
+            formatter={(v: number) => [`${fmt(v)} (${((v / total) * 100).toFixed(1)}%)`, valueLabel]}
             contentStyle={{
               background: "#0b0e14",
               border: "1px solid #232a3a",

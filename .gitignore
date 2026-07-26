@@ -6,8 +6,15 @@ __pycache__/
 web/node_modules/
 web/.next/
 web/out/
+web/pnpm-workspace.yaml
 
 # 대용량 원본/중간 산출물 (parsed JSON만 버전관리)
 data/*/*/*/source.pdf
 data/*/*/*/volumes/
 data/*/*/*/markdown/*_images/
+
+# fetch 스크래치(다운로드 원본·중간 스크랩·상태·스크린샷)
+fetch/_dl/
+fetch/_*.json
+fetch/_*.png
+data/*/contracts/*/_state.json

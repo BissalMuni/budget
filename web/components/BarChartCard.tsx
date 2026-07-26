@@ -17,21 +17,29 @@ const PALETTE = [
   "#6366f1", "#eab308",
 ];
 
-function fmt(v: number) {
-  const eok = (v * 1000) / 1e8; // 천원 → 억
-  if (Math.abs(eok) >= 10000) return `${(eok / 10000).toFixed(1)}조`;
-  return `${eok.toLocaleString("ko-KR", { maximumFractionDigits: 0 })}억`;
+function makeFmt(won: boolean) {
+  return (v: number) => {
+    const eok = won ? v / 1e8 : (v * 1000) / 1e8; // won=값이 원 / 아니면 천원
+    if (Math.abs(eok) >= 10000) return `${(eok / 10000).toFixed(1)}조`;
+    if (Math.abs(eok) < 1) return `${((eok * 1e8) / 1e4).toLocaleString("ko-KR", { maximumFractionDigits: 0 })}만`;
+    return `${eok.toLocaleString("ko-KR", { maximumFractionDigits: 0 })}억`;
+  };
 }
 
 export default function BarChartCard({
   title,
   data,
   height = 320,
+  won = false,
+  valueLabel = "예산액",
 }: {
   title: string;
   data: Datum[];
   height?: number;
+  won?: boolean;
+  valueLabel?: string;
 }) {
+  const fmt = makeFmt(won);
   return (
     <div className="rounded-xl border border-[var(--line)] bg-[var(--panel)] p-5">
       <h3 className="mb-3 font-semibold">{title}</h3>
@@ -49,7 +57,7 @@ export default function BarChartCard({
           <Tooltip
             formatter={(v: number, _n, p) => [
               `${fmt(v)}${p.payload.share != null ? ` (${p.payload.share}%)` : ""}`,
-              "예산액",
+              valueLabel,
             ]}
             contentStyle={{
               background: "#0b0e14",

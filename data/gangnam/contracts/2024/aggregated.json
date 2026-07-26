@@ -1,0 +1,8553 @@
+{
+ "district": "gangnam",
+ "laf_hg_nm": "서울특별시 강남구",
+ "year": "2024",
+ "total_count": 2832,
+ "total_amount": 342096727554,
+ "distinct_vendors": 1638,
+ "top_vendors": [
+  {
+   "vendor": "주식회사온누리건설",
+   "count": 1,
+   "amount": 11207387000
+  },
+  {
+   "vendor": "선석건설(주)",
+   "count": 1,
+   "amount": 11137673043
+  },
+  {
+   "vendor": "(주)윤익건설",
+   "count": 1,
+   "amount": 11074289400
+  },
+  {
+   "vendor": "(주)그린월드",
+   "count": 2,
+   "amount": 10410695750
+  },
+  {
+   "vendor": "하진기업(주)",
+   "count": 1,
+   "amount": 9398731826
+  },
+  {
+   "vendor": "(주)상록수기업",
+   "count": 1,
+   "amount": 8478069359
+  },
+  {
+   "vendor": "(주)성진미화",
+   "count": 1,
+   "amount": 7673915190
+  },
+  {
+   "vendor": "로얄환경(주)",
+   "count": 1,
+   "amount": 7615417604
+  },
+  {
+   "vendor": "웅비환경(주)",
+   "count": 1,
+   "amount": 7260118204
+  },
+  {
+   "vendor": "평아용역(주)",
+   "count": 1,
+   "amount": 7190654137
+  },
+  {
+   "vendor": "하남기업(주)",
+   "count": 1,
+   "amount": 7162998845
+  },
+  {
+   "vendor": "(주)태화용역",
+   "count": 1,
+   "amount": 6129498474
+  },
+  {
+   "vendor": "(주)평원기업",
+   "count": 1,
+   "amount": 6058383337
+  },
+  {
+   "vendor": "고려환경(주)",
+   "count": 1,
+   "amount": 5878024409
+  },
+  {
+   "vendor": "(주)티엠디교육그룹",
+   "count": 3,
+   "amount": 4258800000
+  },
+  {
+   "vendor": "(주)종합건축사사무소근정",
+   "count": 1,
+   "amount": 3464227000
+  },
+  {
+   "vendor": "서인아스콘사업협동조합",
+   "count": 41,
+   "amount": 3279240920
+  },
+  {
+   "vendor": "주식회사유진아이엠씨",
+   "count": 1,
+   "amount": 2899400000
+  },
+  {
+   "vendor": "(주)지인테크",
+   "count": 5,
+   "amount": 2875183780
+  },
+  {
+   "vendor": "(주)제이에이치커리어",
+   "count": 2,
+   "amount": 2852201100
+  },
+  {
+   "vendor": "씨에스이엔지(주)",
+   "count": 1,
+   "amount": 2829441000
+  },
+  {
+   "vendor": "인왕건설(주)",
+   "count": 1,
+   "amount": 2727690000
+  },
+  {
+   "vendor": "(주)지오테크21세기",
+   "count": 2,
+   "amount": 2711570000
+  },
+  {
+   "vendor": "(주)건축사사무소아라그룹",
+   "count": 1,
+   "amount": 2509545000
+  },
+  {
+   "vendor": "리뉴에너지경기 주식회사",
+   "count": 1,
+   "amount": 2476544130
+  },
+  {
+   "vendor": "을묘종합건설(주)",
+   "count": 2,
+   "amount": 2454773130
+  },
+  {
+   "vendor": "수호건설",
+   "count": 1,
+   "amount": 2321334000
+  },
+  {
+   "vendor": "현도종합건설(주)",
+   "count": 1,
+   "amount": 2250369000
+  },
+  {
+   "vendor": "(주)동양라인",
+   "count": 1,
+   "amount": 2184900000
+  },
+  {
+   "vendor": "주식회사 에코비트 ",
+   "count": 1,
+   "amount": 2134154000
+  },
+  {
+   "vendor": "(주)진원이엔지",
+   "count": 1,
+   "amount": 2128049000
+  },
+  {
+   "vendor": "매경종합건설(주)",
+   "count": 1,
+   "amount": 2028681000
+  },
+  {
+   "vendor": "(주)아트카오스",
+   "count": 1,
+   "amount": 1991830000
+  },
+  {
+   "vendor": "주식회사 지후건설",
+   "count": 1,
+   "amount": 1969430000
+  },
+  {
+   "vendor": "(주)메트로컴넷",
+   "count": 5,
+   "amount": 1887413810
+  },
+  {
+   "vendor": "목양건설(주)",
+   "count": 1,
+   "amount": 1821149000
+  },
+  {
+   "vendor": "(주)다인정보기술",
+   "count": 3,
+   "amount": 1792915790
+  },
+  {
+   "vendor": "리뉴에너지대원(주)",
+   "count": 1,
+   "amount": 1787872000
+  },
+  {
+   "vendor": "폴라리스건축사사무소 주식회사",
+   "count": 2,
+   "amount": 1783100000
+  },
+  {
+   "vendor": "창공건설산업 주식회사",
+   "count": 1,
+   "amount": 1761681000
+  },
+  {
+   "vendor": "주식회사 에이럭스",
+   "count": 1,
+   "amount": 1639640000
+  },
+  {
+   "vendor": "(주)케이비손해보험",
+   "count": 2,
+   "amount": 1610573570
+  },
+  {
+   "vendor": "주식회사 인텔리빅스",
+   "count": 2,
+   "amount": 1515382000
+  },
+  {
+   "vendor": "잇미디어센터",
+   "count": 3,
+   "amount": 1437974470
+  },
+  {
+   "vendor": "한수종합조경",
+   "count": 3,
+   "amount": 1434217780
+  },
+  {
+   "vendor": "주식회사 정주",
+   "count": 1,
+   "amount": 1367300000
+  },
+  {
+   "vendor": "부원이앤씨(주)",
+   "count": 1,
+   "amount": 1361400000
+  },
+  {
+   "vendor": "원택건설(주)",
+   "count": 2,
+   "amount": 1343962680
+  },
+  {
+   "vendor": "하나로애드컴",
+   "count": 2,
+   "amount": 1308768000
+  },
+  {
+   "vendor": "주식회사 비알인포텍",
+   "count": 5,
+   "amount": 1291150610
+  }
+ ],
+ "all_vendors": [
+  {
+   "vendor": "주식회사온누리건설",
+   "count": 1,
+   "amount": 11207387000
+  },
+  {
+   "vendor": "선석건설(주)",
+   "count": 1,
+   "amount": 11137673043
+  },
+  {
+   "vendor": "(주)윤익건설",
+   "count": 1,
+   "amount": 11074289400
+  },
+  {
+   "vendor": "(주)그린월드",
+   "count": 2,
+   "amount": 10410695750
+  },
+  {
+   "vendor": "하진기업(주)",
+   "count": 1,
+   "amount": 9398731826
+  },
+  {
+   "vendor": "(주)상록수기업",
+   "count": 1,
+   "amount": 8478069359
+  },
+  {
+   "vendor": "(주)성진미화",
+   "count": 1,
+   "amount": 7673915190
+  },
+  {
+   "vendor": "로얄환경(주)",
+   "count": 1,
+   "amount": 7615417604
+  },
+  {
+   "vendor": "웅비환경(주)",
+   "count": 1,
+   "amount": 7260118204
+  },
+  {
+   "vendor": "평아용역(주)",
+   "count": 1,
+   "amount": 7190654137
+  },
+  {
+   "vendor": "하남기업(주)",
+   "count": 1,
+   "amount": 7162998845
+  },
+  {
+   "vendor": "(주)태화용역",
+   "count": 1,
+   "amount": 6129498474
+  },
+  {
+   "vendor": "(주)평원기업",
+   "count": 1,
+   "amount": 6058383337
+  },
+  {
+   "vendor": "고려환경(주)",
+   "count": 1,
+   "amount": 5878024409
+  },
+  {
+   "vendor": "(주)티엠디교육그룹",
+   "count": 3,
+   "amount": 4258800000
+  },
+  {
+   "vendor": "(주)종합건축사사무소근정",
+   "count": 1,
+   "amount": 3464227000
+  },
+  {
+   "vendor": "서인아스콘사업협동조합",
+   "count": 41,
+   "amount": 3279240920
+  },
+  {
+   "vendor": "주식회사유진아이엠씨",
+   "count": 1,
+   "amount": 2899400000
+  },
+  {
+   "vendor": "(주)지인테크",
+   "count": 5,
+   "amount": 2875183780
+  },
+  {
+   "vendor": "(주)제이에이치커리어",
+   "count": 2,
+   "amount": 2852201100
+  },
+  {
+   "vendor": "씨에스이엔지(주)",
+   "count": 1,
+   "amount": 2829441000
+  },
+  {
+   "vendor": "인왕건설(주)",
+   "count": 1,
+   "amount": 2727690000
+  },
+  {
+   "vendor": "(주)지오테크21세기",
+   "count": 2,
+   "amount": 2711570000
+  },
+  {
+   "vendor": "(주)건축사사무소아라그룹",
+   "count": 1,
+   "amount": 2509545000
+  },
+  {
+   "vendor": "리뉴에너지경기 주식회사",
+   "count": 1,
+   "amount": 2476544130
+  },
+  {
+   "vendor": "을묘종합건설(주)",
+   "count": 2,
+   "amount": 2454773130
+  },
+  {
+   "vendor": "수호건설",
+   "count": 1,
+   "amount": 2321334000
+  },
+  {
+   "vendor": "현도종합건설(주)",
+   "count": 1,
+   "amount": 2250369000
+  },
+  {
+   "vendor": "(주)동양라인",
+   "count": 1,
+   "amount": 2184900000
+  },
+  {
+   "vendor": "주식회사 에코비트 ",
+   "count": 1,
+   "amount": 2134154000
+  },
+  {
+   "vendor": "(주)진원이엔지",
+   "count": 1,
+   "amount": 2128049000
+  },
+  {
+   "vendor": "매경종합건설(주)",
+   "count": 1,
+   "amount": 2028681000
+  },
+  {
+   "vendor": "(주)아트카오스",
+   "count": 1,
+   "amount": 1991830000
+  },
+  {
+   "vendor": "주식회사 지후건설",
+   "count": 1,
+   "amount": 1969430000
+  },
+  {
+   "vendor": "(주)메트로컴넷",
+   "count": 5,
+   "amount": 1887413810
+  },
+  {
+   "vendor": "목양건설(주)",
+   "count": 1,
+   "amount": 1821149000
+  },
+  {
+   "vendor": "(주)다인정보기술",
+   "count": 3,
+   "amount": 1792915790
+  },
+  {
+   "vendor": "리뉴에너지대원(주)",
+   "count": 1,
+   "amount": 1787872000
+  },
+  {
+   "vendor": "폴라리스건축사사무소 주식회사",
+   "count": 2,
+   "amount": 1783100000
+  },
+  {
+   "vendor": "창공건설산업 주식회사",
+   "count": 1,
+   "amount": 1761681000
+  },
+  {
+   "vendor": "주식회사 에이럭스",
+   "count": 1,
+   "amount": 1639640000
+  },
+  {
+   "vendor": "(주)케이비손해보험",
+   "count": 2,
+   "amount": 1610573570
+  },
+  {
+   "vendor": "주식회사 인텔리빅스",
+   "count": 2,
+   "amount": 1515382000
+  },
+  {
+   "vendor": "잇미디어센터",
+   "count": 3,
+   "amount": 1437974470
+  },
+  {
+   "vendor": "한수종합조경",
+   "count": 3,
+   "amount": 1434217780
+  },
+  {
+   "vendor": "주식회사 정주",
+   "count": 1,
+   "amount": 1367300000
+  },
+  {
+   "vendor": "부원이앤씨(주)",
+   "count": 1,
+   "amount": 1361400000
+  },
+  {
+   "vendor": "원택건설(주)",
+   "count": 2,
+   "amount": 1343962680
+  },
+  {
+   "vendor": "하나로애드컴",
+   "count": 2,
+   "amount": 1308768000
+  },
+  {
+   "vendor": "주식회사 비알인포텍",
+   "count": 5,
+   "amount": 1291150610
+  },
+  {
+   "vendor": "주식회사 케이티에스",
+   "count": 1,
+   "amount": 1282131100
+  },
+  {
+   "vendor": "주식회사 삼정기업",
+   "count": 1,
+   "amount": 1277639430
+  },
+  {
+   "vendor": "건아정보기술(주)",
+   "count": 2,
+   "amount": 1260548660
+  },
+  {
+   "vendor": "주식회사 삼명이엔씨",
+   "count": 1,
+   "amount": 1208460000
+  },
+  {
+   "vendor": "지형건설",
+   "count": 1,
+   "amount": 1148000000
+  },
+  {
+   "vendor": "대부건설(주)",
+   "count": 1,
+   "amount": 1107785900
+  },
+  {
+   "vendor": "소성정보기술(주)",
+   "count": 3,
+   "amount": 1097844950
+  },
+  {
+   "vendor": "(주)삼표산업",
+   "count": 1,
+   "amount": 1068815120
+  },
+  {
+   "vendor": "사회복지법인에덴복지재단",
+   "count": 11,
+   "amount": 1015635750
+  },
+  {
+   "vendor": "주식회사 정도",
+   "count": 1,
+   "amount": 1004960000
+  },
+  {
+   "vendor": "용중건설 주식회사",
+   "count": 1,
+   "amount": 990000000
+  },
+  {
+   "vendor": "그린가드 주식회사",
+   "count": 3,
+   "amount": 975685500
+  },
+  {
+   "vendor": "(주)에이씨아이케미칼아시아",
+   "count": 2,
+   "amount": 951550560
+  },
+  {
+   "vendor": "(주)승주이앤씨",
+   "count": 1,
+   "amount": 922200000
+  },
+  {
+   "vendor": "(주)송림원",
+   "count": 3,
+   "amount": 916492000
+  },
+  {
+   "vendor": "대도전기(주)",
+   "count": 1,
+   "amount": 881727700
+  },
+  {
+   "vendor": "대희건설(주)",
+   "count": 1,
+   "amount": 879450000
+  },
+  {
+   "vendor": "주식회사 출원",
+   "count": 1,
+   "amount": 857308810
+  },
+  {
+   "vendor": "대균종합건설(주)",
+   "count": 1,
+   "amount": 822100000
+  },
+  {
+   "vendor": "이로운건설 주식회사",
+   "count": 1,
+   "amount": 805303000
+  },
+  {
+   "vendor": "서흥건설(주)",
+   "count": 1,
+   "amount": 797940000
+  },
+  {
+   "vendor": "(주)한신포장건설",
+   "count": 1,
+   "amount": 797170000
+  },
+  {
+   "vendor": "(유)문정건설",
+   "count": 1,
+   "amount": 794200000
+  },
+  {
+   "vendor": "남부이앤티(주)",
+   "count": 2,
+   "amount": 789632000
+  },
+  {
+   "vendor": "은평중기",
+   "count": 2,
+   "amount": 778660000
+  },
+  {
+   "vendor": "(주)오래건설",
+   "count": 2,
+   "amount": 771683000
+  },
+  {
+   "vendor": "(주)해주포장건설",
+   "count": 1,
+   "amount": 746570000
+  },
+  {
+   "vendor": "동국제강 주식회사",
+   "count": 4,
+   "amount": 734779040
+  },
+  {
+   "vendor": "대자기업(주)",
+   "count": 1,
+   "amount": 734670000
+  },
+  {
+   "vendor": "(주)에스지건설",
+   "count": 1,
+   "amount": 733000000
+  },
+  {
+   "vendor": "경서아스콘사업협동조합",
+   "count": 15,
+   "amount": 722376750
+  },
+  {
+   "vendor": "(주)용진기전",
+   "count": 1,
+   "amount": 700590000
+  },
+  {
+   "vendor": "삼동랜드(주)",
+   "count": 1,
+   "amount": 662089000
+  },
+  {
+   "vendor": "진명기업주식회사",
+   "count": 1,
+   "amount": 660830000
+  },
+  {
+   "vendor": "더나은인재들 주식회사",
+   "count": 1,
+   "amount": 650000000
+  },
+  {
+   "vendor": "주식회사 태양테크",
+   "count": 1,
+   "amount": 644415570
+  },
+  {
+   "vendor": "씨티알건설(주)",
+   "count": 1,
+   "amount": 643400000
+  },
+  {
+   "vendor": "(주)대명종합관리",
+   "count": 1,
+   "amount": 636755870
+  },
+  {
+   "vendor": "불휘건설(주)",
+   "count": 1,
+   "amount": 629800000
+  },
+  {
+   "vendor": "(주)타이거이엔씨",
+   "count": 1,
+   "amount": 622534000
+  },
+  {
+   "vendor": "율산디자인",
+   "count": 8,
+   "amount": 621015000
+  },
+  {
+   "vendor": "큰빛종합건설(주)",
+   "count": 1,
+   "amount": 605478000
+  },
+  {
+   "vendor": "(주)디노마드",
+   "count": 2,
+   "amount": 603500000
+  },
+  {
+   "vendor": "(주)드보라종합건설",
+   "count": 1,
+   "amount": 600966100
+  },
+  {
+   "vendor": "탑정보통신 주식회사",
+   "count": 2,
+   "amount": 587927900
+  },
+  {
+   "vendor": "에이스환경산업 주식회사",
+   "count": 1,
+   "amount": 583439000
+  },
+  {
+   "vendor": "(주아이엠유이엔지",
+   "count": 1,
+   "amount": 578521000
+  },
+  {
+   "vendor": "(주)세방테크",
+   "count": 1,
+   "amount": 571528970
+  },
+  {
+   "vendor": "투인산업 주식회사",
+   "count": 4,
+   "amount": 542979000
+  },
+  {
+   "vendor": "(사)한국로봇산업협회",
+   "count": 1,
+   "amount": 542400000
+  },
+  {
+   "vendor": "(주)천은개발중기",
+   "count": 1,
+   "amount": 541474000
+  },
+  {
+   "vendor": "(주)딜라이브서울경기케이블티브이",
+   "count": 1,
+   "amount": 538200000
+  },
+  {
+   "vendor": "이평종합건설(주)",
+   "count": 1,
+   "amount": 536857090
+  },
+  {
+   "vendor": "옥천중기",
+   "count": 1,
+   "amount": 534666000
+  },
+  {
+   "vendor": "명운산업주식회사",
+   "count": 1,
+   "amount": 525894000
+  },
+  {
+   "vendor": "라임에코",
+   "count": 2,
+   "amount": 525679000
+  },
+  {
+   "vendor": "(주)혁산정보시스템",
+   "count": 3,
+   "amount": 522700000
+  },
+  {
+   "vendor": "제이케이그룹 주식회사",
+   "count": 1,
+   "amount": 519790000
+  },
+  {
+   "vendor": "(주)건용산업개발",
+   "count": 1,
+   "amount": 515680000
+  },
+  {
+   "vendor": "형진랜드(주)",
+   "count": 28,
+   "amount": 509571600
+  },
+  {
+   "vendor": "디엠엔텍 주식회사",
+   "count": 1,
+   "amount": 503300000
+  },
+  {
+   "vendor": "(주)대창이앤티",
+   "count": 1,
+   "amount": 493900000
+  },
+  {
+   "vendor": "사단법인 국민장애인 복지협의회",
+   "count": 1,
+   "amount": 493679500
+  },
+  {
+   "vendor": "용신전력",
+   "count": 1,
+   "amount": 490446000
+  },
+  {
+   "vendor": "주식회사 로담이엔씨",
+   "count": 6,
+   "amount": 484530000
+  },
+  {
+   "vendor": "주식회사 나라원시스템",
+   "count": 2,
+   "amount": 484200000
+  },
+  {
+   "vendor": "엘지전자 주식회사",
+   "count": 24,
+   "amount": 483986200
+  },
+  {
+   "vendor": "연우조경주식회사",
+   "count": 2,
+   "amount": 476580370
+  },
+  {
+   "vendor": "(주)미산조경",
+   "count": 1,
+   "amount": 470926178
+  },
+  {
+   "vendor": "주식회사 미진이엔씨",
+   "count": 1,
+   "amount": 466078400
+  },
+  {
+   "vendor": "주식회사 한국디자인사이언스연구소",
+   "count": 1,
+   "amount": 465000000
+  },
+  {
+   "vendor": "(주)지엔에스테크",
+   "count": 5,
+   "amount": 461006000
+  },
+  {
+   "vendor": "백상코퍼레이션(주)",
+   "count": 1,
+   "amount": 449130000
+  },
+  {
+   "vendor": "(주)삼보컴퓨터",
+   "count": 2,
+   "amount": 447506000
+  },
+  {
+   "vendor": "(주)태상이앤씨",
+   "count": 1,
+   "amount": 445505540
+  },
+  {
+   "vendor": "에스피케이인크 주식회사",
+   "count": 1,
+   "amount": 430596210
+  },
+  {
+   "vendor": "주식회사 이음파트너스",
+   "count": 1,
+   "amount": 429600000
+  },
+  {
+   "vendor": "(주)세상원",
+   "count": 1,
+   "amount": 427850000
+  },
+  {
+   "vendor": "(주)글리덕",
+   "count": 1,
+   "amount": 425950000
+  },
+  {
+   "vendor": "디에프엠에스(주)",
+   "count": 1,
+   "amount": 425173860
+  },
+  {
+   "vendor": "(주)한국엠아이씨",
+   "count": 2,
+   "amount": 423400000
+  },
+  {
+   "vendor": "주식회사 이토스",
+   "count": 3,
+   "amount": 422565000
+  },
+  {
+   "vendor": "주식회사 인프라엔이",
+   "count": 1,
+   "amount": 421532620
+  },
+  {
+   "vendor": "이화티티씨(주)",
+   "count": 1,
+   "amount": 410203750
+  },
+  {
+   "vendor": "주식회사 네이즈",
+   "count": 2,
+   "amount": 408738000
+  },
+  {
+   "vendor": "주식회사 베스트환경산업",
+   "count": 1,
+   "amount": 408626800
+  },
+  {
+   "vendor": "공간푸르(주)",
+   "count": 1,
+   "amount": 405665000
+  },
+  {
+   "vendor": "주식회사 동해종합기술공사",
+   "count": 2,
+   "amount": 401860000
+  },
+  {
+   "vendor": "서울경인레미콘공업협동조합",
+   "count": 32,
+   "amount": 399016400
+  },
+  {
+   "vendor": "(주)이벤트그룹필쏘굿",
+   "count": 1,
+   "amount": 398200000
+  },
+  {
+   "vendor": "(주)신아이엔지",
+   "count": 1,
+   "amount": 393634140
+  },
+  {
+   "vendor": "주식회사 루미웍스",
+   "count": 1,
+   "amount": 392040000
+  },
+  {
+   "vendor": "주식회사 유앤후레쉬",
+   "count": 2,
+   "amount": 390683020
+  },
+  {
+   "vendor": "다우엔지니어링(주)",
+   "count": 1,
+   "amount": 390065000
+  },
+  {
+   "vendor": "주식회사 경진전력",
+   "count": 2,
+   "amount": 389872000
+  },
+  {
+   "vendor": "주식회사 아모스아인스가구",
+   "count": 7,
+   "amount": 389735300
+  },
+  {
+   "vendor": "(주)한솔이디아이",
+   "count": 1,
+   "amount": 384212000
+  },
+  {
+   "vendor": "삼성전자 주식회사",
+   "count": 23,
+   "amount": 380312160
+  },
+  {
+   "vendor": "주식회사 동부전기",
+   "count": 1,
+   "amount": 380261600
+  },
+  {
+   "vendor": "세림산업주식회사",
+   "count": 1,
+   "amount": 378060000
+  },
+  {
+   "vendor": "(주)대륙전기",
+   "count": 1,
+   "amount": 376783000
+  },
+  {
+   "vendor": "주식회사 주성테크",
+   "count": 5,
+   "amount": 374818070
+  },
+  {
+   "vendor": "원더건설(주)",
+   "count": 1,
+   "amount": 371600000
+  },
+  {
+   "vendor": "주식회사튠시스템",
+   "count": 1,
+   "amount": 371173560
+  },
+  {
+   "vendor": "주식회사 디자인현장",
+   "count": 7,
+   "amount": 366177460
+  },
+  {
+   "vendor": "석경건설(주)",
+   "count": 1,
+   "amount": 364320000
+  },
+  {
+   "vendor": "메리츠화재",
+   "count": 1,
+   "amount": 363534530
+  },
+  {
+   "vendor": "한국석재공업협동조합",
+   "count": 19,
+   "amount": 358835220
+  },
+  {
+   "vendor": "주식회사 세안건설",
+   "count": 1,
+   "amount": 358494360
+  },
+  {
+   "vendor": "(주)썬래이",
+   "count": 9,
+   "amount": 357938190
+  },
+  {
+   "vendor": "세왕전력(주)",
+   "count": 1,
+   "amount": 355887800
+  },
+  {
+   "vendor": "주식회사 우리씨드",
+   "count": 14,
+   "amount": 355246780
+  },
+  {
+   "vendor": "(주)가보테크",
+   "count": 6,
+   "amount": 352671000
+  },
+  {
+   "vendor": "퍼시스 민들레 오피스컨설턴트",
+   "count": 1,
+   "amount": 349753700
+  },
+  {
+   "vendor": "(주)효엘엔지니어링",
+   "count": 1,
+   "amount": 347120000
+  },
+  {
+   "vendor": "동광전력(주)",
+   "count": 2,
+   "amount": 346126000
+  },
+  {
+   "vendor": "적성건설(주)",
+   "count": 1,
+   "amount": 336659000
+  },
+  {
+   "vendor": "창인건설(주)",
+   "count": 1,
+   "amount": 336641000
+  },
+  {
+   "vendor": "주식회사 차리환경개발",
+   "count": 3,
+   "amount": 333220000
+  },
+  {
+   "vendor": "백상건설(주)",
+   "count": 1,
+   "amount": 327809900
+  },
+  {
+   "vendor": "(주)아이엠시티",
+   "count": 2,
+   "amount": 324116740
+  },
+  {
+   "vendor": "주식회사 도시건축집단아름",
+   "count": 1,
+   "amount": 322000000
+  },
+  {
+   "vendor": "디올림 주식회사",
+   "count": 2,
+   "amount": 314900000
+  },
+  {
+   "vendor": "보광종합건설주식회사",
+   "count": 1,
+   "amount": 312587000
+  },
+  {
+   "vendor": "주식회사 대우루컴즈",
+   "count": 1,
+   "amount": 309884000
+  },
+  {
+   "vendor": "셀파이엔씨(주)",
+   "count": 1,
+   "amount": 308070000
+  },
+  {
+   "vendor": "(주)유천써모텍",
+   "count": 1,
+   "amount": 308000000
+  },
+  {
+   "vendor": "주식회사 에스알텍",
+   "count": 5,
+   "amount": 306832330
+  },
+  {
+   "vendor": "주식회사 킴스힐",
+   "count": 1,
+   "amount": 306000000
+  },
+  {
+   "vendor": "주식회사 주니파워네트웍스",
+   "count": 1,
+   "amount": 305555800
+  },
+  {
+   "vendor": "주식회사 앤더스엔지니어링",
+   "count": 1,
+   "amount": 305250000
+  },
+  {
+   "vendor": "(주)무림설계기술단",
+   "count": 1,
+   "amount": 304757990
+  },
+  {
+   "vendor": "(주)영길토건",
+   "count": 1,
+   "amount": 303800000
+  },
+  {
+   "vendor": "(주)서림에이엔씨",
+   "count": 8,
+   "amount": 302736700
+  },
+  {
+   "vendor": "(주)티시스",
+   "count": 1,
+   "amount": 302495000
+  },
+  {
+   "vendor": "(주)디라직",
+   "count": 7,
+   "amount": 300431200
+  },
+  {
+   "vendor": "주식회사 우건하우징",
+   "count": 1,
+   "amount": 299362460
+  },
+  {
+   "vendor": "주식회사 해리",
+   "count": 1,
+   "amount": 297275000
+  },
+  {
+   "vendor": "주식회사 케이티아이에스",
+   "count": 1,
+   "amount": 296392000
+  },
+  {
+   "vendor": "주식회사 신유건영",
+   "count": 4,
+   "amount": 296092000
+  },
+  {
+   "vendor": "주식회사 경인씨엔에스",
+   "count": 1,
+   "amount": 296090970
+  },
+  {
+   "vendor": "(주)한우중기",
+   "count": 1,
+   "amount": 293370000
+  },
+  {
+   "vendor": "주식회사 에이피에스",
+   "count": 1,
+   "amount": 292680000
+  },
+  {
+   "vendor": "선진조경개발(주)",
+   "count": 2,
+   "amount": 290695020
+  },
+  {
+   "vendor": "(주)호정산림임업",
+   "count": 1,
+   "amount": 287940000
+  },
+  {
+   "vendor": "(주)종합건축사사무소동일건축",
+   "count": 1,
+   "amount": 287506000
+  },
+  {
+   "vendor": "신우엘앤디피(주)",
+   "count": 1,
+   "amount": 286633490
+  },
+  {
+   "vendor": "현대자동차(주)",
+   "count": 5,
+   "amount": 282709850
+  },
+  {
+   "vendor": "양채조경(주)",
+   "count": 1,
+   "amount": 282160000
+  },
+  {
+   "vendor": "주식회사 올댓아이엠씨",
+   "count": 1,
+   "amount": 278210000
+  },
+  {
+   "vendor": "엠일레븐(주)",
+   "count": 1,
+   "amount": 278000000
+  },
+  {
+   "vendor": "오텍캐리어주식회사",
+   "count": 4,
+   "amount": 277812200
+  },
+  {
+   "vendor": "(주)내외실내건축",
+   "count": 1,
+   "amount": 275759000
+  },
+  {
+   "vendor": "(주)웨이드",
+   "count": 1,
+   "amount": 275000000
+  },
+  {
+   "vendor": "주식회사 티원엘에스",
+   "count": 1,
+   "amount": 274016030
+  },
+  {
+   "vendor": "명문건설 주식회사",
+   "count": 1,
+   "amount": 274004000
+  },
+  {
+   "vendor": "동부화재해상보험(주)",
+   "count": 1,
+   "amount": 270104540
+  },
+  {
+   "vendor": "에코존코리아 주식회사",
+   "count": 1,
+   "amount": 268510000
+  },
+  {
+   "vendor": "(주)한국스마일산업안전",
+   "count": 3,
+   "amount": 264711650
+  },
+  {
+   "vendor": "(주)에코이앤씨",
+   "count": 1,
+   "amount": 262020000
+  },
+  {
+   "vendor": "(주)삼부건설",
+   "count": 1,
+   "amount": 261438100
+  },
+  {
+   "vendor": "영농조합법인 좋은세상 원예조합",
+   "count": 7,
+   "amount": 260969650
+  },
+  {
+   "vendor": "현디자인",
+   "count": 1,
+   "amount": 259910180
+  },
+  {
+   "vendor": "쿠도커뮤니케이션(주)",
+   "count": 1,
+   "amount": 257912060
+  },
+  {
+   "vendor": "주식회사 지엘",
+   "count": 6,
+   "amount": 254092480
+  },
+  {
+   "vendor": "(주)도시미래종합기술공사",
+   "count": 1,
+   "amount": 248840000
+  },
+  {
+   "vendor": "주식회사 신도디앤텍",
+   "count": 4,
+   "amount": 248301180
+  },
+  {
+   "vendor": "주식회사 에쓰피케이",
+   "count": 7,
+   "amount": 246796000
+  },
+  {
+   "vendor": "(주)삼우전기컨설턴트",
+   "count": 1,
+   "amount": 245706000
+  },
+  {
+   "vendor": "통명석재주식회사",
+   "count": 7,
+   "amount": 244067610
+  },
+  {
+   "vendor": "주식회사 부민더블유엔피",
+   "count": 7,
+   "amount": 242586000
+  },
+  {
+   "vendor": "(주)태우이엔씨",
+   "count": 1,
+   "amount": 240798000
+  },
+  {
+   "vendor": "주식회사 에스비데크",
+   "count": 2,
+   "amount": 238904650
+  },
+  {
+   "vendor": "(주)피앤피건설",
+   "count": 1,
+   "amount": 236497370
+  },
+  {
+   "vendor": "주식회사 둥이종합조경",
+   "count": 2,
+   "amount": 234641300
+  },
+  {
+   "vendor": "인크루트 주식회사",
+   "count": 1,
+   "amount": 232000000
+  },
+  {
+   "vendor": "리싸이클 주식회사",
+   "count": 10,
+   "amount": 228933000
+  },
+  {
+   "vendor": "주식회사 케이피텍",
+   "count": 1,
+   "amount": 227968810
+  },
+  {
+   "vendor": "(주)오름디앤씨",
+   "count": 1,
+   "amount": 227491790
+  },
+  {
+   "vendor": "지엔지농원",
+   "count": 4,
+   "amount": 227191840
+  },
+  {
+   "vendor": "우리꽃연구소",
+   "count": 9,
+   "amount": 225305450
+  },
+  {
+   "vendor": "(주)에스제이베스텍",
+   "count": 1,
+   "amount": 223120700
+  },
+  {
+   "vendor": "(주)에이디자인그룹",
+   "count": 1,
+   "amount": 218900000
+  },
+  {
+   "vendor": "동아산업 주식회사",
+   "count": 4,
+   "amount": 216638400
+  },
+  {
+   "vendor": "(주)에이치엠엔월드와이드",
+   "count": 1,
+   "amount": 216600000
+  },
+  {
+   "vendor": "주식회사 세계주철",
+   "count": 1,
+   "amount": 216000000
+  },
+  {
+   "vendor": "주식회사 티머니",
+   "count": 1,
+   "amount": 215000000
+  },
+  {
+   "vendor": "주식회사 태건종합건설",
+   "count": 1,
+   "amount": 212200000
+  },
+  {
+   "vendor": "(주)한일환경디자인",
+   "count": 1,
+   "amount": 211144000
+  },
+  {
+   "vendor": "주식회사 고황",
+   "count": 1,
+   "amount": 209979000
+  },
+  {
+   "vendor": "광일에스앤에스(주)",
+   "count": 1,
+   "amount": 207562430
+  },
+  {
+   "vendor": "주식회사 아름다운길",
+   "count": 3,
+   "amount": 206830000
+  },
+  {
+   "vendor": "나원이엔지(주)",
+   "count": 1,
+   "amount": 206100400
+  },
+  {
+   "vendor": "(재) 서울연구원",
+   "count": 1,
+   "amount": 200000000
+  },
+  {
+   "vendor": "시원",
+   "count": 14,
+   "amount": 199780000
+  },
+  {
+   "vendor": "(주)식품외식연구소",
+   "count": 1,
+   "amount": 198970000
+  },
+  {
+   "vendor": "그린팜",
+   "count": 2,
+   "amount": 198826260
+  },
+  {
+   "vendor": "(주)대산스포텍",
+   "count": 7,
+   "amount": 196570780
+  },
+  {
+   "vendor": "주식회사 라움그룹도시건축사사무소",
+   "count": 1,
+   "amount": 196000000
+  },
+  {
+   "vendor": "주식회사 지앤아이테크",
+   "count": 1,
+   "amount": 194871040
+  },
+  {
+   "vendor": "주식회사 한국피아이지",
+   "count": 5,
+   "amount": 194500000
+  },
+  {
+   "vendor": "주식회사 청호엘에스",
+   "count": 1,
+   "amount": 194000000
+  },
+  {
+   "vendor": "서전엔지니어링(주)",
+   "count": 1,
+   "amount": 193682080
+  },
+  {
+   "vendor": "드림필",
+   "count": 1,
+   "amount": 192303980
+  },
+  {
+   "vendor": "(주)미전전력",
+   "count": 1,
+   "amount": 192140000
+  },
+  {
+   "vendor": "주식회사 수안조경",
+   "count": 1,
+   "amount": 191800340
+  },
+  {
+   "vendor": "(주)라온전기",
+   "count": 1,
+   "amount": 191706000
+  },
+  {
+   "vendor": "라온농원",
+   "count": 4,
+   "amount": 190972100
+  },
+  {
+   "vendor": "티앤에프엔지니어링 주식회사",
+   "count": 2,
+   "amount": 190500000
+  },
+  {
+   "vendor": "일렉파워(주)",
+   "count": 1,
+   "amount": 190498900
+  },
+  {
+   "vendor": "주식회사한국국토안전연구원",
+   "count": 1,
+   "amount": 189933000
+  },
+  {
+   "vendor": "(주)성진시스템즈",
+   "count": 1,
+   "amount": 188870000
+  },
+  {
+   "vendor": "태림조경(주)",
+   "count": 1,
+   "amount": 188500000
+  },
+  {
+   "vendor": "청수IPS",
+   "count": 2,
+   "amount": 186780000
+  },
+  {
+   "vendor": "나누미문화예술(주)",
+   "count": 1,
+   "amount": 186660000
+  },
+  {
+   "vendor": "(주)와이디엔에스",
+   "count": 2,
+   "amount": 186000000
+  },
+  {
+   "vendor": "(주)건양엔지니어링",
+   "count": 1,
+   "amount": 183311000
+  },
+  {
+   "vendor": "대동안전 주식회사",
+   "count": 4,
+   "amount": 182851080
+  },
+  {
+   "vendor": "네이처엔지니어링(주)",
+   "count": 3,
+   "amount": 182692400
+  },
+  {
+   "vendor": "(주)광림이엔씨",
+   "count": 5,
+   "amount": 180581630
+  },
+  {
+   "vendor": "주식회사 한결씨엔씨",
+   "count": 1,
+   "amount": 180204231
+  },
+  {
+   "vendor": "(주)미성",
+   "count": 1,
+   "amount": 179907710
+  },
+  {
+   "vendor": "에이원엘리베이터 주식회사",
+   "count": 2,
+   "amount": 179635000
+  },
+  {
+   "vendor": "주식회사 두원전자통신",
+   "count": 1,
+   "amount": 178517000
+  },
+  {
+   "vendor": "금수티아이 주식회사",
+   "count": 2,
+   "amount": 176820000
+  },
+  {
+   "vendor": "안진하이테크(주)",
+   "count": 1,
+   "amount": 176707900
+  },
+  {
+   "vendor": "주식회사 지음건축디자인",
+   "count": 1,
+   "amount": 176238950
+  },
+  {
+   "vendor": "주식회사 현대하이텍",
+   "count": 3,
+   "amount": 174293030
+  },
+  {
+   "vendor": "(주)선우시스",
+   "count": 3,
+   "amount": 173227920
+  },
+  {
+   "vendor": "영국동물병원",
+   "count": 1,
+   "amount": 173000000
+  },
+  {
+   "vendor": "(주)태완씨엔씨",
+   "count": 1,
+   "amount": 172900000
+  },
+  {
+   "vendor": "(주)그리니티솔루션",
+   "count": 1,
+   "amount": 171930112
+  },
+  {
+   "vendor": "주식회사 하늘조경",
+   "count": 1,
+   "amount": 171746000
+  },
+  {
+   "vendor": "금란",
+   "count": 2,
+   "amount": 169897200
+  },
+  {
+   "vendor": "주식회사 드림필",
+   "count": 5,
+   "amount": 168350000
+  },
+  {
+   "vendor": "로지시스템(주)",
+   "count": 1,
+   "amount": 167301120
+  },
+  {
+   "vendor": "형림조경(주)",
+   "count": 1,
+   "amount": 166415000
+  },
+  {
+   "vendor": "미성산업",
+   "count": 6,
+   "amount": 164601440
+  },
+  {
+   "vendor": "(주)도호환경디자인",
+   "count": 1,
+   "amount": 164469000
+  },
+  {
+   "vendor": "주식회사 에스지공영",
+   "count": 1,
+   "amount": 164405060
+  },
+  {
+   "vendor": "주식회사 맥디자인",
+   "count": 5,
+   "amount": 164395880
+  },
+  {
+   "vendor": "(주)그룹이십일",
+   "count": 1,
+   "amount": 162238000
+  },
+  {
+   "vendor": "대한종합조경(주)",
+   "count": 4,
+   "amount": 161746000
+  },
+  {
+   "vendor": "주식회사 디자인파크",
+   "count": 3,
+   "amount": 161340000
+  },
+  {
+   "vendor": "주식회사 에이엘테크",
+   "count": 3,
+   "amount": 160090000
+  },
+  {
+   "vendor": "제영파트너스 주식회사",
+   "count": 1,
+   "amount": 159916600
+  },
+  {
+   "vendor": "한국에스엔에스인재개발원(주)",
+   "count": 1,
+   "amount": 159500000
+  },
+  {
+   "vendor": "주식회사 케이엘",
+   "count": 4,
+   "amount": 159240960
+  },
+  {
+   "vendor": "범성중기",
+   "count": 1,
+   "amount": 159123000
+  },
+  {
+   "vendor": "한국전기공업",
+   "count": 2,
+   "amount": 158566000
+  },
+  {
+   "vendor": "사단법인글로벌관광마이스연구원",
+   "count": 2,
+   "amount": 158500000
+  },
+  {
+   "vendor": "태광데크 주식회사",
+   "count": 6,
+   "amount": 157846920
+  },
+  {
+   "vendor": "(주)씨와이환경",
+   "count": 1,
+   "amount": 157261000
+  },
+  {
+   "vendor": "삼흥도시개발(주)",
+   "count": 1,
+   "amount": 156154000
+  },
+  {
+   "vendor": "대현전력(주)",
+   "count": 4,
+   "amount": 155819700
+  },
+  {
+   "vendor": "(주)드림플레이",
+   "count": 3,
+   "amount": 154230000
+  },
+  {
+   "vendor": "용성자원",
+   "count": 1,
+   "amount": 153244600
+  },
+  {
+   "vendor": "태일이앤씨(주)",
+   "count": 1,
+   "amount": 151750000
+  },
+  {
+   "vendor": "은원개발(주)",
+   "count": 2,
+   "amount": 150950000
+  },
+  {
+   "vendor": "캐논코리아 주식회사",
+   "count": 2,
+   "amount": 150920000
+  },
+  {
+   "vendor": "주식회사 에스앤",
+   "count": 6,
+   "amount": 150490000
+  },
+  {
+   "vendor": "주식회사 비오앰",
+   "count": 3,
+   "amount": 150300000
+  },
+  {
+   "vendor": "주식회사 한국도시공간",
+   "count": 1,
+   "amount": 150080000
+  },
+  {
+   "vendor": "주식회사 태흥그레이팅",
+   "count": 23,
+   "amount": 149854040
+  },
+  {
+   "vendor": "(주)태조엔지니어링",
+   "count": 1,
+   "amount": 148500000
+  },
+  {
+   "vendor": "(주)와일리",
+   "count": 1,
+   "amount": 148280000
+  },
+  {
+   "vendor": "덕인금속주식회사",
+   "count": 1,
+   "amount": 147420000
+  },
+  {
+   "vendor": "주식회사 이노디스",
+   "count": 1,
+   "amount": 147400000
+  },
+  {
+   "vendor": "(유)송원이엔지",
+   "count": 3,
+   "amount": 147108910
+  },
+  {
+   "vendor": "주식회사 한국라이팅",
+   "count": 6,
+   "amount": 146580000
+  },
+  {
+   "vendor": "주식회사 루멘에어텍",
+   "count": 3,
+   "amount": 145045000
+  },
+  {
+   "vendor": "헤덴건설(주)",
+   "count": 4,
+   "amount": 144622820
+  },
+  {
+   "vendor": "주식회사 태산글로벌",
+   "count": 3,
+   "amount": 144571200
+  },
+  {
+   "vendor": "(주)디자인현장",
+   "count": 4,
+   "amount": 144566000
+  },
+  {
+   "vendor": "동영산업",
+   "count": 4,
+   "amount": 143089000
+  },
+  {
+   "vendor": "주식회사 어울숲",
+   "count": 1,
+   "amount": 140520000
+  },
+  {
+   "vendor": "그린에너지주식회사",
+   "count": 1,
+   "amount": 139088100
+  },
+  {
+   "vendor": "(주)엑스오소프트",
+   "count": 3,
+   "amount": 138736000
+  },
+  {
+   "vendor": "오목조경산업주식회사",
+   "count": 6,
+   "amount": 137557000
+  },
+  {
+   "vendor": "신우산업(주)",
+   "count": 11,
+   "amount": 136481070
+  },
+  {
+   "vendor": "(주)조호전기",
+   "count": 1,
+   "amount": 134234000
+  },
+  {
+   "vendor": "(주)삼정전기통신",
+   "count": 1,
+   "amount": 134099000
+  },
+  {
+   "vendor": "주식회사 서경라이텍",
+   "count": 3,
+   "amount": 134048500
+  },
+  {
+   "vendor": "(주)소만사",
+   "count": 2,
+   "amount": 133500000
+  },
+  {
+   "vendor": "주식회사 티팩토리",
+   "count": 1,
+   "amount": 133400000
+  },
+  {
+   "vendor": "주식회사 감성스푼",
+   "count": 3,
+   "amount": 132419000
+  },
+  {
+   "vendor": "(주)미화",
+   "count": 1,
+   "amount": 131764000
+  },
+  {
+   "vendor": "(주)주주콘크리트",
+   "count": 7,
+   "amount": 131309200
+  },
+  {
+   "vendor": "주식회사 쎄미일렉트릭",
+   "count": 2,
+   "amount": 130080000
+  },
+  {
+   "vendor": "구루멘토링 주식회사",
+   "count": 1,
+   "amount": 129217000
+  },
+  {
+   "vendor": "(주)에이루덴스",
+   "count": 4,
+   "amount": 128524400
+  },
+  {
+   "vendor": "세리건설 주식회사",
+   "count": 1,
+   "amount": 127714568
+  },
+  {
+   "vendor": "주식회사 말타니",
+   "count": 1,
+   "amount": 127051650
+  },
+  {
+   "vendor": "아름드리조경 주식회사",
+   "count": 1,
+   "amount": 126566000
+  },
+  {
+   "vendor": "서일이앤씨 주식회사",
+   "count": 1,
+   "amount": 122877000
+  },
+  {
+   "vendor": "새한전설 주식회사",
+   "count": 1,
+   "amount": 122404000
+  },
+  {
+   "vendor": "성건기획",
+   "count": 15,
+   "amount": 122303100
+  },
+  {
+   "vendor": "해주엔지니어링 주식회사",
+   "count": 1,
+   "amount": 122290000
+  },
+  {
+   "vendor": "사단법인 대한산악연맹",
+   "count": 1,
+   "amount": 122287850
+  },
+  {
+   "vendor": "엘앤에스(주)",
+   "count": 1,
+   "amount": 122178410
+  },
+  {
+   "vendor": "주식회사 레젠",
+   "count": 2,
+   "amount": 121840000
+  },
+  {
+   "vendor": "(주)플랜시아",
+   "count": 3,
+   "amount": 121200000
+  },
+  {
+   "vendor": "클로라이프 주식회사",
+   "count": 2,
+   "amount": 120008920
+  },
+  {
+   "vendor": "채움테크",
+   "count": 2,
+   "amount": 118685200
+  },
+  {
+   "vendor": "에코플랜트",
+   "count": 8,
+   "amount": 118240000
+  },
+  {
+   "vendor": "주식회사 트리엠",
+   "count": 2,
+   "amount": 117967440
+  },
+  {
+   "vendor": "주식회사 케이씨환경디자인",
+   "count": 1,
+   "amount": 117742000
+  },
+  {
+   "vendor": "(주)동명텔레콤",
+   "count": 1,
+   "amount": 116535250
+  },
+  {
+   "vendor": "주식회사 자이언스틸",
+   "count": 1,
+   "amount": 116524800
+  },
+  {
+   "vendor": "영인 아이티 기술사 사무소",
+   "count": 1,
+   "amount": 115987900
+  },
+  {
+   "vendor": "(주)인터엠",
+   "count": 1,
+   "amount": 115740200
+  },
+  {
+   "vendor": "한국토요칼라주식회사",
+   "count": 1,
+   "amount": 115500000
+  },
+  {
+   "vendor": "(주)대종원종합개발",
+   "count": 1,
+   "amount": 114727750
+  },
+  {
+   "vendor": "지앤씨디자인",
+   "count": 3,
+   "amount": 114700800
+  },
+  {
+   "vendor": "가락전자(주)",
+   "count": 1,
+   "amount": 114621420
+  },
+  {
+   "vendor": "사단법인 대한산업안전협회",
+   "count": 1,
+   "amount": 113412000
+  },
+  {
+   "vendor": "삼성전자주식회사",
+   "count": 1,
+   "amount": 113310680
+  },
+  {
+   "vendor": "해머디자인",
+   "count": 3,
+   "amount": 112860000
+  },
+  {
+   "vendor": "엘지전자(주)",
+   "count": 10,
+   "amount": 112650240
+  },
+  {
+   "vendor": "주식회사 신신산업건설",
+   "count": 4,
+   "amount": 112373000
+  },
+  {
+   "vendor": "주식회사 이씨오",
+   "count": 3,
+   "amount": 111200000
+  },
+  {
+   "vendor": "청양조경",
+   "count": 5,
+   "amount": 110450000
+  },
+  {
+   "vendor": "주식회사 예덕",
+   "count": 2,
+   "amount": 109862000
+  },
+  {
+   "vendor": "지구석재(주)",
+   "count": 3,
+   "amount": 109449950
+  },
+  {
+   "vendor": "주식회사 씨엘테크",
+   "count": 2,
+   "amount": 109443400
+  },
+  {
+   "vendor": "엠에스온(주)",
+   "count": 2,
+   "amount": 109100000
+  },
+  {
+   "vendor": "주식회사 코젠",
+   "count": 1,
+   "amount": 109000000
+  },
+  {
+   "vendor": "(주)그랜드코단",
+   "count": 6,
+   "amount": 108624000
+  },
+  {
+   "vendor": "주식회사 경동이앤에스",
+   "count": 2,
+   "amount": 107793000
+  },
+  {
+   "vendor": "(주)삼이씨앤지",
+   "count": 9,
+   "amount": 107766000
+  },
+  {
+   "vendor": "(주)세명테크",
+   "count": 1,
+   "amount": 106480000
+  },
+  {
+   "vendor": "주식회사 아임오퍼레이션",
+   "count": 2,
+   "amount": 106454000
+  },
+  {
+   "vendor": "주식회사 드림테크",
+   "count": 1,
+   "amount": 106377000
+  },
+  {
+   "vendor": "주식회사 신기",
+   "count": 2,
+   "amount": 106366160
+  },
+  {
+   "vendor": "연풍화훼영농조합법인",
+   "count": 4,
+   "amount": 106078700
+  },
+  {
+   "vendor": "힘쎈목공소",
+   "count": 2,
+   "amount": 105823000
+  },
+  {
+   "vendor": "(주)대열보일러",
+   "count": 1,
+   "amount": 105200000
+  },
+  {
+   "vendor": "(주)더유닛알앤디",
+   "count": 2,
+   "amount": 105196000
+  },
+  {
+   "vendor": "주식회사에코밸리",
+   "count": 1,
+   "amount": 105170000
+  },
+  {
+   "vendor": "(주)지오에코텍",
+   "count": 2,
+   "amount": 104978600
+  },
+  {
+   "vendor": "주식회사 피그마리온",
+   "count": 2,
+   "amount": 104790000
+  },
+  {
+   "vendor": "현대제철주식회사",
+   "count": 1,
+   "amount": 104330740
+  },
+  {
+   "vendor": "주식회사 엔터그레인",
+   "count": 1,
+   "amount": 104188540
+  },
+  {
+   "vendor": "(주)나람조경개발",
+   "count": 2,
+   "amount": 103326000
+  },
+  {
+   "vendor": "디자인건축",
+   "count": 2,
+   "amount": 103141000
+  },
+  {
+   "vendor": "웰코마스크",
+   "count": 1,
+   "amount": 102986370
+  },
+  {
+   "vendor": "주식회사 지텍",
+   "count": 2,
+   "amount": 102863990
+  },
+  {
+   "vendor": "(주)태흥그레이팅",
+   "count": 10,
+   "amount": 102797540
+  },
+  {
+   "vendor": "정석세이프티 주식회사",
+   "count": 3,
+   "amount": 102565000
+  },
+  {
+   "vendor": "(주)강산조명",
+   "count": 3,
+   "amount": 102013000
+  },
+  {
+   "vendor": "주식회사 펜타게이트",
+   "count": 2,
+   "amount": 102004700
+  },
+  {
+   "vendor": "주식회사 디자인건축",
+   "count": 2,
+   "amount": 101947000
+  },
+  {
+   "vendor": "일진피앤에스 주식회사",
+   "count": 1,
+   "amount": 101173850
+  },
+  {
+   "vendor": "주식회사 이알티",
+   "count": 3,
+   "amount": 100525260
+  },
+  {
+   "vendor": "와이제이컴퍼니",
+   "count": 8,
+   "amount": 100138000
+  },
+  {
+   "vendor": "성일엔지니어링",
+   "count": 8,
+   "amount": 100093700
+  },
+  {
+   "vendor": "(주)제일엔지니어링종합건축사사무소",
+   "count": 1,
+   "amount": 99978000
+  },
+  {
+   "vendor": "(주)트라비스엘리베이터",
+   "count": 1,
+   "amount": 99940000
+  },
+  {
+   "vendor": "주식회사 문창",
+   "count": 2,
+   "amount": 99555550
+  },
+  {
+   "vendor": "은원쏠라사인",
+   "count": 5,
+   "amount": 99554000
+  },
+  {
+   "vendor": "그린유토피아",
+   "count": 6,
+   "amount": 99434500
+  },
+  {
+   "vendor": "주식회사 보담산업",
+   "count": 1,
+   "amount": 99385000
+  },
+  {
+   "vendor": "에이치비페이퍼 주식회사",
+   "count": 1,
+   "amount": 98204210
+  },
+  {
+   "vendor": "(주)신유건영",
+   "count": 1,
+   "amount": 98000000
+  },
+  {
+   "vendor": "주식회사 커스텀엑스스튜디오",
+   "count": 1,
+   "amount": 97600000
+  },
+  {
+   "vendor": "주식회사 에스아이정보기술",
+   "count": 1,
+   "amount": 97000000
+  },
+  {
+   "vendor": "주식회사 탑이앤씨코리아",
+   "count": 3,
+   "amount": 95886850
+  },
+  {
+   "vendor": "주식회사 새로운길",
+   "count": 3,
+   "amount": 95840000
+  },
+  {
+   "vendor": "주식회사 디자인디토어소시에이츠",
+   "count": 1,
+   "amount": 95700000
+  },
+  {
+   "vendor": "주식회사 젠프로",
+   "count": 1,
+   "amount": 95048000
+  },
+  {
+   "vendor": "주식회사비오앰",
+   "count": 2,
+   "amount": 95000000
+  },
+  {
+   "vendor": "카테노이드 주식회사",
+   "count": 1,
+   "amount": 94750000
+  },
+  {
+   "vendor": "주식회사 화현에너지",
+   "count": 1,
+   "amount": 93951000
+  },
+  {
+   "vendor": "주식회사 타이틀",
+   "count": 1,
+   "amount": 93950000
+  },
+  {
+   "vendor": "(주)성원큐비클",
+   "count": 3,
+   "amount": 93529440
+  },
+  {
+   "vendor": "주식회사 선일일렉콤",
+   "count": 1,
+   "amount": 92681800
+  },
+  {
+   "vendor": "주식회사 이노씨앤에스",
+   "count": 3,
+   "amount": 92219000
+  },
+  {
+   "vendor": "주식회사 한솔이앤씨",
+   "count": 1,
+   "amount": 92129800
+  },
+  {
+   "vendor": "(주)서울나무병원",
+   "count": 1,
+   "amount": 91801000
+  },
+  {
+   "vendor": "주식회사 한길알엠비",
+   "count": 2,
+   "amount": 91148500
+  },
+  {
+   "vendor": "아이드림",
+   "count": 7,
+   "amount": 90992000
+  },
+  {
+   "vendor": "성진기업 주식회사",
+   "count": 3,
+   "amount": 90257040
+  },
+  {
+   "vendor": "주식회사 엘가디자인",
+   "count": 2,
+   "amount": 89884800
+  },
+  {
+   "vendor": "현대자동차 주식회사",
+   "count": 1,
+   "amount": 89580000
+  },
+  {
+   "vendor": "셀라이텍코리아(주)",
+   "count": 4,
+   "amount": 89113000
+  },
+  {
+   "vendor": "(유)지구환경",
+   "count": 2,
+   "amount": 88724680
+  },
+  {
+   "vendor": "주식회사 한테크",
+   "count": 1,
+   "amount": 88550000
+  },
+  {
+   "vendor": "주식회사 건융",
+   "count": 2,
+   "amount": 88496400
+  },
+  {
+   "vendor": "에이아이안전연구원(주)",
+   "count": 1,
+   "amount": 88318000
+  },
+  {
+   "vendor": "영카나무",
+   "count": 1,
+   "amount": 87524800
+  },
+  {
+   "vendor": "주식회사 티지어소시에이션",
+   "count": 1,
+   "amount": 87441970
+  },
+  {
+   "vendor": "주식회사 호남금속",
+   "count": 3,
+   "amount": 86860000
+  },
+  {
+   "vendor": "에스에이건축사사무소",
+   "count": 1,
+   "amount": 86799750
+  },
+  {
+   "vendor": "주식회사 로얄파마",
+   "count": 1,
+   "amount": 86555000
+  },
+  {
+   "vendor": "그린아이코트(주)",
+   "count": 1,
+   "amount": 86005500
+  },
+  {
+   "vendor": "주식회사 건화",
+   "count": 2,
+   "amount": 85630000
+  },
+  {
+   "vendor": "(주)선일일렉콤",
+   "count": 3,
+   "amount": 84617000
+  },
+  {
+   "vendor": "경원종합상사",
+   "count": 9,
+   "amount": 84475800
+  },
+  {
+   "vendor": "세진텔레시스",
+   "count": 1,
+   "amount": 84402720
+  },
+  {
+   "vendor": "(주)그린나래",
+   "count": 5,
+   "amount": 84215000
+  },
+  {
+   "vendor": "한양엘리베이터",
+   "count": 1,
+   "amount": 83809000
+  },
+  {
+   "vendor": "주식회사 파크조경",
+   "count": 3,
+   "amount": 83395380
+  },
+  {
+   "vendor": "(주)대원엔지니어링 엘리베이터",
+   "count": 1,
+   "amount": 83200000
+  },
+  {
+   "vendor": "청수진조경 주식회사",
+   "count": 2,
+   "amount": 83200000
+  },
+  {
+   "vendor": "작은창고",
+   "count": 1,
+   "amount": 82501920
+  },
+  {
+   "vendor": "(주)코엑스",
+   "count": 1,
+   "amount": 82200000
+  },
+  {
+   "vendor": "주식회사 홍우비앤티",
+   "count": 5,
+   "amount": 82157100
+  },
+  {
+   "vendor": "유정산업(주)",
+   "count": 1,
+   "amount": 82116160
+  },
+  {
+   "vendor": "주식회사 미방코팅",
+   "count": 1,
+   "amount": 81849600
+  },
+  {
+   "vendor": "풍국레포츠",
+   "count": 3,
+   "amount": 81526000
+  },
+  {
+   "vendor": "조광목재",
+   "count": 6,
+   "amount": 80291600
+  },
+  {
+   "vendor": "에프엠엘지엘리베이터 주식회사",
+   "count": 4,
+   "amount": 80281300
+  },
+  {
+   "vendor": "(주)비츠코리아",
+   "count": 2,
+   "amount": 79918000
+  },
+  {
+   "vendor": "(주)유알피시스템",
+   "count": 1,
+   "amount": 79846100
+  },
+  {
+   "vendor": "(주)한남관광개발",
+   "count": 1,
+   "amount": 79508000
+  },
+  {
+   "vendor": "주식회사 온세조명",
+   "count": 4,
+   "amount": 79500000
+  },
+  {
+   "vendor": "주식회사 매일새옷",
+   "count": 1,
+   "amount": 79023000
+  },
+  {
+   "vendor": "(주)세원이엔티",
+   "count": 3,
+   "amount": 78700000
+  },
+  {
+   "vendor": "주식회사 파인테크닉스",
+   "count": 3,
+   "amount": 78605000
+  },
+  {
+   "vendor": "주식회사 처인고속관광",
+   "count": 1,
+   "amount": 78290900
+  },
+  {
+   "vendor": "주식회사상원구조기술사사무소",
+   "count": 1,
+   "amount": 78074020
+  },
+  {
+   "vendor": "주식회사 대진종합이엔지",
+   "count": 1,
+   "amount": 77471760
+  },
+  {
+   "vendor": "경서초화농업협동조합",
+   "count": 4,
+   "amount": 77405000
+  },
+  {
+   "vendor": "(주)삼진콘크리트",
+   "count": 6,
+   "amount": 77095540
+  },
+  {
+   "vendor": "주식회사 에이치씨테크",
+   "count": 3,
+   "amount": 77050000
+  },
+  {
+   "vendor": "주식회사 유인프라웨이",
+   "count": 2,
+   "amount": 77005000
+  },
+  {
+   "vendor": "주식회사 펀스케이프",
+   "count": 1,
+   "amount": 77000000
+  },
+  {
+   "vendor": "부미화훼",
+   "count": 4,
+   "amount": 76955000
+  },
+  {
+   "vendor": "에이치에너지 주식회사",
+   "count": 1,
+   "amount": 76945000
+  },
+  {
+   "vendor": "주식회사 엔씨원",
+   "count": 1,
+   "amount": 76925000
+  },
+  {
+   "vendor": "주식회사 디에이치이엔씨",
+   "count": 2,
+   "amount": 76771510
+  },
+  {
+   "vendor": "주식회사일렉콤",
+   "count": 2,
+   "amount": 76470000
+  },
+  {
+   "vendor": "영신메디칼",
+   "count": 3,
+   "amount": 76136500
+  },
+  {
+   "vendor": "한국가로수보호(주)",
+   "count": 11,
+   "amount": 76062970
+  },
+  {
+   "vendor": "주식회사 성문엔지니어링",
+   "count": 1,
+   "amount": 75941410
+  },
+  {
+   "vendor": "영지전력",
+   "count": 1,
+   "amount": 75933370
+  },
+  {
+   "vendor": "(주)우리응급처치교육원",
+   "count": 1,
+   "amount": 75600000
+  },
+  {
+   "vendor": "주식회사 누리조경",
+   "count": 2,
+   "amount": 75504000
+  },
+  {
+   "vendor": "주식회사 미래안전",
+   "count": 1,
+   "amount": 75082000
+  },
+  {
+   "vendor": "에스지생활안전 주식회사",
+   "count": 2,
+   "amount": 74635200
+  },
+  {
+   "vendor": "(주)에너피아",
+   "count": 1,
+   "amount": 74173000
+  },
+  {
+   "vendor": "(주)넥스트코어테크놀로지",
+   "count": 1,
+   "amount": 74086740
+  },
+  {
+   "vendor": "주식회사 마제스타지",
+   "count": 2,
+   "amount": 74000000
+  },
+  {
+   "vendor": "(주)대일텍",
+   "count": 2,
+   "amount": 73656000
+  },
+  {
+   "vendor": "청담조경건설주식회사",
+   "count": 1,
+   "amount": 73438400
+  },
+  {
+   "vendor": "(주)에이알텍",
+   "count": 1,
+   "amount": 73348000
+  },
+  {
+   "vendor": "(주)인포월드",
+   "count": 4,
+   "amount": 73200230
+  },
+  {
+   "vendor": "한국조경건설주식회사",
+   "count": 2,
+   "amount": 73180000
+  },
+  {
+   "vendor": "주식회사 엘리소프트",
+   "count": 1,
+   "amount": 73050000
+  },
+  {
+   "vendor": "은진이앤씨(주)",
+   "count": 1,
+   "amount": 72839220
+  },
+  {
+   "vendor": "주식회사 세이프21",
+   "count": 1,
+   "amount": 72723000
+  },
+  {
+   "vendor": "주식회사 에이징인플레이스",
+   "count": 1,
+   "amount": 72357500
+  },
+  {
+   "vendor": "주식회사 신우에스티",
+   "count": 3,
+   "amount": 71525000
+  },
+  {
+   "vendor": "(주)한국정책평가연구원",
+   "count": 1,
+   "amount": 71500000
+  },
+  {
+   "vendor": "동산건설",
+   "count": 1,
+   "amount": 71477020
+  },
+  {
+   "vendor": "(주)퓨젼아이앤씨",
+   "count": 1,
+   "amount": 71418370
+  },
+  {
+   "vendor": "(주)천마이앤씨",
+   "count": 3,
+   "amount": 71350000
+  },
+  {
+   "vendor": "주식회사 팜클",
+   "count": 3,
+   "amount": 71177500
+  },
+  {
+   "vendor": "주식회사 에코그리니치",
+   "count": 1,
+   "amount": 71093000
+  },
+  {
+   "vendor": "강원도 양구군",
+   "count": 2,
+   "amount": 70200000
+  },
+  {
+   "vendor": "조경설계사무소 야무진",
+   "count": 1,
+   "amount": 70070000
+  },
+  {
+   "vendor": "(주)대성개발산업",
+   "count": 1,
+   "amount": 70001000
+  },
+  {
+   "vendor": "온니드",
+   "count": 1,
+   "amount": 70000000
+  },
+  {
+   "vendor": "성풍솔레드 주식회사",
+   "count": 2,
+   "amount": 68809500
+  },
+  {
+   "vendor": "주식회사 세명엘이디",
+   "count": 2,
+   "amount": 68800000
+  },
+  {
+   "vendor": "한국조폐공사",
+   "count": 6,
+   "amount": 68360000
+  },
+  {
+   "vendor": "주식회사 부강금속조명",
+   "count": 3,
+   "amount": 68311000
+  },
+  {
+   "vendor": "태양조경 주식회사",
+   "count": 3,
+   "amount": 68200000
+  },
+  {
+   "vendor": "유니버스건설",
+   "count": 2,
+   "amount": 67504410
+  },
+  {
+   "vendor": "반석석재",
+   "count": 3,
+   "amount": 67273570
+  },
+  {
+   "vendor": "농업회사법인(주)땅끝야생화",
+   "count": 6,
+   "amount": 67048000
+  },
+  {
+   "vendor": "주식회사 에이치엠테크",
+   "count": 1,
+   "amount": 66880000
+  },
+  {
+   "vendor": "알파레이저",
+   "count": 11,
+   "amount": 66753250
+  },
+  {
+   "vendor": "대자연알파",
+   "count": 2,
+   "amount": 66367000
+  },
+  {
+   "vendor": "(주)디오스조경디자인사무소",
+   "count": 2,
+   "amount": 66330000
+  },
+  {
+   "vendor": "(주)공간",
+   "count": 2,
+   "amount": 66299000
+  },
+  {
+   "vendor": "(자)동일콘크리트",
+   "count": 5,
+   "amount": 66254400
+  },
+  {
+   "vendor": "주식회사피치파크게임즈",
+   "count": 1,
+   "amount": 66000000
+  },
+  {
+   "vendor": "(주)정안건축종합건축사사무소",
+   "count": 1,
+   "amount": 65604000
+  },
+  {
+   "vendor": "주식회사 디자인모프",
+   "count": 2,
+   "amount": 65600000
+  },
+  {
+   "vendor": "(주)삼성환경개발",
+   "count": 1,
+   "amount": 64983000
+  },
+  {
+   "vendor": "주식회사 이엘산업",
+   "count": 5,
+   "amount": 64915800
+  },
+  {
+   "vendor": "(주)태상산업개발",
+   "count": 2,
+   "amount": 64642000
+  },
+  {
+   "vendor": "주식회사 한양그린파크",
+   "count": 5,
+   "amount": 64475000
+  },
+  {
+   "vendor": "주)메카넷",
+   "count": 2,
+   "amount": 64140000
+  },
+  {
+   "vendor": "(주)신도리코",
+   "count": 1,
+   "amount": 63800000
+  },
+  {
+   "vendor": "주식회사 테스토닉",
+   "count": 2,
+   "amount": 63800000
+  },
+  {
+   "vendor": "(주)원보",
+   "count": 2,
+   "amount": 63723000
+  },
+  {
+   "vendor": "(주)상원",
+   "count": 2,
+   "amount": 62992830
+  },
+  {
+   "vendor": "(주)피앤피시큐어",
+   "count": 1,
+   "amount": 62700000
+  },
+  {
+   "vendor": "(주)조은시스템",
+   "count": 1,
+   "amount": 62651710
+  },
+  {
+   "vendor": "라이트팹",
+   "count": 1,
+   "amount": 62650000
+  },
+  {
+   "vendor": "주식회사 영등산업",
+   "count": 3,
+   "amount": 62593600
+  },
+  {
+   "vendor": "(주)비엔에스테크",
+   "count": 2,
+   "amount": 62569620
+  },
+  {
+   "vendor": "주식회사 제이엠디피",
+   "count": 1,
+   "amount": 62480000
+  },
+  {
+   "vendor": "주식회사 효선전기",
+   "count": 1,
+   "amount": 62426000
+  },
+  {
+   "vendor": "주식회사 88콘크리트",
+   "count": 3,
+   "amount": 62146000
+  },
+  {
+   "vendor": "서울특별시콘크리트공업(협)",
+   "count": 2,
+   "amount": 62121400
+  },
+  {
+   "vendor": "주식회사 서호에코탑",
+   "count": 2,
+   "amount": 61850400
+  },
+  {
+   "vendor": "주식회사 흥화",
+   "count": 1,
+   "amount": 61380000
+  },
+  {
+   "vendor": "주식회사 플러스원",
+   "count": 3,
+   "amount": 61269100
+  },
+  {
+   "vendor": "대성인더스",
+   "count": 2,
+   "amount": 60880000
+  },
+  {
+   "vendor": "충북경계석",
+   "count": 3,
+   "amount": 60798180
+  },
+  {
+   "vendor": "도시마을협동조합",
+   "count": 2,
+   "amount": 60259740
+  },
+  {
+   "vendor": "주식회사 에코제이피",
+   "count": 4,
+   "amount": 60237500
+  },
+  {
+   "vendor": "에이컴에너지(주)",
+   "count": 4,
+   "amount": 60030000
+  },
+  {
+   "vendor": "(주)뉴보텍",
+   "count": 1,
+   "amount": 60000000
+  },
+  {
+   "vendor": "주식회사 엘에스티",
+   "count": 4,
+   "amount": 59890000
+  },
+  {
+   "vendor": "(주)비앤씨메디칼",
+   "count": 1,
+   "amount": 59760000
+  },
+  {
+   "vendor": "(주)오토코리아",
+   "count": 2,
+   "amount": 59400000
+  },
+  {
+   "vendor": "더그린",
+   "count": 2,
+   "amount": 59400000
+  },
+  {
+   "vendor": "(주)에프에이일렉콤",
+   "count": 2,
+   "amount": 59358000
+  },
+  {
+   "vendor": "단아건축사사무소",
+   "count": 1,
+   "amount": 59000000
+  },
+  {
+   "vendor": "(주)청운조경기술사사무소",
+   "count": 3,
+   "amount": 58947000
+  },
+  {
+   "vendor": "신방건설 주식회사",
+   "count": 1,
+   "amount": 58476000
+  },
+  {
+   "vendor": "주식회사 큰그림",
+   "count": 2,
+   "amount": 58240000
+  },
+  {
+   "vendor": "위메이드 보호작업장",
+   "count": 1,
+   "amount": 58230000
+  },
+  {
+   "vendor": "주식회사 파인젠",
+   "count": 1,
+   "amount": 58196570
+  },
+  {
+   "vendor": "주식회사 토암콘크리트",
+   "count": 1,
+   "amount": 58140000
+  },
+  {
+   "vendor": "(주)미로드",
+   "count": 3,
+   "amount": 57837000
+  },
+  {
+   "vendor": "한국화재안전시스템(주)",
+   "count": 4,
+   "amount": 56847000
+  },
+  {
+   "vendor": "천강이엔씨",
+   "count": 2,
+   "amount": 56752500
+  },
+  {
+   "vendor": "자연과 사람들",
+   "count": 3,
+   "amount": 56737500
+  },
+  {
+   "vendor": "(주)에이치제이토건",
+   "count": 1,
+   "amount": 56110000
+  },
+  {
+   "vendor": "인경아스콘사업협동조합",
+   "count": 3,
+   "amount": 56030670
+  },
+  {
+   "vendor": "(주)참솔조경개발",
+   "count": 1,
+   "amount": 55527400
+  },
+  {
+   "vendor": "주식회사 블렌트",
+   "count": 1,
+   "amount": 55120000
+  },
+  {
+   "vendor": "신송매",
+   "count": 3,
+   "amount": 55094300
+  },
+  {
+   "vendor": "(주)거림종합건축사사무소",
+   "count": 1,
+   "amount": 55055000
+  },
+  {
+   "vendor": "효자건설주식회사",
+   "count": 1,
+   "amount": 55000000
+  },
+  {
+   "vendor": "(주)메디컬애비뉴",
+   "count": 1,
+   "amount": 55000000
+  },
+  {
+   "vendor": "에디터팀워크",
+   "count": 1,
+   "amount": 55000000
+  },
+  {
+   "vendor": "(주)그루",
+   "count": 1,
+   "amount": 55000000
+  },
+  {
+   "vendor": "이도로움 주식회사",
+   "count": 1,
+   "amount": 55000000
+  },
+  {
+   "vendor": "아트미츠라이프 주식회사",
+   "count": 1,
+   "amount": 55000000
+  },
+  {
+   "vendor": "주식회사 푸른나무조경",
+   "count": 1,
+   "amount": 55000000
+  },
+  {
+   "vendor": "제이앤디디자인 주식회사",
+   "count": 1,
+   "amount": 55000000
+  },
+  {
+   "vendor": "마인드리더",
+   "count": 1,
+   "amount": 55000000
+  },
+  {
+   "vendor": "주식회사 좋은날",
+   "count": 1,
+   "amount": 55000000
+  },
+  {
+   "vendor": "도원건축사사무소",
+   "count": 1,
+   "amount": 55000000
+  },
+  {
+   "vendor": "(주)센타투어",
+   "count": 1,
+   "amount": 54945000
+  },
+  {
+   "vendor": "주식회사 우원건업",
+   "count": 2,
+   "amount": 54887900
+  },
+  {
+   "vendor": "주식회사 상상이상",
+   "count": 1,
+   "amount": 54751000
+  },
+  {
+   "vendor": "주식회사 동탄조경",
+   "count": 1,
+   "amount": 54566600
+  },
+  {
+   "vendor": "(주)지산호디자인",
+   "count": 1,
+   "amount": 54494545
+  },
+  {
+   "vendor": "주식회사 아이작디자인",
+   "count": 1,
+   "amount": 54307000
+  },
+  {
+   "vendor": "(주)이레시스템",
+   "count": 1,
+   "amount": 54296000
+  },
+  {
+   "vendor": "(주)그린사랑",
+   "count": 1,
+   "amount": 54005000
+  },
+  {
+   "vendor": "환경전략컨설팅",
+   "count": 1,
+   "amount": 54000000
+  },
+  {
+   "vendor": "주식회사 디끄",
+   "count": 1,
+   "amount": 54000000
+  },
+  {
+   "vendor": "주식회사 아라테크",
+   "count": 1,
+   "amount": 53990000
+  },
+  {
+   "vendor": "주식회사 성진전업",
+   "count": 1,
+   "amount": 53988000
+  },
+  {
+   "vendor": "명도라인주식회사",
+   "count": 1,
+   "amount": 53782400
+  },
+  {
+   "vendor": "우성어패럴",
+   "count": 1,
+   "amount": 53685000
+  },
+  {
+   "vendor": "주식회사 다나",
+   "count": 1,
+   "amount": 53684000
+  },
+  {
+   "vendor": "㈜에스앤에스기획",
+   "count": 1,
+   "amount": 53662400
+  },
+  {
+   "vendor": "(주)대영테크",
+   "count": 2,
+   "amount": 53565600
+  },
+  {
+   "vendor": "이청이(그래픽아테나)",
+   "count": 1,
+   "amount": 53565600
+  },
+  {
+   "vendor": "(주)윈도우종합건설",
+   "count": 1,
+   "amount": 53501067
+  },
+  {
+   "vendor": "주식회사 로이조경건설",
+   "count": 1,
+   "amount": 53457000
+  },
+  {
+   "vendor": "(주)바위솔",
+   "count": 1,
+   "amount": 53424610
+  },
+  {
+   "vendor": "(주)미강엔지니어링",
+   "count": 1,
+   "amount": 53400000
+  },
+  {
+   "vendor": "차유나(유앤미파트너스)",
+   "count": 1,
+   "amount": 53355000
+  },
+  {
+   "vendor": "주식회사 희랑",
+   "count": 1,
+   "amount": 53309100
+  },
+  {
+   "vendor": "㈜피그마리온",
+   "count": 1,
+   "amount": 53190000
+  },
+  {
+   "vendor": "기아주식회사",
+   "count": 1,
+   "amount": 53153000
+  },
+  {
+   "vendor": "이은 건축사사무소",
+   "count": 2,
+   "amount": 53124000
+  },
+  {
+   "vendor": "(주)새한이엔씨",
+   "count": 1,
+   "amount": 53110000
+  },
+  {
+   "vendor": "신신홍보기획",
+   "count": 1,
+   "amount": 52807230
+  },
+  {
+   "vendor": "한국전기안전써비스(주)",
+   "count": 1,
+   "amount": 52800000
+  },
+  {
+   "vendor": "(주)에니텍시스",
+   "count": 3,
+   "amount": 52710760
+  },
+  {
+   "vendor": "새로고침",
+   "count": 1,
+   "amount": 52440000
+  },
+  {
+   "vendor": "주식회사 패스넷",
+   "count": 1,
+   "amount": 52428000
+  },
+  {
+   "vendor": "(주)스마트정보기술",
+   "count": 1,
+   "amount": 52250000
+  },
+  {
+   "vendor": "세인트로그 주식회사",
+   "count": 1,
+   "amount": 52250000
+  },
+  {
+   "vendor": "워터알앤디 주식회사",
+   "count": 1,
+   "amount": 51917000
+  },
+  {
+   "vendor": "주식회사 이스트파워",
+   "count": 1,
+   "amount": 51646000
+  },
+  {
+   "vendor": "서강나무병원 주식회사",
+   "count": 1,
+   "amount": 51457000
+  },
+  {
+   "vendor": "(주)광장씨엔씨",
+   "count": 3,
+   "amount": 51239000
+  },
+  {
+   "vendor": "주식회사 웅지",
+   "count": 1,
+   "amount": 51200000
+  },
+  {
+   "vendor": "대광콘크리트(주)",
+   "count": 2,
+   "amount": 51101700
+  },
+  {
+   "vendor": "주식회사 케이지테크",
+   "count": 1,
+   "amount": 51075000
+  },
+  {
+   "vendor": "주식회사 비트코퍼레이션",
+   "count": 2,
+   "amount": 51062880
+  },
+  {
+   "vendor": "주식회사 더준디자인",
+   "count": 4,
+   "amount": 50940000
+  },
+  {
+   "vendor": "에스제이파워",
+   "count": 2,
+   "amount": 50804770
+  },
+  {
+   "vendor": "광명통신안전 주식회사",
+   "count": 2,
+   "amount": 50700000
+  },
+  {
+   "vendor": "(주)삼기엔텍",
+   "count": 1,
+   "amount": 50434560
+  },
+  {
+   "vendor": "(주)강원랜드",
+   "count": 1,
+   "amount": 50400000
+  },
+  {
+   "vendor": "와이에이치 주식회사",
+   "count": 1,
+   "amount": 50352000
+  },
+  {
+   "vendor": "기아 주식회사",
+   "count": 1,
+   "amount": 50270000
+  },
+  {
+   "vendor": "주식회사 동현이엔지",
+   "count": 1,
+   "amount": 50170000
+  },
+  {
+   "vendor": "(주)삼원씨앤지",
+   "count": 1,
+   "amount": 50067000
+  },
+  {
+   "vendor": "주식회사 바이런(VIRON)",
+   "count": 1,
+   "amount": 50050000
+  },
+  {
+   "vendor": "(주)에스제이환경",
+   "count": 1,
+   "amount": 50000000
+  },
+  {
+   "vendor": "(주)더브리즈",
+   "count": 1,
+   "amount": 50000000
+  },
+  {
+   "vendor": "피스티스",
+   "count": 1,
+   "amount": 50000000
+  },
+  {
+   "vendor": "주식회사 시큐렉스",
+   "count": 1,
+   "amount": 49991000
+  },
+  {
+   "vendor": "주식회사아공디자인",
+   "count": 1,
+   "amount": 49897500
+  },
+  {
+   "vendor": "주식회사 헤이빌",
+   "count": 4,
+   "amount": 49895650
+  },
+  {
+   "vendor": "왕건전기 주식회사",
+   "count": 1,
+   "amount": 49874000
+  },
+  {
+   "vendor": "중원나무종합병원(주)",
+   "count": 2,
+   "amount": 49700000
+  },
+  {
+   "vendor": "(주)이엔엘",
+   "count": 1,
+   "amount": 49600000
+  },
+  {
+   "vendor": "(주)에이치오엠건축사사무소",
+   "count": 1,
+   "amount": 49500000
+  },
+  {
+   "vendor": "디자인외길",
+   "count": 1,
+   "amount": 49490050
+  },
+  {
+   "vendor": "정오미디어",
+   "count": 1,
+   "amount": 49470000
+  },
+  {
+   "vendor": "(주)남향에스티",
+   "count": 1,
+   "amount": 49450500
+  },
+  {
+   "vendor": "(주)세자매연구소",
+   "count": 1,
+   "amount": 49320000
+  },
+  {
+   "vendor": "골드텍주식회사",
+   "count": 2,
+   "amount": 49314000
+  },
+  {
+   "vendor": "주식회사 현암",
+   "count": 4,
+   "amount": 49261000
+  },
+  {
+   "vendor": "(주)스토리여행",
+   "count": 2,
+   "amount": 49198600
+  },
+  {
+   "vendor": "캔디미디어",
+   "count": 1,
+   "amount": 49172200
+  },
+  {
+   "vendor": "왕산조경",
+   "count": 1,
+   "amount": 49170000
+  },
+  {
+   "vendor": "건축사사무소제이더블유(주)",
+   "count": 4,
+   "amount": 49130150
+  },
+  {
+   "vendor": "한일시멘트 주식회사",
+   "count": 2,
+   "amount": 49092920
+  },
+  {
+   "vendor": "주식회사 탄소중립전략연구원",
+   "count": 1,
+   "amount": 49000000
+  },
+  {
+   "vendor": "주식회사 작가공작소",
+   "count": 1,
+   "amount": 49000000
+  },
+  {
+   "vendor": "주식회사 두연테크",
+   "count": 1,
+   "amount": 49000000
+  },
+  {
+   "vendor": "(주) 체어로",
+   "count": 1,
+   "amount": 48763000
+  },
+  {
+   "vendor": "에스에스브이",
+   "count": 1,
+   "amount": 48600000
+  },
+  {
+   "vendor": "광평서점",
+   "count": 1,
+   "amount": 48576000
+  },
+  {
+   "vendor": "인트로",
+   "count": 2,
+   "amount": 48482000
+  },
+  {
+   "vendor": "영그린텍",
+   "count": 3,
+   "amount": 48263000
+  },
+  {
+   "vendor": "주식회사 이도",
+   "count": 2,
+   "amount": 48003800
+  },
+  {
+   "vendor": "소유건축사사무소",
+   "count": 3,
+   "amount": 48000000
+  },
+  {
+   "vendor": "주식회사 기남금속",
+   "count": 4,
+   "amount": 47980000
+  },
+  {
+   "vendor": "우리씨앤에스(주)",
+   "count": 1,
+   "amount": 47971000
+  },
+  {
+   "vendor": "주식회사 더씨테크",
+   "count": 1,
+   "amount": 47960000
+  },
+  {
+   "vendor": "(유)동부환경",
+   "count": 1,
+   "amount": 47929440
+  },
+  {
+   "vendor": "한빛디엔에스(주)",
+   "count": 1,
+   "amount": 47850000
+  },
+  {
+   "vendor": "에이비프로 주식회사",
+   "count": 1,
+   "amount": 47800000
+  },
+  {
+   "vendor": "주식회사 아이로드테크",
+   "count": 1,
+   "amount": 47795000
+  },
+  {
+   "vendor": "송림조경",
+   "count": 1,
+   "amount": 47729000
+  },
+  {
+   "vendor": "(주)아이우디",
+   "count": 1,
+   "amount": 47700000
+  },
+  {
+   "vendor": "주식회사 무량기술",
+   "count": 1,
+   "amount": 47641000
+  },
+  {
+   "vendor": "주식회사 새영",
+   "count": 1,
+   "amount": 47502400
+  },
+  {
+   "vendor": "제이솔루션",
+   "count": 1,
+   "amount": 47500000
+  },
+  {
+   "vendor": "한성대학교산학협력단",
+   "count": 1,
+   "amount": 47468000
+  },
+  {
+   "vendor": "(주)두리계전",
+   "count": 3,
+   "amount": 47418000
+  },
+  {
+   "vendor": "SK네트웍스 (주)",
+   "count": 1,
+   "amount": 47371500
+  },
+  {
+   "vendor": "반함(반려동물과 함께하는)",
+   "count": 1,
+   "amount": 47040000
+  },
+  {
+   "vendor": "(주)대세영",
+   "count": 1,
+   "amount": 46900000
+  },
+  {
+   "vendor": "그래픽 아테나",
+   "count": 2,
+   "amount": 46886400
+  },
+  {
+   "vendor": "(주)거광기업",
+   "count": 1,
+   "amount": 46856820
+  },
+  {
+   "vendor": "엄다종합건설(주)",
+   "count": 1,
+   "amount": 46733085
+  },
+  {
+   "vendor": "주식회사 경원이엔씨",
+   "count": 3,
+   "amount": 46515000
+  },
+  {
+   "vendor": "(주)태원에이엠",
+   "count": 1,
+   "amount": 46321550
+  },
+  {
+   "vendor": "(주)디자인여백플러스",
+   "count": 3,
+   "amount": 46286000
+  },
+  {
+   "vendor": "영진디자인",
+   "count": 3,
+   "amount": 46239000
+  },
+  {
+   "vendor": "태성용아개발(주)",
+   "count": 1,
+   "amount": 46211000
+  },
+  {
+   "vendor": "상일에스피",
+   "count": 3,
+   "amount": 45854000
+  },
+  {
+   "vendor": "아라식물원",
+   "count": 1,
+   "amount": 45777750
+  },
+  {
+   "vendor": "주식회사 더숲이엔지",
+   "count": 2,
+   "amount": 45584000
+  },
+  {
+   "vendor": "우리들야생화",
+   "count": 2,
+   "amount": 45552600
+  },
+  {
+   "vendor": "드림나무종합병원 주식회사",
+   "count": 1,
+   "amount": 45500000
+  },
+  {
+   "vendor": "주식회사 성일솔레드",
+   "count": 1,
+   "amount": 45447600
+  },
+  {
+   "vendor": "동광프리즘(주)",
+   "count": 8,
+   "amount": 45410000
+  },
+  {
+   "vendor": "주식회사 코아캠",
+   "count": 1,
+   "amount": 45360000
+  },
+  {
+   "vendor": "히트러너 주식회사",
+   "count": 4,
+   "amount": 45242000
+  },
+  {
+   "vendor": "열린인터네셔널",
+   "count": 1,
+   "amount": 45100000
+  },
+  {
+   "vendor": "대일콘크리트(주)",
+   "count": 2,
+   "amount": 45045060
+  },
+  {
+   "vendor": "하나우너스",
+   "count": 1,
+   "amount": 45041260
+  },
+  {
+   "vendor": "(주)올림플래닛",
+   "count": 1,
+   "amount": 45000000
+  },
+  {
+   "vendor": "율 컴퍼니",
+   "count": 1,
+   "amount": 45000000
+  },
+  {
+   "vendor": "(주)129응급구조단",
+   "count": 1,
+   "amount": 44976960
+  },
+  {
+   "vendor": "현대장미원",
+   "count": 2,
+   "amount": 44969790
+  },
+  {
+   "vendor": "(주)아모스아인스가구",
+   "count": 3,
+   "amount": 44568000
+  },
+  {
+   "vendor": "주식회사 티에스일렉트릭",
+   "count": 1,
+   "amount": 44551000
+  },
+  {
+   "vendor": "(주)인우플랜",
+   "count": 1,
+   "amount": 44540000
+  },
+  {
+   "vendor": "벧엘",
+   "count": 1,
+   "amount": 44374000
+  },
+  {
+   "vendor": "주식회사 블랩",
+   "count": 1,
+   "amount": 44100000
+  },
+  {
+   "vendor": "주식회사 위드플러스에스",
+   "count": 1,
+   "amount": 44027110
+  },
+  {
+   "vendor": "서울대학교 평생교육원",
+   "count": 2,
+   "amount": 44000000
+  },
+  {
+   "vendor": "대양디아이 주식회사",
+   "count": 1,
+   "amount": 43999750
+  },
+  {
+   "vendor": "(주)한진씨앤지",
+   "count": 1,
+   "amount": 43862000
+  },
+  {
+   "vendor": "주식회사 선진콘트롤 엔 엑세스",
+   "count": 1,
+   "amount": 43717550
+  },
+  {
+   "vendor": "주식회사 속초오션호텔",
+   "count": 1,
+   "amount": 43700000
+  },
+  {
+   "vendor": "주식회사 글로벌메타",
+   "count": 2,
+   "amount": 43699000
+  },
+  {
+   "vendor": "주식회사 티에이치서비스",
+   "count": 1,
+   "amount": 43506100
+  },
+  {
+   "vendor": "주식회사 에스엘아이평생교육원",
+   "count": 2,
+   "amount": 43438120
+  },
+  {
+   "vendor": "해성",
+   "count": 3,
+   "amount": 43260000
+  },
+  {
+   "vendor": "(주)유니블록",
+   "count": 4,
+   "amount": 43122800
+  },
+  {
+   "vendor": "나무앨앤씨 주식회사",
+   "count": 1,
+   "amount": 43000000
+  },
+  {
+   "vendor": "워터알앤디주식회사",
+   "count": 1,
+   "amount": 42839500
+  },
+  {
+   "vendor": "가람유통",
+   "count": 1,
+   "amount": 42759700
+  },
+  {
+   "vendor": "(주)명도산업조명",
+   "count": 1,
+   "amount": 42670000
+  },
+  {
+   "vendor": "에이루덴스",
+   "count": 3,
+   "amount": 42654000
+  },
+  {
+   "vendor": "농업회사법인 주식회사 자연하다",
+   "count": 5,
+   "amount": 42173000
+  },
+  {
+   "vendor": "주식회사 삼화그린텍",
+   "count": 1,
+   "amount": 42100400
+  },
+  {
+   "vendor": "주식회사 에어패스",
+   "count": 2,
+   "amount": 42045330
+  },
+  {
+   "vendor": "보이스커뮤니케이션",
+   "count": 1,
+   "amount": 42000000
+  },
+  {
+   "vendor": "남서울농협",
+   "count": 2,
+   "amount": 41996000
+  },
+  {
+   "vendor": "주식회사 거호",
+   "count": 4,
+   "amount": 41905760
+  },
+  {
+   "vendor": "주식회사 호반호텔앤리조트",
+   "count": 1,
+   "amount": 41640000
+  },
+  {
+   "vendor": "주식회사 에코트랙",
+   "count": 1,
+   "amount": 41580000
+  },
+  {
+   "vendor": "그린가드",
+   "count": 1,
+   "amount": 41356000
+  },
+  {
+   "vendor": "(주)미디어밸리렛",
+   "count": 1,
+   "amount": 41070000
+  },
+  {
+   "vendor": "주식회사 솔토기업",
+   "count": 2,
+   "amount": 40730000
+  },
+  {
+   "vendor": "통건설",
+   "count": 1,
+   "amount": 40455660
+  },
+  {
+   "vendor": "한우리환경",
+   "count": 1,
+   "amount": 40382500
+  },
+  {
+   "vendor": "이화소방이엔지(주)",
+   "count": 1,
+   "amount": 40310000
+  },
+  {
+   "vendor": "동국대학교",
+   "count": 1,
+   "amount": 40227000
+  },
+  {
+   "vendor": "김종해조경설계주식회사",
+   "count": 3,
+   "amount": 40200000
+  },
+  {
+   "vendor": "선우",
+   "count": 4,
+   "amount": 40104000
+  },
+  {
+   "vendor": "(주)윤씨네",
+   "count": 1,
+   "amount": 40063680
+  },
+  {
+   "vendor": "디엠라이팅",
+   "count": 1,
+   "amount": 40055000
+  },
+  {
+   "vendor": "에이스톤엔지니어링(주)",
+   "count": 2,
+   "amount": 40000000
+  },
+  {
+   "vendor": "주식회사 이지태스크",
+   "count": 1,
+   "amount": 40000000
+  },
+  {
+   "vendor": "(주)혜담교육인재개발원",
+   "count": 1,
+   "amount": 40000000
+  },
+  {
+   "vendor": "주식회사 코어마인드",
+   "count": 1,
+   "amount": 40000000
+  },
+  {
+   "vendor": "(주)덕현이엔씨",
+   "count": 1,
+   "amount": 39970000
+  },
+  {
+   "vendor": "CS건축인테리어",
+   "count": 3,
+   "amount": 39966000
+  },
+  {
+   "vendor": "(주)비티엘애드",
+   "count": 2,
+   "amount": 39936600
+  },
+  {
+   "vendor": "(주)플래너코리아",
+   "count": 1,
+   "amount": 39562000
+  },
+  {
+   "vendor": "태진이엔지",
+   "count": 1,
+   "amount": 39379920
+  },
+  {
+   "vendor": "청담두레파출부",
+   "count": 1,
+   "amount": 39200000
+  },
+  {
+   "vendor": "송광 주식회사",
+   "count": 1,
+   "amount": 39133000
+  },
+  {
+   "vendor": "다해산업개발",
+   "count": 1,
+   "amount": 39123000
+  },
+  {
+   "vendor": "(주)이유씨엔씨",
+   "count": 1,
+   "amount": 38834000
+  },
+  {
+   "vendor": "재단법인 지구환경연구소",
+   "count": 1,
+   "amount": 38698000
+  },
+  {
+   "vendor": "석세스 C＆C",
+   "count": 1,
+   "amount": 38680000
+  },
+  {
+   "vendor": "주식회사 라디안큐바이오",
+   "count": 1,
+   "amount": 38360000
+  },
+  {
+   "vendor": "(주)케이엠에스씨",
+   "count": 2,
+   "amount": 38223360
+  },
+  {
+   "vendor": "(주)유니그린개발",
+   "count": 1,
+   "amount": 38180000
+  },
+  {
+   "vendor": "자연애(주)",
+   "count": 2,
+   "amount": 38020200
+  },
+  {
+   "vendor": "(주)제윤",
+   "count": 3,
+   "amount": 38014800
+  },
+  {
+   "vendor": "주식회사 한국공원체육산업",
+   "count": 1,
+   "amount": 37995000
+  },
+  {
+   "vendor": "땅끝야생화",
+   "count": 1,
+   "amount": 37887600
+  },
+  {
+   "vendor": "트라이코리아",
+   "count": 1,
+   "amount": 37663200
+  },
+  {
+   "vendor": "마인즈그라운드",
+   "count": 1,
+   "amount": 37600000
+  },
+  {
+   "vendor": "새말안전",
+   "count": 1,
+   "amount": 37541000
+  },
+  {
+   "vendor": "한강건설안전 주식회사",
+   "count": 1,
+   "amount": 37538490
+  },
+  {
+   "vendor": "와이즈레인 주식회사",
+   "count": 2,
+   "amount": 37500000
+  },
+  {
+   "vendor": "삼성전자(주)",
+   "count": 1,
+   "amount": 36996820
+  },
+  {
+   "vendor": "(주)청석엔지니어링",
+   "count": 1,
+   "amount": 36731460
+  },
+  {
+   "vendor": "금녕산업 주식회사",
+   "count": 1,
+   "amount": 36707000
+  },
+  {
+   "vendor": "나노조명",
+   "count": 2,
+   "amount": 36600000
+  },
+  {
+   "vendor": "키그린(주)",
+   "count": 4,
+   "amount": 36585560
+  },
+  {
+   "vendor": "메탈크래프트 코리아(주)",
+   "count": 1,
+   "amount": 36519200
+  },
+  {
+   "vendor": "주식회사 태담",
+   "count": 1,
+   "amount": 36500000
+  },
+  {
+   "vendor": "주식회사 태흥이엔씨",
+   "count": 1,
+   "amount": 36300750
+  },
+  {
+   "vendor": "주식회사 한국어질리티연합",
+   "count": 1,
+   "amount": 36162000
+  },
+  {
+   "vendor": "진영프라스틱",
+   "count": 2,
+   "amount": 35958000
+  },
+  {
+   "vendor": "도시숲길 주식회사",
+   "count": 2,
+   "amount": 35827000
+  },
+  {
+   "vendor": "주식회사 제노시스",
+   "count": 1,
+   "amount": 35720510
+  },
+  {
+   "vendor": "이엠아키텍츠 건축사사무소",
+   "count": 2,
+   "amount": 35587000
+  },
+  {
+   "vendor": "대화수지공업(주)",
+   "count": 1,
+   "amount": 35548000
+  },
+  {
+   "vendor": "경동산업주식회사",
+   "count": 1,
+   "amount": 35406030
+  },
+  {
+   "vendor": "호드림",
+   "count": 1,
+   "amount": 35300060
+  },
+  {
+   "vendor": "유아이엘",
+   "count": 1,
+   "amount": 35160390
+  },
+  {
+   "vendor": "데코벨류",
+   "count": 1,
+   "amount": 35123670
+  },
+  {
+   "vendor": "주식회사 홈피스",
+   "count": 1,
+   "amount": 35070000
+  },
+  {
+   "vendor": "지인",
+   "count": 2,
+   "amount": 35024000
+  },
+  {
+   "vendor": "주식회사 우진티앤에스",
+   "count": 1,
+   "amount": 35000000
+  },
+  {
+   "vendor": "주식회사 이벤트그룹필쏘굿",
+   "count": 1,
+   "amount": 35000000
+  },
+  {
+   "vendor": "한국지방자치학회",
+   "count": 1,
+   "amount": 35000000
+  },
+  {
+   "vendor": "상지레포츠",
+   "count": 1,
+   "amount": 34960000
+  },
+  {
+   "vendor": "영주산업",
+   "count": 1,
+   "amount": 34840930
+  },
+  {
+   "vendor": "티에스컴퍼니",
+   "count": 1,
+   "amount": 34733460
+  },
+  {
+   "vendor": "주식회사 우신",
+   "count": 3,
+   "amount": 34650000
+  },
+  {
+   "vendor": "한국모유수유정보센터",
+   "count": 1,
+   "amount": 34647320
+  },
+  {
+   "vendor": "(주)힉스코리아",
+   "count": 1,
+   "amount": 34615500
+  },
+  {
+   "vendor": "(주)디자인마이러브",
+   "count": 6,
+   "amount": 34446500
+  },
+  {
+   "vendor": "(주)에스엠아이디",
+   "count": 1,
+   "amount": 34430000
+  },
+  {
+   "vendor": "주식회사 팬메이트",
+   "count": 1,
+   "amount": 34415130
+  },
+  {
+   "vendor": "주식회사 국민건축",
+   "count": 1,
+   "amount": 34315980
+  },
+  {
+   "vendor": "(주)에이비랩건축사사무소장애물없는생활환경연구원",
+   "count": 1,
+   "amount": 34270000
+  },
+  {
+   "vendor": "다경실업(주)",
+   "count": 1,
+   "amount": 34056000
+  },
+  {
+   "vendor": "형진종합조경 주식회사",
+   "count": 2,
+   "amount": 34001000
+  },
+  {
+   "vendor": "에코지음",
+   "count": 1,
+   "amount": 34000000
+  },
+  {
+   "vendor": "한영에너텍(주)",
+   "count": 1,
+   "amount": 33990000
+  },
+  {
+   "vendor": "주식회사 한국공교육원",
+   "count": 1,
+   "amount": 33925500
+  },
+  {
+   "vendor": "나오스건축사사무소",
+   "count": 2,
+   "amount": 33833000
+  },
+  {
+   "vendor": "(주)새로고침",
+   "count": 1,
+   "amount": 33700000
+  },
+  {
+   "vendor": "신학트레이드",
+   "count": 1,
+   "amount": 33471300
+  },
+  {
+   "vendor": "대한주택관리사협회",
+   "count": 1,
+   "amount": 33289000
+  },
+  {
+   "vendor": "해든앰앤씨",
+   "count": 2,
+   "amount": 33255000
+  },
+  {
+   "vendor": "(주)조인존",
+   "count": 4,
+   "amount": 33200000
+  },
+  {
+   "vendor": "(주)메디비젼",
+   "count": 1,
+   "amount": 32945000
+  },
+  {
+   "vendor": "주식회사 그린아이티코리아",
+   "count": 1,
+   "amount": 32839800
+  },
+  {
+   "vendor": "(주)국일이앤씨",
+   "count": 3,
+   "amount": 32831000
+  },
+  {
+   "vendor": "주식회사 두림개발",
+   "count": 1,
+   "amount": 32778000
+  },
+  {
+   "vendor": "하스트 주식회사",
+   "count": 1,
+   "amount": 32602400
+  },
+  {
+   "vendor": "모티브어스",
+   "count": 2,
+   "amount": 32549000
+  },
+  {
+   "vendor": "주식회사 참전유공자장애인회",
+   "count": 1,
+   "amount": 32538000
+  },
+  {
+   "vendor": "오리온시스템즈 주식회사",
+   "count": 1,
+   "amount": 32340000
+  },
+  {
+   "vendor": "주식회사 태정이엔지",
+   "count": 1,
+   "amount": 32321360
+  },
+  {
+   "vendor": "(주)아름다운길",
+   "count": 3,
+   "amount": 32243100
+  },
+  {
+   "vendor": "(주)창조에프앤에스",
+   "count": 3,
+   "amount": 32188580
+  },
+  {
+   "vendor": "현대체육산업(주)",
+   "count": 2,
+   "amount": 32139000
+  },
+  {
+   "vendor": "(주)세진테크",
+   "count": 2,
+   "amount": 32076000
+  },
+  {
+   "vendor": "(주)일흥피앤피",
+   "count": 3,
+   "amount": 32070000
+  },
+  {
+   "vendor": "(주)삼보기전",
+   "count": 2,
+   "amount": 32057000
+  },
+  {
+   "vendor": "주)네모에스디에스",
+   "count": 1,
+   "amount": 32000000
+  },
+  {
+   "vendor": "주식회사 엘파워",
+   "count": 1,
+   "amount": 31938000
+  },
+  {
+   "vendor": "로드온 주식회사",
+   "count": 4,
+   "amount": 31675000
+  },
+  {
+   "vendor": "자연과사람들",
+   "count": 1,
+   "amount": 31500000
+  },
+  {
+   "vendor": "주식회사 서린",
+   "count": 1,
+   "amount": 31363200
+  },
+  {
+   "vendor": "주)서경기술공사",
+   "count": 1,
+   "amount": 31343000
+  },
+  {
+   "vendor": "라온로버",
+   "count": 1,
+   "amount": 31300000
+  },
+  {
+   "vendor": "에이펙스인텍(주)",
+   "count": 1,
+   "amount": 31274000
+  },
+  {
+   "vendor": "주식회사 아이에스콤",
+   "count": 2,
+   "amount": 31262000
+  },
+  {
+   "vendor": "(주)케이씨엠씨",
+   "count": 1,
+   "amount": 30800000
+  },
+  {
+   "vendor": "(주)대상건축사사무소",
+   "count": 1,
+   "amount": 30800000
+  },
+  {
+   "vendor": "주식회사자동기",
+   "count": 2,
+   "amount": 30697920
+  },
+  {
+   "vendor": "주식회사 지앤씨디자인",
+   "count": 1,
+   "amount": 30556400
+  },
+  {
+   "vendor": "하영Fnc",
+   "count": 2,
+   "amount": 30530000
+  },
+  {
+   "vendor": "주식회사제우스코리아",
+   "count": 1,
+   "amount": 30263400
+  },
+  {
+   "vendor": "주식회사 광성",
+   "count": 1,
+   "amount": 30230000
+  },
+  {
+   "vendor": "주식회사 현수이엔지",
+   "count": 1,
+   "amount": 30160000
+  },
+  {
+   "vendor": "해맞이 플라워조경",
+   "count": 2,
+   "amount": 30143000
+  },
+  {
+   "vendor": "(주)새영",
+   "count": 1,
+   "amount": 30136040
+  },
+  {
+   "vendor": "현대해상화재보험(주)",
+   "count": 2,
+   "amount": 30107550
+  },
+  {
+   "vendor": "(주)에이티엔지니어링",
+   "count": 1,
+   "amount": 30104700
+  },
+  {
+   "vendor": "세승컴퍼니",
+   "count": 1,
+   "amount": 30080000
+  },
+  {
+   "vendor": "(주)지엘컴",
+   "count": 2,
+   "amount": 30000000
+  },
+  {
+   "vendor": "주식회사 미디어준",
+   "count": 1,
+   "amount": 30000000
+  },
+  {
+   "vendor": "주식회사 건축사사무소 길",
+   "count": 1,
+   "amount": 29970000
+  },
+  {
+   "vendor": "승진엔지니어링",
+   "count": 1,
+   "amount": 29800000
+  },
+  {
+   "vendor": "(주)네오도시건축사사무소",
+   "count": 1,
+   "amount": 29700000
+  },
+  {
+   "vendor": "(주)하나플러스건축사사무소",
+   "count": 1,
+   "amount": 29700000
+  },
+  {
+   "vendor": "주식회사 윤석민건축사사무소",
+   "count": 4,
+   "amount": 29335000
+  },
+  {
+   "vendor": "(주)하늘영상통신기술",
+   "count": 1,
+   "amount": 29294000
+  },
+  {
+   "vendor": "오광일(다올)",
+   "count": 2,
+   "amount": 29285000
+  },
+  {
+   "vendor": "화진라이팅",
+   "count": 2,
+   "amount": 29230000
+  },
+  {
+   "vendor": "나눔세상",
+   "count": 3,
+   "amount": 29220000
+  },
+  {
+   "vendor": "(주)KNX정보통신",
+   "count": 1,
+   "amount": 28998000
+  },
+  {
+   "vendor": "주식회사 로드원",
+   "count": 1,
+   "amount": 28944000
+  },
+  {
+   "vendor": "현대계장공업㈜",
+   "count": 1,
+   "amount": 28901080
+  },
+  {
+   "vendor": "우광개발주식회사",
+   "count": 1,
+   "amount": 28688000
+  },
+  {
+   "vendor": "대일산업 주식회사",
+   "count": 5,
+   "amount": 28664140
+  },
+  {
+   "vendor": "대일스포츠",
+   "count": 3,
+   "amount": 28650000
+  },
+  {
+   "vendor": "삼정회계법인",
+   "count": 1,
+   "amount": 28600000
+  },
+  {
+   "vendor": "블록킹 주식회사",
+   "count": 1,
+   "amount": 28474000
+  },
+  {
+   "vendor": "대한제강(주)",
+   "count": 1,
+   "amount": 28469780
+  },
+  {
+   "vendor": "주식회사 공정",
+   "count": 2,
+   "amount": 28460000
+  },
+  {
+   "vendor": "주식회사 에코빌드",
+   "count": 3,
+   "amount": 28194600
+  },
+  {
+   "vendor": "우주조경",
+   "count": 1,
+   "amount": 28140000
+  },
+  {
+   "vendor": "주식회사 빛드림",
+   "count": 2,
+   "amount": 28100000
+  },
+  {
+   "vendor": "하진",
+   "count": 2,
+   "amount": 28025800
+  },
+  {
+   "vendor": "(주)아희안",
+   "count": 2,
+   "amount": 28000000
+  },
+  {
+   "vendor": "(주)선명테크",
+   "count": 1,
+   "amount": 27991700
+  },
+  {
+   "vendor": "주식회사우원건업",
+   "count": 1,
+   "amount": 27969200
+  },
+  {
+   "vendor": "주식회사 이공사",
+   "count": 1,
+   "amount": 27900000
+  },
+  {
+   "vendor": "예영테크주식회사",
+   "count": 1,
+   "amount": 27896000
+  },
+  {
+   "vendor": "에이치디씨현대산업개발(주)파크로쉬",
+   "count": 1,
+   "amount": 27750000
+  },
+  {
+   "vendor": "주식회사건융",
+   "count": 1,
+   "amount": 27718200
+  },
+  {
+   "vendor": "주식회사 다온빛",
+   "count": 1,
+   "amount": 27594000
+  },
+  {
+   "vendor": "주식회사 청연",
+   "count": 1,
+   "amount": 27360000
+  },
+  {
+   "vendor": "버스커즈",
+   "count": 1,
+   "amount": 27212900
+  },
+  {
+   "vendor": "주식회사 청명산업",
+   "count": 1,
+   "amount": 27171000
+  },
+  {
+   "vendor": "(주) 더라온패션",
+   "count": 1,
+   "amount": 27090000
+  },
+  {
+   "vendor": "주식회사 고엽제 전우회 조경자재",
+   "count": 1,
+   "amount": 27033600
+  },
+  {
+   "vendor": "(주)테라그린",
+   "count": 1,
+   "amount": 27000000
+  },
+  {
+   "vendor": "내포종합조경",
+   "count": 2,
+   "amount": 26842000
+  },
+  {
+   "vendor": "주식회사 지아이",
+   "count": 2,
+   "amount": 26401900
+  },
+  {
+   "vendor": "에코랜드 주식회사",
+   "count": 1,
+   "amount": 26400000
+  },
+  {
+   "vendor": "롯데렌탈(주)",
+   "count": 3,
+   "amount": 26268000
+  },
+  {
+   "vendor": "도봉콘크리트(주)",
+   "count": 1,
+   "amount": 26264820
+  },
+  {
+   "vendor": "주식회사 멀티캠퍼스",
+   "count": 2,
+   "amount": 26195730
+  },
+  {
+   "vendor": "넷츠플러스",
+   "count": 1,
+   "amount": 26177920
+  },
+  {
+   "vendor": "(주)베스트산업안전",
+   "count": 3,
+   "amount": 26147000
+  },
+  {
+   "vendor": "주식회사 가연환경디자인",
+   "count": 2,
+   "amount": 25740000
+  },
+  {
+   "vendor": "다양산업",
+   "count": 2,
+   "amount": 25618350
+  },
+  {
+   "vendor": "주식회사 벅스존",
+   "count": 2,
+   "amount": 25590400
+  },
+  {
+   "vendor": "(주)광진라이팅",
+   "count": 1,
+   "amount": 25500000
+  },
+  {
+   "vendor": "한창수중모타펌프",
+   "count": 2,
+   "amount": 25487000
+  },
+  {
+   "vendor": "주식회사 서부전기",
+   "count": 1,
+   "amount": 25400000
+  },
+  {
+   "vendor": "주식회사 라이프트리",
+   "count": 1,
+   "amount": 25388000
+  },
+  {
+   "vendor": "(주)비티메디",
+   "count": 1,
+   "amount": 25170000
+  },
+  {
+   "vendor": "동양상사",
+   "count": 2,
+   "amount": 25169100
+  },
+  {
+   "vendor": "움벨트",
+   "count": 1,
+   "amount": 25091600
+  },
+  {
+   "vendor": "홍디자인",
+   "count": 1,
+   "amount": 25057000
+  },
+  {
+   "vendor": "(주)지오마케팅",
+   "count": 1,
+   "amount": 25000000
+  },
+  {
+   "vendor": "주식회사 청솔조경",
+   "count": 1,
+   "amount": 25000000
+  },
+  {
+   "vendor": "우리씨드",
+   "count": 1,
+   "amount": 24999000
+  },
+  {
+   "vendor": "주식회사 데코페이브",
+   "count": 2,
+   "amount": 24743400
+  },
+  {
+   "vendor": "디자인아띠그래픽",
+   "count": 4,
+   "amount": 24700000
+  },
+  {
+   "vendor": "현대캐피탈",
+   "count": 4,
+   "amount": 24546940
+  },
+  {
+   "vendor": "인쇄예쁜세상",
+   "count": 3,
+   "amount": 24352900
+  },
+  {
+   "vendor": "주식회사 지산호디자인",
+   "count": 1,
+   "amount": 24335000
+  },
+  {
+   "vendor": "파르나스호텔(주)",
+   "count": 1,
+   "amount": 24321000
+  },
+  {
+   "vendor": "영창사",
+   "count": 2,
+   "amount": 24293390
+  },
+  {
+   "vendor": "주식회사 경성이에스",
+   "count": 2,
+   "amount": 24230000
+  },
+  {
+   "vendor": "더조아이앤지",
+   "count": 2,
+   "amount": 24029000
+  },
+  {
+   "vendor": "주식회사 화인에코",
+   "count": 1,
+   "amount": 24024000
+  },
+  {
+   "vendor": "주식회사 우노솔루션즈",
+   "count": 1,
+   "amount": 24000000
+  },
+  {
+   "vendor": "에프비씨(F.B.C)",
+   "count": 1,
+   "amount": 24000000
+  },
+  {
+   "vendor": "주식회사 유스콘",
+   "count": 1,
+   "amount": 23971200
+  },
+  {
+   "vendor": "주식회사 청진기전",
+   "count": 1,
+   "amount": 23930000
+  },
+  {
+   "vendor": "(주)웰피어스",
+   "count": 2,
+   "amount": 23838000
+  },
+  {
+   "vendor": "광교회계법인",
+   "count": 1,
+   "amount": 23789700
+  },
+  {
+   "vendor": "(주)효성조명",
+   "count": 1,
+   "amount": 23500000
+  },
+  {
+   "vendor": "금보인터내셔널",
+   "count": 2,
+   "amount": 23403250
+  },
+  {
+   "vendor": "유스켐주식회사",
+   "count": 1,
+   "amount": 23400000
+  },
+  {
+   "vendor": "주식회사 미도플러스",
+   "count": 2,
+   "amount": 23273800
+  },
+  {
+   "vendor": "황나은(해냄커뮤니케이션)",
+   "count": 1,
+   "amount": 23200000
+  },
+  {
+   "vendor": "주식회사 퍼니처플레이랩",
+   "count": 2,
+   "amount": 22996600
+  },
+  {
+   "vendor": "주식회사 옥산석물",
+   "count": 2,
+   "amount": 22966720
+  },
+  {
+   "vendor": "서인조경주식회사",
+   "count": 2,
+   "amount": 22870000
+  },
+  {
+   "vendor": "도경건설 주식회사",
+   "count": 1,
+   "amount": 22848000
+  },
+  {
+   "vendor": "투엠투건축사사무소",
+   "count": 3,
+   "amount": 22818000
+  },
+  {
+   "vendor": "코어디앤씨",
+   "count": 1,
+   "amount": 22800000
+  },
+  {
+   "vendor": "(주)현진시닝",
+   "count": 2,
+   "amount": 22731700
+  },
+  {
+   "vendor": "에이치엘비테라퓨틱스 주식회사",
+   "count": 1,
+   "amount": 22722400
+  },
+  {
+   "vendor": "제일이앤디(주)",
+   "count": 1,
+   "amount": 22630000
+  },
+  {
+   "vendor": "주식회사 파인트리코리아",
+   "count": 1,
+   "amount": 22580000
+  },
+  {
+   "vendor": "세이프라인 주식회사",
+   "count": 2,
+   "amount": 22555000
+  },
+  {
+   "vendor": "(주)동원테크",
+   "count": 1,
+   "amount": 22500000
+  },
+  {
+   "vendor": "이고파워플러스",
+   "count": 1,
+   "amount": 22475000
+  },
+  {
+   "vendor": "더좋은생활 주식회사",
+   "count": 1,
+   "amount": 22320000
+  },
+  {
+   "vendor": "(주)데이타렉스",
+   "count": 1,
+   "amount": 22240000
+  },
+  {
+   "vendor": "(주)햄프로",
+   "count": 2,
+   "amount": 22160000
+  },
+  {
+   "vendor": "가람산업주식회사",
+   "count": 1,
+   "amount": 22131450
+  },
+  {
+   "vendor": "주식회사 슈프리마",
+   "count": 1,
+   "amount": 22066000
+  },
+  {
+   "vendor": "(주)선진기술공사",
+   "count": 2,
+   "amount": 22021000
+  },
+  {
+   "vendor": "에스케이텔레콤(주)",
+   "count": 1,
+   "amount": 22000000
+  },
+  {
+   "vendor": "법무법인YK",
+   "count": 1,
+   "amount": 22000000
+  },
+  {
+   "vendor": "주식회사 인드라텍",
+   "count": 1,
+   "amount": 22000000
+  },
+  {
+   "vendor": "주식회사 파이브세컨즈",
+   "count": 1,
+   "amount": 22000000
+  },
+  {
+   "vendor": "하영에프엔씨",
+   "count": 1,
+   "amount": 22000000
+  },
+  {
+   "vendor": "주식회사 딜라이브티브이",
+   "count": 1,
+   "amount": 22000000
+  },
+  {
+   "vendor": "주식회사 오픈놀",
+   "count": 1,
+   "amount": 22000000
+  },
+  {
+   "vendor": "(주)시사저널이코노미",
+   "count": 1,
+   "amount": 22000000
+  },
+  {
+   "vendor": "이후건축사사무소",
+   "count": 1,
+   "amount": 22000000
+  },
+  {
+   "vendor": "(주)라온에이전시",
+   "count": 1,
+   "amount": 22000000
+  },
+  {
+   "vendor": "주식회사장인이앤씨",
+   "count": 1,
+   "amount": 22000000
+  },
+  {
+   "vendor": "한국생산성본부",
+   "count": 1,
+   "amount": 22000000
+  },
+  {
+   "vendor": "디이뎀",
+   "count": 1,
+   "amount": 22000000
+  },
+  {
+   "vendor": "(주)틈도시건축사사무소",
+   "count": 1,
+   "amount": 22000000
+  },
+  {
+   "vendor": "(주)프레인글로벌",
+   "count": 1,
+   "amount": 22000000
+  },
+  {
+   "vendor": "유환전설",
+   "count": 1,
+   "amount": 21996000
+  },
+  {
+   "vendor": "(주)동성엔지니어링",
+   "count": 1,
+   "amount": 21996000
+  },
+  {
+   "vendor": "다양한학습자를위한 주식회사",
+   "count": 1,
+   "amount": 21980000
+  },
+  {
+   "vendor": "(주)에스엘아이",
+   "count": 1,
+   "amount": 21977670
+  },
+  {
+   "vendor": "주식회사 에스인",
+   "count": 1,
+   "amount": 21962700
+  },
+  {
+   "vendor": "선진안전기술사사무소",
+   "count": 1,
+   "amount": 21945000
+  },
+  {
+   "vendor": "(주)콘포테크",
+   "count": 1,
+   "amount": 21924000
+  },
+  {
+   "vendor": "제이에스하우징",
+   "count": 1,
+   "amount": 21905400
+  },
+  {
+   "vendor": "대신석재",
+   "count": 1,
+   "amount": 21901830
+  },
+  {
+   "vendor": "한결아이씨티 주식회사",
+   "count": 2,
+   "amount": 21900000
+  },
+  {
+   "vendor": "(주)해안종합건축사사무소",
+   "count": 1,
+   "amount": 21890000
+  },
+  {
+   "vendor": "(주)선진솔루션",
+   "count": 1,
+   "amount": 21836790
+  },
+  {
+   "vendor": "서진문화유산 주식회사",
+   "count": 1,
+   "amount": 21800000
+  },
+  {
+   "vendor": "안재후엘디플랜",
+   "count": 1,
+   "amount": 21800000
+  },
+  {
+   "vendor": "장미농원 소나무조경",
+   "count": 1,
+   "amount": 21780000
+  },
+  {
+   "vendor": "올바른안전기술원",
+   "count": 1,
+   "amount": 21750300
+  },
+  {
+   "vendor": "(주)호디",
+   "count": 1,
+   "amount": 21648000
+  },
+  {
+   "vendor": "주식회사 에에이원트래픽알앤디",
+   "count": 1,
+   "amount": 21620000
+  },
+  {
+   "vendor": "(주)이스텍",
+   "count": 2,
+   "amount": 21572000
+  },
+  {
+   "vendor": "(주)솔비향",
+   "count": 1,
+   "amount": 21560000
+  },
+  {
+   "vendor": "주식회사 이드",
+   "count": 3,
+   "amount": 21510000
+  },
+  {
+   "vendor": "세린에듀",
+   "count": 1,
+   "amount": 21500000
+  },
+  {
+   "vendor": "마디펌프",
+   "count": 1,
+   "amount": 21500000
+  },
+  {
+   "vendor": "(주)에스원",
+   "count": 1,
+   "amount": 21499920
+  },
+  {
+   "vendor": "주식회사 인프라텍",
+   "count": 1,
+   "amount": 21468000
+  },
+  {
+   "vendor": "(주)내쇼날엔피씨신흥",
+   "count": 1,
+   "amount": 21450000
+  },
+  {
+   "vendor": "주식회사제이제이교육",
+   "count": 1,
+   "amount": 21340000
+  },
+  {
+   "vendor": "(주)이엑스디",
+   "count": 1,
+   "amount": 21337100
+  },
+  {
+   "vendor": "주식회사 엑스콘",
+   "count": 4,
+   "amount": 21269440
+  },
+  {
+   "vendor": "주식회사 무무코스메틱",
+   "count": 1,
+   "amount": 21250000
+  },
+  {
+   "vendor": "반석산업",
+   "count": 1,
+   "amount": 21227800
+  },
+  {
+   "vendor": "(주)이륜",
+   "count": 1,
+   "amount": 21224600
+  },
+  {
+   "vendor": "주식회사 워크와이즈",
+   "count": 1,
+   "amount": 21192000
+  },
+  {
+   "vendor": "㈜미러로이드",
+   "count": 1,
+   "amount": 21175000
+  },
+  {
+   "vendor": "코리아디자인",
+   "count": 1,
+   "amount": 21120000
+  },
+  {
+   "vendor": "한국보행안전개발원 주식회사",
+   "count": 1,
+   "amount": 21114200
+  },
+  {
+   "vendor": "더소울",
+   "count": 1,
+   "amount": 21106000
+  },
+  {
+   "vendor": "인다",
+   "count": 1,
+   "amount": 21000000
+  },
+  {
+   "vendor": "(주)이엔팜",
+   "count": 1,
+   "amount": 20995500
+  },
+  {
+   "vendor": "재단법인 나주시농업농촌융복합산업진흥재단",
+   "count": 1,
+   "amount": 20976000
+  },
+  {
+   "vendor": "플러스산업",
+   "count": 1,
+   "amount": 20889000
+  },
+  {
+   "vendor": "주식회사 한성넥스",
+   "count": 2,
+   "amount": 20792000
+  },
+  {
+   "vendor": "시티건축",
+   "count": 2,
+   "amount": 20765000
+  },
+  {
+   "vendor": "와이엠케이",
+   "count": 1,
+   "amount": 20755200
+  },
+  {
+   "vendor": "창조라이팅",
+   "count": 1,
+   "amount": 20625000
+  },
+  {
+   "vendor": "(주)시선라이즈",
+   "count": 1,
+   "amount": 20600000
+  },
+  {
+   "vendor": "주식회사 태라",
+   "count": 1,
+   "amount": 20581000
+  },
+  {
+   "vendor": "주식회사 와이디티",
+   "count": 1,
+   "amount": 20567000
+  },
+  {
+   "vendor": "주식회사 인플럭스",
+   "count": 2,
+   "amount": 20528000
+  },
+  {
+   "vendor": "영현정보통신(주)",
+   "count": 1,
+   "amount": 20500000
+  },
+  {
+   "vendor": "(주)시니어앤파트너즈",
+   "count": 1,
+   "amount": 20466000
+  },
+  {
+   "vendor": "주식회사 데이탐우만스타",
+   "count": 1,
+   "amount": 20440000
+  },
+  {
+   "vendor": "주식회사 장천이엔씨",
+   "count": 1,
+   "amount": 20438000
+  },
+  {
+   "vendor": "종합맨홀",
+   "count": 2,
+   "amount": 20350000
+  },
+  {
+   "vendor": "유한회사 엘에스디",
+   "count": 1,
+   "amount": 20322500
+  },
+  {
+   "vendor": "마디산업",
+   "count": 1,
+   "amount": 20270000
+  },
+  {
+   "vendor": "기담주식회사",
+   "count": 1,
+   "amount": 20260000
+  },
+  {
+   "vendor": "한양건설기계(주)",
+   "count": 1,
+   "amount": 20174000
+  },
+  {
+   "vendor": "영인글로벌(주)",
+   "count": 2,
+   "amount": 20140000
+  },
+  {
+   "vendor": "한스산업 주식회사",
+   "count": 1,
+   "amount": 20100000
+  },
+  {
+   "vendor": "주식회사 대교",
+   "count": 1,
+   "amount": 20100000
+  },
+  {
+   "vendor": "사단법인 미래교실네트워크",
+   "count": 1,
+   "amount": 20000000
+  },
+  {
+   "vendor": "장우산업",
+   "count": 1,
+   "amount": 20000000
+  },
+  {
+   "vendor": "사단법인 한국공공정책개발연구원",
+   "count": 1,
+   "amount": 20000000
+  },
+  {
+   "vendor": "곰돌이발달지원센터",
+   "count": 1,
+   "amount": 20000000
+  },
+  {
+   "vendor": "한태식 지방재정연구소",
+   "count": 1,
+   "amount": 20000000
+  },
+  {
+   "vendor": "서경대학교 산학협력단",
+   "count": 1,
+   "amount": 20000000
+  },
+  {
+   "vendor": "사립지방자치데이터연구소",
+   "count": 1,
+   "amount": 20000000
+  },
+  {
+   "vendor": "인다(최정웅)",
+   "count": 1,
+   "amount": 20000000
+  },
+  {
+   "vendor": "주식회사 디자인다다",
+   "count": 1,
+   "amount": 20000000
+  },
+  {
+   "vendor": "롯데이노베이트 주식회사 ",
+   "count": 1,
+   "amount": 20000000
+  },
+  {
+   "vendor": "주식회사 이엠피커뮤니케이션",
+   "count": 1,
+   "amount": 20000000
+  },
+  {
+   "vendor": "쏠레일 주식회사",
+   "count": 3,
+   "amount": 20000000
+  },
+  {
+   "vendor": "(사)한국행정학회",
+   "count": 1,
+   "amount": 20000000
+  },
+  {
+   "vendor": "범진에너지건설(주)",
+   "count": 1,
+   "amount": 20000000
+  },
+  {
+   "vendor": "주식회사경기드론",
+   "count": 1,
+   "amount": 19976000
+  },
+  {
+   "vendor": "주식회사 자딘",
+   "count": 1,
+   "amount": 19966000
+  },
+  {
+   "vendor": "고려대학교부설 척추측만증연구소",
+   "count": 1,
+   "amount": 19960000
+  },
+  {
+   "vendor": "주식회사지하이웰",
+   "count": 1,
+   "amount": 19950000
+  },
+  {
+   "vendor": "주식회사 노아산업",
+   "count": 1,
+   "amount": 19949800
+  },
+  {
+   "vendor": "콘스탄시아",
+   "count": 1,
+   "amount": 19943000
+  },
+  {
+   "vendor": "(주)비오더블테크놀로지",
+   "count": 1,
+   "amount": 19896800
+  },
+  {
+   "vendor": "(주)한영전기",
+   "count": 3,
+   "amount": 19860000
+  },
+  {
+   "vendor": "동국생명과학(주)",
+   "count": 1,
+   "amount": 19800000
+  },
+  {
+   "vendor": "모아엠피(주)",
+   "count": 1,
+   "amount": 19800000
+  },
+  {
+   "vendor": "한국스테노",
+   "count": 1,
+   "amount": 19800000
+  },
+  {
+   "vendor": "서울농자재",
+   "count": 2,
+   "amount": 19775800
+  },
+  {
+   "vendor": "주식회사 큐엘",
+   "count": 1,
+   "amount": 19635000
+  },
+  {
+   "vendor": "산천종합조경(주)",
+   "count": 1,
+   "amount": 19630000
+  },
+  {
+   "vendor": "에스로하",
+   "count": 1,
+   "amount": 19620000
+  },
+  {
+   "vendor": "이수산업",
+   "count": 2,
+   "amount": 19610800
+  },
+  {
+   "vendor": "주식회사 지유트레이딩",
+   "count": 1,
+   "amount": 19600000
+  },
+  {
+   "vendor": "주식회사 티제이원",
+   "count": 1,
+   "amount": 19571120
+  },
+  {
+   "vendor": "창조산업개발",
+   "count": 1,
+   "amount": 19546000
+  },
+  {
+   "vendor": "제일크린방역",
+   "count": 1,
+   "amount": 19500000
+  },
+  {
+   "vendor": "신라에이치엠 주식회사",
+   "count": 1,
+   "amount": 19470000
+  },
+  {
+   "vendor": "주식회사비웍스커뮤니케이션",
+   "count": 1,
+   "amount": 19400000
+  },
+  {
+   "vendor": "주식회사 디자인마이러브",
+   "count": 3,
+   "amount": 19390400
+  },
+  {
+   "vendor": "경기상사",
+   "count": 2,
+   "amount": 19365500
+  },
+  {
+   "vendor": "고려기프트(주)",
+   "count": 3,
+   "amount": 19335850
+  },
+  {
+   "vendor": "한국원펙(주)",
+   "count": 1,
+   "amount": 19327000
+  },
+  {
+   "vendor": "아임드론(김상완)",
+   "count": 1,
+   "amount": 19250000
+  },
+  {
+   "vendor": "성준특장 주식회사",
+   "count": 1,
+   "amount": 19173000
+  },
+  {
+   "vendor": "프로",
+   "count": 1,
+   "amount": 19164000
+  },
+  {
+   "vendor": "서울N.E.T.(주)",
+   "count": 1,
+   "amount": 19140000
+  },
+  {
+   "vendor": "주식회사 히비스",
+   "count": 1,
+   "amount": 19109200
+  },
+  {
+   "vendor": "(사)아름다움나눔협회사업단",
+   "count": 1,
+   "amount": 19100000
+  },
+  {
+   "vendor": "오성씨앤디",
+   "count": 4,
+   "amount": 19071460
+  },
+  {
+   "vendor": "강남드림협동조합",
+   "count": 3,
+   "amount": 19020000
+  },
+  {
+   "vendor": "유엔아이미디어",
+   "count": 1,
+   "amount": 19000000
+  },
+  {
+   "vendor": "주식회사 인포비스",
+   "count": 2,
+   "amount": 18800000
+  },
+  {
+   "vendor": "주식회사 작심디자인",
+   "count": 1,
+   "amount": 18800000
+  },
+  {
+   "vendor": "(주)온유테크",
+   "count": 1,
+   "amount": 18720900
+  },
+  {
+   "vendor": "선경산업",
+   "count": 1,
+   "amount": 18711000
+  },
+  {
+   "vendor": "주식회사 판타지로드",
+   "count": 1,
+   "amount": 18700000
+  },
+  {
+   "vendor": "주식회사 피엔알시스템",
+   "count": 1,
+   "amount": 18591450
+  },
+  {
+   "vendor": "주식회사 비에프코리아",
+   "count": 1,
+   "amount": 18512110
+  },
+  {
+   "vendor": "해빛들에너지주식회사",
+   "count": 1,
+   "amount": 18435000
+  },
+  {
+   "vendor": "두잇 서비스 컨설팅",
+   "count": 1,
+   "amount": 18400000
+  },
+  {
+   "vendor": "(주)한성엠엔에스",
+   "count": 1,
+   "amount": 18306000
+  },
+  {
+   "vendor": "주식회사 코아스",
+   "count": 1,
+   "amount": 18198000
+  },
+  {
+   "vendor": "클린콜",
+   "count": 1,
+   "amount": 18042710
+  },
+  {
+   "vendor": "(주)엑스아이티",
+   "count": 1,
+   "amount": 18000000
+  },
+  {
+   "vendor": "회계법인 리안",
+   "count": 1,
+   "amount": 18000000
+  },
+  {
+   "vendor": "주식회사 아이온리",
+   "count": 1,
+   "amount": 18000000
+  },
+  {
+   "vendor": "주식회사 하이텍영상",
+   "count": 2,
+   "amount": 17905200
+  },
+  {
+   "vendor": "(주)컨칩",
+   "count": 1,
+   "amount": 17875000
+  },
+  {
+   "vendor": "주식회사 산자인",
+   "count": 1,
+   "amount": 17500000
+  },
+  {
+   "vendor": "주식회사 클로봇",
+   "count": 1,
+   "amount": 17500000
+  },
+  {
+   "vendor": "한무쇼핑(주)",
+   "count": 1,
+   "amount": 17395000
+  },
+  {
+   "vendor": "흥진산업개발",
+   "count": 1,
+   "amount": 17325000
+  },
+  {
+   "vendor": "밀러테크",
+   "count": 2,
+   "amount": 17280000
+  },
+  {
+   "vendor": "에코인더스트리",
+   "count": 2,
+   "amount": 17226000
+  },
+  {
+   "vendor": "주식회사 에코데이 인터내셔널 인천지점",
+   "count": 1,
+   "amount": 17204000
+  },
+  {
+   "vendor": "정우문화사",
+   "count": 3,
+   "amount": 17168000
+  },
+  {
+   "vendor": "주식회사 에이피",
+   "count": 1,
+   "amount": 17022830
+  },
+  {
+   "vendor": "정명회계법인",
+   "count": 1,
+   "amount": 17000000
+  },
+  {
+   "vendor": "주식회사 자닮",
+   "count": 1,
+   "amount": 16900000
+  },
+  {
+   "vendor": "지이에스",
+   "count": 1,
+   "amount": 16896000
+  },
+  {
+   "vendor": "(주)동진레저",
+   "count": 1,
+   "amount": 16830000
+  },
+  {
+   "vendor": "원기업 주식회사",
+   "count": 1,
+   "amount": 16801140
+  },
+  {
+   "vendor": "주식회사 빌더스개발에이엠씨",
+   "count": 1,
+   "amount": 16800000
+  },
+  {
+   "vendor": "주식회사 다은네이처",
+   "count": 2,
+   "amount": 16800000
+  },
+  {
+   "vendor": "(주)오름기술",
+   "count": 1,
+   "amount": 16788000
+  },
+  {
+   "vendor": "케이웨더(주)",
+   "count": 1,
+   "amount": 16500000
+  },
+  {
+   "vendor": "엠케이청효 주식회사",
+   "count": 1,
+   "amount": 16500000
+  },
+  {
+   "vendor": "(주)애드포휴",
+   "count": 1,
+   "amount": 16478000
+  },
+  {
+   "vendor": "주식회사 중일",
+   "count": 1,
+   "amount": 16449300
+  },
+  {
+   "vendor": "성덕콘크리트(주)",
+   "count": 1,
+   "amount": 16443200
+  },
+  {
+   "vendor": "유국실업",
+   "count": 1,
+   "amount": 16440600
+  },
+  {
+   "vendor": "㈜대호석재",
+   "count": 1,
+   "amount": 16353890
+  },
+  {
+   "vendor": "태원전기안전관리 주식회사",
+   "count": 1,
+   "amount": 16320000
+  },
+  {
+   "vendor": "농업회사법인아시아종묘 주식회사",
+   "count": 1,
+   "amount": 16296000
+  },
+  {
+   "vendor": "(주)디에프디인터내셔날",
+   "count": 1,
+   "amount": 16200000
+  },
+  {
+   "vendor": "(사)임금님표이천브랜드관리본부",
+   "count": 1,
+   "amount": 16200000
+  },
+  {
+   "vendor": "(주)유엔아이미디어",
+   "count": 2,
+   "amount": 16150000
+  },
+  {
+   "vendor": "나주시로컬푸드통합지원센터",
+   "count": 1,
+   "amount": 16128000
+  },
+  {
+   "vendor": "한화손해보험(주)",
+   "count": 1,
+   "amount": 16121400
+  },
+  {
+   "vendor": "(주)씽굿",
+   "count": 1,
+   "amount": 16100000
+  },
+  {
+   "vendor": "영주 농산물 유통센터",
+   "count": 1,
+   "amount": 16100000
+  },
+  {
+   "vendor": "주식회사 가구지음",
+   "count": 2,
+   "amount": 16086400
+  },
+  {
+   "vendor": "주식회사 제이케이플래닝",
+   "count": 2,
+   "amount": 16069000
+  },
+  {
+   "vendor": "(주)은구조기술사사무소",
+   "count": 2,
+   "amount": 16057980
+  },
+  {
+   "vendor": "동방상사",
+   "count": 2,
+   "amount": 16054000
+  },
+  {
+   "vendor": "(주)파트라",
+   "count": 3,
+   "amount": 16024000
+  },
+  {
+   "vendor": "에스케이렌터카 주식회사",
+   "count": 1,
+   "amount": 16014000
+  },
+  {
+   "vendor": "(주)영진닷컴",
+   "count": 1,
+   "amount": 16000000
+  },
+  {
+   "vendor": "(주)토룩",
+   "count": 1,
+   "amount": 16000000
+  },
+  {
+   "vendor": "상신엔지니어링(주)",
+   "count": 1,
+   "amount": 16000000
+  },
+  {
+   "vendor": "주식회사 우련건설산업",
+   "count": 1,
+   "amount": 16000000
+  },
+  {
+   "vendor": "주식회사 경기드론",
+   "count": 1,
+   "amount": 16000000
+  },
+  {
+   "vendor": "(주)코리아반도체조명",
+   "count": 1,
+   "amount": 16000000
+  },
+  {
+   "vendor": "레이져라이팅(주)",
+   "count": 1,
+   "amount": 15910000
+  },
+  {
+   "vendor": "(주)제이컴모빌피아",
+   "count": 2,
+   "amount": 15840000
+  },
+  {
+   "vendor": "일월정밀주식회사",
+   "count": 1,
+   "amount": 15774000
+  },
+  {
+   "vendor": "초록마당영농조합법인",
+   "count": 1,
+   "amount": 15762000
+  },
+  {
+   "vendor": "(주)현우이엔씨",
+   "count": 1,
+   "amount": 15500000
+  },
+  {
+   "vendor": "(주)이노블록",
+   "count": 5,
+   "amount": 15429940
+  },
+  {
+   "vendor": "㈜와풀",
+   "count": 1,
+   "amount": 15400000
+  },
+  {
+   "vendor": "주식회사 우리휀스산업",
+   "count": 1,
+   "amount": 15224000
+  },
+  {
+   "vendor": "재단법인 서울의과학연구소",
+   "count": 1,
+   "amount": 15130000
+  },
+  {
+   "vendor": "금호리조트",
+   "count": 1,
+   "amount": 15120000
+  },
+  {
+   "vendor": "명성이앤비주식회사",
+   "count": 1,
+   "amount": 15071000
+  },
+  {
+   "vendor": "굿즈마인",
+   "count": 1,
+   "amount": 15070000
+  },
+  {
+   "vendor": "주식회사 대양이에스티",
+   "count": 1,
+   "amount": 15045000
+  },
+  {
+   "vendor": "(주)솔로몬기술단기술사사무소",
+   "count": 1,
+   "amount": 15000000
+  },
+  {
+   "vendor": "가치경영원",
+   "count": 1,
+   "amount": 15000000
+  },
+  {
+   "vendor": "새봄조경에프티 주식회사",
+   "count": 2,
+   "amount": 15000000
+  },
+  {
+   "vendor": "(주)엑스포디자인브랜딩",
+   "count": 1,
+   "amount": 15000000
+  },
+  {
+   "vendor": "제로플러스",
+   "count": 1,
+   "amount": 15000000
+  },
+  {
+   "vendor": "재단법인 한국재정경제연구원",
+   "count": 1,
+   "amount": 15000000
+  },
+  {
+   "vendor": "(주)마이카운슬러",
+   "count": 1,
+   "amount": 14960000
+  },
+  {
+   "vendor": "진안전컨설팅 주식회사",
+   "count": 6,
+   "amount": 14839000
+  },
+  {
+   "vendor": "(주)건우애듀",
+   "count": 1,
+   "amount": 14800000
+  },
+  {
+   "vendor": "(주)코단에코크리트",
+   "count": 1,
+   "amount": 14742000
+  },
+  {
+   "vendor": "웰이노텍주식회사",
+   "count": 1,
+   "amount": 14698900
+  },
+  {
+   "vendor": "마실와이드 주식회사",
+   "count": 1,
+   "amount": 14682000
+  },
+  {
+   "vendor": "주식회사 한방",
+   "count": 1,
+   "amount": 14650000
+  },
+  {
+   "vendor": "신림산업 주식회사",
+   "count": 6,
+   "amount": 14650000
+  },
+  {
+   "vendor": "삼환환경(주)",
+   "count": 2,
+   "amount": 14630900
+  },
+  {
+   "vendor": "에이그리",
+   "count": 1,
+   "amount": 14584000
+  },
+  {
+   "vendor": "주식회사 트러스트솔루션",
+   "count": 1,
+   "amount": 14550000
+  },
+  {
+   "vendor": "(주)우심시스템",
+   "count": 1,
+   "amount": 14520000
+  },
+  {
+   "vendor": "주식회사 아이랑",
+   "count": 1,
+   "amount": 14520000
+  },
+  {
+   "vendor": "(주)경일",
+   "count": 3,
+   "amount": 14432000
+  },
+  {
+   "vendor": "에코그린시티",
+   "count": 1,
+   "amount": 14402000
+  },
+  {
+   "vendor": "주식회사 초이",
+   "count": 1,
+   "amount": 14370000
+  },
+  {
+   "vendor": "회계법인 동행",
+   "count": 1,
+   "amount": 14300000
+  },
+  {
+   "vendor": "주식회사 이엘포장",
+   "count": 2,
+   "amount": 14251540
+  },
+  {
+   "vendor": "다룸인터내셔널 주식회사",
+   "count": 1,
+   "amount": 14246000
+  },
+  {
+   "vendor": "제일건설안전기술",
+   "count": 1,
+   "amount": 14216000
+  },
+  {
+   "vendor": "나이스평가정보주식회",
+   "count": 1,
+   "amount": 13970000
+  },
+  {
+   "vendor": "주식회사 디앤아이그룹",
+   "count": 2,
+   "amount": 13720000
+  },
+  {
+   "vendor": "주식회사 한신이티씨",
+   "count": 1,
+   "amount": 13700000
+  },
+  {
+   "vendor": "레드캡렌터카",
+   "count": 1,
+   "amount": 13680000
+  },
+  {
+   "vendor": "에스엘아이평생교육원",
+   "count": 1,
+   "amount": 13596660
+  },
+  {
+   "vendor": "(주)모노커뮤니케이션즈",
+   "count": 2,
+   "amount": 13564000
+  },
+  {
+   "vendor": "주식회사 두리공영",
+   "count": 1,
+   "amount": 13554000
+  },
+  {
+   "vendor": "㈜조선호텔앤리조트",
+   "count": 1,
+   "amount": 13530000
+  },
+  {
+   "vendor": "(주)세이프코어",
+   "count": 2,
+   "amount": 13520000
+  },
+  {
+   "vendor": "주식회사 포머스",
+   "count": 3,
+   "amount": 13518000
+  },
+  {
+   "vendor": "원은건설 주식회사",
+   "count": 1,
+   "amount": 13450800
+  },
+  {
+   "vendor": "(주)윗트디자인",
+   "count": 1,
+   "amount": 13450000
+  },
+  {
+   "vendor": "태성통신",
+   "count": 1,
+   "amount": 13288000
+  },
+  {
+   "vendor": "다홍문화",
+   "count": 1,
+   "amount": 13249250
+  },
+  {
+   "vendor": "이엔후레쉬주식회사",
+   "count": 1,
+   "amount": 13000000
+  },
+  {
+   "vendor": "세진통상",
+   "count": 2,
+   "amount": 12999000
+  },
+  {
+   "vendor": "(주)와이씨스튜디오",
+   "count": 1,
+   "amount": 12972960
+  },
+  {
+   "vendor": "내곡농원",
+   "count": 2,
+   "amount": 12870000
+  },
+  {
+   "vendor": "이지에스플러스(주)",
+   "count": 1,
+   "amount": 12870000
+  },
+  {
+   "vendor": "(주)한국정보통신공사협회 안전기술원",
+   "count": 6,
+   "amount": 12809590
+  },
+  {
+   "vendor": "주식회사 세라컴",
+   "count": 1,
+   "amount": 12796000
+  },
+  {
+   "vendor": "동양개발 주식회사",
+   "count": 1,
+   "amount": 12730000
+  },
+  {
+   "vendor": "(주)대한엘리베이터",
+   "count": 1,
+   "amount": 12540000
+  },
+  {
+   "vendor": "주식회사 에스피레미콘",
+   "count": 1,
+   "amount": 12539310
+  },
+  {
+   "vendor": "주식회사 필에스엔에스",
+   "count": 1,
+   "amount": 12410000
+  },
+  {
+   "vendor": "(주)대호석재",
+   "count": 1,
+   "amount": 12378240
+  },
+  {
+   "vendor": "(주)유한이엔씨",
+   "count": 2,
+   "amount": 12351900
+  },
+  {
+   "vendor": "한국건설안전기술서울본부",
+   "count": 1,
+   "amount": 12256780
+  },
+  {
+   "vendor": "에스디전력(주)",
+   "count": 2,
+   "amount": 12240000
+  },
+  {
+   "vendor": "주식회사 소비코프로페셔널",
+   "count": 1,
+   "amount": 12185900
+  },
+  {
+   "vendor": "주식회사 신도테크노",
+   "count": 1,
+   "amount": 12177000
+  },
+  {
+   "vendor": "SK네트웍스㈜",
+   "count": 1,
+   "amount": 12160500
+  },
+  {
+   "vendor": "경한산업",
+   "count": 1,
+   "amount": 12120000
+  },
+  {
+   "vendor": "(주)트라이스",
+   "count": 1,
+   "amount": 12000000
+  },
+  {
+   "vendor": "(주)에코건축사사무소",
+   "count": 1,
+   "amount": 12000000
+  },
+  {
+   "vendor": "한국공연예술교육자협회",
+   "count": 1,
+   "amount": 12000000
+  },
+  {
+   "vendor": "한국 사람과 동물 복지 교육센터(KOHAI)",
+   "count": 1,
+   "amount": 12000000
+  },
+  {
+   "vendor": "(재)한국경제행정연구원",
+   "count": 1,
+   "amount": 12000000
+  },
+  {
+   "vendor": "제노글로벌",
+   "count": 1,
+   "amount": 12000000
+  },
+  {
+   "vendor": "주식회사 엠비가구",
+   "count": 1,
+   "amount": 11990000
+  },
+  {
+   "vendor": "의료법인 삼광의료재단",
+   "count": 1,
+   "amount": 11867010
+  },
+  {
+   "vendor": "cs건축인테리어",
+   "count": 2,
+   "amount": 11767000
+  },
+  {
+   "vendor": "인천보건환경센터(주)",
+   "count": 2,
+   "amount": 11760000
+  },
+  {
+   "vendor": "(주)상신",
+   "count": 1,
+   "amount": 11732800
+  },
+  {
+   "vendor": "주식회사 그린웍스",
+   "count": 1,
+   "amount": 11726000
+  },
+  {
+   "vendor": "(주)신흥이엔지",
+   "count": 2,
+   "amount": 11630000
+  },
+  {
+   "vendor": "(주)레드캡투어",
+   "count": 1,
+   "amount": 11520000
+  },
+  {
+   "vendor": "리텍주식회사",
+   "count": 1,
+   "amount": 11516220
+  },
+  {
+   "vendor": "(주)씨큐프라임",
+   "count": 1,
+   "amount": 11440000
+  },
+  {
+   "vendor": "호연회계법인",
+   "count": 1,
+   "amount": 11324000
+  },
+  {
+   "vendor": "정한인프라(주)",
+   "count": 1,
+   "amount": 11265000
+  },
+  {
+   "vendor": "문화전기(주)",
+   "count": 1,
+   "amount": 11231000
+  },
+  {
+   "vendor": "(주)하이코리아",
+   "count": 1,
+   "amount": 11212240
+  },
+  {
+   "vendor": "(주)선로드",
+   "count": 1,
+   "amount": 11106700
+  },
+  {
+   "vendor": "비.에이엔에프컴퍼니",
+   "count": 1,
+   "amount": 11100000
+  },
+  {
+   "vendor": "미래E비젼",
+   "count": 1,
+   "amount": 11055000
+  },
+  {
+   "vendor": "재단법인 미래산업정책연구원",
+   "count": 1,
+   "amount": 11000000
+  },
+  {
+   "vendor": "(주)한국장애인심리지원센터",
+   "count": 1,
+   "amount": 11000000
+  },
+  {
+   "vendor": "주식회사 소소도시",
+   "count": 1,
+   "amount": 11000000
+  },
+  {
+   "vendor": "우성인테리어",
+   "count": 1,
+   "amount": 11000000
+  },
+  {
+   "vendor": "에스엠(SM)디자인",
+   "count": 1,
+   "amount": 11000000
+  },
+  {
+   "vendor": "한국나무종합병원(주)",
+   "count": 1,
+   "amount": 11000000
+  },
+  {
+   "vendor": "(주)케이앤엘정보시스템",
+   "count": 2,
+   "amount": 10960000
+  },
+  {
+   "vendor": "오행종합개발(주)",
+   "count": 1,
+   "amount": 10960000
+  },
+  {
+   "vendor": "원스토리",
+   "count": 2,
+   "amount": 10956000
+  },
+  {
+   "vendor": "호산전기안전(주)",
+   "count": 1,
+   "amount": 10800000
+  },
+  {
+   "vendor": "주식회사 에스디씨컨스트룩",
+   "count": 2,
+   "amount": 10724960
+  },
+  {
+   "vendor": "(주)중민",
+   "count": 1,
+   "amount": 10700000
+  },
+  {
+   "vendor": "(주)준일개발",
+   "count": 1,
+   "amount": 10695740
+  },
+  {
+   "vendor": "(주)성원엔지니어링",
+   "count": 1,
+   "amount": 10670400
+  },
+  {
+   "vendor": "(주)한국전기공사협회 안전기술원",
+   "count": 2,
+   "amount": 10598500
+  },
+  {
+   "vendor": "(주)동양티피티",
+   "count": 1,
+   "amount": 10597000
+  },
+  {
+   "vendor": "하스트(주)",
+   "count": 1,
+   "amount": 10560000
+  },
+  {
+   "vendor": "(주)에코비젼",
+   "count": 1,
+   "amount": 10490000
+  },
+  {
+   "vendor": "자연하다",
+   "count": 1,
+   "amount": 10443000
+  },
+  {
+   "vendor": "주식회사 베스텍",
+   "count": 1,
+   "amount": 10423000
+  },
+  {
+   "vendor": "영농조합법인 과천화훼협회",
+   "count": 1,
+   "amount": 10362000
+  },
+  {
+   "vendor": "(주)기남금속",
+   "count": 1,
+   "amount": 10356400
+  },
+  {
+   "vendor": "주식회사피케이엘앤에스",
+   "count": 1,
+   "amount": 10300000
+  },
+  {
+   "vendor": "(주)부광도장",
+   "count": 1,
+   "amount": 10270000
+  },
+  {
+   "vendor": "주식회사 벡트",
+   "count": 1,
+   "amount": 10230000
+  },
+  {
+   "vendor": "주식회사레드스톤시스템",
+   "count": 1,
+   "amount": 10214800
+  },
+  {
+   "vendor": "금강초롱사업단",
+   "count": 3,
+   "amount": 10208500
+  },
+  {
+   "vendor": "주식회사 이레매일건강",
+   "count": 1,
+   "amount": 10200000
+  },
+  {
+   "vendor": "대교종합기계",
+   "count": 1,
+   "amount": 10200000
+  },
+  {
+   "vendor": "서울환경산업",
+   "count": 1,
+   "amount": 10153500
+  },
+  {
+   "vendor": "성일테크원 주식회사",
+   "count": 1,
+   "amount": 10080000
+  },
+  {
+   "vendor": "(주)모아엠피",
+   "count": 1,
+   "amount": 10000000
+  },
+  {
+   "vendor": "에듀포올",
+   "count": 1,
+   "amount": 10000000
+  },
+  {
+   "vendor": "비앤제이컴퍼니건축사사무소",
+   "count": 1,
+   "amount": 10000000
+  },
+  {
+   "vendor": "(주)해피리무진",
+   "count": 1,
+   "amount": 9999660
+  },
+  {
+   "vendor": "(주) 길벗스페이스",
+   "count": 1,
+   "amount": 9996000
+  },
+  {
+   "vendor": "기프트인포(주)",
+   "count": 1,
+   "amount": 9990200
+  },
+  {
+   "vendor": "(주)퍼시스비전오씨센터",
+   "count": 1,
+   "amount": 9988000
+  },
+  {
+   "vendor": "주식회사 오투투어",
+   "count": 1,
+   "amount": 9984000
+  },
+  {
+   "vendor": "주식회사 라이브러리엔",
+   "count": 1,
+   "amount": 9968000
+  },
+  {
+   "vendor": "주식회사 에이치케이시스템",
+   "count": 1,
+   "amount": 9958000
+  },
+  {
+   "vendor": "주식회사 에이치엠이노앤",
+   "count": 1,
+   "amount": 9920000
+  },
+  {
+   "vendor": "(주)다모아테크",
+   "count": 1,
+   "amount": 9900000
+  },
+  {
+   "vendor": "국민대학교산학협력단",
+   "count": 1,
+   "amount": 9900000
+  },
+  {
+   "vendor": "경인엔지니어링(주)",
+   "count": 1,
+   "amount": 9900000
+  },
+  {
+   "vendor": "제맥스코리아",
+   "count": 1,
+   "amount": 9900000
+  },
+  {
+   "vendor": "주식회사 유니버셜리프트앤히타치코리아",
+   "count": 1,
+   "amount": 9900000
+  },
+  {
+   "vendor": "미래조명",
+   "count": 1,
+   "amount": 9890000
+  },
+  {
+   "vendor": "(주)광고백화점 트인",
+   "count": 1,
+   "amount": 9880000
+  },
+  {
+   "vendor": "(주)코아스",
+   "count": 2,
+   "amount": 9818000
+  },
+  {
+   "vendor": "주식회사 토피아건축사사무소",
+   "count": 1,
+   "amount": 9800000
+  },
+  {
+   "vendor": "주식회사 한국안전환경과학원",
+   "count": 1,
+   "amount": 9800000
+  },
+  {
+   "vendor": "트리앤",
+   "count": 3,
+   "amount": 9768000
+  },
+  {
+   "vendor": "이주데이타시스템(주)",
+   "count": 2,
+   "amount": 9760000
+  },
+  {
+   "vendor": "㈜빌더스개발에이엠씨",
+   "count": 1,
+   "amount": 9720000
+  },
+  {
+   "vendor": "(사)한국장애인농축산기술협회 그린시티사업단",
+   "count": 1,
+   "amount": 9700000
+  },
+  {
+   "vendor": "주식회사 에스엠제이이앤씨",
+   "count": 1,
+   "amount": 9660000
+  },
+  {
+   "vendor": "에버그린종합상사",
+   "count": 1,
+   "amount": 9610000
+  },
+  {
+   "vendor": "유캔런(YOUCANRUN)",
+   "count": 1,
+   "amount": 9600000
+  },
+  {
+   "vendor": "미성기업",
+   "count": 1,
+   "amount": 9592000
+  },
+  {
+   "vendor": "극동산전",
+   "count": 1,
+   "amount": 9592000
+  },
+  {
+   "vendor": "한국지엠청담지정서비스",
+   "count": 1,
+   "amount": 9534800
+  },
+  {
+   "vendor": "(주)클로봇",
+   "count": 1,
+   "amount": 9530000
+  },
+  {
+   "vendor": "신림산업(주)",
+   "count": 1,
+   "amount": 9499980
+  },
+  {
+   "vendor": "비지트인뉴욕",
+   "count": 1,
+   "amount": 9480000
+  },
+  {
+   "vendor": "데오스웍스 주식회사",
+   "count": 1,
+   "amount": 9438000
+  },
+  {
+   "vendor": "보배스포츠",
+   "count": 1,
+   "amount": 9400000
+  },
+  {
+   "vendor": "기술사사무소 이수",
+   "count": 1,
+   "amount": 9400000
+  },
+  {
+   "vendor": "주식회사 유쾌한생각",
+   "count": 1,
+   "amount": 9367580
+  },
+  {
+   "vendor": "방재문화진흥원",
+   "count": 1,
+   "amount": 9295000
+  },
+  {
+   "vendor": "주식회사 온세이프티",
+   "count": 1,
+   "amount": 9280000
+  },
+  {
+   "vendor": "서울특별시립 장애인생산품판매시설",
+   "count": 1,
+   "amount": 9253000
+  },
+  {
+   "vendor": "대한라이팅(주)",
+   "count": 1,
+   "amount": 9154000
+  },
+  {
+   "vendor": "주식회사 제이환경디자인",
+   "count": 1,
+   "amount": 9031000
+  },
+  {
+   "vendor": "비지니스대양전산폼(주)",
+   "count": 2,
+   "amount": 9030000
+  },
+  {
+   "vendor": "(주)아셈플라워랜드",
+   "count": 1,
+   "amount": 9000000
+  },
+  {
+   "vendor": "(주)엠퍼니처",
+   "count": 1,
+   "amount": 8960000
+  },
+  {
+   "vendor": "라코스테 동일부평점",
+   "count": 2,
+   "amount": 8960000
+  },
+  {
+   "vendor": "주식회사 새움",
+   "count": 1,
+   "amount": 8920000
+  },
+  {
+   "vendor": "주식회사 삼성유아",
+   "count": 1,
+   "amount": 8908000
+  },
+  {
+   "vendor": "금빛생산업",
+   "count": 1,
+   "amount": 8900000
+  },
+  {
+   "vendor": "주식회사 한국전기공사협회 안전기술원",
+   "count": 1,
+   "amount": 8880000
+  },
+  {
+   "vendor": "태성회계법인",
+   "count": 1,
+   "amount": 8800000
+  },
+  {
+   "vendor": "주식회사 에코수엔지니어링",
+   "count": 3,
+   "amount": 8756000
+  },
+  {
+   "vendor": "재재패션(주)",
+   "count": 1,
+   "amount": 8754900
+  },
+  {
+   "vendor": "세화스틸",
+   "count": 2,
+   "amount": 8748000
+  },
+  {
+   "vendor": "명곤산업",
+   "count": 1,
+   "amount": 8745000
+  },
+  {
+   "vendor": "주식회사 그랜드일번지",
+   "count": 1,
+   "amount": 8700000
+  },
+  {
+   "vendor": "주식회사 유진씨엔씨",
+   "count": 1,
+   "amount": 8650000
+  },
+  {
+   "vendor": "내륙콘크리트 주식회사",
+   "count": 2,
+   "amount": 8643400
+  },
+  {
+   "vendor": "주식회사 그린시티",
+   "count": 2,
+   "amount": 8632800
+  },
+  {
+   "vendor": "주안실업(이정연)",
+   "count": 1,
+   "amount": 8624000
+  },
+  {
+   "vendor": "로드이엔지",
+   "count": 1,
+   "amount": 8604000
+  },
+  {
+   "vendor": "동양안전(주)",
+   "count": 2,
+   "amount": 8602000
+  },
+  {
+   "vendor": "동우전기안전(주)",
+   "count": 2,
+   "amount": 8580000
+  },
+  {
+   "vendor": "재경실업",
+   "count": 1,
+   "amount": 8512000
+  },
+  {
+   "vendor": "가온디자인",
+   "count": 1,
+   "amount": 8510000
+  },
+  {
+   "vendor": "주식회사 자루서비스",
+   "count": 1,
+   "amount": 8500000
+  },
+  {
+   "vendor": "사단법인 한국갈등해결센터",
+   "count": 1,
+   "amount": 8481000
+  },
+  {
+   "vendor": "토우",
+   "count": 1,
+   "amount": 8400000
+  },
+  {
+   "vendor": "스포런",
+   "count": 1,
+   "amount": 8382500
+  },
+  {
+   "vendor": "주식회사 지투비에스",
+   "count": 1,
+   "amount": 8375000
+  },
+  {
+   "vendor": "나이스신용평가정보(주)",
+   "count": 1,
+   "amount": 8263360
+  },
+  {
+   "vendor": "한백화훼",
+   "count": 2,
+   "amount": 8260000
+  },
+  {
+   "vendor": "백운산업",
+   "count": 1,
+   "amount": 8257700
+  },
+  {
+   "vendor": "번암조경유한회사",
+   "count": 1,
+   "amount": 8255000
+  },
+  {
+   "vendor": "자연과사람들(이영오)",
+   "count": 1,
+   "amount": 8250000
+  },
+  {
+   "vendor": "㈜호반호텔앤리조트",
+   "count": 1,
+   "amount": 8242000
+  },
+  {
+   "vendor": "(주)쉰들러엘리베이터",
+   "count": 2,
+   "amount": 8194000
+  },
+  {
+   "vendor": "(주)대금이앤아이",
+   "count": 1,
+   "amount": 8168000
+  },
+  {
+   "vendor": "(주)와풀",
+   "count": 1,
+   "amount": 8140000
+  },
+  {
+   "vendor": "해남철거산업 주식회사",
+   "count": 1,
+   "amount": 8135000
+  },
+  {
+   "vendor": "(주)디앤지네트웍스",
+   "count": 1,
+   "amount": 8130000
+  },
+  {
+   "vendor": "현풍산업",
+   "count": 1,
+   "amount": 8075000
+  },
+  {
+   "vendor": "(주)디지로그",
+   "count": 1,
+   "amount": 8000000
+  },
+  {
+   "vendor": "(주)고암",
+   "count": 1,
+   "amount": 8000000
+  },
+  {
+   "vendor": "사단법인한국장애인농축산기술협회 월가든사업단",
+   "count": 1,
+   "amount": 8000000
+  },
+  {
+   "vendor": "보현석재 주식회사",
+   "count": 1,
+   "amount": 7984900
+  },
+  {
+   "vendor": "주식회사 와이즈일렉",
+   "count": 1,
+   "amount": 7980000
+  },
+  {
+   "vendor": "(주)에이디엠",
+   "count": 1,
+   "amount": 7925900
+  },
+  {
+   "vendor": "(주)메이드특수방수",
+   "count": 1,
+   "amount": 7898000
+  },
+  {
+   "vendor": "주식회사 세븐일렉",
+   "count": 1,
+   "amount": 7800000
+  },
+  {
+   "vendor": "주식회사 아시아",
+   "count": 1,
+   "amount": 7793500
+  },
+  {
+   "vendor": "당진해나루쌀조합공동사업법인",
+   "count": 1,
+   "amount": 7748000
+  },
+  {
+   "vendor": "(주)하나콘크리트",
+   "count": 2,
+   "amount": 7710000
+  },
+  {
+   "vendor": "주식회사 지크아이디",
+   "count": 1,
+   "amount": 7700000
+  },
+  {
+   "vendor": "주식회사 오리엔탈드림",
+   "count": 1,
+   "amount": 7603400
+  },
+  {
+   "vendor": "(사)국민안전진흥협회",
+   "count": 3,
+   "amount": 7594400
+  },
+  {
+   "vendor": "(주)선유기술",
+   "count": 1,
+   "amount": 7571000
+  },
+  {
+   "vendor": "새봄조경(주)",
+   "count": 1,
+   "amount": 7500000
+  },
+  {
+   "vendor": "주식회사 보호시스템",
+   "count": 1,
+   "amount": 7500000
+  },
+  {
+   "vendor": "(주)토브컨설턴트",
+   "count": 1,
+   "amount": 7480000
+  },
+  {
+   "vendor": "주식회사 비주얼라이터",
+   "count": 1,
+   "amount": 7480000
+  },
+  {
+   "vendor": "이텍산업 주식회사",
+   "count": 1,
+   "amount": 7469000
+  },
+  {
+   "vendor": "주식회사 아이스트로",
+   "count": 1,
+   "amount": 7453430
+  },
+  {
+   "vendor": "아이테크",
+   "count": 1,
+   "amount": 7428000
+  },
+  {
+   "vendor": "식물을 기르기엔 난 너무 게을러",
+   "count": 1,
+   "amount": 7330000
+  },
+  {
+   "vendor": "(주)해주건축디자인",
+   "count": 1,
+   "amount": 7300000
+  },
+  {
+   "vendor": "주식회사 이디솔루션",
+   "count": 1,
+   "amount": 7300000
+  },
+  {
+   "vendor": "엠케이세라믹",
+   "count": 1,
+   "amount": 7214620
+  },
+  {
+   "vendor": "주식회사 코핸아이디",
+   "count": 1,
+   "amount": 7161000
+  },
+  {
+   "vendor": "(주)코핸아이디",
+   "count": 1,
+   "amount": 7161000
+  },
+  {
+   "vendor": "주식회사 세정이엔티",
+   "count": 1,
+   "amount": 7128000
+  },
+  {
+   "vendor": "아이에이치기술",
+   "count": 1,
+   "amount": 7120300
+  },
+  {
+   "vendor": "네오맨비 주식회사",
+   "count": 1,
+   "amount": 7100000
+  },
+  {
+   "vendor": "조경기술사사무소 후네스",
+   "count": 1,
+   "amount": 7040000
+  },
+  {
+   "vendor": "성우기업",
+   "count": 1,
+   "amount": 7013100
+  },
+  {
+   "vendor": "주식회사 테크노전기",
+   "count": 1,
+   "amount": 7000000
+  },
+  {
+   "vendor": "스테이지402",
+   "count": 1,
+   "amount": 7000000
+  },
+  {
+   "vendor": "케이웨더 주식회사",
+   "count": 1,
+   "amount": 6987450
+  },
+  {
+   "vendor": "고공크린",
+   "count": 1,
+   "amount": 6985000
+  },
+  {
+   "vendor": "평창종합상사",
+   "count": 1,
+   "amount": 6963000
+  },
+  {
+   "vendor": "(주)한국직무스트레스센터",
+   "count": 1,
+   "amount": 6963000
+  },
+  {
+   "vendor": "(주)케이앤엘솔루션",
+   "count": 1,
+   "amount": 6960000
+  },
+  {
+   "vendor": "대일스포트",
+   "count": 1,
+   "amount": 6921000
+  },
+  {
+   "vendor": "(주)은광 김광주",
+   "count": 1,
+   "amount": 6900000
+  },
+  {
+   "vendor": "라비에벨",
+   "count": 1,
+   "amount": 6900000
+  },
+  {
+   "vendor": "(주)시큐어셀",
+   "count": 1,
+   "amount": 6899160
+  },
+  {
+   "vendor": "주시회사문명에이스",
+   "count": 1,
+   "amount": 6864000
+  },
+  {
+   "vendor": "주식회사 소프트자이온",
+   "count": 1,
+   "amount": 6850000
+  },
+  {
+   "vendor": "주식회사 제우스코리아",
+   "count": 1,
+   "amount": 6762000
+  },
+  {
+   "vendor": "재단법인 정해산업보건연구소 중앙의원",
+   "count": 1,
+   "amount": 6700000
+  },
+  {
+   "vendor": "대화디자인",
+   "count": 1,
+   "amount": 6700000
+  },
+  {
+   "vendor": "주식회사 에이비구조건축사사무소",
+   "count": 1,
+   "amount": 6700000
+  },
+  {
+   "vendor": "주식회사 힘멜",
+   "count": 1,
+   "amount": 6683500
+  },
+  {
+   "vendor": "국제텔레시스",
+   "count": 1,
+   "amount": 6665000
+  },
+  {
+   "vendor": "주식회사 가온아이피엠",
+   "count": 1,
+   "amount": 6660000
+  },
+  {
+   "vendor": "주식회사 이편한조경",
+   "count": 2,
+   "amount": 6640000
+  },
+  {
+   "vendor": "주식회사 제이엠에스씨",
+   "count": 2,
+   "amount": 6555000
+  },
+  {
+   "vendor": "문화기획 봄",
+   "count": 1,
+   "amount": 6500000
+  },
+  {
+   "vendor": "(주)좋은날",
+   "count": 1,
+   "amount": 6491100
+  },
+  {
+   "vendor": "주식회사 레인포컴퍼니",
+   "count": 1,
+   "amount": 6485000
+  },
+  {
+   "vendor": "아이비전",
+   "count": 1,
+   "amount": 6465800
+  },
+  {
+   "vendor": "주식회사 수젠텍",
+   "count": 1,
+   "amount": 6396000
+  },
+  {
+   "vendor": "삼호씨엔티(주)",
+   "count": 1,
+   "amount": 6390000
+  },
+  {
+   "vendor": "주식회사 이든",
+   "count": 1,
+   "amount": 6384000
+  },
+  {
+   "vendor": "유메디험프리스",
+   "count": 1,
+   "amount": 6350000
+  },
+  {
+   "vendor": "(주)거성산업",
+   "count": 1,
+   "amount": 6270100
+  },
+  {
+   "vendor": "시그니스시스템하우스",
+   "count": 1,
+   "amount": 6270000
+  },
+  {
+   "vendor": "주식회사 기림테크닉스",
+   "count": 1,
+   "amount": 6270000
+  },
+  {
+   "vendor": "샤프에너지테크(주)",
+   "count": 3,
+   "amount": 6260000
+  },
+  {
+   "vendor": "지니언스 주식회사",
+   "count": 1,
+   "amount": 6258800
+  },
+  {
+   "vendor": "주식회사 블루인텍",
+   "count": 1,
+   "amount": 6230600
+  },
+  {
+   "vendor": "동원육영회(한국외대외국어연수평가원)",
+   "count": 1,
+   "amount": 6207000
+  },
+  {
+   "vendor": "쿠쿠홈시스(주)",
+   "count": 2,
+   "amount": 6191000
+  },
+  {
+   "vendor": "주식회사 사운드박스코리아",
+   "count": 1,
+   "amount": 6160000
+  },
+  {
+   "vendor": "에이피에이에어컨 주식회사",
+   "count": 1,
+   "amount": 6160000
+  },
+  {
+   "vendor": "이벤트머치모아",
+   "count": 1,
+   "amount": 6160000
+  },
+  {
+   "vendor": "(주)대한중전기",
+   "count": 1,
+   "amount": 6050000
+  },
+  {
+   "vendor": "안녕협동조합",
+   "count": 1,
+   "amount": 6000000
+  },
+  {
+   "vendor": "(주)허그맘허그인",
+   "count": 1,
+   "amount": 5985000
+  },
+  {
+   "vendor": "주식회사 세이버",
+   "count": 1,
+   "amount": 5940000
+  },
+  {
+   "vendor": "(주)땅끝야생화",
+   "count": 1,
+   "amount": 5843000
+  },
+  {
+   "vendor": "그린원",
+   "count": 1,
+   "amount": 5839240
+  },
+  {
+   "vendor": "은진농장",
+   "count": 1,
+   "amount": 5800000
+  },
+  {
+   "vendor": "하이(HI)키친",
+   "count": 1,
+   "amount": 5800000
+  },
+  {
+   "vendor": "숲이주는향기영농조합법인",
+   "count": 3,
+   "amount": 5799050
+  },
+  {
+   "vendor": "(주)어울림플러스",
+   "count": 1,
+   "amount": 5675500
+  },
+  {
+   "vendor": "(주)매트릭스미디어",
+   "count": 1,
+   "amount": 5614500
+  },
+  {
+   "vendor": "디자인K.S",
+   "count": 1,
+   "amount": 5580000
+  },
+  {
+   "vendor": "대영공조휠터주식회사",
+   "count": 1,
+   "amount": 5566000
+  },
+  {
+   "vendor": "주식회사 신우",
+   "count": 1,
+   "amount": 5560000
+  },
+  {
+   "vendor": "대한도로페인트(주)",
+   "count": 1,
+   "amount": 5550500
+  },
+  {
+   "vendor": "큐디자인",
+   "count": 1,
+   "amount": 5507000
+  },
+  {
+   "vendor": "주식회사 엘비케이",
+   "count": 1,
+   "amount": 5500000
+  },
+  {
+   "vendor": "주식회사 별별한국사",
+   "count": 1,
+   "amount": 5500000
+  },
+  {
+   "vendor": "드라마하우스스튜디오 주식회사",
+   "count": 1,
+   "amount": 5500000
+  },
+  {
+   "vendor": "(주)제너시스템",
+   "count": 1,
+   "amount": 5490000
+  },
+  {
+   "vendor": "LG전자(주)",
+   "count": 2,
+   "amount": 5447840
+  },
+  {
+   "vendor": "주식회사 사람과시설",
+   "count": 1,
+   "amount": 5432000
+  },
+  {
+   "vendor": "대원특장",
+   "count": 1,
+   "amount": 5423000
+  },
+  {
+   "vendor": "삼성디자인",
+   "count": 2,
+   "amount": 5410000
+  },
+  {
+   "vendor": "재영상사",
+   "count": 1,
+   "amount": 5363600
+  },
+  {
+   "vendor": "(주)화인시스템",
+   "count": 1,
+   "amount": 5335000
+  },
+  {
+   "vendor": "바운더리스 건축사사무소",
+   "count": 1,
+   "amount": 5273000
+  },
+  {
+   "vendor": "주식회사 하나로클린",
+   "count": 2,
+   "amount": 5261000
+  },
+  {
+   "vendor": "주식회사 유원티이씨",
+   "count": 1,
+   "amount": 5250000
+  },
+  {
+   "vendor": "(주)포레스트건설",
+   "count": 1,
+   "amount": 5192000
+  },
+  {
+   "vendor": "한창수중모터펌프",
+   "count": 1,
+   "amount": 5190000
+  },
+  {
+   "vendor": "(주)아이위저드",
+   "count": 1,
+   "amount": 5189100
+  },
+  {
+   "vendor": "신한전설(주)",
+   "count": 1,
+   "amount": 5170000
+  },
+  {
+   "vendor": "(주)에이알",
+   "count": 1,
+   "amount": 5076000
+  },
+  {
+   "vendor": "주식회사프로템",
+   "count": 1,
+   "amount": 5060000
+  },
+  {
+   "vendor": "이루다",
+   "count": 1,
+   "amount": 4996200
+  },
+  {
+   "vendor": "주식회사 바이더엠",
+   "count": 1,
+   "amount": 4995000
+  },
+  {
+   "vendor": "센텍(주)",
+   "count": 1,
+   "amount": 4980000
+  },
+  {
+   "vendor": "(주)경서디앤씨",
+   "count": 1,
+   "amount": 4971200
+  },
+  {
+   "vendor": "하늘나무",
+   "count": 1,
+   "amount": 4970000
+  },
+  {
+   "vendor": "수메디&테크",
+   "count": 1,
+   "amount": 4950000
+  },
+  {
+   "vendor": "주식회사 아이앤에스",
+   "count": 1,
+   "amount": 4950000
+  },
+  {
+   "vendor": "(주)금강이엔텍",
+   "count": 1,
+   "amount": 4950000
+  },
+  {
+   "vendor": "메타에스앤에스 주식회사",
+   "count": 3,
+   "amount": 4925000
+  },
+  {
+   "vendor": "주식회사 나우이엘",
+   "count": 1,
+   "amount": 4919900
+  },
+  {
+   "vendor": "(주)케이앤앨정보시스템",
+   "count": 1,
+   "amount": 4904000
+  },
+  {
+   "vendor": "주식회사 유정엘앤씨",
+   "count": 1,
+   "amount": 4900000
+  },
+  {
+   "vendor": "서울특별시립장애인",
+   "count": 1,
+   "amount": 4898750
+  },
+  {
+   "vendor": "주식회사 솔미디어랩",
+   "count": 1,
+   "amount": 4895000
+  },
+  {
+   "vendor": "주식회사 한국이엘에스",
+   "count": 1,
+   "amount": 4866000
+  },
+  {
+   "vendor": "주식회사 백성",
+   "count": 1,
+   "amount": 4865200
+  },
+  {
+   "vendor": "(주)승천엔지니어링",
+   "count": 1,
+   "amount": 4862000
+  },
+  {
+   "vendor": "엑시옴(XIOM) 북서울점",
+   "count": 1,
+   "amount": 4860000
+  },
+  {
+   "vendor": "트루봐인",
+   "count": 1,
+   "amount": 4850000
+  },
+  {
+   "vendor": "주식회사 어울림",
+   "count": 1,
+   "amount": 4812500
+  },
+  {
+   "vendor": "휴먼마인드연구소",
+   "count": 1,
+   "amount": 4800000
+  },
+  {
+   "vendor": "천일석재",
+   "count": 1,
+   "amount": 4800000
+  },
+  {
+   "vendor": "주식회사 준앤컴퍼니",
+   "count": 1,
+   "amount": 4774000
+  },
+  {
+   "vendor": "(주)나라오름",
+   "count": 1,
+   "amount": 4760000
+  },
+  {
+   "vendor": "(주)오성콘크리트",
+   "count": 1,
+   "amount": 4754700
+  },
+  {
+   "vendor": "테크하임(주)",
+   "count": 1,
+   "amount": 4752000
+  },
+  {
+   "vendor": "주식회사 트루진스",
+   "count": 1,
+   "amount": 4750000
+  },
+  {
+   "vendor": "(주)제일에프엔이",
+   "count": 1,
+   "amount": 4620000
+  },
+  {
+   "vendor": "파온스윙",
+   "count": 1,
+   "amount": 4620000
+  },
+  {
+   "vendor": "(주)금성전기통신공사",
+   "count": 1,
+   "amount": 4620000
+  },
+  {
+   "vendor": "(주)디자인러브",
+   "count": 1,
+   "amount": 4609440
+  },
+  {
+   "vendor": "고려기프트 주식회사",
+   "count": 1,
+   "amount": 4609000
+  },
+  {
+   "vendor": "귀뚜라미홈시스마트",
+   "count": 1,
+   "amount": 4543000
+  },
+  {
+   "vendor": "(주)콘스텍코리아",
+   "count": 1,
+   "amount": 4468530
+  },
+  {
+   "vendor": "(주)삼한씨원",
+   "count": 1,
+   "amount": 4456550
+  },
+  {
+   "vendor": "오텍캐리어 주식회사",
+   "count": 1,
+   "amount": 4400000
+  },
+  {
+   "vendor": "종로기획",
+   "count": 1,
+   "amount": 4383500
+  },
+  {
+   "vendor": "충북인삼협동조합",
+   "count": 1,
+   "amount": 4350000
+  },
+  {
+   "vendor": "한테크",
+   "count": 1,
+   "amount": 4310950
+  },
+  {
+   "vendor": "(주)고도엔바",
+   "count": 1,
+   "amount": 4224000
+  },
+  {
+   "vendor": "주식회사 태흥에프엔지",
+   "count": 1,
+   "amount": 4158000
+  },
+  {
+   "vendor": "주식회사 화인그레이팅",
+   "count": 1,
+   "amount": 4116000
+  },
+  {
+   "vendor": "주식회사 솔림 농업회사법인",
+   "count": 1,
+   "amount": 4095900
+  },
+  {
+   "vendor": "주식회사 이엔에너지",
+   "count": 1,
+   "amount": 4070000
+  },
+  {
+   "vendor": "유한책임회사 센도리",
+   "count": 1,
+   "amount": 4021160
+  },
+  {
+   "vendor": "주식회사 대평섬유",
+   "count": 1,
+   "amount": 4019000
+  },
+  {
+   "vendor": "동부이엔티 주식회사",
+   "count": 1,
+   "amount": 4015000
+  },
+  {
+   "vendor": "주식회사 고담",
+   "count": 1,
+   "amount": 4000000
+  },
+  {
+   "vendor": "금산씨엔씨(주)",
+   "count": 1,
+   "amount": 3995020
+  },
+  {
+   "vendor": "주식회사 이콘",
+   "count": 1,
+   "amount": 3960000
+  },
+  {
+   "vendor": "부천시장애인직업재활시설",
+   "count": 1,
+   "amount": 3952000
+  },
+  {
+   "vendor": "주식회사 원트리즈뮤직",
+   "count": 1,
+   "amount": 3942000
+  },
+  {
+   "vendor": "(주)아이온에스",
+   "count": 1,
+   "amount": 3900000
+  },
+  {
+   "vendor": "주식회사 메이트",
+   "count": 1,
+   "amount": 3885920
+  },
+  {
+   "vendor": "(주)그린고속관광",
+   "count": 1,
+   "amount": 3850000
+  },
+  {
+   "vendor": "주식회사 우신이앤씨",
+   "count": 1,
+   "amount": 3800000
+  },
+  {
+   "vendor": "주식회사 햄프로",
+   "count": 1,
+   "amount": 3752000
+  },
+  {
+   "vendor": "햄프로",
+   "count": 1,
+   "amount": 3752000
+  },
+  {
+   "vendor": "㈜휴넷",
+   "count": 1,
+   "amount": 3740000
+  },
+  {
+   "vendor": "주식회사 듀오백",
+   "count": 1,
+   "amount": 3707000
+  },
+  {
+   "vendor": "(주)다나",
+   "count": 1,
+   "amount": 3585000
+  },
+  {
+   "vendor": "(주)테트라",
+   "count": 1,
+   "amount": 3553000
+  },
+  {
+   "vendor": "주식회사 아름환경개발",
+   "count": 1,
+   "amount": 3520400
+  },
+  {
+   "vendor": "주식회사 에이피라인",
+   "count": 1,
+   "amount": 3520000
+  },
+  {
+   "vendor": "주식회사 에스원",
+   "count": 1,
+   "amount": 3520000
+  },
+  {
+   "vendor": "의료법인 케이씨엘의료재단",
+   "count": 1,
+   "amount": 3487000
+  },
+  {
+   "vendor": "(주)상명종합건축사사무소",
+   "count": 1,
+   "amount": 3480000
+  },
+  {
+   "vendor": "주식회사 코리아로드포스트",
+   "count": 1,
+   "amount": 3450000
+  },
+  {
+   "vendor": "서울전력(주)",
+   "count": 1,
+   "amount": 3350000
+  },
+  {
+   "vendor": "주식회사 엠파이브",
+   "count": 1,
+   "amount": 3288000
+  },
+  {
+   "vendor": "주식회사태광전력",
+   "count": 1,
+   "amount": 3262000
+  },
+  {
+   "vendor": "기강산업개발 주식회사",
+   "count": 1,
+   "amount": 3202800
+  },
+  {
+   "vendor": "(주)에스카",
+   "count": 1,
+   "amount": 3185000
+  },
+  {
+   "vendor": "샘시스템",
+   "count": 1,
+   "amount": 3160000
+  },
+  {
+   "vendor": "주식회사 성진정보통신",
+   "count": 1,
+   "amount": 3150000
+  },
+  {
+   "vendor": "삼성연마CO",
+   "count": 1,
+   "amount": 3137200
+  },
+  {
+   "vendor": "한별체육산업",
+   "count": 1,
+   "amount": 3040000
+  },
+  {
+   "vendor": "(주)다산소프트",
+   "count": 1,
+   "amount": 3000000
+  },
+  {
+   "vendor": "(주)한국피아이지",
+   "count": 1,
+   "amount": 3000000
+  },
+  {
+   "vendor": "그래픽오션",
+   "count": 1,
+   "amount": 3000000
+  },
+  {
+   "vendor": "(주)아이디오커머스",
+   "count": 1,
+   "amount": 2980000
+  },
+  {
+   "vendor": "주식회사하인스",
+   "count": 1,
+   "amount": 2900000
+  },
+  {
+   "vendor": "주식회사 스토즈",
+   "count": 1,
+   "amount": 2837000
+  },
+  {
+   "vendor": "주식회사 이룸시스",
+   "count": 1,
+   "amount": 2800000
+  },
+  {
+   "vendor": "(주)하나조경",
+   "count": 1,
+   "amount": 2776000
+  },
+  {
+   "vendor": "유한회사 한누리개발",
+   "count": 1,
+   "amount": 2744000
+  },
+  {
+   "vendor": "스마트기술원",
+   "count": 1,
+   "amount": 2717000
+  },
+  {
+   "vendor": "주식회사 에스카",
+   "count": 1,
+   "amount": 2714200
+  },
+  {
+   "vendor": "(주)네오스라이트",
+   "count": 1,
+   "amount": 2697000
+  },
+  {
+   "vendor": "태영산업",
+   "count": 1,
+   "amount": 2541000
+  },
+  {
+   "vendor": "(주)가온아이",
+   "count": 1,
+   "amount": 2460000
+  },
+  {
+   "vendor": "주식회사 거성종합전기",
+   "count": 1,
+   "amount": 2300000
+  },
+  {
+   "vendor": "이젠식물원",
+   "count": 1,
+   "amount": 2234400
+  },
+  {
+   "vendor": "다인디지탈 주식회사",
+   "count": 2,
+   "amount": 2195500
+  },
+  {
+   "vendor": "주식회사 베스트디지탈",
+   "count": 1,
+   "amount": 2180000
+  },
+  {
+   "vendor": "한국환경개발(주)",
+   "count": 1,
+   "amount": 2084790
+  },
+  {
+   "vendor": "주식회사 에이텍",
+   "count": 1,
+   "amount": 2072900
+  },
+  {
+   "vendor": "(주)에이치케이시스템",
+   "count": 1,
+   "amount": 2066000
+  },
+  {
+   "vendor": "주식회사 누아",
+   "count": 2,
+   "amount": 2061000
+  },
+  {
+   "vendor": "김스애드",
+   "count": 1,
+   "amount": 2047500
+  },
+  {
+   "vendor": "건축사사무소 봄봄",
+   "count": 1,
+   "amount": 2025000
+  },
+  {
+   "vendor": "주식회사 라이팅스케치",
+   "count": 1,
+   "amount": 1982000
+  },
+  {
+   "vendor": "모어건축사사무소",
+   "count": 1,
+   "amount": 1918000
+  },
+  {
+   "vendor": "(주)타임즈코어",
+   "count": 1,
+   "amount": 1880340
+  },
+  {
+   "vendor": "주식회사 우드림",
+   "count": 1,
+   "amount": 1863000
+  },
+  {
+   "vendor": "대림프라스틱(주)",
+   "count": 1,
+   "amount": 1836260
+  },
+  {
+   "vendor": "시흥용사촌안흥합성(주)",
+   "count": 1,
+   "amount": 1799000
+  },
+  {
+   "vendor": "(주)디자인파크개발",
+   "count": 1,
+   "amount": 1760000
+  },
+  {
+   "vendor": "(주)와이앤제이씨",
+   "count": 1,
+   "amount": 1730000
+  },
+  {
+   "vendor": "쓰리엠쓰리 건축사사무소",
+   "count": 1,
+   "amount": 1706000
+  },
+  {
+   "vendor": "한국엠에스디동물약품(주)",
+   "count": 1,
+   "amount": 1690800
+  },
+  {
+   "vendor": "(주)신도디엔텍",
+   "count": 1,
+   "amount": 1620000
+  },
+  {
+   "vendor": "(주)도시와숲",
+   "count": 1,
+   "amount": 1608000
+  },
+  {
+   "vendor": "(주)에이앤에스개발",
+   "count": 1,
+   "amount": 1584000
+  },
+  {
+   "vendor": "대길금속",
+   "count": 1,
+   "amount": 1580000
+  },
+  {
+   "vendor": "주식회사 근호이앤씨",
+   "count": 1,
+   "amount": 1573000
+  },
+  {
+   "vendor": "주식회사 두레파마",
+   "count": 1,
+   "amount": 1557500
+  },
+  {
+   "vendor": "(재)한국경제조사연구원",
+   "count": 1,
+   "amount": 1500000
+  },
+  {
+   "vendor": "(주)현대큐비클",
+   "count": 1,
+   "amount": 1485000
+  },
+  {
+   "vendor": "주식회사 셀바스헬스케어",
+   "count": 1,
+   "amount": 1470000
+  },
+  {
+   "vendor": "(주) 쉰들러엘리베이터",
+   "count": 1,
+   "amount": 1452000
+  },
+  {
+   "vendor": "(주)제이에스전력통신",
+   "count": 1,
+   "amount": 1426000
+  },
+  {
+   "vendor": "주식회사 맥스컴",
+   "count": 1,
+   "amount": 1383800
+  },
+  {
+   "vendor": "신일전자주식회사",
+   "count": 1,
+   "amount": 1360800
+  },
+  {
+   "vendor": "유한회사 애니체",
+   "count": 1,
+   "amount": 1350000
+  },
+  {
+   "vendor": "(주)파인솔라",
+   "count": 1,
+   "amount": 1317250
+  },
+  {
+   "vendor": "연풍화훼",
+   "count": 1,
+   "amount": 1300000
+  },
+  {
+   "vendor": "엠아이산업 주식회사",
+   "count": 1,
+   "amount": 1233000
+  },
+  {
+   "vendor": "광진종합세이프(주)",
+   "count": 1,
+   "amount": 1188000
+  },
+  {
+   "vendor": "주식회사 진성기업",
+   "count": 1,
+   "amount": 1060000
+  },
+  {
+   "vendor": "주식회사 기산",
+   "count": 1,
+   "amount": 1022400
+  },
+  {
+   "vendor": "주식회사 한국페이즈서비스",
+   "count": 1,
+   "amount": 1016500
+  },
+  {
+   "vendor": "(주)우신건설안전기술단",
+   "count": 1,
+   "amount": 1000000
+  },
+  {
+   "vendor": "유한회사 서광석재산업",
+   "count": 1,
+   "amount": 999090
+  },
+  {
+   "vendor": "삼선전자(주)",
+   "count": 1,
+   "amount": 990000
+  },
+  {
+   "vendor": "주식회사 디앤지네트웍스",
+   "count": 1,
+   "amount": 990000
+  },
+  {
+   "vendor": "과화림팜",
+   "count": 1,
+   "amount": 950400
+  },
+  {
+   "vendor": "듀오백코리아주식회사",
+   "count": 1,
+   "amount": 948000
+  },
+  {
+   "vendor": "주식회사 위쥬테크",
+   "count": 2,
+   "amount": 942000
+  },
+  {
+   "vendor": "현진랜드(주)",
+   "count": 1,
+   "amount": 940000
+  },
+  {
+   "vendor": "합자회사 어반스케이프",
+   "count": 1,
+   "amount": 920000
+  },
+  {
+   "vendor": "(주)고려건설안전기술단",
+   "count": 1,
+   "amount": 880000
+  },
+  {
+   "vendor": "아이제트-포그",
+   "count": 1,
+   "amount": 840000
+  },
+  {
+   "vendor": "두리산업 주식회사",
+   "count": 1,
+   "amount": 767600
+  },
+  {
+   "vendor": "주식회사 아이티엠산업",
+   "count": 1,
+   "amount": 660000
+  },
+  {
+   "vendor": "제이어스테크 주식회사",
+   "count": 1,
+   "amount": 629200
+  },
+  {
+   "vendor": "진안전컨설팅",
+   "count": 1,
+   "amount": 600000
+  },
+  {
+   "vendor": "주식회사 탑체어",
+   "count": 1,
+   "amount": 590000
+  },
+  {
+   "vendor": "쌍용씨앤이 주식회사",
+   "count": 1,
+   "amount": 582000
+  },
+  {
+   "vendor": "서울,경인레미콘공업협동조합",
+   "count": 1,
+   "amount": 540600
+  },
+  {
+   "vendor": "(주)코퍼스",
+   "count": 1,
+   "amount": 540000
+  },
+  {
+   "vendor": "한일에코(주)",
+   "count": 1,
+   "amount": 489000
+  },
+  {
+   "vendor": "대원산업",
+   "count": 1,
+   "amount": 486000
+  },
+  {
+   "vendor": "(주)태성트라텍",
+   "count": 1,
+   "amount": 476000
+  },
+  {
+   "vendor": "(주)삼원가구",
+   "count": 1,
+   "amount": 424000
+  },
+  {
+   "vendor": "주식회사 토퍼스",
+   "count": 1,
+   "amount": 400000
+  },
+  {
+   "vendor": "씨씨아이",
+   "count": 1,
+   "amount": 396500
+  },
+  {
+   "vendor": "대명콘텍(주)",
+   "count": 1,
+   "amount": 308000
+  },
+  {
+   "vendor": "(주)대진테크",
+   "count": 1,
+   "amount": 300000
+  },
+  {
+   "vendor": "비센약품주식회사",
+   "count": 1,
+   "amount": 161600
+  },
+  {
+   "vendor": "태흥그레이팅",
+   "count": 1,
+   "amount": 116650
+  },
+  {
+   "vendor": "정통온양석",
+   "count": 1,
+   "amount": 0
+  },
+  {
+   "vendor": "주식회사 천호테크",
+   "count": 1,
+   "amount": 0
+  },
+  {
+   "vendor": "주식회사 하얀소금",
+   "count": 1,
+   "amount": 0
+  },
+  {
+   "vendor": "필에스엔에스(주)",
+   "count": 1,
+   "amount": 0
+  },
+  {
+   "vendor": "주식회사 휴레스트",
+   "count": 1,
+   "amount": 0
+  },
+  {
+   "vendor": "주식회사 모던테크",
+   "count": 1,
+   "amount": 0
+  },
+  {
+   "vendor": "영농조합법인 지랜드",
+   "count": 1,
+   "amount": 0
+  }
+ ],
+ "by_kind": [
+  {
+   "name": "용역",
+   "count": 724,
+   "amount": 151915029577
+  },
+  {
+   "name": "공사",
+   "count": 405,
+   "amount": 125576478807
+  },
+  {
+   "name": "물품",
+   "count": 1703,
+   "amount": 64605219170
+  }
+ ],
+ "by_method": [
+  {
+   "name": "일반경쟁",
+   "count": 1471,
+   "amount": 177066800975
+  },
+  {
+   "name": "제한경쟁",
+   "count": 220,
+   "amount": 130698210472
+  },
+  {
+   "name": "수의1인견적",
+   "count": 1067,
+   "amount": 30806633477
+  },
+  {
+   "name": "수의2인이상견적",
+   "count": 74,
+   "amount": 3525082630
+  }
+ ],
+ "by_month": [
+  {
+   "month": "202412",
+   "count": 275,
+   "amount": 100987764127
+  },
+  {
+   "month": "202402",
+   "count": 178,
+   "amount": 49832245508
+  },
+  {
+   "month": "202403",
+   "count": 358,
+   "amount": 44496144558
+  },
+  {
+   "month": "202404",
+   "count": 287,
+   "amount": 35158000638
+  },
+  {
+   "month": "202408",
+   "count": 247,
+   "amount": 17043796470
+  },
+  {
+   "month": "202409",
+   "count": 235,
+   "amount": 16382088330
+  },
+  {
+   "month": "202405",
+   "count": 274,
+   "amount": 15772950830
+  },
+  {
+   "month": "202406",
+   "count": 188,
+   "amount": 14475303490
+  },
+  {
+   "month": "202407",
+   "count": 186,
+   "amount": 13812559401
+  },
+  {
+   "month": "202401",
+   "count": 161,
+   "amount": 13151369400
+  },
+  {
+   "month": "202410",
+   "count": 221,
+   "amount": 10995865262
+  },
+  {
+   "month": "202411",
+   "count": 222,
+   "amount": 9988639540
+  }
+ ]
+}

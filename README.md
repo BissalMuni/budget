@@ -58,6 +58,27 @@ python pipeline/run.py --district gangnam --doctype budget --year 2025 --stamp "
 **새 자치구/연도 추가:** ① `data/<d>/<t>/<y>/source.pdf` 배치 ②
 `meta.json`에 권 경계(`volumes.*.phys`) 지정 ③ `run.py` 실행.
 
+## 지급처(계약현황) — 지방재정365 OpenAPI
+
+예산·결산의 숫자를 **실제 지급받은 업체**로 연결한다(최종목적: 어느 자치구가 어떤
+업체에 얼마 지급했는지 → 지도). 결산서 PDF엔 지급처가 없으므로
+[지방재정365](https://www.lofin365.go.kr) OpenAPI를 쓴다.
+
+- 엔드포인트 `https://www.lofin365.go.kr/lf/hub/{URI}` · 공통 파라미터 `Key,Type,pIndex,pSize`.
+  인증키는 **환경변수 `LOFIN_KEY`** (data.go.kr/lofin365 발급, 코드에 저장 안 함).
+- 데이터셋 지도: [`fetch/lofin_datasets.json`](fetch/lofin_datasets.json)
+  (세출/세입결산 `AJGCF`/`IIBBH`, **계약현황 `WCEGCF`**=업체명·계약명·금액).
+- 강남 `laf_cd=1133000`. 계약현황은 계약일자(YYYYMMDD) 1일 단위라 연간은 날짜 순회.
+
+```bash
+# 1년치 계약 수집(재개 가능) → 업체·종류·방법·월별 집계
+LOFIN_KEY=발급키 python fetch/harvest_contracts.py 1133000 2024
+python fetch/aggregate_contracts.py gangnam 2024   # → data/gangnam/contracts/2024/aggregated.json
+```
+
+웹 `/contracts/<district>/<year>`에서 지도(자치구)·상위 업체·계약종류/방법·월별·업체
+검색으로 시각화한다.
+
 ## 웹
 
 ```bash

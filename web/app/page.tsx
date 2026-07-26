@@ -1,7 +1,8 @@
-import { getCatalog } from "@/lib/data";
+import { getCatalog, listContractDatasets } from "@/lib/data";
 
 export default function Home() {
   const cat = getCatalog();
+  const contracts = listContractDatasets();
   const byDistrict = new Map<string, typeof cat.datasets>();
   for (const d of cat.datasets) {
     if (!byDistrict.has(d.district)) byDistrict.set(d.district, []);
@@ -58,6 +59,31 @@ export default function Home() {
           </div>
         ))}
       </section>
+
+      {contracts.length > 0 && (
+        <section className="space-y-4">
+          <div>
+            <h2 className="text-xl font-bold">지급처(계약) 분석</h2>
+            <p className="mt-1 text-sm text-[var(--muted)]">
+              예산·결산의 숫자를 실제 지급받은 <b>업체</b>로 연결합니다 (지방재정365 계약현황).
+            </p>
+          </div>
+          <div className="flex flex-wrap gap-3">
+            {contracts.map((c) => (
+              <a
+                key={`${c.district}-${c.year}`}
+                href={`/contracts/${c.district}/${c.year}`}
+                className="rounded-lg border border-[var(--line)] bg-[var(--panel)] px-4 py-3 hover:border-blue-500 transition-colors"
+              >
+                <div className="font-medium">
+                  {c.name_ko} <span className="text-sm text-[var(--muted)]">{c.year} 지급처</span>
+                </div>
+                <div className="mt-1 text-xs text-[var(--muted)]">계약현황 · 업체별 지급 지도</div>
+              </a>
+            ))}
+          </div>
+        </section>
+      )}
     </div>
   );
 }

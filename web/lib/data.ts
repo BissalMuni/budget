@@ -93,6 +93,54 @@ export function getMeta(d: string, t: string, y: string): Record<string, unknown
   return readJson(d, t, y, "meta.json");
 }
 
+// ── 계약현황(지급처) ─────────────────────────────────────────────
+// 금액 단위는 '원'(예산/결산의 '천원'과 다름).
+export type ContractGroup = { name?: string; vendor?: string; month?: string; count: number; amount: number };
+export type ContractAgg = {
+  district: string;
+  laf_hg_nm: string;
+  year: string;
+  total_count: number;
+  total_amount: number;
+  distinct_vendors: number;
+  top_vendors: ContractGroup[];
+  all_vendors: ContractGroup[];
+  by_kind: ContractGroup[];
+  by_method: ContractGroup[];
+  by_month: ContractGroup[];
+};
+
+export function getContractAgg(district: string, year: string): ContractAgg | null {
+  return readJson<ContractAgg>(district, "contracts", year, "aggregated.json");
+}
+
+// data/<district>/contracts/<year>/aggregated.json 을 스캔해 목록화
+export function listContractDatasets(): { district: string; year: string; name_ko: string }[] {
+  const districts = getCatalog().districts;
+  const out: { district: string; year: string; name_ko: string }[] = [];
+  if (!fs.existsSync(DATA)) return out;
+  for (const district of fs.readdirSync(DATA)) {
+    const cdir = path.join(DATA, district, "contracts");
+    if (!fs.existsSync(cdir)) continue;
+    for (const year of fs.readdirSync(cdir)) {
+      if (fs.existsSync(path.join(cdir, year, "aggregated.json"))) {
+        out.push({ district, year, name_ko: districts[district]?.name_ko ?? district });
+      }
+    }
+  }
+  return out;
+}
+
+// 원 단위 포맷
+export const fmtWon = (won: number | null): string => {
+  if (won == null) return "-";
+  const eok = won / 1e8;
+  if (Math.abs(eok) >= 1) return `${eok.toLocaleString("ko-KR", { maximumFractionDigits: 1 })}억`;
+  const man = won / 1e4;
+  if (Math.abs(man) >= 1) return `${man.toLocaleString("ko-KR", { maximumFractionDigits: 0 })}만`;
+  return `${won.toLocaleString("ko-KR")}원`;
+};
+
 // 표에서 특정 scope의 행을 꺼내고, 1단계(최상위) 분류만 필터
 export function topRows(
   table: SummaryTable | undefined,

@@ -1,0 +1,48 @@
+{
+ "_note": "지방재정365(lofin365) OpenAPI 데이터셋 지도. 엔드포인트=https://www.lofin365.go.kr/lf/hub/{uri}. 공통파라미터: Key(인증키), Type(json|xml), pIndex, pSize. 인증키는 env LOFIN_KEY. data.go.kr은 LINK 타입이라 실제 스펙은 lofin365에 있음.",
+ "region_codes": {
+  "서울(wa_laf_cd)": "1100000",
+  "강남구(laf_cd)": "1133000",
+  "_pattern": "서울 자치구 = 11 + 2자리순번 + 000 (종로1111000 … 강남1133000)"
+ },
+ "datasets": {
+  "세출결산": {
+   "uri": "AJGCF", "pdtaId": "UYOLBXKP4T9E3ABUMUO1389588",
+   "req": ["fyr", "wa_laf_cd?", "laf_cd?"],
+   "fields": {"tot_pfa_amt": "세출결산 총계", "pfa_amt1": "일반회계", "pfa_amt2": "공기업특별회계", "pfa_amt3": "기타특별회계", "pfa_amt4": "기금"},
+   "grain": "자치단체×회계 (분야별 아님)"
+  },
+  "세입결산": {
+   "uri": "IIBBH", "pdtaId": "AA0OGVUU0F1BL5EE9TWU362412",
+   "req": ["fyr", "wa_laf_cd?", "laf_cd?"],
+   "fields": {"total": "세입결산 총계", "pfa_amt1": "일반회계", "pfa_amt2": "공기업특별회계", "pfa_amt3": "기타특별회계", "pfa_amt4": "기금"},
+   "grain": "자치단체×회계"
+  },
+  "계약현황": {
+   "uri": "WCEGCF", "pdtaId": "WC98EG72CF8NOXFB93K01589646",
+   "req": ["laf_cd", "smz_ctrt_ymd", "ctrt_mth_nm?", "ctrt_knd_nm?", "ctrt_trgt_nm?", "clt_nm?"],
+   "fields": {"ctrt_ldgr_mng_no": "계약대장관리번호", "ctrt_trgt_nm": "계약명", "clt_nm": "업체명", "ctrt_tot_tott_amt": "계약집계금액", "ctrt_mth_nm": "계약방법", "ctrt_knd_nm": "계약종류", "smz_ctrt_ymd": "계약일자", "sbc_yn": "하도급유무"},
+   "grain": "계약 1건 (지급처 업체명 포함! 최종목적 핵심). laf_cd+계약일자(1일) 필수",
+   "note": "연간 수집은 날짜 순회 필요"
+  },
+  "지방보조금": {
+   "uri": "UCMZQK", "pdtaId": "54FF1GQZB0K7PXEQ7HVG1404764",
+   "req": ["fyr", "wa_laf_hg_nm?", "laf_hg_nm?"],
+   "fields": {"smy_cntt_amt": "세출총액(A)", "smy_cntt_amt2": "편성액(B)", "smy_cntt_amt_rt": "보조금비율 B/A"},
+   "grain": "자치단체 비율요약 (수령자 아님 — 수령자별은 보탬e/클린아이 필요)"
+  },
+  "세입세출현황": {
+   "uri": "REVLK", "pdtaId": "0VL829Q8THX7CMZ02CX2767211",
+   "req": ["fyr", "laf_cd?"],
+   "fields": {"lnk_url_nm": "링크 URL(포인터 데이터셋 — 상세숫자 없음)"},
+   "grain": "링크 포인터"
+  },
+  "지역통합세출결산": {
+   "uri": "AUAES", "pdtaId": "O9HJDDSZJJ7JO0TL3GIA1042556",
+   "req": ["fyr"],
+   "fields": {"stl_amt0": "계", "stl_amt1": "자치단체", "stl_amt2": "지방공공기관", "stl_amt3": "교육재정", "stl_amt4": "내(외)부거래"},
+   "grain": "전국×주체 (분야별 아님)"
+  }
+ },
+ "gaps": "분야별/기능별/정책사업별/세부사업별 세출결산은 위 API에 없음 — lofin365 전체 데이터셋 카탈로그에서 별도 데이터셋 탐색 필요. 예산-결산을 예산서 총괄표(기능/성질/조직) 수준으로 매칭하려면 그 상세 데이터셋이 필요."
+}
