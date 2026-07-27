@@ -2,6 +2,7 @@
 import { useMemo, useState } from "react";
 import BarChartCard, { type Datum } from "@/components/BarChartCard";
 import PieChartCard, { type Slice } from "@/components/PieChartCard";
+import SeoulBoundaryMap from "@/components/SeoulBoundaryMap";
 
 // 계약현황(지급처) 대시보드. 금액 단위는 '원'.
 function fmtWon(won: number | null): string {
@@ -27,83 +28,6 @@ export type ContractsData = {
   by_month: Group[];
   all_vendors: Group[]; // 검색용 전체
 };
-
-// 서울 25개 자치구 근사 중심좌표 (지도 마커 배치용). slug 는 districts.json 과 일치.
-const GU: Record<string, { ko: string; lat: number; lng: number }> = {
-  gangnam: { ko: "강남", lat: 37.5172, lng: 127.0473 },
-  gangdong: { ko: "강동", lat: 37.5301, lng: 127.1238 },
-  gangbuk: { ko: "강북", lat: 37.6396, lng: 127.0257 },
-  gangseo: { ko: "강서", lat: 37.5509, lng: 126.8495 },
-  gwanak: { ko: "관악", lat: 37.4784, lng: 126.9516 },
-  gwangjin: { ko: "광진", lat: 37.5385, lng: 127.0823 },
-  guro: { ko: "구로", lat: 37.4954, lng: 126.8874 },
-  geumcheon: { ko: "금천", lat: 37.4569, lng: 126.8955 },
-  nowon: { ko: "노원", lat: 37.6542, lng: 127.0568 },
-  dobong: { ko: "도봉", lat: 37.6688, lng: 127.0471 },
-  dongdaemun: { ko: "동대문", lat: 37.5744, lng: 127.0398 },
-  dongjak: { ko: "동작", lat: 37.5124, lng: 126.9393 },
-  mapo: { ko: "마포", lat: 37.5663, lng: 126.9019 },
-  seodaemun: { ko: "서대문", lat: 37.5791, lng: 126.9368 },
-  seocho: { ko: "서초", lat: 37.4837, lng: 127.0324 },
-  seongdong: { ko: "성동", lat: 37.5633, lng: 127.0371 },
-  seongbuk: { ko: "성북", lat: 37.5894, lng: 127.0167 },
-  songpa: { ko: "송파", lat: 37.5145, lng: 127.106 },
-  yangcheon: { ko: "양천", lat: 37.5169, lng: 126.8664 },
-  yeongdeungpo: { ko: "영등포", lat: 37.5264, lng: 126.8962 },
-  yongsan: { ko: "용산", lat: 37.5384, lng: 126.9654 },
-  eunpyeong: { ko: "은평", lat: 37.6027, lng: 126.9291 },
-  jongno: { ko: "종로", lat: 37.5735, lng: 126.979 },
-  jung: { ko: "중", lat: 37.5636, lng: 126.9976 },
-  jungnang: { ko: "중랑", lat: 37.6063, lng: 127.0927 },
-};
-
-// 서울 미니맵: 데이터 있는 구는 금액 비례 마커로 강조, 나머지는 옅은 점.
-function SeoulMiniMap({ active, activeAmount }: { active: string; activeAmount: number }) {
-  const W = 460, H = 360, pad = 30;
-  const lats = Object.values(GU).map((g) => g.lat);
-  const lngs = Object.values(GU).map((g) => g.lng);
-  const minLat = Math.min(...lats), maxLat = Math.max(...lats);
-  const minLng = Math.min(...lngs), maxLng = Math.max(...lngs);
-  const px = (lng: number) => pad + ((lng - minLng) / (maxLng - minLng)) * (W - 2 * pad);
-  const py = (lat: number) => pad + ((maxLat - lat) / (maxLat - minLat)) * (H - 2 * pad);
-
-  return (
-    <div className="rounded-xl border border-[var(--line)] bg-[var(--panel)] p-4">
-      <h3 className="mb-1 font-semibold">지도 · 지급처 위치(자치구)</h3>
-      <p className="mb-3 text-xs text-[var(--muted)]">
-        현재 강조된 구의 계약 총액 {fmtWon(activeAmount)}. 다른 구는 데이터 수집 시 채워집니다.
-      </p>
-      <svg viewBox={`0 0 ${W} ${H}`} className="w-full">
-        {Object.entries(GU).map(([slug, g]) => {
-          const on = slug === active;
-          const r = on ? Math.max(10, Math.min(34, Math.sqrt(activeAmount / 1e8) * 1.6)) : 4;
-          return (
-            <g key={slug}>
-              <circle
-                cx={px(g.lng)}
-                cy={py(g.lat)}
-                r={r}
-                fill={on ? "rgba(59,130,246,0.35)" : "rgba(148,163,184,0.18)"}
-                stroke={on ? "#3b82f6" : "rgba(148,163,184,0.35)"}
-                strokeWidth={on ? 2 : 1}
-              />
-              <text
-                x={px(g.lng)}
-                y={py(g.lat) + (on ? 0 : 3) + (on ? r + 12 : 0)}
-                textAnchor="middle"
-                className={on ? "fill-blue-300" : "fill-slate-500"}
-                fontSize={on ? 12 : 9}
-                fontWeight={on ? 700 : 400}
-              >
-                {g.ko}
-              </text>
-            </g>
-          );
-        })}
-      </svg>
-    </div>
-  );
-}
 
 function Kpi({ label, value, sub }: { label: string; value: string; sub?: string }) {
   return (
@@ -158,7 +82,7 @@ export default function ContractsClient({ data }: { data: ContractsData }) {
       </div>
 
       <div className="grid grid-cols-1 gap-4 lg:grid-cols-2">
-        <SeoulMiniMap active={data.district} activeAmount={data.total_amount} />
+        <SeoulBoundaryMap active={data.district} activeAmount={data.total_amount} />
         <BarChartCard title="상위 지급처 업체 (계약금액)" data={vendorBar} height={420} won valueLabel="계약액" />
         {kindSlices.length > 0 && (
           <PieChartCard title="계약종류별 (용역·공사·물품)" data={kindSlices} won valueLabel="계약액" />
