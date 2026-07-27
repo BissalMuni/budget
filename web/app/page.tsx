@@ -1,8 +1,9 @@
-import { getCatalog, listContractDatasets } from "@/lib/data";
+import { getCatalog, listContractDatasets, listReconcileDatasets } from "@/lib/data";
 
 export default function Home() {
   const cat = getCatalog();
   const contracts = listContractDatasets();
+  const reconciles = listReconcileDatasets();
   const byDistrict = new Map<string, typeof cat.datasets>();
   for (const d of cat.datasets) {
     if (!byDistrict.has(d.district)) byDistrict.set(d.district, []);
@@ -59,6 +60,31 @@ export default function Home() {
           </div>
         ))}
       </section>
+
+      {reconciles.length > 0 && (
+        <section className="space-y-4">
+          <div>
+            <h2 className="text-xl font-bold">예산 · 결산 매칭</h2>
+            <p className="mt-1 text-sm text-[var(--muted)]">
+              당초예산(예산서)과 결산·집행(지방재정365)을 회계별로 연결해 집행률을 봅니다.
+            </p>
+          </div>
+          <div className="flex flex-wrap gap-3">
+            {reconciles.map((c) => (
+              <a
+                key={`${c.district}-${c.year}`}
+                href={`/reconcile/${c.district}/${c.year}`}
+                className="rounded-lg border border-[var(--line)] bg-[var(--panel)] px-4 py-3 hover:border-blue-500 transition-colors"
+              >
+                <div className="font-medium">
+                  {c.name_ko} <span className="text-sm text-[var(--muted)]">{c.year} 예산·결산</span>
+                </div>
+                <div className="mt-1 text-xs text-[var(--muted)]">회계별 예산 대비 집행</div>
+              </a>
+            ))}
+          </div>
+        </section>
+      )}
 
       {contracts.length > 0 && (
         <section className="space-y-4">

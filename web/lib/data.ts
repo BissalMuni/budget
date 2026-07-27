@@ -131,6 +131,46 @@ export function listContractDatasets(): { district: string; year: string; name_k
   return out;
 }
 
+// ── 예산-결산 매칭 ───────────────────────────────────────────────
+export type ReconcileRow = {
+  account: string;
+  budget: number | null;
+  expenditure: number | null;
+  revenue: number | null;
+  exec_rate: number | null;
+  note?: string;
+};
+export type Reconcile = {
+  district: string;
+  laf_hg_nm: string;
+  settle_year: string;
+  budget_basis: string;
+  unit: string;
+  note: string;
+  totals: { budget: number | null; expenditure: number | null; revenue: number | null; exec_rate: number | null };
+  rows: ReconcileRow[];
+};
+
+export function getReconcile(district: string, year: string): Reconcile | null {
+  return readJson<Reconcile>(district, "reconcile", year, "reconcile.json");
+}
+
+export function listReconcileDatasets(): { district: string; year: string; name_ko: string }[] {
+  const districts = getCatalog().districts;
+  const out: { district: string; year: string; name_ko: string }[] = [];
+  if (!fs.existsSync(DATA)) return out;
+  for (const district of fs.readdirSync(DATA)) {
+    const rdir = path.join(DATA, district, "reconcile");
+    if (!fs.existsSync(rdir)) continue;
+    for (const year of fs.readdirSync(rdir)) {
+      if (fs.existsSync(path.join(rdir, year, "reconcile.json"))) {
+        out.push({ district, year, name_ko: districts[district]?.name_ko ?? district });
+      }
+    }
+  }
+  return out;
+}
+
 // 원 단위 포맷
 export const fmtWon = (won: number | null): string => {
   if (won == null) return "-";

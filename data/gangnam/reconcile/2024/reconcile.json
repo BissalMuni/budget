@@ -1,0 +1,38 @@
+{
+ "district": "gangnam",
+ "laf_hg_nm": "서울강남구",
+ "settle_year": "2024",
+ "budget_basis": "당초예산 (2025 예산서의 전년도값)",
+ "unit": "원",
+ "note": "결산은 예산현액(당초+추경+이월) 기준 집행액이라 당초예산 대비 집행률이 100%를 넘을 수 있음. 2025 결산 미공개로 2024 매칭.",
+ "totals": {
+  "budget": 1289357702000,
+  "expenditure": 1938364411032,
+  "revenue": 2173643114062,
+  "exec_rate": 106.4
+ },
+ "rows": [
+  {
+   "account": "일반회계",
+   "budget": 1237699310000,
+   "expenditure": 1312721773649,
+   "revenue": 1540541147652,
+   "exec_rate": 106.1
+  },
+  {
+   "account": "특별회계",
+   "budget": 51658392000,
+   "expenditure": 59234583705,
+   "revenue": 65861510542,
+   "exec_rate": 114.7
+  },
+  {
+   "account": "기금",
+   "budget": null,
+   "expenditure": 566408053678,
+   "revenue": null,
+   "exec_rate": null,
+   "note": "예산서 세입·세출 총괄엔 미포함(별도 기금운용계획)"
+  }
+ ]
+}
